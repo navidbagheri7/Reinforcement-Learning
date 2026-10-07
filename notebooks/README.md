@@ -8,5 +8,8 @@ Recorded figures and tables do not replace the underlying arrays: every comparis
 
 12. [Official navigation](12_official_navigation.ipynb): full-map observations, reward sparsity, key/door manipulation, potential telescoping, BFS model access and deployed actors.
 13. [MuJoCo locomotion](13_mujoco_locomotion.ipynb): PPO/SAC budgets, validation selection, training variation and portable continuous actors.
+14. [Quantile continuous control](14_quantile_continuous_control.ipynb): compare SAC, TD3 and TQC, critic targets and deployed continuous actions.
+15. [Partial observation and memory](15_partial_observation_and_memory.ipynb): official local-view observation boundaries, recurrent memory reset/persistence and matched sparse-reward comparisons.
 
-The added walkthroughs require the `simulations` extra. Opening them reads measured evidence and replays short fixed test episodes; it does not launch full training.
+Walkthroughs 12–13 require the `simulations` extra; 14–15 require `modern`.
+Opening them reads measured evidence and replays short fixed test episodes; it does not launch full training.

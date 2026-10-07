@@ -10,11 +10,14 @@
     "lectures": 1,
     "simulations": 18,
     "geometry": 3,
-    "curriculum": 3
+    "curriculum": 3,
+    "modern": 18
   },
-  "numeric_artifacts": 222,
+  "numeric_artifacts": 258,
   "finite_policies": 108,
-  "notebooks": 13,
-  "executed_code_cells": 54,
+  "notebooks": 15,
+  "executed_code_cells": 61,
+  "explorer_presets": 193,
+  "live_bellman_checks": 24,
   "problems": []
 }

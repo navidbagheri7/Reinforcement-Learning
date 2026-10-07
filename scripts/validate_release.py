@@ -61,6 +61,12 @@ def main():
                     / f"{row['env']}_{row['algorithm']}_{row['profile']}_{row['seed']}.npz"
                 )
                 key = "returns"
+            elif family == "modern":
+                file = (
+                    Path("assets/source_data/modern")
+                    / f"{row['env']}_{row['algorithm']}_{row['profile']}_{row['seed']}.npz"
+                )
+                key = "returns"
             elif family == "control":
                 file = (
                     Path("assets/source_data/control")
@@ -118,11 +124,25 @@ def main():
         load_policy(file)
     notebooks = list(Path("notebooks").glob("*.ipynb"))
     code_count = 0
-    if len(notebooks) != 13:
-        problems.append(f"Expected 13 walkthroughs, got {len(notebooks)}")
+    if len(notebooks) != 15:
+        problems.append(f"Expected 15 walkthroughs, got {len(notebooks)}")
+    execution = strict_read("docs/notebook_execution.json")
+    assert execution["status"] == "passed" and len(execution["notebooks"]) == 15
+    assert execution["default_kernel_matches_interpreter"]
+    executed = {row["notebook"]: row for row in execution["notebooks"]}
     for file in notebooks:
+        row = executed[str(file)]
+        assert row["all_executed"] and sha256(file) == row["sha256"], file
         notebook = nbformat.read(file, as_version=4)
         nbformat.validate(notebook)
+        code = [cell for cell in notebook.cells if cell.cell_type == "code"]
+        assert len(code) == row["executed_code_cells"]
+        visual_outputs = sum(
+            any(key.startswith("image/") for key in output.get("data", {}))
+            for cell in code
+            for output in cell.outputs
+        )
+        assert visual_outputs == row["visual_outputs"]
         for cell in notebook.cells:
             if cell.cell_type != "code":
                 continue
@@ -131,6 +151,16 @@ def main():
                 out.output_type == "error" for out in cell.outputs
             ):
                 problems.append(f"Unexecuted/failed notebook: {file}")
+    manifest = strict_read("docs/explorer_manifest.json")
+    browser = strict_read("docs/explorer_browser_validation.json")
+    assert manifest["status"] == "complete" and manifest["rows"] == 193
+    assert manifest["groups"] == browser["mobile_concepts"] == 8
+    assert browser["status"] == "passed" and not browser["javascript_errors"]
+    assert len(browser["checked_presets"]) == 193
+    assert len(browser["live_bellman_checks"]) == 24
+    assert sha256("docs/explorer.html") == manifest["html_sha256"] == browser["html_sha256"]
+    for name, digest in manifest["bindings"].items():
+        assert sha256(name) == digest, name
     for file in Path("assets/figures").glob("*.png"):
         if not file.with_suffix(".pdf").exists():
             problems.append(f"Missing PDF: {file}")
@@ -141,6 +171,8 @@ def main():
         "finite_policies": len(policies),
         "notebooks": len(notebooks),
         "executed_code_cells": code_count,
+        "explorer_presets": 193,
+        "live_bellman_checks": 24,
         "problems": problems,
     }
     write_json("docs/validation.json", result)

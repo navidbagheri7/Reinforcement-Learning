@@ -1,4 +1,4 @@
-"""Validate the new public protocols, exported actors, baselines, and GIF evidence."""
+"""Validate original simulation actors, shared dashboards and all rollout evidence."""
 
 import json
 import re
@@ -83,16 +83,20 @@ def main():
             assert metadata["return"] == float(evidence["test_returns"][0])
             assert metadata["length"] == int(evidence["test_lengths"][0])
         gifs.append(str(gif))
-    assert len(checked) == 24 and len(baseline_record["rows"]) == 5 and len(gifs) == 30
+    assert len(checked) == 24 and len(baseline_record["rows"]) == 5 and len(gifs) == 48
     dashboard = json.loads(Path("docs/simulation_dashboard.json").read_text())
-    assert dashboard["status"] == "passed" and dashboard["fits"] == 24
+    assert dashboard["status"] == "passed" and dashboard["fits"] == 42
     assert sha256("docs/simulation_dashboard.html") == dashboard["html_sha256"]
     assert sha256("scripts/templates/simulation_dashboard.html") == dashboard["template_sha256"]
     assert sha256("scripts/create_simulation_dashboard.py") == dashboard["generator_sha256"]
+    browser = json.loads(Path("docs/simulation_browser_validation.json").read_text())
+    assert browser["status"] == "passed" and len(browser["checked_presets"]) == 14
+    assert not browser["javascript_errors"]
+    assert browser["html_sha256"] == dashboard["html_sha256"]
     html = Path("docs/simulation_dashboard.html").read_text()
     encoded = re.search(r'<script id="evidence" type="application/json">(.*?)</script>', html, re.S)
     payload = json.loads(encoded.group(1))
-    assert len(payload["fits"]) == 24
+    assert len(payload["fits"]) == 42
     for row in payload["fits"]:
         source = json.loads(Path(row["metrics"].removeprefix("../")).read_text())
         assert row["test"] == source["test"] and row["history"] == source["validation_history"]

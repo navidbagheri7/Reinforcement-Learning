@@ -1,6 +1,7 @@
 """Execute every authored notebook in a fresh kernel, preserving real outputs."""
 
 import argparse
+import hashlib
 import json
 import sys
 from pathlib import Path
@@ -42,11 +43,21 @@ def main():
                 "notebook": str(path.relative_to(root)),
                 "executed_code_cells": len(code),
                 "all_executed": all(cell.execution_count is not None for cell in code),
+                "sha256": hashlib.sha256(path.read_bytes()).hexdigest(),
+                "visual_outputs": sum(
+                    any(key.startswith("image/") for key in output.get("data", {}))
+                    for cell in code
+                    for output in cell.outputs
+                ),
             }
         )
         print("Executed", path.name, flush=True)
     (root / "docs/notebook_execution.json").write_text(
-        json.dumps({"status": "passed", "notebooks": records}, indent=2) + "\n"
+        json.dumps(
+            {"status": "passed", "default_kernel_matches_interpreter": True, "notebooks": records},
+            indent=2,
+        )
+        + "\n"
     )
 
 

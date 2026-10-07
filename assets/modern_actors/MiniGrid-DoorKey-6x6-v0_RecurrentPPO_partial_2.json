@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "algorithm": "RecurrentPPO",
+  "inputs": 151,
+  "outputs": 7,
+  "case": {
+    "env": "MiniGrid-DoorKey-6x6-v0",
+    "algorithm": "RecurrentPPO",
+    "profile": "partial",
+    "steps": 1048576,
+    "n_envs": 8
+  },
+  "checkpoint_sha256": "096261f047245b37ceebeb687f7d3c14faf84182d40250baa2e274c6f2b5e76c",
+  "memory": "Reset on episode_start; persist within an episode",
+  "weights_sha256": "57645a5b524b50d9ef48e8e0a0e32f896cf425ad3e7505ddf082830b5b16a497"
+}

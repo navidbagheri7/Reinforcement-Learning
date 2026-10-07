@@ -1,0 +1,370 @@
+{
+  "env": "MiniGrid-DoorKey-6x6-v0",
+  "algorithm": "RecurrentPPO",
+  "profile": "partial",
+  "seed": 0,
+  "actual_steps": 1048576,
+  "optimizer_updates": 5120,
+  "selected_step": 458752,
+  "validation_history": [
+    {
+      "step": 65536,
+      "updates": 310,
+      "returns": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_return": 0.0
+    },
+    {
+      "step": 131072,
+      "updates": 630,
+      "returns": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "mean_return": 0.0
+    },
+    {
+      "step": 196608,
+      "updates": 950,
+      "returns": [
+        0.875,
+        0.9625,
+        0.94,
+        0.9225,
+        0.96,
+        0.965,
+        0.9325,
+        0.965,
+        0.9525,
+        0.9525,
+        0.915,
+        0.9075
+      ],
+      "mean_return": 0.9375000000000001
+    },
+    {
+      "step": 262144,
+      "updates": 1270,
+      "returns": [
+        0.9675,
+        0.9725,
+        0.97,
+        0.9725,
+        0.9725,
+        0.965,
+        0.9625,
+        0.975,
+        0.975,
+        0.96,
+        0.9625,
+        0.0
+      ],
+      "mean_return": 0.8879166666666666
+    },
+    {
+      "step": 327680,
+      "updates": 1590,
+      "returns": [
+        0.9725,
+        0.9725,
+        0.97,
+        0.975,
+        0.975,
+        0.97,
+        0.9725,
+        0.975,
+        0.975,
+        0.965,
+        0.9625,
+        0.9625
+      ],
+      "mean_return": 0.9706250000000001
+    },
+    {
+      "step": 393216,
+      "updates": 1910,
+      "returns": [
+        0.9625,
+        0.9725,
+        0.97,
+        0.975,
+        0.975,
+        0.965,
+        0.9725,
+        0.975,
+        0.97,
+        0.965,
+        0.9575,
+        0.9575
+      ],
+      "mean_return": 0.968125
+    },
+    {
+      "step": 458752,
+      "updates": 2230,
+      "returns": [
+        0.9725,
+        0.9725,
+        0.97,
+        0.975,
+        0.975,
+        0.97,
+        0.9725,
+        0.975,
+        0.975,
+        0.965,
+        0.9675,
+        0.9625
+      ],
+      "mean_return": 0.9710416666666667
+    },
+    {
+      "step": 524288,
+      "updates": 2550,
+      "returns": [
+        0.9725,
+        0.9725,
+        0.97,
+        0.975,
+        0.975,
+        0.9575,
+        0.9725,
+        0.975,
+        0.975,
+        0.965,
+        0.9625,
+        0.9299999999999999
+      ],
+      "mean_return": 0.9668749999999999
+    },
+    {
+      "step": 589824,
+      "updates": 2870,
+      "returns": [
+        0.9725,
+        0.9725,
+        0.97,
+        0.975,
+        0.975,
+        0.97,
+        0.9725,
+        0.975,
+        0.975,
+        0.965,
+        0.9675,
+        0.9625
+      ],
+      "mean_return": 0.9710416666666667
+    },
+    {
+      "step": 655360,
+      "updates": 3190,
+      "returns": [
+        0.9725,
+        0.9725,
+        0.97,
+        0.975,
+        0.975,
+        0.97,
+        0.9725,
+        0.975,
+        0.975,
+        0.965,
+        0.9625,
+        0.9625
+      ],
+      "mean_return": 0.9706250000000001
+    },
+    {
+      "step": 720896,
+      "updates": 3510,
+      "returns": [
+        0.9725,
+        0.9725,
+        0.97,
+        0.975,
+        0.975,
+        0.97,
+        0.9725,
+        0.975,
+        0.975,
+        0.965,
+        0.9625,
+        0.9625
+      ],
+      "mean_return": 0.9706250000000001
+    },
+    {
+      "step": 786432,
+      "updates": 3830,
+      "returns": [
+        0.9725,
+        0.9725,
+        0.97,
+        0.975,
+        0.975,
+        0.97,
+        0.9725,
+        0.975,
+        0.975,
+        0.965,
+        0.9675,
+        0.9625
+      ],
+      "mean_return": 0.9710416666666667
+    },
+    {
+      "step": 851968,
+      "updates": 4150,
+      "returns": [
+        0.9725,
+        0.9725,
+        0.97,
+        0.975,
+        0.975,
+        0.97,
+        0.9725,
+        0.97,
+        0.975,
+        0.965,
+        0.9675,
+        0.9625
+      ],
+      "mean_return": 0.970625
+    },
+    {
+      "step": 917504,
+      "updates": 4470,
+      "returns": [
+        0.9725,
+        0.9725,
+        0.965,
+        0.975,
+        0.975,
+        0.97,
+        0.9725,
+        0.975,
+        0.975,
+        0.965,
+        0.9675,
+        0.9575
+      ],
+      "mean_return": 0.9702083333333332
+    },
+    {
+      "step": 983040,
+      "updates": 4790,
+      "returns": [
+        0.9725,
+        0.9725,
+        0.97,
+        0.975,
+        0.975,
+        0.97,
+        0.9725,
+        0.975,
+        0.975,
+        0.965,
+        0.9575,
+        0.9575
+      ],
+      "mean_return": 0.9697916666666666
+    },
+    {
+      "step": 1048576,
+      "updates": 5110,
+      "returns": [
+        0.9725,
+        0.9725,
+        0.97,
+        0.975,
+        0.975,
+        0.97,
+        0.9725,
+        0.975,
+        0.975,
+        0.965,
+        0.9675,
+        0.9625
+      ],
+      "mean_return": 0.9710416666666667
+    },
+    {
+      "step": 1048576,
+      "updates": 5120,
+      "returns": [
+        0.9725,
+        0.9725,
+        0.97,
+        0.975,
+        0.975,
+        0.97,
+        0.9725,
+        0.975,
+        0.975,
+        0.965,
+        0.9675,
+        0.9625
+      ],
+      "mean_return": 0.9710416666666667
+    }
+  ],
+  "best_validation_return": 0.9710416666666667,
+  "test": {
+    "mean": 0.9692999999999999,
+    "episode_bootstrap_ci95": [
+      0.968075,
+      0.9704499999999997
+    ],
+    "n": 100
+  },
+  "mean_length": 12.28,
+  "success_fraction": 1.0,
+  "checkpoint_sha256": "e74d990709d8752dd3898e6fc1d087a24461a2a1261cd927148b5f6564411731",
+  "numeric_sha256": "2e96e8f2db2ff0402582d5eeff11a2ed130c9ccfe3eb98b9972b56686918fca3",
+  "parameters": {
+    "learning_rate": 0.0003,
+    "gamma": 0.99,
+    "seed": 0,
+    "device": "cuda:0",
+    "verbose": 0,
+    "n_steps": 256,
+    "batch_size": 256,
+    "n_epochs": 10,
+    "gae_lambda": 0.95,
+    "ent_coef": 0.01,
+    "policy_kwargs": {
+      "net_arch": [
+        128,
+        128
+      ],
+      "lstm_hidden_size": 128,
+      "n_lstm_layers": 1,
+      "shared_lstm": false,
+      "enable_critic_lstm": true
+    }
+  },
+  "protocol": "Official sparse reward and dynamics. Validation 200000..200011 selects first best mean; test 300000..300099 once after fitting. Recurrent state resets at each episode. Partial-view PPO and recurrent PPO share observations and interaction budgets, but have different parameter/update costs. TD3/TQC match the earlier HalfCheetah SAC interaction/replay/update presets; device and critic cost differ. Maintained SB3 2.8.0 implementations; no paper benchmark reproduction claim."
+}

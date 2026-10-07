@@ -1,70 +1,111 @@
 {
   "status": "passed",
+  "default_kernel_matches_interpreter": true,
   "notebooks": [
     {
       "notebook": "notebooks/01_wireless_process.ipynb",
       "executed_code_cells": 4,
-      "all_executed": true
+      "all_executed": true,
+      "sha256": "e2fc4816ef81ec28a052e082731cf4eed613d6b6ab754d4a4ac196609ac917d7",
+      "visual_outputs": 0
     },
     {
       "notebook": "notebooks/02_exact_planning.ipynb",
       "executed_code_cells": 4,
-      "all_executed": true
+      "all_executed": true,
+      "sha256": "26b82b9b7505c53d1b7a195f82b306623c0e0849ffeb390ccd0ae7dbbb43066f",
+      "visual_outputs": 1
     },
     {
       "notebook": "notebooks/03_resource_constraints.ipynb",
       "executed_code_cells": 4,
-      "all_executed": true
+      "all_executed": true,
+      "sha256": "a829c117504787768cda061dd12b2993705cb2cba69f3c4a96255703ec8a11e9",
+      "visual_outputs": 1
     },
     {
       "notebook": "notebooks/04_tabular_control.ipynb",
       "executed_code_cells": 4,
-      "all_executed": true
+      "all_executed": true,
+      "sha256": "9ec262fc99581c763f39d724edb1c026e3347210c73f7b1e2c2c1bcf45976715",
+      "visual_outputs": 0
     },
     {
       "notebook": "notebooks/05_neural_control.ipynb",
       "executed_code_cells": 4,
-      "all_executed": true
+      "all_executed": true,
+      "sha256": "ac9f228d3075f4f42ee3b86095b8d8e62668447d5b6989ad65d92ce6b6e14b48",
+      "visual_outputs": 0
     },
     {
       "notebook": "notebooks/06_offline_learning.ipynb",
       "executed_code_cells": 4,
-      "all_executed": true
+      "all_executed": true,
+      "sha256": "e4a89dc58673c305ba6af8a1290c66fc58bd50e5ed4924f9dc52feef68a784a6",
+      "visual_outputs": 1
     },
     {
       "notebook": "notebooks/07_standard_control.ipynb",
       "executed_code_cells": 4,
-      "all_executed": true
+      "all_executed": true,
+      "sha256": "85aee283af67da21c2a32695c0d2caf8704591ed61bc7a3bf5b44e9a42f53ad6",
+      "visual_outputs": 1
     },
     {
       "notebook": "notebooks/08_bandits.ipynb",
       "executed_code_cells": 4,
-      "all_executed": true
+      "all_executed": true,
+      "sha256": "044cb8fb1ad6970a7478e92961d2c67f2a350dbb7bf445ec50c4eb60427cd4a4",
+      "visual_outputs": 1
     },
     {
       "notebook": "notebooks/09_prediction.ipynb",
       "executed_code_cells": 4,
-      "all_executed": true
+      "all_executed": true,
+      "sha256": "b8e25c05efae29d6ec5cddec4b817e21ef3e1226cd943e9cc81f91528484c272",
+      "visual_outputs": 2
     },
     {
       "notebook": "notebooks/10_linear_approximation.ipynb",
       "executed_code_cells": 4,
-      "all_executed": true
+      "all_executed": true,
+      "sha256": "4d795f9d8eac4d83561f09d3539c7f2dde5d30dc4a14c0a455061bd2bf93f530",
+      "visual_outputs": 1
     },
     {
       "notebook": "notebooks/11_off_policy_instability.ipynb",
       "executed_code_cells": 4,
-      "all_executed": true
+      "all_executed": true,
+      "sha256": "43b312db4fa24b4f3450ec74e2545e94e664c234c51c25457cac2246b071fa34",
+      "visual_outputs": 1
     },
     {
       "notebook": "notebooks/12_official_navigation.ipynb",
       "executed_code_cells": 5,
-      "all_executed": true
+      "all_executed": true,
+      "sha256": "3d2bfae20f7b9b857e92f4cb68df8366e84ca6086312d612da8b9fcba6ab18d9",
+      "visual_outputs": 1
     },
     {
       "notebook": "notebooks/13_mujoco_locomotion.ipynb",
       "executed_code_cells": 5,
-      "all_executed": true
+      "all_executed": true,
+      "sha256": "1e94224c35aaa23bbbdc24edfd0f993fea417438df856ad330cba5bfdf4c0d62",
+      "visual_outputs": 1
+    },
+    {
+      "notebook": "notebooks/14_quantile_continuous_control.ipynb",
+      "executed_code_cells": 3,
+      "all_executed": true,
+      "sha256": "304ba3d8f65a32808fe9314acb5322fb89dd9d70d2892e10ba0baac13a6d6d7f",
+      "visual_outputs": 1
+    },
+    {
+      "notebook": "notebooks/15_partial_observation_and_memory.ipynb",
+      "executed_code_cells": 4,
+      "all_executed": true,
+      "sha256": "9ca5169adfcfe656417047b537ffc39cdbc2e9655e57fb9c4bba5837c41b4337",
+      "visual_outputs": 2
     }
   ]
 }

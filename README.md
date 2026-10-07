@@ -6,6 +6,10 @@ The central question is practical: **how close does a policy learned from transi
 
 ![Energy and fairness tradeoffs](assets/figures/constrained_planning.png)
 
+Open the [eight-concept explorer](docs/explorer.html) to inspect planning, deep and offline control, distributional critics, memory, bandits and recorded simulations. Live maze Bellman sweeps solve a declared known model; all trained curves and rollouts come from fitted policies.
+
+![Concept explorer: live maze planning and energy/fairness certificates](assets/previews/planning_explorer_desktop.png)
+
 ## What is implemented
 
 | Study | Methods | Evidence |
@@ -17,6 +21,7 @@ The central question is practical: **how close does a policy learned from transi
 | Logged-data learning | Behavior cloning, fitted DQN, discrete CQL, discrete IQL | Three action-coverage profiles, shared datasets, fixed offline budgets, weighted-priority extension |
 | Official continuous-observation tasks | Maintained SB3 PPO/DQN/SAC | CartPole, LunarLander and Pendulum; held-out test and declared parameter shifts |
 | Official visual simulations | PPO reward/geometry/curriculum ablations; PPO versus SAC locomotion; known-model BFS reference | MiniGrid Four Rooms, Door Key and MuJoCo HalfCheetah; three seeds, 100 held-out episodes, portable neural actors and verified GIFs |
+| Quantile and memory extensions | Maintained TD3, TQC and RecurrentPPO; local-view PPO reference | Three fits per preset, sparse-reward MiniGrid Empty/DoorKey and HalfCheetah; independent portable actor replay |
 | Linear approximation | Tile-coded SARSA with lambda 0 and .9 | Three seeds, official MountainCar, correct time-limit bootstrap |
 | Lecture studies | Gaussian bandits; MC/TD/n-step/TD(lambda); Baird-style TD/GTD2/LSTD | Known-value error, drift sensitivity and an unclipped off-policy divergence counterexample |
 
@@ -30,7 +35,7 @@ Open the [interactive simulation dashboard](docs/simulation_dashboard.html) loca
 
 ![Interactive dashboard preview: HalfCheetah SAC, three fitting seeds, learning curves and method comparisons](assets/previews/halfcheetah_desktop.png)
 
-This is a screenshot of the working dashboard. See the [DoorKey preview](assets/previews/doorkey_desktop.png), [FourRooms preview](assets/previews/fourrooms_desktop.png), and [mobile preview](assets/previews/doorkey_mobile.png). The website supports task/preset selection and animated rollouts. To share it as a public website after pushing this repository, follow the [GitHub Pages setup](docs/publication.md#publish-the-interactive-dashboard).
+This is a screenshot of the working dashboard. See the [DoorKey preview](assets/previews/doorkey_desktop.png), [local-view memory preview](assets/previews/doorkey_memory_desktop.png), [FourRooms preview](assets/previews/fourrooms_desktop.png), and [mobile preview](assets/previews/doorkey_mobile.png). The website supports task/preset selection and animated rollouts. To share it as a public website after pushing this repository, follow the [GitHub Pages setup](docs/publication.md#publish-the-interactive-dashboard).
 
 Explore the [visual simulation gallery](docs/simulation_gallery.md) for official maze navigation, key pickup/door unlocking, Taxi, slippery FrozenLake and MuJoCo locomotion. [Simulation protocols](docs/simulations.md) distinguish full-map symbolic policies, training reward shaping and known-model planning.
 
@@ -52,11 +57,11 @@ Use Python 3.10–3.12 and a new environment:
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
-python -m pip install -e '.[deep,control,simulations,notebooks,dev]'
+python -m pip install -e '.[deep,control,simulations,modern,notebooks,dev]'
 python -m pytest -q
 ```
 
-The base install supports planning, tabular control, lecture studies and tile-coded MountainCar. `deep` adds the owned neural algorithms; `control` adds SB3 and Box2D; `simulations` adds MiniGrid and MuJoCo. On machines without a GPU, install the appropriate CPU PyTorch build. The reference control protocols use CPU; GPU float32 was used for owned wireless networks.
+The base install supports planning, tabular control, lecture studies and tile-coded MountainCar. `deep` adds the owned neural algorithms; `control` adds SB3 and Box2D; `simulations` adds MiniGrid and MuJoCo. On machines without a GPU, install the appropriate CPU PyTorch build. The original control protocols use CPU; GPU float32 was used for owned wireless networks and the new TD3/TQC and memory fits. Their device and model-cost differences are declared.
 
 ```bash
 decision-lab planning
@@ -67,11 +72,12 @@ decision-lab control --seed 0
 decision-lab simulations --seed 0
 decision-lab geometry --seed 0
 decision-lab curriculum --seed 0
+decision-lab modern --seed 0 --device cuda:0
 decision-lab approximation --seed 0
 decision-lab lectures
 ```
 
-Repeat fitting commands for seeds 1 and 2. Each command accepts `--config`, `--output`, and `--quick`. Quick runs go under `results/smoke`; they verify execution and are **not** the published scientific comparisons. Preserve incomplete outputs and select a fresh output directory before rerunning a failed fit. Detailed commands, budgets and environments are in [reproduction.md](docs/reproduction.md).
+Repeat fitting commands for seeds 1 and 2. Each command accepts `--config`, `--output`, and `--quick`. Quick runs through `decision-lab` go under `results/smoke`; they verify execution and are **not** the published scientific comparisons. Preserve incomplete outputs and select a fresh output directory before rerunning a failed fit. Detailed commands, budgets and environments are in [reproduction.md](docs/reproduction.md).
 
 ## Run a published policy
 
@@ -110,6 +116,7 @@ decision-lab report
 decision-lab audit
 python scripts/validate_release.py
 python scripts/validate_simulations.py
+python scripts/validate_modern.py
 ```
 
 `report` requires the complete reference protocol set. `audit` checks local checkpoint hashes and rebuilds finite-state policy exports. A fresh checkout includes exports and measured evidence; full checkpoint auditing requires fitting or restoring your local checkpoints. Independent release checks do not require those private weights.
@@ -121,3 +128,7 @@ Three fitting seeds expose variability but do not establish broad algorithm rank
 Negative results are retained, including conservative offline extraction failures, poor control seeds and semigradient TD divergence. QR return quantiles are not calibrated epistemic uncertainty. The [protocol](docs/protocol.md) explains these limits and the selection rules.
 
 Authored code is MIT licensed. Original slides, coursework and vendor material are preserved privately under ignored `legacy/originals/`; they are not redistributed. See [LICENSE](LICENSE), [CITATION.cff](CITATION.cff), and [CONTRIBUTING.md](CONTRIBUTING.md).
+
+The [distributional and memory study](docs/modern_methods.md) documents the
+new critic targets, official local-view boundaries, matched interaction budgets
+and portable episodic state. Both stronger and weaker fitted seeds remain visible.

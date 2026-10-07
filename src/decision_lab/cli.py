@@ -24,6 +24,7 @@ def main():
             "simulations",
             "geometry",
             "curriculum",
+            "modern",
             "lectures",
             "approximation",
             "rollout",
@@ -165,6 +166,30 @@ def main():
             if args.quick:
                 case |= {"steps": 2048}
             train_case(config, case, args.seed, output, args.quick)
+    elif args.command == "modern":
+        from .modern import identifier, train
+
+        config["device"] = args.device
+        if args.quick:
+            config |= {"validation_episodes": 2, "test_episodes": 3, "evaluation_every": 2048}
+        matched = [
+            case for case in config["cases"] if not args.case or args.case in identifier(case)
+        ]
+        if not matched:
+            parser.error("--case matches no modern case")
+        for case in matched:
+            if args.quick:
+                case = case | {"steps": 2048}
+            if (
+                not args.quick
+                and Path(output).resolve() != Path("results/reference/modern").resolve()
+            ):
+                evidence = Path("assets/source_data/modern") / f"{identifier(case)}_{args.seed}.npz"
+                if evidence.exists():
+                    parser.error(
+                        "Use a separate checkout to preserve published evidence when changing full protocols"
+                    )
+            train(config, case, args.seed, output, args.quick)
     elif args.command == "lectures":
         from .lecture_studies import run
 

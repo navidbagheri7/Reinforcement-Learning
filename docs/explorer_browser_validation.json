@@ -1,0 +1,1264 @@
+{
+  "status": "passed",
+  "html_sha256": "ac487a62167ea415284d7c3f7a399d420b9e89de331275cf50320ccbc206e449",
+  "checked_presets": [
+    {
+      "group": "Tabular control",
+      "task": "Wireless",
+      "method": "q_learning",
+      "seed": "0"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Wireless",
+      "method": "q_learning",
+      "seed": "1"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Wireless",
+      "method": "q_learning",
+      "seed": "2"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Wireless",
+      "method": "sarsa",
+      "seed": "0"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Wireless",
+      "method": "sarsa",
+      "seed": "1"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Wireless",
+      "method": "sarsa",
+      "seed": "2"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Wireless",
+      "method": "expected_sarsa",
+      "seed": "0"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Wireless",
+      "method": "expected_sarsa",
+      "seed": "1"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Wireless",
+      "method": "expected_sarsa",
+      "seed": "2"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Wireless",
+      "method": "double_q",
+      "seed": "0"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Wireless",
+      "method": "double_q",
+      "seed": "1"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Wireless",
+      "method": "double_q",
+      "seed": "2"
+    },
+    {
+      "group": "Tabular control",
+      "task": "FrozenLake-v1",
+      "method": "q_learning",
+      "seed": "0"
+    },
+    {
+      "group": "Tabular control",
+      "task": "FrozenLake-v1",
+      "method": "q_learning",
+      "seed": "1"
+    },
+    {
+      "group": "Tabular control",
+      "task": "FrozenLake-v1",
+      "method": "q_learning",
+      "seed": "2"
+    },
+    {
+      "group": "Tabular control",
+      "task": "FrozenLake-v1",
+      "method": "sarsa",
+      "seed": "0"
+    },
+    {
+      "group": "Tabular control",
+      "task": "FrozenLake-v1",
+      "method": "sarsa",
+      "seed": "1"
+    },
+    {
+      "group": "Tabular control",
+      "task": "FrozenLake-v1",
+      "method": "sarsa",
+      "seed": "2"
+    },
+    {
+      "group": "Tabular control",
+      "task": "FrozenLake-v1",
+      "method": "expected_sarsa",
+      "seed": "0"
+    },
+    {
+      "group": "Tabular control",
+      "task": "FrozenLake-v1",
+      "method": "expected_sarsa",
+      "seed": "1"
+    },
+    {
+      "group": "Tabular control",
+      "task": "FrozenLake-v1",
+      "method": "expected_sarsa",
+      "seed": "2"
+    },
+    {
+      "group": "Tabular control",
+      "task": "FrozenLake-v1",
+      "method": "double_q",
+      "seed": "0"
+    },
+    {
+      "group": "Tabular control",
+      "task": "FrozenLake-v1",
+      "method": "double_q",
+      "seed": "1"
+    },
+    {
+      "group": "Tabular control",
+      "task": "FrozenLake-v1",
+      "method": "double_q",
+      "seed": "2"
+    },
+    {
+      "group": "Tabular control",
+      "task": "CliffWalking-v1",
+      "method": "q_learning",
+      "seed": "0"
+    },
+    {
+      "group": "Tabular control",
+      "task": "CliffWalking-v1",
+      "method": "q_learning",
+      "seed": "1"
+    },
+    {
+      "group": "Tabular control",
+      "task": "CliffWalking-v1",
+      "method": "q_learning",
+      "seed": "2"
+    },
+    {
+      "group": "Tabular control",
+      "task": "CliffWalking-v1",
+      "method": "sarsa",
+      "seed": "0"
+    },
+    {
+      "group": "Tabular control",
+      "task": "CliffWalking-v1",
+      "method": "sarsa",
+      "seed": "1"
+    },
+    {
+      "group": "Tabular control",
+      "task": "CliffWalking-v1",
+      "method": "sarsa",
+      "seed": "2"
+    },
+    {
+      "group": "Tabular control",
+      "task": "CliffWalking-v1",
+      "method": "expected_sarsa",
+      "seed": "0"
+    },
+    {
+      "group": "Tabular control",
+      "task": "CliffWalking-v1",
+      "method": "expected_sarsa",
+      "seed": "1"
+    },
+    {
+      "group": "Tabular control",
+      "task": "CliffWalking-v1",
+      "method": "expected_sarsa",
+      "seed": "2"
+    },
+    {
+      "group": "Tabular control",
+      "task": "CliffWalking-v1",
+      "method": "double_q",
+      "seed": "0"
+    },
+    {
+      "group": "Tabular control",
+      "task": "CliffWalking-v1",
+      "method": "double_q",
+      "seed": "1"
+    },
+    {
+      "group": "Tabular control",
+      "task": "CliffWalking-v1",
+      "method": "double_q",
+      "seed": "2"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Taxi-v3",
+      "method": "q_learning",
+      "seed": "0"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Taxi-v3",
+      "method": "q_learning",
+      "seed": "1"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Taxi-v3",
+      "method": "q_learning",
+      "seed": "2"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Taxi-v3",
+      "method": "sarsa",
+      "seed": "0"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Taxi-v3",
+      "method": "sarsa",
+      "seed": "1"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Taxi-v3",
+      "method": "sarsa",
+      "seed": "2"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Taxi-v3",
+      "method": "expected_sarsa",
+      "seed": "0"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Taxi-v3",
+      "method": "expected_sarsa",
+      "seed": "1"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Taxi-v3",
+      "method": "expected_sarsa",
+      "seed": "2"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Taxi-v3",
+      "method": "double_q",
+      "seed": "0"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Taxi-v3",
+      "method": "double_q",
+      "seed": "1"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Taxi-v3",
+      "method": "double_q",
+      "seed": "2"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Maze",
+      "method": "q_learning",
+      "seed": "0"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Maze",
+      "method": "q_learning",
+      "seed": "1"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Maze",
+      "method": "q_learning",
+      "seed": "2"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Maze",
+      "method": "sarsa",
+      "seed": "0"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Maze",
+      "method": "sarsa",
+      "seed": "1"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Maze",
+      "method": "sarsa",
+      "seed": "2"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Maze",
+      "method": "expected_sarsa",
+      "seed": "0"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Maze",
+      "method": "expected_sarsa",
+      "seed": "1"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Maze",
+      "method": "expected_sarsa",
+      "seed": "2"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Maze",
+      "method": "double_q",
+      "seed": "0"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Maze",
+      "method": "double_q",
+      "seed": "1"
+    },
+    {
+      "group": "Tabular control",
+      "task": "Maze",
+      "method": "double_q",
+      "seed": "2"
+    },
+    {
+      "group": "Deep and distributional control",
+      "task": "Wireless online",
+      "method": "double_dqn",
+      "seed": "0"
+    },
+    {
+      "group": "Deep and distributional control",
+      "task": "Wireless online",
+      "method": "double_dqn",
+      "seed": "1"
+    },
+    {
+      "group": "Deep and distributional control",
+      "task": "Wireless online",
+      "method": "double_dqn",
+      "seed": "2"
+    },
+    {
+      "group": "Deep and distributional control",
+      "task": "Wireless online",
+      "method": "double_dueling_per",
+      "seed": "0"
+    },
+    {
+      "group": "Deep and distributional control",
+      "task": "Wireless online",
+      "method": "double_dueling_per",
+      "seed": "1"
+    },
+    {
+      "group": "Deep and distributional control",
+      "task": "Wireless online",
+      "method": "double_dueling_per",
+      "seed": "2"
+    },
+    {
+      "group": "Deep and distributional control",
+      "task": "Wireless online",
+      "method": "dqn",
+      "seed": "0"
+    },
+    {
+      "group": "Deep and distributional control",
+      "task": "Wireless online",
+      "method": "dqn",
+      "seed": "1"
+    },
+    {
+      "group": "Deep and distributional control",
+      "task": "Wireless online",
+      "method": "dqn",
+      "seed": "2"
+    },
+    {
+      "group": "Deep and distributional control",
+      "task": "Wireless online",
+      "method": "qr_dqn",
+      "seed": "0"
+    },
+    {
+      "group": "Deep and distributional control",
+      "task": "Wireless online",
+      "method": "qr_dqn",
+      "seed": "1"
+    },
+    {
+      "group": "Deep and distributional control",
+      "task": "Wireless online",
+      "method": "qr_dqn",
+      "seed": "2"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.05",
+      "method": "bc",
+      "seed": "0"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.05",
+      "method": "bc",
+      "seed": "1"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.05",
+      "method": "bc",
+      "seed": "2"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.05",
+      "method": "cql",
+      "seed": "0"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.05",
+      "method": "cql",
+      "seed": "1"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.05",
+      "method": "cql",
+      "seed": "2"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.05",
+      "method": "fitted_dqn",
+      "seed": "0"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.05",
+      "method": "fitted_dqn",
+      "seed": "1"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.05",
+      "method": "fitted_dqn",
+      "seed": "2"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.05",
+      "method": "iql",
+      "seed": "0"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.05",
+      "method": "iql",
+      "seed": "1"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.05",
+      "method": "iql",
+      "seed": "2"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.4",
+      "method": "bc",
+      "seed": "0"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.4",
+      "method": "bc",
+      "seed": "1"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.4",
+      "method": "bc",
+      "seed": "2"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.4",
+      "method": "cql",
+      "seed": "0"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.4",
+      "method": "cql",
+      "seed": "1"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.4",
+      "method": "cql",
+      "seed": "2"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.4",
+      "method": "fitted_dqn",
+      "seed": "0"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.4",
+      "method": "fitted_dqn",
+      "seed": "1"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.4",
+      "method": "fitted_dqn",
+      "seed": "2"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.4",
+      "method": "iql",
+      "seed": "0"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.4",
+      "method": "iql",
+      "seed": "1"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 0.4",
+      "method": "iql",
+      "seed": "2"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 1",
+      "method": "bc",
+      "seed": "0"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 1",
+      "method": "bc",
+      "seed": "1"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 1",
+      "method": "bc",
+      "seed": "2"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 1",
+      "method": "cql",
+      "seed": "0"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 1",
+      "method": "cql",
+      "seed": "1"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 1",
+      "method": "cql",
+      "seed": "2"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 1",
+      "method": "fitted_dqn",
+      "seed": "0"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 1",
+      "method": "fitted_dqn",
+      "seed": "1"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 1",
+      "method": "fitted_dqn",
+      "seed": "2"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 1",
+      "method": "iql",
+      "seed": "0"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 1",
+      "method": "iql",
+      "seed": "1"
+    },
+    {
+      "group": "Offline learning",
+      "task": "Wireless offline \u00b7 behavior epsilon 1",
+      "method": "iql",
+      "seed": "2"
+    },
+    {
+      "group": "Standard control",
+      "task": "CartPole-v1",
+      "method": "DQN",
+      "seed": "0"
+    },
+    {
+      "group": "Standard control",
+      "task": "CartPole-v1",
+      "method": "DQN",
+      "seed": "1"
+    },
+    {
+      "group": "Standard control",
+      "task": "CartPole-v1",
+      "method": "DQN",
+      "seed": "2"
+    },
+    {
+      "group": "Standard control",
+      "task": "CartPole-v1",
+      "method": "PPO",
+      "seed": "0"
+    },
+    {
+      "group": "Standard control",
+      "task": "CartPole-v1",
+      "method": "PPO",
+      "seed": "1"
+    },
+    {
+      "group": "Standard control",
+      "task": "CartPole-v1",
+      "method": "PPO",
+      "seed": "2"
+    },
+    {
+      "group": "Standard control",
+      "task": "LunarLander-v3",
+      "method": "DQN",
+      "seed": "0"
+    },
+    {
+      "group": "Standard control",
+      "task": "LunarLander-v3",
+      "method": "DQN",
+      "seed": "1"
+    },
+    {
+      "group": "Standard control",
+      "task": "LunarLander-v3",
+      "method": "DQN",
+      "seed": "2"
+    },
+    {
+      "group": "Standard control",
+      "task": "LunarLander-v3",
+      "method": "PPO",
+      "seed": "0"
+    },
+    {
+      "group": "Standard control",
+      "task": "LunarLander-v3",
+      "method": "PPO",
+      "seed": "1"
+    },
+    {
+      "group": "Standard control",
+      "task": "LunarLander-v3",
+      "method": "PPO",
+      "seed": "2"
+    },
+    {
+      "group": "Standard control",
+      "task": "Pendulum-v1",
+      "method": "PPO",
+      "seed": "0"
+    },
+    {
+      "group": "Standard control",
+      "task": "Pendulum-v1",
+      "method": "PPO",
+      "seed": "1"
+    },
+    {
+      "group": "Standard control",
+      "task": "Pendulum-v1",
+      "method": "PPO",
+      "seed": "2"
+    },
+    {
+      "group": "Standard control",
+      "task": "Pendulum-v1",
+      "method": "SAC",
+      "seed": "0"
+    },
+    {
+      "group": "Standard control",
+      "task": "Pendulum-v1",
+      "method": "SAC",
+      "seed": "1"
+    },
+    {
+      "group": "Standard control",
+      "task": "Pendulum-v1",
+      "method": "SAC",
+      "seed": "2"
+    },
+    {
+      "group": "Linear approximation",
+      "task": "MountainCar-v0",
+      "method": "SARSA lambda 0",
+      "seed": "0"
+    },
+    {
+      "group": "Linear approximation",
+      "task": "MountainCar-v0",
+      "method": "SARSA lambda 0",
+      "seed": "1"
+    },
+    {
+      "group": "Linear approximation",
+      "task": "MountainCar-v0",
+      "method": "SARSA lambda 0",
+      "seed": "2"
+    },
+    {
+      "group": "Linear approximation",
+      "task": "MountainCar-v0",
+      "method": "SARSA lambda 0.9",
+      "seed": "0"
+    },
+    {
+      "group": "Linear approximation",
+      "task": "MountainCar-v0",
+      "method": "SARSA lambda 0.9",
+      "seed": "1"
+    },
+    {
+      "group": "Linear approximation",
+      "task": "MountainCar-v0",
+      "method": "SARSA lambda 0.9",
+      "seed": "2"
+    },
+    {
+      "group": "Prediction and bandits",
+      "task": "bandits",
+      "method": "stationary_epsilon_average",
+      "seed": "all"
+    },
+    {
+      "group": "Prediction and bandits",
+      "task": "bandits",
+      "method": "stationary_epsilon_constant",
+      "seed": "all"
+    },
+    {
+      "group": "Prediction and bandits",
+      "task": "bandits",
+      "method": "stationary_ucb",
+      "seed": "all"
+    },
+    {
+      "group": "Prediction and bandits",
+      "task": "bandits",
+      "method": "stationary_discounted_ucb",
+      "seed": "all"
+    },
+    {
+      "group": "Prediction and bandits",
+      "task": "bandits",
+      "method": "stationary_gradient",
+      "seed": "all"
+    },
+    {
+      "group": "Prediction and bandits",
+      "task": "bandits",
+      "method": "stationary_thompson",
+      "seed": "all"
+    },
+    {
+      "group": "Prediction and bandits",
+      "task": "bandits",
+      "method": "drifting_epsilon_average",
+      "seed": "all"
+    },
+    {
+      "group": "Prediction and bandits",
+      "task": "bandits",
+      "method": "drifting_epsilon_constant",
+      "seed": "all"
+    },
+    {
+      "group": "Prediction and bandits",
+      "task": "bandits",
+      "method": "drifting_ucb",
+      "seed": "all"
+    },
+    {
+      "group": "Prediction and bandits",
+      "task": "bandits",
+      "method": "drifting_discounted_ucb",
+      "seed": "all"
+    },
+    {
+      "group": "Prediction and bandits",
+      "task": "bandits",
+      "method": "drifting_gradient",
+      "seed": "all"
+    },
+    {
+      "group": "Prediction and bandits",
+      "task": "bandits",
+      "method": "drifting_thompson",
+      "seed": "all"
+    },
+    {
+      "group": "Prediction and bandits",
+      "task": "prediction",
+      "method": "monte_carlo",
+      "seed": "all"
+    },
+    {
+      "group": "Prediction and bandits",
+      "task": "prediction",
+      "method": "td0",
+      "seed": "all"
+    },
+    {
+      "group": "Prediction and bandits",
+      "task": "prediction",
+      "method": "nstep5",
+      "seed": "all"
+    },
+    {
+      "group": "Prediction and bandits",
+      "task": "prediction",
+      "method": "td_lambda",
+      "seed": "all"
+    },
+    {
+      "group": "Prediction and bandits",
+      "task": "baird",
+      "method": "semigradient_td",
+      "seed": "all"
+    },
+    {
+      "group": "Prediction and bandits",
+      "task": "baird",
+      "method": "gtd2",
+      "seed": "all"
+    },
+    {
+      "group": "Prediction and bandits",
+      "task": "baird",
+      "method": "lstd",
+      "seed": "all"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "HalfCheetah-v5",
+      "method": "PPO \u00b7 official",
+      "seed": "0"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "HalfCheetah-v5",
+      "method": "PPO \u00b7 official",
+      "seed": "1"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "HalfCheetah-v5",
+      "method": "PPO \u00b7 official",
+      "seed": "2"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "HalfCheetah-v5",
+      "method": "SAC \u00b7 official",
+      "seed": "0"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "HalfCheetah-v5",
+      "method": "SAC \u00b7 official",
+      "seed": "1"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "HalfCheetah-v5",
+      "method": "SAC \u00b7 official",
+      "seed": "2"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "HalfCheetah-v5",
+      "method": "TD3 \u00b7 official",
+      "seed": "0"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "HalfCheetah-v5",
+      "method": "TD3 \u00b7 official",
+      "seed": "1"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "HalfCheetah-v5",
+      "method": "TD3 \u00b7 official",
+      "seed": "2"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "HalfCheetah-v5",
+      "method": "TQC \u00b7 official",
+      "seed": "0"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "HalfCheetah-v5",
+      "method": "TQC \u00b7 official",
+      "seed": "1"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "HalfCheetah-v5",
+      "method": "TQC \u00b7 official",
+      "seed": "2"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-DoorKey-6x6-v0",
+      "method": "PPO \u00b7 potential",
+      "seed": "0"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-DoorKey-6x6-v0",
+      "method": "PPO \u00b7 potential",
+      "seed": "1"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-DoorKey-6x6-v0",
+      "method": "PPO \u00b7 potential",
+      "seed": "2"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-DoorKey-6x6-v0",
+      "method": "PPO \u00b7 sparse",
+      "seed": "0"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-DoorKey-6x6-v0",
+      "method": "PPO \u00b7 sparse",
+      "seed": "1"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-DoorKey-6x6-v0",
+      "method": "PPO \u00b7 sparse",
+      "seed": "2"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-DoorKey-6x6-v0",
+      "method": "PPO \u00b7 partial",
+      "seed": "0"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-DoorKey-6x6-v0",
+      "method": "PPO \u00b7 partial",
+      "seed": "1"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-DoorKey-6x6-v0",
+      "method": "PPO \u00b7 partial",
+      "seed": "2"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-DoorKey-6x6-v0",
+      "method": "RecurrentPPO \u00b7 partial",
+      "seed": "0"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-DoorKey-6x6-v0",
+      "method": "RecurrentPPO \u00b7 partial",
+      "seed": "1"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-DoorKey-6x6-v0",
+      "method": "RecurrentPPO \u00b7 partial",
+      "seed": "2"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-FourRooms-v0",
+      "method": "PPO \u00b7 potential",
+      "seed": "0"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-FourRooms-v0",
+      "method": "PPO \u00b7 potential",
+      "seed": "1"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-FourRooms-v0",
+      "method": "PPO \u00b7 potential",
+      "seed": "2"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-FourRooms-v0",
+      "method": "PPO \u00b7 sparse",
+      "seed": "0"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-FourRooms-v0",
+      "method": "PPO \u00b7 sparse",
+      "seed": "1"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-FourRooms-v0",
+      "method": "PPO \u00b7 sparse",
+      "seed": "2"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-FourRooms-v0",
+      "method": "PPO \u00b7 potential_geometry",
+      "seed": "0"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-FourRooms-v0",
+      "method": "PPO \u00b7 potential_geometry",
+      "seed": "1"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-FourRooms-v0",
+      "method": "PPO \u00b7 potential_geometry",
+      "seed": "2"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-FourRooms-v0",
+      "method": "PPO \u00b7 potential_curriculum",
+      "seed": "0"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-FourRooms-v0",
+      "method": "PPO \u00b7 potential_curriculum",
+      "seed": "1"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-FourRooms-v0",
+      "method": "PPO \u00b7 potential_curriculum",
+      "seed": "2"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-Empty-8x8-v0",
+      "method": "PPO \u00b7 partial",
+      "seed": "0"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-Empty-8x8-v0",
+      "method": "PPO \u00b7 partial",
+      "seed": "1"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-Empty-8x8-v0",
+      "method": "PPO \u00b7 partial",
+      "seed": "2"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-Empty-8x8-v0",
+      "method": "RecurrentPPO \u00b7 partial",
+      "seed": "0"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-Empty-8x8-v0",
+      "method": "RecurrentPPO \u00b7 partial",
+      "seed": "1"
+    },
+    {
+      "group": "Simulations and memory",
+      "task": "MiniGrid-Empty-8x8-v0",
+      "method": "RecurrentPPO \u00b7 partial",
+      "seed": "2"
+    }
+  ],
+  "live_bellman_checks": [
+    {
+      "gamma": 0.5,
+      "sweeps": 0
+    },
+    {
+      "gamma": 0.5,
+      "sweeps": 1
+    },
+    {
+      "gamma": 0.5,
+      "sweeps": 2
+    },
+    {
+      "gamma": 0.5,
+      "sweeps": 20
+    },
+    {
+      "gamma": 0.5,
+      "sweeps": 100
+    },
+    {
+      "gamma": 0.5,
+      "sweeps": 500
+    },
+    {
+      "gamma": 0.75,
+      "sweeps": 0
+    },
+    {
+      "gamma": 0.75,
+      "sweeps": 1
+    },
+    {
+      "gamma": 0.75,
+      "sweeps": 2
+    },
+    {
+      "gamma": 0.75,
+      "sweeps": 20
+    },
+    {
+      "gamma": 0.75,
+      "sweeps": 100
+    },
+    {
+      "gamma": 0.75,
+      "sweeps": 500
+    },
+    {
+      "gamma": 0.95,
+      "sweeps": 0
+    },
+    {
+      "gamma": 0.95,
+      "sweeps": 1
+    },
+    {
+      "gamma": 0.95,
+      "sweeps": 2
+    },
+    {
+      "gamma": 0.95,
+      "sweeps": 20
+    },
+    {
+      "gamma": 0.95,
+      "sweeps": 100
+    },
+    {
+      "gamma": 0.95,
+      "sweeps": 500
+    },
+    {
+      "gamma": 0.99,
+      "sweeps": 0
+    },
+    {
+      "gamma": 0.99,
+      "sweeps": 1
+    },
+    {
+      "gamma": 0.99,
+      "sweeps": 2
+    },
+    {
+      "gamma": 0.99,
+      "sweeps": 20
+    },
+    {
+      "gamma": 0.99,
+      "sweeps": 100
+    },
+    {
+      "gamma": 0.99,
+      "sweeps": 500
+    }
+  ],
+  "mobile_concepts": 8,
+  "javascript_errors": []
+}

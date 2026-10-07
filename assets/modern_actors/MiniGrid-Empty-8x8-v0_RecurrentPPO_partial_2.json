@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "algorithm": "RecurrentPPO",
+  "inputs": 151,
+  "outputs": 7,
+  "case": {
+    "env": "MiniGrid-Empty-8x8-v0",
+    "algorithm": "RecurrentPPO",
+    "profile": "partial",
+    "steps": 1048576,
+    "n_envs": 8
+  },
+  "checkpoint_sha256": "6692e5bc47ff980513bc6397abce75f1728bafedc9fd2af723b0e237c4d9606a",
+  "memory": "Reset on episode_start; persist within an episode",
+  "weights_sha256": "72d7a1f202e220f3e355c1a5a0ac31b8274a4baa72de48932d1a67d96ce76ab9"
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "algorithm": "PPO",
+  "inputs": 151,
+  "outputs": 7,
+  "case": {
+    "env": "MiniGrid-Empty-8x8-v0",
+    "algorithm": "PPO",
+    "profile": "partial",
+    "steps": 1048576,
+    "n_envs": 8
+  },
+  "checkpoint_sha256": "feeb4b131962c0dd8b9b05e8c2e828927cca6eb1a4d757a9b749ce58977b657c",
+  "memory": "stateless",
+  "weights_sha256": "1777e9230317d3e78c98fe30b5901fb42850fdf3995c71e4d74a7fe919211008"
+}

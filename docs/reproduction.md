@@ -1,6 +1,6 @@
 # Reproducing the studies
 
-The measured reference uses Python 3.10.20, NumPy 1.26.4, SciPy 1.15.3, PyTorch 2.7.1+cu128, Gymnasium 1.2.3 and Stable-Baselines3 2.8.0. Three NVIDIA L40S cards run the owned wireless networks in float32; standard control and tabular studies run on CPU. Run records include actual package versions, source hashes, complete configurations and elapsed seconds. Dependencies are isolated; no shared global package upgrades are required.
+The measured reference uses Python 3.10.20, NumPy 1.26.4, SciPy 1.15.3, PyTorch 2.7.1+cu128, Gymnasium 1.2.3 and Stable-Baselines3 2.8.0. Three NVIDIA L40S cards run the owned wireless networks and the new TD3/TQC/PPO/RecurrentPPO fits in float32; the earlier standard control and tabular studies run on CPU. Run records include actual package versions, source hashes, complete configurations and elapsed seconds. Dependencies are isolated; no shared global package upgrades are required.
 
 ## Full reference
 
@@ -18,17 +18,22 @@ for seed in 0 1 2; do
   decision-lab simulations --seed "$seed"
   decision-lab geometry --seed "$seed"
   decision-lab curriculum --seed "$seed"
+  decision-lab modern --seed "$seed" --device cuda:0
 done
 python scripts/simulation_baselines.py
-MUJOCO_GL=egl python scripts/audit_simulations.py
+MUJOCO_GL=egl python scripts/audit_simulations.py --episodes 100
+MUJOCO_GL=egl python scripts/audit_modern.py
 decision-lab report
 python scripts/simulation_gallery.py
 python scripts/simulation_analysis.py
 python scripts/create_simulation_dashboard.py
+python scripts/create_explorer.py
 python scripts/audit_checkpoints.py
 python scripts/execute_notebooks.py
 python scripts/validate_release.py
 python scripts/validate_simulations.py
+python scripts/validate_modern.py
+python scripts/review_components.py
 ```
 
 The full studies take substantially longer than a smoke check. Use independent processes for different fitting seeds if resources allow, assigning each GPU with `CUDA_VISIBLE_DEVICES`. Do not oversubscribe CPU BLAS; the local reference sets `OPENBLAS_NUM_THREADS=1`, `OMP_NUM_THREADS=1` and `MKL_NUM_THREADS=1`. Rendering can use `SDL_VIDEODRIVER=dummy` and `SDL_AUDIODRIVER=dummy`.
@@ -44,9 +49,10 @@ The full studies take substantially longer than a smoke check. Use independent p
 | simulations.json | Six official MiniGrid/MuJoCo presets × three seeds; equal 1,048,576-interaction budgets |
 | geometry.json | Four Rooms spatial encoding ablation × three seeds, 1,048,576 interactions/fit |
 | curriculum.json | Four Rooms training-start curriculum × three seeds; final25% official starts; held-out starts never modified |
+| modern.json | TD3/TQC HalfCheetah and local-view PPO/RecurrentPPO Empty/DoorKey × three seeds; 1,048,576 interactions, twelve validation and one hundred test episodes per fit |
 | lectures.json | 100 independent bandit instances/task, 30 prediction seeds, 30k expected counterexample updates |
 
-For new simulation profiles, use distinct profile names or a separate checkout before changing full protocols; the CLI protects published episode evidence from custom-output collisions. Use new output directories for smoke work and original non-simulation experiments. Reference output directories are scientific records, not scratch paths. This project does not promise exact resumed training from policy checkpoints. Smoke runs verify execution and math paths with tiny budgets and must never replace reference results.
+For new simulation profiles, use distinct profile names or a separate checkout before changing full protocols; the CLI protects published episode evidence from custom-output collisions. Use new output directories for smoke work and original non-simulation experiments. Reference output directories are scientific records, not scratch paths. This project does not promise exact resumed training from policy checkpoints. Smoke runs verify execution and math paths with tiny budgets and must never replace reference results. Use `decision-lab modern --seed 0 --case MiniGrid-Empty-8x8-v0_RecurrentPPO --device cpu --quick` for a small memory smoke check. The lower-level `python -m decision_lab.modern` entry point uses integer case indices and requires an explicit `--output results/smoke/modern` for quick work; its output default is the reference directory. Interrupted runs must be preserved before restarting: selected-policy checkpoints do not contain an exact environment/RNG continuation state.
 
 ## Portable evidence and private artifacts
 
@@ -59,9 +65,12 @@ A fresh checkout can reproduce plots, validate public evidence, run exported fin
 ```bash
 python -m build
 python scripts/check_distribution.py
-python -m pip install dist/sequential_decision_lab-1.1.0-py3-none-any.whl
+python scripts/check_installed_distribution.py --dist dist
+python -m pip install dist/sequential_decision_lab-1.2.0-py3-none-any.whl
 ```
 
-Use a separate environment for an installed-wheel test. Run tests from a directory outside the checkout with `PYTHONPATH` cleared. The source archive includes authored notebooks and measured numeric evidence, but excludes original coursework, private models, environments and smoke outputs. Release validation requires the full reference set and thirteen executed notebooks.
+Use a separate environment for an installed-wheel test. Run tests from a directory outside the checkout with `PYTHONPATH` cleared. The source archive includes authored notebooks and measured numeric evidence, but excludes original coursework, private models, environments and smoke outputs. Release validation requires the full reference set and fifteen executed notebooks.
 
 The navigation/locomotion extension additionally uses MiniGrid3.0.0 and MuJoCo3.15.0. Its selected neural actors are public under `assets/actors`, with architecture metadata and action/episode audits. See [simulations.md](simulations.md) for observation profiles, shaping, headless rendering and common test seeds.
+
+The modern extension additionally uses SB3-Contrib 2.8.0. Its eighteen exported actors are in `assets/modern_actors`; deployment preserves recurrent state within an episode and resets it at every new reset. [modern_methods.md](modern_methods.md) describes local observations, selection, critic truncation and the fixed-layout Empty caveat. The public validators do not need training checkpoints; `audit_modern.py` additionally proves selected-model identity against the locally retained checkpoints.

@@ -1,0 +1,3607 @@
+{
+  "status": "passed",
+  "components": [
+    {
+      "path": ".github/workflows/checks.yml",
+      "sha256": "bbe953850ce056ad21b2ab198f124847a6a291eeee89597830f01a4715c9ac1d",
+      "kind": ".yml"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "sha256": "5462e29709efc1836e9ee7c2c474845af52a69e93659450e6e835ff08398a48c",
+      "kind": ".md"
+    },
+    {
+      "path": "CITATION.cff",
+      "sha256": "2acc7d539f0e050fb2fe1708885c7c1a34330966b766c0e6a8922fed0a1a0ced",
+      "kind": ".cff"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "sha256": "f2643d3177952e132b635356ed87a5cea88e8359fc9a8250ba648030b643e9d0",
+      "kind": ".md"
+    },
+    {
+      "path": "README.md",
+      "sha256": "ce5b6f7442ea485301d1f84a285c19da9c1766ee0c5a5ae24ae7dd4ae65f3921",
+      "kind": ".md"
+    },
+    {
+      "path": "assets/actors/HalfCheetah-v5_PPO_official_0.json",
+      "sha256": "c6de8dae5088ec679f9a3e5b9306cf897606a0a1f2e86cefff767565cae34a75",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/actors/HalfCheetah-v5_PPO_official_1.json",
+      "sha256": "c2a003ffe946cd40c7ff54d2a0e52b83033449c5fd864c513c02c483abf07216",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/actors/HalfCheetah-v5_PPO_official_2.json",
+      "sha256": "f70b9bb6fa428ebf6992c7b19e1d89fc66ad6d79509ad4fafb3aceddf96d3f82",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/actors/HalfCheetah-v5_SAC_official_0.json",
+      "sha256": "6cb3192e6d6ac9a91c8730b65d8edc52eaae831c126434d43e26100d256f8207",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/actors/HalfCheetah-v5_SAC_official_1.json",
+      "sha256": "e55e5af9b9bc0374670cadcafae97a3f136559716018ac056583ee1a7b71b53f",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/actors/HalfCheetah-v5_SAC_official_2.json",
+      "sha256": "ffd5dcf8ae3a192fc68bd4a4a1dfdcc06c8793aa1529a2678abd021ea9638713",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/actors/MiniGrid-DoorKey-6x6-v0_PPO_potential_0.json",
+      "sha256": "4c4a564623fa52f337105ae59f0c350db20217660ee6a7fd93a427a78c6ea996",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/actors/MiniGrid-DoorKey-6x6-v0_PPO_potential_1.json",
+      "sha256": "ebdf4d4b0023fe151cf7d65850c8a41d9e966598fdf784c1cfe8f237f6cd17c8",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/actors/MiniGrid-DoorKey-6x6-v0_PPO_potential_2.json",
+      "sha256": "2cdce58b87f6b339888436d89866e5e9b4bb4befa2a6491b84cb4b529d14131f",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/actors/MiniGrid-DoorKey-6x6-v0_PPO_sparse_0.json",
+      "sha256": "0d4d77c3b57b83a819c6b10f28121e4a6ef1f524ddba2a0297675603b5b4b728",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/actors/MiniGrid-DoorKey-6x6-v0_PPO_sparse_1.json",
+      "sha256": "68e9f396e1639a97c711c7be3f6a4e14bca476f3847014ef582d224dc9dcf5f6",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/actors/MiniGrid-DoorKey-6x6-v0_PPO_sparse_2.json",
+      "sha256": "b42f6c84fb7cb202f328250137be3f85a7c204914bbc36277c14c7251a57b614",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/actors/MiniGrid-FourRooms-v0_PPO_potential_0.json",
+      "sha256": "090d40dce5570032e5e03429a748ab4e2eec5da8d1bdce6216bb8f8ec0292dc7",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/actors/MiniGrid-FourRooms-v0_PPO_potential_1.json",
+      "sha256": "3e435d4a48032815136ba8427a546b3d8ebe153284e1b9e44659c244cea7a31a",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/actors/MiniGrid-FourRooms-v0_PPO_potential_2.json",
+      "sha256": "af97596870e877d6566b8e4471e165bf337c7117e08d0abfd2308e423a64aca8",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/actors/MiniGrid-FourRooms-v0_PPO_potential_curriculum_0.json",
+      "sha256": "212a819cdb74b1f6569ecc19125339d8db5057adf4eab5b726d055e0114d6f0f",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/actors/MiniGrid-FourRooms-v0_PPO_potential_curriculum_1.json",
+      "sha256": "fa64af9b4fe540dd5e0239643aa60b48e69c19f4e00d42e375bc5d65ffdd2431",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/actors/MiniGrid-FourRooms-v0_PPO_potential_curriculum_2.json",
+      "sha256": "5b5791b352623a6fc9312fe195f205c73c09aab5bd09506ee567d5b840380d16",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/actors/MiniGrid-FourRooms-v0_PPO_potential_geometry_0.json",
+      "sha256": "6bb1835998f8f0675c32b2077297c6ee1878cf19bd474536ca52210672c8905c",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/actors/MiniGrid-FourRooms-v0_PPO_potential_geometry_1.json",
+      "sha256": "4d12b2d670c48df9fe787528e7f82a32d5ea156097cd08bf2152de1d869640a0",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/actors/MiniGrid-FourRooms-v0_PPO_potential_geometry_2.json",
+      "sha256": "412ab7721e1b7ec335ed40a2df73cb31e7b2eb7ee49412c6de88bb5cf65f320f",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/actors/MiniGrid-FourRooms-v0_PPO_sparse_0.json",
+      "sha256": "9addea05f5fd97d74e4268a39443aed91889e13cb2d6a168086d98470dc40d6f",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/actors/MiniGrid-FourRooms-v0_PPO_sparse_1.json",
+      "sha256": "72607979312bb512f18f7b25383f133cc02885b3c7ddb4aaa682f55e51bcbc7a",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/actors/MiniGrid-FourRooms-v0_PPO_sparse_2.json",
+      "sha256": "96e149e3c0e1252e12872624916734bf4bfec04dc237482bd32bffbd85533119",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/modern_actors/HalfCheetah-v5_TD3_official_0.json",
+      "sha256": "a712b9894105c666fba82a750048f01990223bc309ed841814979da2940477b7",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/modern_actors/HalfCheetah-v5_TD3_official_1.json",
+      "sha256": "0f88740d24e0ff66492e6d3ca662272b985965243b86d980cfb51b836e251915",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/modern_actors/HalfCheetah-v5_TD3_official_2.json",
+      "sha256": "c67d2f2edfbff1c8f724b53624e7472c11f96e4597e0b5ccbcdfae1fdfbcabcc",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/modern_actors/HalfCheetah-v5_TQC_official_0.json",
+      "sha256": "3b410826056ef39eb87940b39b8c0241ecfbdb8b7cbbb002a1cc741267539201",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/modern_actors/HalfCheetah-v5_TQC_official_1.json",
+      "sha256": "b0bc7ed418f2c70e8bf1828deb595bb8e93365ff1407581f82b380056d7ac16f",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/modern_actors/HalfCheetah-v5_TQC_official_2.json",
+      "sha256": "99774f385a99195cf179f25c4fbc937c61dcf1b14fdbc50a1d2caa0d10278f18",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/modern_actors/MiniGrid-DoorKey-6x6-v0_PPO_partial_0.json",
+      "sha256": "9e2ed8a622d19a28dc23c5fd41bbb777e6ed254451343c62f58ee97fa1fd4072",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/modern_actors/MiniGrid-DoorKey-6x6-v0_PPO_partial_1.json",
+      "sha256": "05f12e83d5065c6eefe4e1ad47b3a45be42e3e2b24afeb3d45036105f4ec1996",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/modern_actors/MiniGrid-DoorKey-6x6-v0_PPO_partial_2.json",
+      "sha256": "d556f2386c72c013f7ca01d89a236e1540d894b2e2ae58cb294ca7158da86800",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/modern_actors/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial_0.json",
+      "sha256": "9faf52e02318431b0ca88a62f529ce198cf4ddde3dc5ba6a301512c7ce17df97",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/modern_actors/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial_1.json",
+      "sha256": "fffb3e218ef578fc0584b63ebbb4a373eb99e71b32a49520f2714cf921044276",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/modern_actors/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial_2.json",
+      "sha256": "3c29371743e9f29e6022b6e1dda86e4d93882b64a1870681b140e57a489244c5",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/modern_actors/MiniGrid-Empty-8x8-v0_PPO_partial_0.json",
+      "sha256": "cc5ce8a50eb8d18561421b1c06908a4d5a004986e06ca73cf54f16d617c21639",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/modern_actors/MiniGrid-Empty-8x8-v0_PPO_partial_1.json",
+      "sha256": "a5b60f21f79a17b94dda68fd91b21e076403907e22e3db2f15079f5d71ca750f",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/modern_actors/MiniGrid-Empty-8x8-v0_PPO_partial_2.json",
+      "sha256": "a45ac4c5b9843bfb33496c264f7242dca5eb65b477c4cdd8ed69f3f51aacc7f8",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/modern_actors/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial_0.json",
+      "sha256": "0553bf76cd668eb331abb760839671b71dc30ef17bd2cc7bfd2a7dbacc408c04",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/modern_actors/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial_1.json",
+      "sha256": "99e8c333b5e8415b6e64cbd3c55836c8ea0bbf05f9e2fe49b9ff365cac44b656",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/modern_actors/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial_2.json",
+      "sha256": "cb24655c32f50495ea5941d1f775c1a530c5d8b834e349a4ca719a84c8218992",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/neural_double_dqn_seed0.json",
+      "sha256": "9bd37fd2c88fcad8c96a64cfce1afaa0513bbe60ec2b789b5c2e77d1565d138d",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/neural_double_dqn_seed1.json",
+      "sha256": "e5392cc56297f51650bc13cd92fc73ce6d26591b6c6eb296c7a8e307556e8d02",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/neural_double_dqn_seed2.json",
+      "sha256": "b3d0a48b705e73554c5540511ca6bbfbd50a14d8d4cc930998b335f16060487b",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/neural_double_dueling_per_seed0.json",
+      "sha256": "b0c4b86ea6dc43983fdfc74ace40d53bf9971bcdec78368c46dd750d9e6edc78",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/neural_double_dueling_per_seed1.json",
+      "sha256": "ede5a6e336ae0d81a8b872e120e49b11afd84752dd599703e592417f16bddc97",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/neural_double_dueling_per_seed2.json",
+      "sha256": "b46ddffc7a850ea38e0ad0e7ef927807a694d0d165fd93405211c87f094fa181",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/neural_dqn_seed0.json",
+      "sha256": "43259dc3c17bd6fefdbf23fb833dd1e1b901b8bdf2b18510099fc9a016d8aa28",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/neural_dqn_seed1.json",
+      "sha256": "0e625cb68dc0291776265ddf84d35d41213d6e3cf3bea89b08f92707a1869d48",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/neural_dqn_seed2.json",
+      "sha256": "73f79d4942c85130cc05eee1f3cf54055465a383e87f4b10929943eda681f026",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/neural_qr_dqn_seed0.json",
+      "sha256": "2d031389e64f52796f5345bd63b0dd4d5aa173520975facbc3f2dbe1829e2c8d",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/neural_qr_dqn_seed1.json",
+      "sha256": "96a10ca7541478962f61c90e5d1057a5fc8a32b2f6debfb6b13b81659dfe99b4",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/neural_qr_dqn_seed2.json",
+      "sha256": "2fd962a0a6a3434882a9792c37899784847737371ac80eab42bf16292c0bc206",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.05_bc_seed0.json",
+      "sha256": "b434a29be641a0c7e887aaa7e7f8d657ba1697492dd792cb1805cab584198175",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.05_bc_seed1.json",
+      "sha256": "71e58dbe5da939b4f51d8f4b1d25b7f5116d2c7291342aef83779f27d99857ac",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.05_bc_seed2.json",
+      "sha256": "a066e99cfe80d3e07b8e3a9f7e1ef7969c80c016fa19672c0c861c0c1e82f8e6",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.05_cql_seed0.json",
+      "sha256": "0012bb021535390ea8f56b1d34531bbe48f518ee579b8723622cbf660b2d848d",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.05_cql_seed1.json",
+      "sha256": "f6333b8d5ade07c1da4422b78c5a7aa7b9234a25b27bd255225514513ec877b5",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.05_cql_seed2.json",
+      "sha256": "c3d3bc5f41ff8bec291b1456c2d5a6f0e8b8f13c12e267b96d8a748f393e78c3",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.05_fitted_dqn_seed0.json",
+      "sha256": "a673e0a508a5d295d4293d64ed408e322523d833894091123dcd1992ad307a2d",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.05_fitted_dqn_seed1.json",
+      "sha256": "4b29b76ec9600b8aad0158721d8f42e96c19d1aae9eda675ccdd85525ffe7d43",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.05_fitted_dqn_seed2.json",
+      "sha256": "b95484d90ea39f6719debc6698d5f99893e71afd8eba13378569236874c08b8e",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.05_iql_seed0.json",
+      "sha256": "5b0d117de27c16737f5f4b1386e9f335b23c80b9520e8401e03e900fc7692648",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.05_iql_seed1.json",
+      "sha256": "8409dbddd45721466a34dce86cbd2480f6957288ec57019e127f3f24176c7a32",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.05_iql_seed2.json",
+      "sha256": "0ab0c411bc545b31ad221d634d54a0a041b76f607816fdd7c97d1289aae49b8e",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.4_bc_seed0.json",
+      "sha256": "759a3094b1a9f867268fcdc4aab81a446c509215a158328620c6b885c95d9a44",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.4_bc_seed1.json",
+      "sha256": "48000c8004fd12c58b4c4644b80be5075efac75a58814150e1a1d1e3c83bdcf6",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.4_bc_seed2.json",
+      "sha256": "6975028f838c2c32bdcfeb8cf4f5c1b75a3346aa448f7f392f9a579e0789e343",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.4_cql_seed0.json",
+      "sha256": "f0e509a38cdd560a4b2903c3b584e5bde482823d8a1919c6f40aae1c49b8d762",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.4_cql_seed1.json",
+      "sha256": "d9eda5d5971845c6deaa76682ea38955f87da44ceec9cfe9601549d3438342b2",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.4_cql_seed2.json",
+      "sha256": "d6b2db081f84fbf80b6f4293d2dcc6c8d00b7b033f392b218a193b4f912f7fca",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.4_fitted_dqn_seed0.json",
+      "sha256": "1fef83f540d8e51a84e0512631ed571bd3538e01dba7690f28a255453da3aaf3",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.4_fitted_dqn_seed1.json",
+      "sha256": "05a056c2bf2afba1a072eebbdc958fd9feab6b103a87f6ac4dfc8506ca2d7106",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.4_fitted_dqn_seed2.json",
+      "sha256": "dbe1b59184a03d32486c678670344328091d5dbb6463bdd2e7f385d8eb94ec34",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.4_iql_seed0.json",
+      "sha256": "34686f513c3549cbf42268807c1461134307f4b737f6184d1b860bbb9bca6a85",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.4_iql_seed1.json",
+      "sha256": "99f05d8ac63460604b8a1624d5334aa54bd380060b7601ec0c1b33b549080925",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon0.4_iql_seed2.json",
+      "sha256": "b7ea4bf8ab745043b83cb3cd4aa95a709e25ebf120e9843f8002eb88f1867023",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon1_bc_seed0.json",
+      "sha256": "b0af0219ba4426a652ea30ff127e7d52c3268847a18da33cc4eca7895d4c9b37",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon1_bc_seed1.json",
+      "sha256": "345beb295cf2fa489fa8ffbbad60a37390af129e0b28f3300ec0fb3b3f2eec1f",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon1_bc_seed2.json",
+      "sha256": "8e1349246ba403d4bc8cba4014fc1221897f5a5bff37655a1869b22761c6306c",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon1_cql_seed0.json",
+      "sha256": "f273bdc594228fc81de6169d19eeb5356330d813e4745075716a0db920f0c9a6",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon1_cql_seed1.json",
+      "sha256": "e7c8d6795927282bc4eabd3175243c5febf2d6e1e0f32504bd453c72325bc5a9",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon1_cql_seed2.json",
+      "sha256": "db331360ea8edc5af7d52e2d8fa1f168a9600a97572100dfcff12ec7b2347cb6",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon1_fitted_dqn_seed0.json",
+      "sha256": "1ea7c275d24c3b6f1bb2a5d88622202dd1e4155879437b87046f7c28de1edc90",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon1_fitted_dqn_seed1.json",
+      "sha256": "625451cbf703e0f645c678ffe6bbc23e5a1996dd03c423625eb1a123469981d3",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon1_fitted_dqn_seed2.json",
+      "sha256": "6aa9d4632aba0d95107a648e032f902a732f6d3da681488533158e48b47e4c16",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon1_iql_seed0.json",
+      "sha256": "d06aeb2d4a0f435aa3d21ea0eafc6d779bbe8975f807cebdf0b23f5ec3d4e9cf",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon1_iql_seed1.json",
+      "sha256": "fdd604a1dfba6d99c7b09eef677f2b4364a01bc2c8ff7beb7956b3715d49e3f9",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/offline_epsilon1_iql_seed2.json",
+      "sha256": "174a2fe2841999338df5a393aa9db1bb5ca6a573979649012f81cafe6911acf9",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_CliffWalking-v1_double_q_0.json",
+      "sha256": "042690e7b8fe2b785c97ff00c24bd73173c9e0c2c4b3fe15a64b349ef420d31a",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_CliffWalking-v1_double_q_1.json",
+      "sha256": "5d11132f7e5a2fc3b2273f70af77a5528be588d3ef75c72be124277819c66a2b",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_CliffWalking-v1_double_q_2.json",
+      "sha256": "6e0798f6bc2dcbe17577bd18e47eb7f55dec5c6d0334c97b7abe09ba632c852b",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_CliffWalking-v1_expected_sarsa_0.json",
+      "sha256": "314ac22954f2b52ca459438997523d26a352eaa82e9751de1703990582c1706c",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_CliffWalking-v1_expected_sarsa_1.json",
+      "sha256": "59181d70770519f68dafd150f07c23d0a5e102c8910925632f334d801056ffcf",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_CliffWalking-v1_expected_sarsa_2.json",
+      "sha256": "436851869d1ab9b9d395e1c7cb2a679aeba402eb42b0c3de81afdc417fb38ca4",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_CliffWalking-v1_q_learning_0.json",
+      "sha256": "4ca5148d9cae0a6a2e8ece37defbbed80a2962a49a3259387f718e1c0a266dc6",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_CliffWalking-v1_q_learning_1.json",
+      "sha256": "f4abe18cf85b2ece70217cad84e99f0742fcf652c61efb73f1b7da1e2f61ab94",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_CliffWalking-v1_q_learning_2.json",
+      "sha256": "22f2e8f5b67e1508932f2d0d1fab6534d49201ec7bd423b20d4b41d2c7dbd778",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_CliffWalking-v1_sarsa_0.json",
+      "sha256": "35a8297783bfa94cb80e406cd8f25ed88669c872ac61f90ffbbfdaffaabab56f",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_CliffWalking-v1_sarsa_1.json",
+      "sha256": "b0e5b9c8428a2d01979dba6dbb755bd801b0607fb28f2cfcb69cd778832bc71d",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_CliffWalking-v1_sarsa_2.json",
+      "sha256": "69a14c0aa95e567370e11dcb5c99b5c27ec267825daf8bb3c6274e365a7aba8a",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_FrozenLake-v1_double_q_0.json",
+      "sha256": "bc55fd244b871763ceeff09bf99145ffc93e13237161e233efd836c55d472de1",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_FrozenLake-v1_double_q_1.json",
+      "sha256": "fadcb7b7e1b38c296fcc8c38c7f359da00f48b696eba3f5daf51ba7a29af3f64",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_FrozenLake-v1_double_q_2.json",
+      "sha256": "eb2f9635fd0f94eebd8669cefebaa78e34bd39cab4317d7ad464e2a8cd0f5b91",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_FrozenLake-v1_expected_sarsa_0.json",
+      "sha256": "4f0815104669bc4cc3b40fc6421c1ebbe517bee3984de6c5b82a55e179a6898b",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_FrozenLake-v1_expected_sarsa_1.json",
+      "sha256": "34d1ae5449dd483b93d8ca72e4462a56cc0c036badda432407cad0e3ee51f8ff",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_FrozenLake-v1_expected_sarsa_2.json",
+      "sha256": "7b75096e4d860c8cb5795a850f82704164a447a07b29687559cdc6590f1e9962",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_FrozenLake-v1_q_learning_0.json",
+      "sha256": "4a048565eb787b41c83cb8c6ecc53818abcf3c5bd8c64dadc4b9c9e099afe397",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_FrozenLake-v1_q_learning_1.json",
+      "sha256": "f8ea4428e40ae2f81cd7ab82ab7896b24fe7a78c8afe472da8653a9a8112cd97",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_FrozenLake-v1_q_learning_2.json",
+      "sha256": "5e37da824986c443f06f006fc74dc534a10b5bb6b5b18f8fd08ab5807dbf8b2e",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_FrozenLake-v1_sarsa_0.json",
+      "sha256": "26b8f0cc2b1bebf6cbe00b80f710c0698710b6dc35deb9f514cbb9ed859eb82a",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_FrozenLake-v1_sarsa_1.json",
+      "sha256": "57b2cf379242dc7ddc906dd2d52fa1a93fa9380f45d99f0fb7df9774ae41b455",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_FrozenLake-v1_sarsa_2.json",
+      "sha256": "4cf1183a2abf836e970e32b2c1e537670c751fba9bde1b253cd0090cb6ca1cd9",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Maze_double_q_0.json",
+      "sha256": "f3225e89034635ccb75182a41d4abf72320958d8fa82becfc0b7a5753e747cd7",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Maze_double_q_1.json",
+      "sha256": "344a46e1d88a226600015c16519490956f36024a52038a130a224fc945d6547a",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Maze_double_q_2.json",
+      "sha256": "8d753509037159e5ece0c6a2eef05f29fb8725d96ed998a126349cf4d753599a",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Maze_expected_sarsa_0.json",
+      "sha256": "fdb6a3925b47b6e6723118433a232a0e650f8f39ff0679c4bc3bbd718a961d96",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Maze_expected_sarsa_1.json",
+      "sha256": "cddd86ceb10b16e31de4700b498321ee2b6200b2e829873c592f2e3dad41743c",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Maze_expected_sarsa_2.json",
+      "sha256": "e1c44eed646ca5d9ffa3e4858a1adcb82e042ea610b602c0509632ebc7ee0e34",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Maze_q_learning_0.json",
+      "sha256": "fa70e21cc4d9e0e283147a4209eae8c462d260315ca102e20d6f8b979b6538ed",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Maze_q_learning_1.json",
+      "sha256": "49ddded456838e225549661839b71e90f343242db69c0bc1c56f285906be57d9",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Maze_q_learning_2.json",
+      "sha256": "6594a0a2b330cb3e5c233357fe37bf36ba5ad07356b287a9cb6dd6fff813f64a",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Maze_sarsa_0.json",
+      "sha256": "c69c38987fde53cf8e48f5a4479c681ae8956314d655dbd00470e840b8a17286",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Maze_sarsa_1.json",
+      "sha256": "e89d3cce95118f542f1f89c404d9b34d8127009c9b1a13370d52ae2bd6ee500f",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Maze_sarsa_2.json",
+      "sha256": "21e7d2810ace1e4a84fc17bfea40d44536581f40f5fe78742724e821b88c9876",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Taxi-v3_double_q_0.json",
+      "sha256": "87334473ac104a2bac7cd99466b5f949da7d7574bb4254d7ea14e05f1d810324",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Taxi-v3_double_q_1.json",
+      "sha256": "4a996e46c9cb3b8d3704fbd05551c461296b85a9c6a604870f26a58616765474",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Taxi-v3_double_q_2.json",
+      "sha256": "59ba19771987e27efcf625ae6fea57c7898d63f5be2d3bcf81223e5f0e208a38",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Taxi-v3_expected_sarsa_0.json",
+      "sha256": "0ffb68d4482e029a220c8be0407b5e1cf933ac6a27fdd0b85c4d5c0013f63002",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Taxi-v3_expected_sarsa_1.json",
+      "sha256": "b123bb14b9607d8b35fe633f05f9583e37b863ca08bccf610b4deb33b964e9ad",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Taxi-v3_expected_sarsa_2.json",
+      "sha256": "21369842ae1f8befc4e683dfbaaa2b58e0b5b31cdef05d8614dbbd49720beee7",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Taxi-v3_q_learning_0.json",
+      "sha256": "11ecf8e7c1924fb0943a0ec9da7004f41ed81f237fb346b170cfed10e0de4970",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Taxi-v3_q_learning_1.json",
+      "sha256": "eb7e08cee0f20ac59d4ada50b4b364cb3c79fca9a09363f8856a9c63dd2d25f1",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Taxi-v3_q_learning_2.json",
+      "sha256": "de28531ab3ab53b0460b741866a45f46f6bd3c8cd64b91dc8af163bcd512b26c",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Taxi-v3_sarsa_0.json",
+      "sha256": "6f37f644bbedafaa9e65feb1b78901a59f7a03ab310ebdee63aa14580669ed8f",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Taxi-v3_sarsa_1.json",
+      "sha256": "f61afad705847872cef95f648056defd7d3bef31bd9df7f4d270d8d88415e365",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Taxi-v3_sarsa_2.json",
+      "sha256": "2a4f89ba28f10c423523d5275a679115f721bfae7e71de83c18fc5a20e270ea2",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Wireless_double_q_0.json",
+      "sha256": "290e925147da72a0b08de0dbebd25eb20267c3417695f5c4374f3be5cc135a0d",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Wireless_double_q_1.json",
+      "sha256": "49249ba92bfa92bda3a8df855883d019f3572a3a37168334268e91ddad724df2",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Wireless_double_q_2.json",
+      "sha256": "f10e1b85a1f9c38ce757c9234a83a16607f01c447ddf655e1617e3ff9c6638d9",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Wireless_expected_sarsa_0.json",
+      "sha256": "59d44d264a44abcb9cc0194eb18068bb06e9d5a63267564941e9e1a779ab25ed",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Wireless_expected_sarsa_1.json",
+      "sha256": "753f465ccd36ee9d7f870b619cbd084568b23449830c2043633ea2b6f49b966f",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Wireless_expected_sarsa_2.json",
+      "sha256": "18eb8e1d99cf0b249bcefbb38e17533752611adaa6cba402c180d04baccaffd9",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Wireless_q_learning_0.json",
+      "sha256": "6745da66e303e6278ccf1351f0f300bed2096d92cdb824e4d8f9ae320f090dd1",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Wireless_q_learning_1.json",
+      "sha256": "20ab8bf156fbdad3141542f1d487802c044ab1c9a54bf4b7ac3021232f9db674",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Wireless_q_learning_2.json",
+      "sha256": "514c30da24ad38bb607b1165847e989eca2f135d69c7d6681e55ec4aeb51f5de",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Wireless_sarsa_0.json",
+      "sha256": "f4fb284a0b1067ec8d7d59905449f8429e016dbc1119ebaa1acf0f31e6e710e1",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Wireless_sarsa_1.json",
+      "sha256": "e4eea9074950482f1289ced31f5c7a9ecb88890ddf8ea5f73856e5920f78f90b",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/policies/tabular_Wireless_sarsa_2.json",
+      "sha256": "4e797184eba32ae46063b80215382c2afe89ff0b4e486354eb025659b225f980",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/FrozenLake-v1_q_learning_0.json",
+      "sha256": "84798062f5f01c5adcc15db6d896af40300cbc3003db5efe1c4579b1c3692471",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/HalfCheetah-v5_PPO_official_0.json",
+      "sha256": "338b868e2fbc20f1e9a064d752dd4ccb1e4da689c351d85e2769e27c19d34037",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/HalfCheetah-v5_PPO_official_1.json",
+      "sha256": "0b99e38e5130a06a9de48f4876a4d0cc1f0b73758ff1ae5df8ac26c0d57ade35",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/HalfCheetah-v5_PPO_official_2.json",
+      "sha256": "292ceb8f0a7cf30958196e06e486c1ce18546bed9e8ae21903ede5013bebe0ae",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/HalfCheetah-v5_SAC_official_0.json",
+      "sha256": "44ab38298370ff3e51ac736d695a2cd4642a68cfc9921198b496498348320b6e",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/HalfCheetah-v5_SAC_official_1.json",
+      "sha256": "7ecf1d28d4e6c1350fe48b7dc59ad0f7d5039575b4bb976ef131c9a539b95557",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/HalfCheetah-v5_SAC_official_2.json",
+      "sha256": "5604368676403dba45cb1c347b9c580e2a2a5a312f87ebd126a6cb4b5b93e89b",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/HalfCheetah-v5_TD3_official_0.json",
+      "sha256": "9ee5366034cfad7066dd163ce8f4f8514e346ddf68ed3b96e9d2a2fc1b32021a",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/HalfCheetah-v5_TD3_official_1.json",
+      "sha256": "7342c9ef241879257957c4a0b4b58660f73465c3602d0bef1d7ffee7c36288be",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/HalfCheetah-v5_TD3_official_2.json",
+      "sha256": "5c2a4a20c111e52c4aba4e1fcdcfcf9a2ff9da2689e095140fe57c59634c78a2",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/HalfCheetah-v5_TQC_official_0.json",
+      "sha256": "595bc41f40e9bf749eaa2aab616ee6077dde558b955e6014a0d3a56ee7d20410",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/HalfCheetah-v5_TQC_official_1.json",
+      "sha256": "6b8940c042f0808992dbb7eaeac4032d01fc346ab47cfe4dd9ece3d9e5d72bb9",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/HalfCheetah-v5_TQC_official_2.json",
+      "sha256": "f96648bd7b49a7dad4b665c57dffddb1a9916ac8643149577a05e54a3b5ef6c7",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/LunarLander-v3_PPO_0.json",
+      "sha256": "359ed4b76eb50f27a673a659b8d853dce9d240ac190c28ddb638a720189ca0e1",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/Maze_q_learning_0.json",
+      "sha256": "93717de05ad42d2833b23efd99bb7701387badc0764d547fe2d0210806f2b1a3",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-DoorKey-6x6-v0_BFS.json",
+      "sha256": "1b8ae6dc59426b2d55c65aa5e72e191cf3bb2fae051b500604caca4c943836b1",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_partial_0.json",
+      "sha256": "65bb3a724f9c649e189e3b05f330eff9f8a9c54e4d266ed1359590c8350cc0c1",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_partial_1.json",
+      "sha256": "833d4dbfe36b7a1d15a7d9079adc7f6878f177f0e4ddcf760a0fabd99448ddbb",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_partial_2.json",
+      "sha256": "5a3dea38607711b3e8d03b23bbc321682b83625d32ecd181363f413f46282af2",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_potential_0.json",
+      "sha256": "065c8bb66f27fcdb58a5f21abb1b8f86e5504040b5dd161a593512912fc8e81b",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_potential_1.json",
+      "sha256": "5e0f9499e968169cb7eb8ff5903ea8a9fb79bedfb0aea75cec3aedfb588ffa29",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_potential_2.json",
+      "sha256": "7f7a2a6249449f78743f67cb21496fa989191a251819ecc12d1e0de6a675bcdc",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_sparse_0.json",
+      "sha256": "eb0f2874d640e2f2e28e59176e6feb9b3b12c997c092183948d17753b2a98b6e",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_sparse_1.json",
+      "sha256": "74daec98d00e3325b9ceb456d8abe7ccc4b70c2d0c98a291ea8b8535ecdea87d",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_sparse_2.json",
+      "sha256": "f76e87b8611f5378b9c4ff5385a5a4d25e23815210537b6bce1072ebdeb8f395",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial_0.json",
+      "sha256": "9fbb491d4c41889e89d6af9bed92bee335789457864efad04129c4748de32bae",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial_1.json",
+      "sha256": "37b8ecf1f5182d39a66bc8a2193029f69f259e771222941f4f7f2e7d3bf1e975",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial_2.json",
+      "sha256": "0ffb1dbfe9fb046057e8843bc087e31bcb5a7ab95229a3b41e10fe96160214c0",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-Empty-8x8-v0_PPO_partial_0.json",
+      "sha256": "d2d1cd6a76bd1c5bdcd21fa130d9e4c2610e34529df34308106d14712faf1e50",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-Empty-8x8-v0_PPO_partial_1.json",
+      "sha256": "d2874917638c71a2c572f5a0afeb771fb2faed1eb5d03c589404cbdd715ee107",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-Empty-8x8-v0_PPO_partial_2.json",
+      "sha256": "fb115064fe7b09280b58acd5fa2cf45f1721a3591d55b719306fdbc0cdd56ce8",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial_0.json",
+      "sha256": "828ef336444ff2881e8f744bed69cd4f96fb8926b61c8d42f1bddc79d28a1051",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial_1.json",
+      "sha256": "fc31f01500ec0a1a5fe12a962bab83628ab9c2f6318b9b893b5c8256e70f63ee",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial_2.json",
+      "sha256": "32dd1c9f7389b1a408e551b88e5c9c182d56146bf9482cbd268256328a4e4e08",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-FourRooms-v0_BFS.json",
+      "sha256": "ec9226e4d6709a82bb99ed5847816480aae73d476cc5b2d01ec08bb57806861c",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_0.json",
+      "sha256": "dcd9fc77d9b86225d19074a35dc106b4f74d10033dc633c0cc2e8ed3d50d1c82",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_1.json",
+      "sha256": "4161b45a4ebdca74ab42700c265a0ef4a60f36a904c150e0fd6c6cc3ff8f3ec8",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_2.json",
+      "sha256": "9c4504ce7377a49669783aecd4b81fff4fd7fb46fde1636c010950a50ad73830",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_curriculum_0.json",
+      "sha256": "494e4d42fe31451dd205a072d5e44da7af44edf952c9840f41a7e6361fde303c",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_curriculum_1.json",
+      "sha256": "df97dfec1c731edb8afa5514e317251c22f21b4d769c5d89286441c3985bfb00",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_curriculum_2.json",
+      "sha256": "b82b32068bdaf246f54693492d4e72c3cc6d2b756385957d8a484dba368e31c7",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_geometry_0.json",
+      "sha256": "af0f33f751fd38a49991e1859a200c8029cb3ef4f8686054df21e54edeaddd14",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_geometry_1.json",
+      "sha256": "3c1f1da474b4c7df482e17ed9d01fc217a2b6c83c25842dc48f171c2794537ba",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_geometry_2.json",
+      "sha256": "0e69bcb450a73bb9c7cdef247f167175e9a604f3e68e50574ac306a9985e509c",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-FourRooms-v0_PPO_sparse_0.json",
+      "sha256": "de0f09a34e4b16c595b37e2b582f0ee4b468fa7f8340d2cedff8d87f3b984a2d",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-FourRooms-v0_PPO_sparse_1.json",
+      "sha256": "012afae2bfe5209aa3973d917c0f1229474f3c48df26916b014082d351faafe0",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/MiniGrid-FourRooms-v0_PPO_sparse_2.json",
+      "sha256": "a954f1e9a21edddc38eb005a706cc47295914bcc17d3bb23300df39a8e4b42a8",
+      "kind": ".json"
+    },
+    {
+      "path": "assets/rollouts/Taxi-v3_q_learning_0.json",
+      "sha256": "ce5af06eebda3274a60a96c9c92927e358e6c46a450117cc33ff214f3d613443",
+      "kind": ".json"
+    },
+    {
+      "path": "configs/approximation.json",
+      "sha256": "803c0568f543abe8a2aa1efd34f9c8dfc35164090c28a10cdc7af5cc84eef21d",
+      "kind": ".json"
+    },
+    {
+      "path": "configs/control.json",
+      "sha256": "06087d262148a5d32b2dcf0c88a94f5ca9aff8f4b6bc47fefbc0d009e35b5003",
+      "kind": ".json"
+    },
+    {
+      "path": "configs/curriculum.json",
+      "sha256": "acbad8879b17b514a0a275ffc82c33181adfdc0fc872710fe61bea8684730d46",
+      "kind": ".json"
+    },
+    {
+      "path": "configs/geometry.json",
+      "sha256": "bdc21641abec5d15f40245b11483e0e86186c38a2e903a03d0abf122df1269ce",
+      "kind": ".json"
+    },
+    {
+      "path": "configs/lectures.json",
+      "sha256": "f8af348327772db38db73e1db7b78a4f2bb448177b35807d061f8bec408a6e12",
+      "kind": ".json"
+    },
+    {
+      "path": "configs/modern.json",
+      "sha256": "762701ed1b9ba5f692145cd7cfb0841decc1cc382ef5bc021c7a48bdbe51949c",
+      "kind": ".json"
+    },
+    {
+      "path": "configs/neural.json",
+      "sha256": "c34314925f84c265903ddb3f6fc510a24f1ee3f68f1c1cd796dae4541fa0d228",
+      "kind": ".json"
+    },
+    {
+      "path": "configs/offline.json",
+      "sha256": "2ce06d931ec1f59830fae3fb66377c2c86c1b6977d7510869e15a765d8dc3bee",
+      "kind": ".json"
+    },
+    {
+      "path": "configs/planning.json",
+      "sha256": "683563bbc4dcad367e74d6c79da252dd44f1700b401376f86593dc4ad41ddcd6",
+      "kind": ".json"
+    },
+    {
+      "path": "configs/simulations.json",
+      "sha256": "338c3f69d82dfd85acffdd90a3d2782d5cb48f7579aa0a03215e1e23cf1f5374",
+      "kind": ".json"
+    },
+    {
+      "path": "configs/tabular.json",
+      "sha256": "713f9af089c49bd89e8386dd45bfac607c6fc016aa1226b09c831e5ca390c78b",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/checkpoint_audit.json",
+      "sha256": "21bbbabb55d87089cf46ba439f2fe489455e633d7d98011066570ffc831b9aa9",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/diagnostics.json",
+      "sha256": "f65142f95929ae9b20441deb7a897e28125b19f0db4a7f0478fc6d98e457ffc6",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/experiment_index.json",
+      "sha256": "155014b5cd2ac8b30823a8b07a5c7dbbf9c80070121d41417b11566b95e1bb80",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/explorer_browser_validation.json",
+      "sha256": "8959e02e031e8cbdc4dd6ca1a722ac4fcdbf296f8823acd5cb07449d77a88e3a",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/explorer_manifest.json",
+      "sha256": "745e3f9ddbf90943caf86a5cc42d9b923769701b72f42c8c1e214d2ba17d446c",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/implementation_audit.md",
+      "sha256": "7fef112b888c06619b4e95a2ac2077d09e560670b2947960b4ca62d864081f5b",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/model_cards.md",
+      "sha256": "713cce72da8495cb7f1d6ce59a283eaec8e5da96614715df85f9528d30f094e4",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/modern_actor_audit.json",
+      "sha256": "4f67a0e32970f5abac805e0d8a83cb3cd3b8ff325388621a3edefa841ebb78b4",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/modern_methods.md",
+      "sha256": "840ec8520160ccf9dd48e993ae440da8bf8f4e09f52091ddbc060062e966e723",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/modern_validation.json",
+      "sha256": "dadd9acf2f96e3cc16663c2637cfacbbbd56c16916ac4399c0aae0e5083fdba2",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/notebook_execution.json",
+      "sha256": "9f237fbeac9ec2e7981b9d38aff099612992d0e9b0f73a7cb442b0bfa0cad1b1",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/policy_audit.json",
+      "sha256": "0fbc1f18c7e4650c944baea3beaceee43c88999bd3a774f20d7a42ef7593c144",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/protocol.md",
+      "sha256": "b7302823c16e9f61c946c0e6743a35456e64ea2507c534a7f1cde9381edcb204",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/publication.md",
+      "sha256": "13f9b2867e78ad2fdd049cd89c2bbd6ab1f03ff7d6f3d5efe920fc43bb2e9557",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/references.md",
+      "sha256": "31b3374d52820a833e27e63af9cc634d6d2f21a1f777598f153e70ca2071f942",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/release_checklist.md",
+      "sha256": "b106c622aad650d5d2337cc46be608d4a015c0fb7832351496fe282a461cc7b8",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/reproduction.md",
+      "sha256": "91c612ad0a6f1b71ef62d67f6ee488034eb9550901cdc1d0011860b39951f073",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/results.md",
+      "sha256": "fbe745e23dd76fd719b0367e51ff8a2a3d62115d66b384e07c54b1e0767bd8b7",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/simulation_actor_audit.json",
+      "sha256": "66ceeb856e418bbc863980a274ec6f2b8a0e9abcb1db26d6bcc10464f4a89d40",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/simulation_analysis.json",
+      "sha256": "075b9987e12266f8233cd29b8776637fa2cf7757452baa186e1dd3e753bcc54d",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/simulation_baselines.json",
+      "sha256": "752c1ee4f625539a939697980840a98cad6e4b6371ae2b8453ac17831ea4bdc7",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/simulation_browser_validation.json",
+      "sha256": "8d20769fe3358867f93a4fede447c486b7f34ec74bb1ce527c339adfa69aa1bf",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/simulation_dashboard.json",
+      "sha256": "7d42aebc9817b9ef3b0f38632d7c36886ba6c913bf847946e9758aba5f451a3e",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/simulation_gallery.md",
+      "sha256": "b67ea3b16fbabd402fa6ac67c896a0ef4dac8f75de6e7b9050ed5dc936e205ae",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/simulation_validation.json",
+      "sha256": "a35f4b25d3d33cea2d17c3029aceae3a8954ba53958b51492edc1cf4facfe204",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/simulations.md",
+      "sha256": "dfb1cf803a29af3e48d6c86102b36c4c0e761cb9654de375039cf82c15928e41",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/source_audit.md",
+      "sha256": "ba27468acb3c89c01c76d1d02f9b6b82e282445c2143ec3e38d3fec8299827e4",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/theory.md",
+      "sha256": "74f791b0888b86b7aa385c3107043b28ed31f96abe8355a96cd1a42f318f3bce",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/validation.json",
+      "sha256": "472d25ea702f065fa254d6f9537dd9b9c4628248f61d706425e9920951157bbf",
+      "kind": ".json"
+    },
+    {
+      "path": "legacy/manifest.json",
+      "sha256": "065db2ffa6035c0186138edc009a61868eacd4647d448101d3e1c2893eb06e85",
+      "kind": ".json"
+    },
+    {
+      "path": "notebooks/01_wireless_process.ipynb",
+      "sha256": "e2fc4816ef81ec28a052e082731cf4eed613d6b6ab754d4a4ac196609ac917d7",
+      "kind": ".ipynb",
+      "code_cells": 4
+    },
+    {
+      "path": "notebooks/02_exact_planning.ipynb",
+      "sha256": "26b82b9b7505c53d1b7a195f82b306623c0e0849ffeb390ccd0ae7dbbb43066f",
+      "kind": ".ipynb",
+      "code_cells": 4
+    },
+    {
+      "path": "notebooks/03_resource_constraints.ipynb",
+      "sha256": "a829c117504787768cda061dd12b2993705cb2cba69f3c4a96255703ec8a11e9",
+      "kind": ".ipynb",
+      "code_cells": 4
+    },
+    {
+      "path": "notebooks/04_tabular_control.ipynb",
+      "sha256": "9ec262fc99581c763f39d724edb1c026e3347210c73f7b1e2c2c1bcf45976715",
+      "kind": ".ipynb",
+      "code_cells": 4
+    },
+    {
+      "path": "notebooks/05_neural_control.ipynb",
+      "sha256": "ac9f228d3075f4f42ee3b86095b8d8e62668447d5b6989ad65d92ce6b6e14b48",
+      "kind": ".ipynb",
+      "code_cells": 4
+    },
+    {
+      "path": "notebooks/06_offline_learning.ipynb",
+      "sha256": "e4a89dc58673c305ba6af8a1290c66fc58bd50e5ed4924f9dc52feef68a784a6",
+      "kind": ".ipynb",
+      "code_cells": 4
+    },
+    {
+      "path": "notebooks/07_standard_control.ipynb",
+      "sha256": "85aee283af67da21c2a32695c0d2caf8704591ed61bc7a3bf5b44e9a42f53ad6",
+      "kind": ".ipynb",
+      "code_cells": 4
+    },
+    {
+      "path": "notebooks/08_bandits.ipynb",
+      "sha256": "044cb8fb1ad6970a7478e92961d2c67f2a350dbb7bf445ec50c4eb60427cd4a4",
+      "kind": ".ipynb",
+      "code_cells": 4
+    },
+    {
+      "path": "notebooks/09_prediction.ipynb",
+      "sha256": "b8e25c05efae29d6ec5cddec4b817e21ef3e1226cd943e9cc81f91528484c272",
+      "kind": ".ipynb",
+      "code_cells": 4
+    },
+    {
+      "path": "notebooks/10_linear_approximation.ipynb",
+      "sha256": "4d795f9d8eac4d83561f09d3539c7f2dde5d30dc4a14c0a455061bd2bf93f530",
+      "kind": ".ipynb",
+      "code_cells": 4
+    },
+    {
+      "path": "notebooks/11_off_policy_instability.ipynb",
+      "sha256": "43b312db4fa24b4f3450ec74e2545e94e664c234c51c25457cac2246b071fa34",
+      "kind": ".ipynb",
+      "code_cells": 4
+    },
+    {
+      "path": "notebooks/12_official_navigation.ipynb",
+      "sha256": "3d2bfae20f7b9b857e92f4cb68df8366e84ca6086312d612da8b9fcba6ab18d9",
+      "kind": ".ipynb",
+      "code_cells": 5
+    },
+    {
+      "path": "notebooks/13_mujoco_locomotion.ipynb",
+      "sha256": "1e94224c35aaa23bbbdc24edfd0f993fea417438df856ad330cba5bfdf4c0d62",
+      "kind": ".ipynb",
+      "code_cells": 5
+    },
+    {
+      "path": "notebooks/14_quantile_continuous_control.ipynb",
+      "sha256": "304ba3d8f65a32808fe9314acb5322fb89dd9d70d2892e10ba0baac13a6d6d7f",
+      "kind": ".ipynb",
+      "code_cells": 3
+    },
+    {
+      "path": "notebooks/15_partial_observation_and_memory.ipynb",
+      "sha256": "9ca5169adfcfe656417047b537ffc39cdbc2e9655e57fb9c4bba5837c41b4337",
+      "kind": ".ipynb",
+      "code_cells": 4
+    },
+    {
+      "path": "notebooks/README.md",
+      "sha256": "96601fd4fe2ca7674150939815b4c12fe0e40b15ae7e95ab7921dde39d8ac843",
+      "kind": ".md"
+    },
+    {
+      "path": "pyproject.toml",
+      "sha256": "4ae4ff4707f158bcd3a129badea7a94732d93cbeea579e55b1486fa6204964f2",
+      "kind": ".toml"
+    },
+    {
+      "path": "results/reference/approximation/seed0/metrics.json",
+      "sha256": "d37bd450f109c6633283e473418de62b2d111dfa71ab2f56c979a311e0ce3123",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/approximation/seed0/run.json",
+      "sha256": "2d1f49bb506c764bb19f32f5a70c5067f1b86432a13be2e43e0574d285cea256",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/approximation/seed1/metrics.json",
+      "sha256": "49bf9c120b7b477ad5f8d30880b91079a9485a019b63d3cba2d8e3018c40e37d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/approximation/seed1/run.json",
+      "sha256": "1795e5a3d7f64c452c020d544d0f9a9ce8491eaca434d1119672a7a8d2d6f194",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/approximation/seed2/metrics.json",
+      "sha256": "901b000fefafe1afa1eebdf48002b693814c9699b396e822227128e98201080b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/approximation/seed2/run.json",
+      "sha256": "91d96a1d2a0d33301f03f8dcdd96d59182f4b8ebda4d65e62836cca269f063f4",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/DQN_seed0/inference.json",
+      "sha256": "5ffe4d0cea5304f6b026d5d31126adc6016c9bdc780b63984b7f31d925003e83",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/DQN_seed0/metrics.json",
+      "sha256": "4d6bcf5659dcf5f1b8c693b5e7a0794bde45dc5c4151b90aaa4159bc789277cb",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/DQN_seed0/run.json",
+      "sha256": "bc332f8fcb95e2840d59537b86899a0c6d9aea28a9520e0c7c1ca9b46a9e9408",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/DQN_seed0/validation_history.json",
+      "sha256": "7efe99767815374937cd0c04050e2e2bce0c910961f4e907abca4fb300cc0941",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/DQN_seed1/inference.json",
+      "sha256": "3f2158b29192bd8a270fac6f304714b621e871b9075d607b487190fe4a859290",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/DQN_seed1/metrics.json",
+      "sha256": "47f74e2855caa45106de86b7cfa5b368faa46e151e7b402e01a09e3510663b28",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/DQN_seed1/run.json",
+      "sha256": "0b6c3c7ab8eb5674f10c71976da7e3708489b1eaee4a3efaa87f3d558afa98c1",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/DQN_seed1/validation_history.json",
+      "sha256": "b3d511a1d1f85d09830e9a55ca6660e5733860c012103b955b30f8871228b954",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/DQN_seed2/inference.json",
+      "sha256": "4e180d9b8f8042d46ce4eea9febbe8af9b75b31c444b407d8292a04021fc29a8",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/DQN_seed2/metrics.json",
+      "sha256": "c68c95099eaa5a6105d81c17b8c6e69224fdf745932caa26c879e5f346b54927",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/DQN_seed2/run.json",
+      "sha256": "3575b0b4dde42238a30b74d059fe4898f1c1734b4e83bbc777d2d49304814fcd",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/DQN_seed2/validation_history.json",
+      "sha256": "b8ef1ef7c2618bc4acafa49c87ffff62665ef27c3bce4e97ab83b5c127070bb3",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/PPO_seed0/inference.json",
+      "sha256": "a3c30341485e68592feb1440ef2667f79c6a6a44e267f86577985763c56d29b0",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/PPO_seed0/metrics.json",
+      "sha256": "dd2af2cc130738551476673fc2fcf1ae0503212e4b104b5de4c0cb4a7503262b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/PPO_seed0/run.json",
+      "sha256": "f88046dd581ff7e9e534b00fca3ba6f3e7f31b120078d0bcfb3cd49a2493aed6",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/PPO_seed0/validation_history.json",
+      "sha256": "b411192cd9d519967f1e8f3c24a8eec3d742e8bb956150feb9e97c41095286c0",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/PPO_seed1/inference.json",
+      "sha256": "af4491d3b6a14f02b875f7c8c993bafed81a464639b1531d9994d4b4df573602",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/PPO_seed1/metrics.json",
+      "sha256": "d1a7e68cc227554eff5135048a20c2a0e0c638ccc1e81566f0717cbba701c994",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/PPO_seed1/run.json",
+      "sha256": "b6a4d9b1080476d3ae9cda6b6721d484e116de4deaa8905ae3f886b8a0bced5f",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/PPO_seed1/validation_history.json",
+      "sha256": "ab7ae6136a10df12232bc42e0ea385351bff4136ca773d9950a5a17ea6cd0027",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/PPO_seed2/inference.json",
+      "sha256": "b5563b159b76ab1b72b9b8705abf685709fc91a1c55a143285c065ce4b816a02",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/PPO_seed2/metrics.json",
+      "sha256": "ab4d93fa7f0b572b2456a744fde5a0a13c2752f9c1ef007fba5ed49312f2c402",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/PPO_seed2/run.json",
+      "sha256": "6f487c314b803076d2e50d5f5baf3da3ff448bf3e55d3da38b5f6780caa75371",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/PPO_seed2/validation_history.json",
+      "sha256": "cbeb95d6b10b4b747fad68a730ce7e99a32b69038d504094ba90e5b5de331991",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/DQN_seed0/inference.json",
+      "sha256": "0c6d2279bfa6183b1d481ed8d5b2584fb3624591fc6f6949b2c83a7dad4f8cc2",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/DQN_seed0/metrics.json",
+      "sha256": "3a6859aaed68a77a6face158234fd73825501c493f00f5413fa7ef6a1fd211d4",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/DQN_seed0/run.json",
+      "sha256": "0dab9be84c4436eb34f5163b1e01cf84c0465c10555e7a178e7bdc0fea4f2c28",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/DQN_seed0/validation_history.json",
+      "sha256": "7c35e2875e2d8c0d816468d352659edcca5e1e5a9701ab3c19ed8b9adee7af24",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/DQN_seed1/inference.json",
+      "sha256": "cc31d24a68814bcba012833007843ad9e409d55cf7a9f0a5d236f74fd0fa03ba",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/DQN_seed1/metrics.json",
+      "sha256": "7b3944a4e46c00129defca33f929657ed71c21e3eb9fb6f8e9cae0a3b812a387",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/DQN_seed1/run.json",
+      "sha256": "20cdeb532c8789b33a337c8c080a664f7ece406f1ffc58b2049cb5483af14f3b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/DQN_seed1/validation_history.json",
+      "sha256": "1a9d10c5d39f1a9dfade438dfca97dacb507239ae2650d30500b5f565a1e2a55",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/DQN_seed2/inference.json",
+      "sha256": "bcdb7558b2ea3b171f12612537b48166f7996a563848c73e8615f549eb95d0d5",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/DQN_seed2/metrics.json",
+      "sha256": "cca157f7c92c05c0d5a64fe6dcada697e2e635b05a65652d95b5ff9cc382c0fb",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/DQN_seed2/run.json",
+      "sha256": "a6056ad8ec17e9f79913fe57616e2d15e8d82cf4e63b025364bb73a912015c84",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/DQN_seed2/validation_history.json",
+      "sha256": "ff87ef1b0521afa1d1b523dc6df04265b88d5b487360abaa1fca7661894dc0e7",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/PPO_seed0/inference.json",
+      "sha256": "d3ad94bb044e3e21a002e98cfb505d9cf507a68058f18c5a8bb9c223015d5e33",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/PPO_seed0/metrics.json",
+      "sha256": "a4f09930c68fbbd1d11e9546d99841e97cb27850a821b9c7bd42a5d8807dfb35",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/PPO_seed0/run.json",
+      "sha256": "557bf5a144a85ee89306ebb2a3d5a5582f36a91744c9287de7520623575e4e96",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/PPO_seed0/validation_history.json",
+      "sha256": "1e72da2396cf0b60c51cabe883bc0f68be33399ca7de976c687b3cc8ca74061c",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/PPO_seed1/inference.json",
+      "sha256": "eee0419818c0aba4b042a16adcf57a5e09b8d1dc0e545049f60d223880a1d3e2",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/PPO_seed1/metrics.json",
+      "sha256": "d944f8d404b8f0ad608209f4d5ac8d9d43888adb3681f1c7cdf06e60ad101b44",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/PPO_seed1/run.json",
+      "sha256": "11ab84d52c6d910298b23d67292a0e0e0ec97772438a2329312cc4f85c7d8486",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/PPO_seed1/validation_history.json",
+      "sha256": "cc2d8778a4f1989dbedc5456612426fa3e103d791261d854087dfb4f12676f75",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/PPO_seed2/inference.json",
+      "sha256": "f8679a4a69093447fb4450aa38de06acffd7a5cd95f51cbafbd8a30353666e66",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/PPO_seed2/metrics.json",
+      "sha256": "1b092bb43c7afc0bf78c737c782dbabc9242094d1abbeb872ceb70da474f1b61",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/PPO_seed2/run.json",
+      "sha256": "f7937b8b4d41d90c74078a42d1773e0e50914b31168ef44b51eb35a8efb4e0f6",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/PPO_seed2/validation_history.json",
+      "sha256": "02add7d17cf8840d2377e59fae693ea2d64060dd87ed46132c13a560e2f67f19",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/PPO_seed0/inference.json",
+      "sha256": "3e1adea46548c6430ecf76ef3f66d706ac549105e784d7c669ebcffb7a712538",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/PPO_seed0/metrics.json",
+      "sha256": "4c5fca617c16a7a00212a0ab7a4a52e827f1d5ec8bbbf706698f08f0ed8f1357",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/PPO_seed0/run.json",
+      "sha256": "4cfb2a3fb5240482ed5bd09f39caf04e4aa22174ef8f2d82f2037b3c0b426615",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/PPO_seed0/validation_history.json",
+      "sha256": "47d3d9d18d86b64c87b8d6c95336ee84c901901231b66314060237039004b633",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/PPO_seed1/inference.json",
+      "sha256": "6a6139e28ccf36967b7415a8c5dbd6cc745063bb014a2b25a95135afe86c7732",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/PPO_seed1/metrics.json",
+      "sha256": "149ff63a7ebb9635d12edd42d160aef077a0a1cfd1dbcf4fa81d7fe21a296357",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/PPO_seed1/run.json",
+      "sha256": "f4cab66727012fb293ad41ce29f5b9155090afb6249bf036111ac22192ab5c41",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/PPO_seed1/validation_history.json",
+      "sha256": "79184efe94377f01894216ef64c986d1dc7f258a58f2caab8a8be69d00e7551a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/PPO_seed2/inference.json",
+      "sha256": "3e43223a13ce6b05a428048e36b0aa43f7386984a48c2a315914ee2df2ed74ec",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/PPO_seed2/metrics.json",
+      "sha256": "0a9bb6f0f4c7a21c6716adae3fe5cf528994cd1dcdc48386b733ed1f0a114c26",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/PPO_seed2/run.json",
+      "sha256": "98f5561eed6896f8f2d0b63935c6e2c63b3aae81cfc689e17d45fced62a7af3a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/PPO_seed2/validation_history.json",
+      "sha256": "7572fde6947743709e68112a63b74c673af4d4effeda04897336ea453dd82453",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/SAC_seed0/inference.json",
+      "sha256": "36e7f5b779b4d01120b6b662c69fb6aac33a5979ca35401009ffed0a83fc7094",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/SAC_seed0/metrics.json",
+      "sha256": "cd97797571cd019696b530c1735de2ef8c9e053821fa3aa6d71bc4d2c622bbd4",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/SAC_seed0/run.json",
+      "sha256": "6a4c3b6ca6aa2cd637d88d0d14bc164acc0a5131c887d194c704b9db7f469e70",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/SAC_seed0/validation_history.json",
+      "sha256": "5eeed1a713896915f5888bd28d0d3ac9650bf43d427f781c6075467da9a3e76e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/SAC_seed1/inference.json",
+      "sha256": "6a26065130bef63143768ba598b3b87e9b763ff1e28209a5a8798c67c80f273d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/SAC_seed1/metrics.json",
+      "sha256": "8b073d3d4866a5f3b92cd3ae79bb4218c8bcbbd10e2c8f73c43a52188af307b2",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/SAC_seed1/run.json",
+      "sha256": "840782e8168c2e10d66cfff34ac4731f2da6c1fc5e546bb7401cd5f74d091620",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/SAC_seed1/validation_history.json",
+      "sha256": "4ede7d5c696699da4dd91ec23a008a80a9f6130bbe5f74c98a84c018cb7430d2",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/SAC_seed2/inference.json",
+      "sha256": "8bf639031f63c42aa93a1b94a2c70a457c6edd1a1162edbb38ccccf7d7f7f652",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/SAC_seed2/metrics.json",
+      "sha256": "78d93cde48403052562763cf9ee2b1b1bbec334e48425c6ca42327c531d9b093",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/SAC_seed2/run.json",
+      "sha256": "6c3561467a0a9e2d960dbc76ee9fdf2b1d013220c892f10cde622da5bbb4f7e0",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/SAC_seed2/validation_history.json",
+      "sha256": "af36102b86471536f4097b1623bdacaca972967c32372a8906caa566e825e904",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/0/metrics.json",
+      "sha256": "046d1aeb4cb98b05398ce9a93e48dca9ed7fdd40f25baf96a466d7111bb27836",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/0/run.json",
+      "sha256": "698837fafeb18d800017ae6a7217fbd25fc631f4f133a7ee4f112a4fffcddc2d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/0/validation_history.json",
+      "sha256": "65387992912bf2eb2eced585827b06aed611c95e43eaf83e7caa5341472206df",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/1/metrics.json",
+      "sha256": "fbb4f6a9022eb61fd993cb9a923cb73ab92b05b3d690f0dc6981d40fb41d84c1",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/1/run.json",
+      "sha256": "c10fe796e1efbc45830d73bfc13b77450d36a817be0a9ff13108c7e67f448c60",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/1/validation_history.json",
+      "sha256": "91aa24f3f253f06aa0366575319ca7d6d1ea379bf90794dc3a05e35831f5e4d6",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/2/metrics.json",
+      "sha256": "9e3956515dd5f96c8aa8c0605cabe5d697d042e935eb7e95d0c89f7b2d862fc7",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/2/run.json",
+      "sha256": "7e9e67eebde17be64c2d5ebbd63f5ab5920fb3d199638a859753d1311b102fcd",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/2/validation_history.json",
+      "sha256": "3f587addbe0c7dcda64a214d03e3ab8d64d84992bbace90fbe7bb99b8be58483",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/0/metrics.json",
+      "sha256": "30334b94b27a20a740101caac9cfc3ddd42d8bf6f7a183f5f61721a8de83406f",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/0/run.json",
+      "sha256": "35cee007b94c892e607e69fed65d8624b6b5a37dd9605c117c70e0f10a606dec",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/0/validation_history.json",
+      "sha256": "ee2fa4d9e494fae82e54badc670f9d898a4f227fccb5946950d206419fcdf61a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/1/metrics.json",
+      "sha256": "420a107f825ce8a7c455bab24668735751eeeab47930df1fab558939eee952a7",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/1/run.json",
+      "sha256": "f9f332bf015835755a04263fd9a7d1556ac828985608454fab05f220bff653cd",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/1/validation_history.json",
+      "sha256": "d742e6f596527962f7a418163ef796a3a8fcb529c4c7b43f78f8886bbf4c6369",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/2/metrics.json",
+      "sha256": "c63698fc2c3216f56984293c9f3e91d262985ec16190208cd38e7610e8106747",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/2/run.json",
+      "sha256": "286c6c259b637b3e462b595c497ef125f87a5d31cf5bfa0fafca144788e7130e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/2/validation_history.json",
+      "sha256": "a7e4bb504d2748c3e0f434fc78abb966ec36efde03a9ae35c92ef56e67c79a0e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/lectures/metrics.json",
+      "sha256": "82901467ef8f7fdb6f3c1862665026642437a98d8ae7473cd75a635ba1ce3037",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/lectures/run.json",
+      "sha256": "2b1b4c68555a919bcb446ed9795d7a927aae21f035c5f5acbfac0202d7e671af",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/HalfCheetah-v5_TD3_official/0/metrics.json",
+      "sha256": "7b97a9da0ba7df39acc8a1c4ba19384addb257f2a4e312a2eff8249afaefc618",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/HalfCheetah-v5_TD3_official/0/run.json",
+      "sha256": "1b58d7aa2f76b9c5dfdb7cd8fcbe5423fce095edfda2360dd16d85c666003132",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/HalfCheetah-v5_TD3_official/0/validation_history.json",
+      "sha256": "243c6cbbb6ece438113c2b6f7d6b8a9dd20770d3f4e741ba5330ae6ac0b164f9",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/HalfCheetah-v5_TD3_official/1/metrics.json",
+      "sha256": "e64425c104eca4edd57c9692f1f84f625da51d9d57060cd924089cec39751ffd",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/HalfCheetah-v5_TD3_official/1/run.json",
+      "sha256": "49d1a45420c7ff016ddda9acc1d16ff21dd0b58f6e1f998fdd6ae194c193500f",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/HalfCheetah-v5_TD3_official/1/validation_history.json",
+      "sha256": "00d91a0b96c2c3ac07ffdf10ad9ae319e4c950d5b597f1b80090e1da1a6f6992",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/HalfCheetah-v5_TD3_official/2/metrics.json",
+      "sha256": "ccaf20f936fb618cdd46d2262287e8c6ea5f41236742f1957bc434051997d70d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/HalfCheetah-v5_TD3_official/2/run.json",
+      "sha256": "a6a7b12e629db821bd93b2871bf79b359d147d5a72b5f208d6c4fb762af8d651",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/HalfCheetah-v5_TD3_official/2/validation_history.json",
+      "sha256": "b27b93704dcf3eedec3d417ae378a0a372fb04296945e5ea08891d8032f2ad47",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/HalfCheetah-v5_TQC_official/0/metrics.json",
+      "sha256": "67595befe4a2998e6c5cd6d8b1ac3eb37132ae0c952b9ad1539b0859a594e82e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/HalfCheetah-v5_TQC_official/0/run.json",
+      "sha256": "1d6d2119a360b0781cb8b1b65ceb09da771e7aa320a0821a610de8eda409e51a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/HalfCheetah-v5_TQC_official/0/validation_history.json",
+      "sha256": "df01d31560b651e0f2099e9e7cbd82b4ef9554562b81f8f9fefb4dae2ab25058",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/HalfCheetah-v5_TQC_official/1/metrics.json",
+      "sha256": "0d4462a2e2ef1d1a0e1dde09c99f43540d5861029eb85d6fb16bd1486a2b1a97",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/HalfCheetah-v5_TQC_official/1/run.json",
+      "sha256": "35841a49a018ec23529075fd4b24349addfa04da6afc8738ade0ae9ab756c00e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/HalfCheetah-v5_TQC_official/1/validation_history.json",
+      "sha256": "8e00537addbe6cb354bd22c6132a89a41f2d6fade5b56728c05a1cb4022f2b9a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/HalfCheetah-v5_TQC_official/2/metrics.json",
+      "sha256": "e58b6770474099c0e57c4e74f31657e05fff7619518968b6fb23157a1c15181d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/HalfCheetah-v5_TQC_official/2/run.json",
+      "sha256": "428717ea8f71a38438018cbd7066c44850db979d0605b7ebfc7e2b657851bcb4",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/HalfCheetah-v5_TQC_official/2/validation_history.json",
+      "sha256": "dbf7051f7511691d5ce54ef07ad033a02ae4aaadebe8d098791fba25ac98fa70",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_PPO_partial/0/metrics.json",
+      "sha256": "8d0c70585e913ccab1c1fec0f147699eb5db54647141fec0b7ec309261371afe",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_PPO_partial/0/run.json",
+      "sha256": "64da88261a581ae04cf12ee32ced2fa076f14bd1e80403734e0c82295d7975a5",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_PPO_partial/0/validation_history.json",
+      "sha256": "5c05d694356574a1acb88db211b913fd6ef7a3a9c5951428fda8159c18a6b376",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_PPO_partial/1/metrics.json",
+      "sha256": "25c369faee90677596318269f8898fe4c48fa1f11f81d8586a76ad6071b30a23",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_PPO_partial/1/run.json",
+      "sha256": "076a21cc5a39d3ce04e243085cd79cede208e2b4072ba557db629640823076a0",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_PPO_partial/1/validation_history.json",
+      "sha256": "5c70b568a7ae629ee2aae270621aa5ef6b27615d0a1776f0170bc6e41356b203",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_PPO_partial/2/metrics.json",
+      "sha256": "32ab0780934332d109e6ad90a32e40876c88e2edd0e89d18e2e1dad88721e4e2",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_PPO_partial/2/run.json",
+      "sha256": "441302773c933506f00c90b2d801101468e7c3bf0f83c36c72c62a08219b0058",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_PPO_partial/2/validation_history.json",
+      "sha256": "7b9a55b3268f0464eb45977875a3af5f67f83132bdaaf29d5e4ec14990939fad",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial/0/metrics.json",
+      "sha256": "5e5f3c95d3bc9ecb0a5362204f76cc0a0a161fa9f1ce831884afedc10e16612b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial/0/run.json",
+      "sha256": "18050837e0ce9ea3dbbc2d7931e26ecb61cf8e7b65554bd0fa175bf2380533fb",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial/0/validation_history.json",
+      "sha256": "119651c99c379b221208ae1ac14cb531c1ce57bbc4c2b4c64f00cd74b181d4b3",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial/1/metrics.json",
+      "sha256": "9223cb55dbbf75ea0d3a9259890f2e476e0bde503def8d7e5980fd9d56838fd9",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial/1/run.json",
+      "sha256": "a463830b69d1eceb2fae3ee2f33bba6507cb28f8aed0db1e833cf10b5ec6b6f8",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial/1/validation_history.json",
+      "sha256": "771ee1d3266e50b8f612d44361e70eff7c59cc8684e018f146da529fa5a37ac6",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial/2/metrics.json",
+      "sha256": "b5e25a9c22ef9a38f1f7b8b36677aad0206f71a2f0bf23a35af10b6d286825cb",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial/2/run.json",
+      "sha256": "9c70b3a9343e07c7a2d5c56b72aca60c0ef664cf9aca31d0efe430f78fec9f8e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial/2/validation_history.json",
+      "sha256": "95a45ba3ed890b59896e14d710e33b3f7d05816acfef0581eb7898da3db807fc",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_PPO_partial/0/metrics.json",
+      "sha256": "bd9642dcca53dd3950cef29d4607900521e52cbc42178ae73a0b68dd0a846487",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_PPO_partial/0/run.json",
+      "sha256": "8b5c62dd7071dfb168f837094bef9dffd9164dc7502d6192a7730b15f234c33e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_PPO_partial/0/validation_history.json",
+      "sha256": "96e75d90f35108721d3f09e3ffe50b75358327595d5664d882d3af84b1d7943b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_PPO_partial/1/metrics.json",
+      "sha256": "c3621f7e72222904387b15af456e09685e2f53632e1f09cccc8c77dbe1c7c062",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_PPO_partial/1/run.json",
+      "sha256": "d3c97b1cc357019c9063aa3449fc8063f82e946064c0b61d2e384fba42bf955c",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_PPO_partial/1/validation_history.json",
+      "sha256": "ab2b8dca31d629b1e83cd07db7493635431580cb2324bfdaad1fefd64d9d64b0",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_PPO_partial/2/metrics.json",
+      "sha256": "3ed0b9bf10146c3dc25f0f814e4ba108dbd368b9730581be2ab2bc360268f2b2",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_PPO_partial/2/run.json",
+      "sha256": "17e8e55cbaa292a45fd16416c62ce78160e75f37f476fb91984836f4c682effc",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_PPO_partial/2/validation_history.json",
+      "sha256": "4d1753e9790551a4ce89a63a30e01b5ffafe6500454b2a208c2b5615feb8cabd",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial/0/metrics.json",
+      "sha256": "59d009db06f95e2864789b398540684b2c5fafdd5e6af24cb5d776f3e114ac0e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial/0/run.json",
+      "sha256": "748e80c02532cacd0f79d836c7682c74531f0823d0737fefc2f50d562d37e448",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial/0/validation_history.json",
+      "sha256": "371bf6cff3a123e108e4952d45167c51aa7849015611ff68901836b68020aebc",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial/1/metrics.json",
+      "sha256": "33b58293cff48bac3025d31ea10fd7bf6b3b0f2cc32bdd6e11a3507bc48a018a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial/1/run.json",
+      "sha256": "67f6e8f3c76c08d117d0bf50bbd9b9347ce62eea73b3b231b7f496746a4a4c03",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial/1/validation_history.json",
+      "sha256": "10046ff0b9c433b5c1a0a74bf2c996ce145323b1089d097ebd99589c651e4068",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial/2/metrics.json",
+      "sha256": "5860df4b28ca16641f450cbae170323ce77bf33a3a9acfbd780664bbb1d43bdc",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial/2/run.json",
+      "sha256": "7c7ba0a554ebaa3b8b453d777ec72ede807f6f4fdba939913a2ff09170fbcff4",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial/2/validation_history.json",
+      "sha256": "447b65ccf5fdfb5934659c2816db97d5fac8a398f38c521677391bf4704e65a7",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/double_dqn/seed0/metrics.json",
+      "sha256": "5b8201d0ae65717335a7dfcf92ef11d53f9d6825c67357ec65b43497d45dbb01",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/double_dqn/seed0/run.json",
+      "sha256": "a4b84e88a45950900efed9151722f07c7902d7c52449cc3a521ebc332cee12b3",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/double_dqn/seed1/metrics.json",
+      "sha256": "217253584732fbb29526af9a04a9677411b0c9e2794ce2601f374e91b6ef5081",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/double_dqn/seed1/run.json",
+      "sha256": "28696b8bf3a07699c030b95922dbadec2a155ef548e9beacf907e36e48bcccd0",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/double_dqn/seed2/metrics.json",
+      "sha256": "33becca8ebe1087357374ecace1bd9848ee3d582b971c64ea7c4946c896d0c61",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/double_dqn/seed2/run.json",
+      "sha256": "5f07537eed80e03f6be17c8e48a3fda88ac81ab71c19b58b4a8e87df481feec2",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/double_dueling_per/seed0/metrics.json",
+      "sha256": "aaeb6d7e9a916b5756459d99da4457294721cfe96a856cbfed1a6d041426a354",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/double_dueling_per/seed0/run.json",
+      "sha256": "495518ac3e645303f8188b75ac6e2dd6176b2757c9da3cbee7a1480b651ef354",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/double_dueling_per/seed1/metrics.json",
+      "sha256": "839fac0aaa9f68ebcb5d1fec82cd31357533c566b1050fde2d5e01a065b74cd5",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/double_dueling_per/seed1/run.json",
+      "sha256": "fa7c56ebf870cd6bb157ff94b8bbc14f11912b244b1bfb0d1860935dbac93d3c",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/double_dueling_per/seed2/metrics.json",
+      "sha256": "e1d76210087ab86af8cbd730b860ea96242bac30dd9777045168c7944175a0dc",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/double_dueling_per/seed2/run.json",
+      "sha256": "4070fb44054efb1ae1cc8b2be2693b4d94d4c4001917471e46fe070b8b7ebd48",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/dqn/seed0/metrics.json",
+      "sha256": "e32d36152b5e6b48a907767d9ce337086754c1951265cbef5512d628f8237f53",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/dqn/seed0/run.json",
+      "sha256": "4ba3bd22dc8be963b2e9063e450aa287d6261ceed96698972534c4ff1f8744ff",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/dqn/seed1/metrics.json",
+      "sha256": "a83334ad8b72f14a6619512db4043be4c4c09e8f313abd6b96c7cc95266564dd",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/dqn/seed1/run.json",
+      "sha256": "8cd6af1f72180966e362897bbda1f18ecda070316ab4b8d2457046131013c9a5",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/dqn/seed2/metrics.json",
+      "sha256": "e8e03daf57ad13e17f4a4769f21a92a5e7f157e1108a96930b8a9691cbca4194",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/dqn/seed2/run.json",
+      "sha256": "7f362d0421f2ba6836d91eb378cfef2a29ef6434291cc3f23e5f9ce3ec9a24f4",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/qr_dqn/seed0/metrics.json",
+      "sha256": "6e84c71a530e8bd23f50289c722096c19beff501ee8ad24f125e6f6d7a248331",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/qr_dqn/seed0/run.json",
+      "sha256": "cc8cc7246d96bfc9af1c36b3398b03a339125088007996a439878bab599e738c",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/qr_dqn/seed1/metrics.json",
+      "sha256": "f10867f77b501161470827aeb8da5b7dd0cd2f14583e90ea5c588c1a03857181",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/qr_dqn/seed1/run.json",
+      "sha256": "7d3957bbeb94b9a588b8f4e2ef9e3b0b41c69fc87c70b1ece71ec7b332f7bdf7",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/qr_dqn/seed2/metrics.json",
+      "sha256": "f6e34e1b98a94905958a21bb69cfa1fa1c04c7e08ed6c5a65369e7c4f94806d7",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/neural/qr_dqn/seed2/run.json",
+      "sha256": "e5ab930577b0cac5f5ba1ced63cdbc0aa609c9cc26aae09fcaa99a3295a09544",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/bc/seed0/metrics.json",
+      "sha256": "b022c5554e65277292c10e29ed82319b01f05657739070bd7b6d8135d6172267",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/bc/seed0/run.json",
+      "sha256": "af7ce0c171ebc29a9ae939bb0c282f0082f379b37bb95ec45e5e28c2a42c38e4",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/bc/seed1/metrics.json",
+      "sha256": "2026cfd1e0d831fc00c07c4e1110c0547c7d0668f4cb69f97988b5fb682c8a05",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/bc/seed1/run.json",
+      "sha256": "fc77a087e10a38fb6e52a59066d1c0e50ff35da44375ab25c1fb7d82b9d13e7b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/bc/seed2/metrics.json",
+      "sha256": "8d94c39cf073fc7c15ca2cf7b28b17b0ed6359ef29d04a22e383ec9f25165570",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/bc/seed2/run.json",
+      "sha256": "0cb807a8756ce7146b88db5792fef93e49f380db568564817fb6899e9c6f9074",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/cql/seed0/metrics.json",
+      "sha256": "8d9dd93b4382cd522fb2805e6271e6099d4e0c8b374a80ae594c52304fbbba52",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/cql/seed0/run.json",
+      "sha256": "1b7d399415d94e55d9a2ddbe683ece4b931abbafd9d8672df913304200d24629",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/cql/seed1/metrics.json",
+      "sha256": "dd42090bc5f4ea62ccc7198abf7777a6e9c55344cc19e0f099ca8c539481ea98",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/cql/seed1/run.json",
+      "sha256": "615b1c081ff993acdbbd63bd501854838fdb517d1fa0cd7ecde94b6e661c2bcf",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/cql/seed2/metrics.json",
+      "sha256": "4d46b4ced6376cccfa3a3fed889592ca8488744c8120d6f3c8e64aebf7b7a114",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/cql/seed2/run.json",
+      "sha256": "228952fd0a2ea2c1890d211b563116a87f9599904f372423d92428aaf776abc1",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/fitted_dqn/seed0/metrics.json",
+      "sha256": "8dcdd2a4903b4bee42cb5ffcdb5c78768134c749fb2f5302ed4989442eeb0e6f",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/fitted_dqn/seed0/run.json",
+      "sha256": "666cb05167ca912bb7e2fe5e0d0a09bed2ab714eaf0ce067dedd1586c567a530",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/fitted_dqn/seed1/metrics.json",
+      "sha256": "b5893fddb9a746359682b9169b351ad7ee84ee8115830e26dd298d18803ccffd",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/fitted_dqn/seed1/run.json",
+      "sha256": "69ca54823954dd77183decbe7b93a24814a561d9c839dcc72b9abf64a3427189",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/fitted_dqn/seed2/metrics.json",
+      "sha256": "d8f630fb5d796c14b3ede5546e5c379e83c1f70533befea1a22f24ad0342f9dc",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/fitted_dqn/seed2/run.json",
+      "sha256": "25f9c6cf8cf1a0c3396fc1215cac20a10001ae0984b27b94ea2147e068651e4c",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/iql/seed0/metrics.json",
+      "sha256": "69cf91d1b476891fc1584528bcfee95f19085b92507287c06f803939c468a811",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/iql/seed0/run.json",
+      "sha256": "253c09808cf21a51881b73f1d4c93f3a5f44f7831c692fc9fb6fd5a263650f58",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/iql/seed1/metrics.json",
+      "sha256": "3ce4e93dffb82b8ffef417102e0c69f99da4ed7f9e5f648d9955185fafc0df64",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/iql/seed1/run.json",
+      "sha256": "fac84ddc816163c5473f5e383ffa22f5cf1a34a2288c0c929424329f45285cf5",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/iql/seed2/metrics.json",
+      "sha256": "1876671f34e7dd444b60425db72fd5849ab5e97b6946ded9ceb19a3bb1487d9c",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.05/iql/seed2/run.json",
+      "sha256": "bcfcdb34cbf929a07d6754521906fde943a422f00559be6899181c154700e124",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/bc/seed0/metrics.json",
+      "sha256": "2616d970ab1af65d79af9cfcd6b76740e4d822424726179cbf2d75b13e483b0a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/bc/seed0/run.json",
+      "sha256": "b156eed2c51cdff00c56810346c103b227918e2bf597e5d1f464f9187b6ea9bf",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/bc/seed1/metrics.json",
+      "sha256": "5f7b385fb9e70950cf46b705fbe4bd8be483825e90ecc66bd1a460b7a63e9127",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/bc/seed1/run.json",
+      "sha256": "3f1ce68fca5ea0bb51a460eaa32f44eeee48073dea46db931dbc39c93fbe9507",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/bc/seed2/metrics.json",
+      "sha256": "c06cebbd702a6a34333bfac7a0be15d676343edaffb784b667b87beeeec48ba9",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/bc/seed2/run.json",
+      "sha256": "159c72cdb964e4ccb9803d9c6a02fba1e27db92392124fce3ecc5ae02594107a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/cql/seed0/metrics.json",
+      "sha256": "a0056716ec6a461795ff8b8109b9f4d117ede0b2687d4ee17d455b19d81c04d5",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/cql/seed0/run.json",
+      "sha256": "49a2a1da7a210e8ff6f8ba7ecb9f6e8d010081c4d00c6568556fe50e0fafe633",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/cql/seed1/metrics.json",
+      "sha256": "77770ecb71228d7d20c8e1bbeaf0bf7309a51430f516150bcd12a1dc8bb8199c",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/cql/seed1/run.json",
+      "sha256": "7b04fc8ad2e2500bf660b9625a5f64c7c0e26220a89a00282dfb60f343f81e76",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/cql/seed2/metrics.json",
+      "sha256": "3e3f728a7018feea09eae6726aef924e9afa3e41384f6970c0fcc45d3f063260",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/cql/seed2/run.json",
+      "sha256": "58f966478e03a256579d5dec6feecdba4d76834069fb7b18ef3b0790c531230b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/fitted_dqn/seed0/metrics.json",
+      "sha256": "c2db3f6febc3ba6e4f8f52937ad08af2c9f7b7a4623f5f043111cf5d40013d88",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/fitted_dqn/seed0/run.json",
+      "sha256": "24c49664d78430431f496339aceeb4657baf084b6bdd4f4be2a16534f8cf0302",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/fitted_dqn/seed1/metrics.json",
+      "sha256": "23a774bb2be69ec09960ddaaa895b740436e87ff7ef5398dab99f2b591e1b8fd",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/fitted_dqn/seed1/run.json",
+      "sha256": "841fd040f994931fe837cb70b597a76bf9ca63973d04b3a3193a6cc6fb4d92bb",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/fitted_dqn/seed2/metrics.json",
+      "sha256": "ce9bd193089bb97774916a79712a58bd6a8e1867f478ce831027f823e4058209",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/fitted_dqn/seed2/run.json",
+      "sha256": "2abff5dd13919581696891e57393725cad6ea6e9fff9c3ac3eb30eef455c5eaf",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/iql/seed0/metrics.json",
+      "sha256": "987017c7ef20926c735deccf57f12baef8d3f003ab6e7a350403358288fa8597",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/iql/seed0/run.json",
+      "sha256": "c9a1468600e9b5e4a14eff508fed4e613725661be405820effe79cc8ac3be3a5",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/iql/seed1/metrics.json",
+      "sha256": "1281152bc894a49df10e5300dfa68fe0de06e07adaa7b94211ee397c55923bab",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/iql/seed1/run.json",
+      "sha256": "cf80d1c6c3eec4a98ba0fe5b010a04fa5d3067989c69d3424343a4cc630b9d43",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/iql/seed2/metrics.json",
+      "sha256": "c8342fbc656089a3a2af65688806ba72936de8f9be376ee21beca4e11a73c4d7",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon0.4/iql/seed2/run.json",
+      "sha256": "d2adf52a58dc996c4a4b20ed13d30d4479977a8d052b6807fa3a0e1a32bc5c84",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/bc/seed0/metrics.json",
+      "sha256": "be24bac29f1af78c728f9e4a53181695ac80f8d6cf516be3f43a974240fc8730",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/bc/seed0/run.json",
+      "sha256": "30db70a716ec02bf0430f280fbdb4137d035ece1ef586a2f8fa59727512d9b11",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/bc/seed1/metrics.json",
+      "sha256": "7a5f6783b6080366279c398ac0d6cb3face2ad3249a696f20bf171416c209544",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/bc/seed1/run.json",
+      "sha256": "db943ffa85eee89bd8764c51afebc94084fddddfccdb1df01d8269f1e006759d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/bc/seed2/metrics.json",
+      "sha256": "8692dcf3d446c15cf4680435d1f626a7845c6629df8fe773ef37a9875ab21a8a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/bc/seed2/run.json",
+      "sha256": "4a830eda258ae00a20d0075b3fb6627a8aab091b41673cfd9fa4c6eb3609af6d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/cql/seed0/metrics.json",
+      "sha256": "3a76bb8028c835c85896b02dfddb45d362c94446ae36e595e12bb4bd2c57e582",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/cql/seed0/run.json",
+      "sha256": "9e1f326ced336f1b8caa198566003e2e956c416cd45a119b3588cb3f27660deb",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/cql/seed1/metrics.json",
+      "sha256": "f989b084e53f3504e1a9a7ed83652184562108f204a50820df0753ae3ae82626",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/cql/seed1/run.json",
+      "sha256": "5262978df60a1aaad950a9811b19b143212038b0a251cc2a0e04bd6f77d6615f",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/cql/seed2/metrics.json",
+      "sha256": "07aac581279e6183933728768b1e5d780fa7e5f4d6a346e9968dbc534cd6b4bf",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/cql/seed2/run.json",
+      "sha256": "3be10d3ed22874e1f49148a21919baeb03f25f1d442252fa798b8012f796fab5",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/fitted_dqn/seed0/metrics.json",
+      "sha256": "f8d10fee2470d7b9bf8fb36dda538a58cebed381a09032d266a7176ac8059c68",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/fitted_dqn/seed0/run.json",
+      "sha256": "80cd3a2426d396e08c7790dd7173d16b44d65ec47bf1289e79cff02fe375aad9",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/fitted_dqn/seed1/metrics.json",
+      "sha256": "a07953f0a8141eca479b891e8dcc4cfe010ae95264235f4031f6b0e28dc1ebd9",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/fitted_dqn/seed1/run.json",
+      "sha256": "09968756bb80fedfc4cc27e07509fa31c889a5376eef117afd61abdb9e83088a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/fitted_dqn/seed2/metrics.json",
+      "sha256": "da9413ec7e3bf5db08f2d0dd318cf7dbe8ef6b0f28b68685c5f3f62996393b5d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/fitted_dqn/seed2/run.json",
+      "sha256": "0e6251b1452696c12fd7425fe87524ae89f07959b403b297297e2a32f205c781",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/iql/seed0/metrics.json",
+      "sha256": "69358448ca595e0da731d2160f62fd0cf29920b1f06184696b0f5083e9b7631e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/iql/seed0/run.json",
+      "sha256": "3e81358c3a298f2c617d6fb87ad840d21010ec6ca0f64cd63f15838e5b9c29ce",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/iql/seed1/metrics.json",
+      "sha256": "f1ca6030347110984ee68cb689ae538d6272360ff8be66b4d29604bb2505c197",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/iql/seed1/run.json",
+      "sha256": "201743bd5679d5a91f628bdd426ec46ea0ee4af820da7a617ce46f736ebfa5d4",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/iql/seed2/metrics.json",
+      "sha256": "a557c9dba9d2655f46cc74aeb8967ff93a8be99a17a7eeda3e56b41eab6ae68c",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/offline/epsilon1/iql/seed2/run.json",
+      "sha256": "f08f677ede118a9dc780ee5a20eeb443d2e201bc0fa53b510a6c2df3f880cc26",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/planning/metrics.json",
+      "sha256": "beb6db5dbacd60ea9d66774c27013f7028d313264b87ff68a465d2be0fa4d3f6",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/planning/run.json",
+      "sha256": "b46687dcece96da9d2cab2fc1fca63ab33a2ccab599a9d831df2bfdf4a4abe6b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/HalfCheetah-v5_PPO_official/0/metrics.json",
+      "sha256": "532154d13865f3e60ad632339ba8cf54f8c7d95478d8761d5c2fc83f33b3b6d1",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/HalfCheetah-v5_PPO_official/0/run.json",
+      "sha256": "91130fa9b96b24759231df217d63dfcc8fdd59ea6fcef59c5d6f87285a8170c3",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/HalfCheetah-v5_PPO_official/0/validation_history.json",
+      "sha256": "86145f91371cd79988a496618be4275cdeaeadaf67abbcb3490e413d322aeade",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/HalfCheetah-v5_PPO_official/1/metrics.json",
+      "sha256": "92d7b5b5b529a0c4c77677409d5a4919c176dbdd421b86851c649b0295c0b6a5",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/HalfCheetah-v5_PPO_official/1/run.json",
+      "sha256": "ee9adcad9193dfc79ef70953c1727e4fe8c95bcd7906f214623fcae139a95c72",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/HalfCheetah-v5_PPO_official/1/validation_history.json",
+      "sha256": "cc428d731b179efa8915f93c42db87ff68f0897aec4b3f41f79aae2439ed22ea",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/HalfCheetah-v5_PPO_official/2/metrics.json",
+      "sha256": "1e2501ea860796713b41641d180e5bf2be883151c8ea39821fbf8c174c69bcde",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/HalfCheetah-v5_PPO_official/2/run.json",
+      "sha256": "9c62925c578aaa5068774eb52454c4bf59ceef7276614143bae6561431f4a7f1",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/HalfCheetah-v5_PPO_official/2/validation_history.json",
+      "sha256": "d0a1f8ab175afe615cd47fe043c2a3c038325371e3f882c2e96803f80cdcf6f3",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/HalfCheetah-v5_SAC_official/0/metrics.json",
+      "sha256": "e80507c79386464b0c3da6ff0abf6df04d7fb4fb70ecd9cadef5de92f8b7b6e9",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/HalfCheetah-v5_SAC_official/0/run.json",
+      "sha256": "b68b6e400575e6e3a8f754250275cbd45b535d743031eb41d7adfec748b20f00",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/HalfCheetah-v5_SAC_official/0/validation_history.json",
+      "sha256": "2439e1f2c85dde80d29180a0a0f568fc126af830a0c85f9e0e045fff52a22c6a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/HalfCheetah-v5_SAC_official/1/metrics.json",
+      "sha256": "2863bed1ebec9a00d9c064f59b596062d44268519b8c1dda606fcbc50e71ffa8",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/HalfCheetah-v5_SAC_official/1/run.json",
+      "sha256": "894956ade6a47e72ea218b9bf3eae4ab9efa60d53a472a5946a9ebfdcfc70fc4",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/HalfCheetah-v5_SAC_official/1/validation_history.json",
+      "sha256": "37d1687e87bbb270fd0899449f499a45d906cc9f40a127b75dc926a66b849352",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/HalfCheetah-v5_SAC_official/2/metrics.json",
+      "sha256": "ead37ee0929419bc70528f48c84ce6664072492daa91da0b0346893d75dbc3c2",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/HalfCheetah-v5_SAC_official/2/run.json",
+      "sha256": "b87e703a74d48e537d93a106e9f8e68e1d0d30c469fbeaf824cd49556eca82d7",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/HalfCheetah-v5_SAC_official/2/validation_history.json",
+      "sha256": "d4bc206f36eaf3273ccf6108607cbc84bd557bc988395a8c06d857e5bb5ddf2a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/0/metrics.json",
+      "sha256": "5206c64fb852db463088d43e9a8f47894e5ad08e479797d98e2571130be4b06c",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/0/run.json",
+      "sha256": "e8cda915fdd4c4fb3ebd23cf8dbb4f3e379751f3d2f0b82996112821332c56a5",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/0/validation_history.json",
+      "sha256": "2bee8acf222d1dfc44362c4947d12d1c07f77a826827e392c789072e7d245883",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/1/metrics.json",
+      "sha256": "edc6664f93566f566719040ff0b376a2f00c59fa334fcf54fa81d9cc3b2c9685",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/1/run.json",
+      "sha256": "4ceaaf26d2ed67db45b5d91b54b640a5e4adce927e1ff3bd8db5680b6171d737",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/1/validation_history.json",
+      "sha256": "c51423dde29f982890cdc43d722ecd219b5658ccbbf40bc7373bf6c3a971dba1",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/2/metrics.json",
+      "sha256": "2c29fa34684e3cdb31c03abccbef65dfdf4d596f29a3c2c6995fa69ac8f14981",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/2/run.json",
+      "sha256": "7900f91e5a7f1f50c97e263621dd613f59089af194f96ea08524640acf027d27",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/2/validation_history.json",
+      "sha256": "bbe26bfe406b55dbceaa470acbb3fedeefa7cc615b9570c5b247aaf390f84866",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/0/metrics.json",
+      "sha256": "0a7d0238e0db50b073bef275b0989ff9c0aa70c93ee75c36d26074694e257244",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/0/run.json",
+      "sha256": "a9b736a63329dbd368fa88794be15dced8b4b7ce328cc707e6634311553586d4",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/0/validation_history.json",
+      "sha256": "98875db4be06e2db7245b5b74e61a16af83053e0cdbd8f95b71a97b9de1cd6cc",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/1/metrics.json",
+      "sha256": "d4eec6c13291c5c09bec523f8d7626b513380642c2958e6c8031c0fe76000c2a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/1/run.json",
+      "sha256": "fe6c0bec86c6876a8b93f9b28081df5f0edde11fba0f7122a0c2578d4f480f11",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/1/validation_history.json",
+      "sha256": "38824715c2f71dae3c3ad5d16128546ae6dcdeea36b2c2b3fc895092c9e88b6b",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/2/metrics.json",
+      "sha256": "385ab175424bc7601da4414f1a7f4461a1f36fc6c6d9e1830598684f0684adcf",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/2/run.json",
+      "sha256": "18c18750fc4989b99af794000654c3b65fd239e27c0787bf80e5d9bf6e92583e",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/2/validation_history.json",
+      "sha256": "6698e9c2af3bbc12ca611c6dd1d09f6ec0ec818f723355a0f162e2505e42595a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/0/metrics.json",
+      "sha256": "a8b70996f5a4cb7acd120447c6fc4a23dbd0f16b7546a5a6f65927764b104da4",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/0/run.json",
+      "sha256": "1585ad052c54c13f83d6b4f3a50e3a947ddf46ddf3d962289fbb64874ec0240f",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/0/validation_history.json",
+      "sha256": "be9d5833b7539ecccc12fe097c81f8a772ae707505b54b37471c034c381f17e7",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/1/metrics.json",
+      "sha256": "fe0aa67d3a25d7dc5511ea654a8fe5ff0fbc4f46a62e80971ea9a50934cc42ea",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/1/run.json",
+      "sha256": "8f1cdb85234123198c6f856e726bd1c1dabe9f2f2e37b98d369da91225e99edd",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/1/validation_history.json",
+      "sha256": "03b6c9bfbb3d5e887b5e8ae9024b3d21a043e47ebfeb2ff1cf8e36705b33dd15",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/2/metrics.json",
+      "sha256": "31b67201108f21127c87dfc433685205470b48101e6b996d288dd58f7113b31a",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/2/run.json",
+      "sha256": "9ccc788ffa15640bd668ae696212ddf39a14d93655e5aae4b6787cbbc7e412d2",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/2/validation_history.json",
+      "sha256": "320ce57af4b428552318590c0761c0de0a2d6d9b2cb0fa92a319d284a271de7d",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/0/metrics.json",
+      "sha256": "f28fc091b629bb1f9e4f4ada3b628172f9a9be6a22547401a90dbc0d298594bc",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/0/run.json",
+      "sha256": "bcdabf784c4e264c3f5112d00988d872abb53653ac286708b0c228fe864fafae",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/0/validation_history.json",
+      "sha256": "43eeb77cea0e808d2a58564dedb82eae60421bb14c358e7b9a0b7a7d7806b9ca",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/1/metrics.json",
+      "sha256": "3428d394d9680c9f65de4e83468b1c75b8284ac139c6269fd3a50d3a828c672f",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/1/run.json",
+      "sha256": "7aadec8ddaede3e3175a16e6ceaa9f47768d2b3054b772d0056f1a290ae6e89f",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/1/validation_history.json",
+      "sha256": "64a09844e552233225c7043630beb3ff687464f884d292fa7f4e6321f2b21789",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/2/metrics.json",
+      "sha256": "adaf0e0178817de0916f859c7a275a872340f759cf99288f2720f983c1482ffa",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/2/run.json",
+      "sha256": "aa56d1d52f2943b51a8d5d6f7d094fc4300e6abdeb07397c679ee7930915a6c6",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/2/validation_history.json",
+      "sha256": "4f2f78130820e2f62260b1fda7d4f12854ba43507757cd64b31193d7094e65d4",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/tabular/seed0/metrics.json",
+      "sha256": "18715253184ef72d3f41eec047945aca5ecb04ec911f024ddc7a886c4663454c",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/tabular/seed0/run.json",
+      "sha256": "a54e13b1365045e83653a40bd65eaa7860716a64288f1f3425146c08fd7f2951",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/tabular/seed1/metrics.json",
+      "sha256": "80cb1e7a597fa82d93a257f3a4498f9d5513c350dbe948b7c66a0144c4ffe5bb",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/tabular/seed1/run.json",
+      "sha256": "fc06481592c4496fdc389a95f06d51720f653dc688bf3bdd3e94151c63067648",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/tabular/seed2/metrics.json",
+      "sha256": "3ebce2149a16ba4f2e6a0cd14e7528c2565ace73be1ee6d3768621c60d044a87",
+      "kind": ".json"
+    },
+    {
+      "path": "results/reference/tabular/seed2/run.json",
+      "sha256": "3249aa858ff48f005eb72eabe8fa1415dbc5427bcd4d63555e59cdd2d47743e5",
+      "kind": ".json"
+    },
+    {
+      "path": "scripts/README.md",
+      "sha256": "11653abb8dc9683740fe5d38c973f17b7a2af9c207e61c8755c5bc91338be7fc",
+      "kind": ".md"
+    },
+    {
+      "path": "scripts/audit_checkpoints.py",
+      "sha256": "d613a73ab1d9e0b03298fbd1abcdd1e20a8484c0feadf015d40f058003cd48c1",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/audit_modern.py",
+      "sha256": "110c1ad920a87f1b7823b8df07d8eb1d4fd800921f978713e4bdaec2088e580f",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/audit_simulations.py",
+      "sha256": "a4a75bc54c2e3a16c1c001229ab98a2d4b6a790595d03f83f19ce3e8a3a7c87b",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/check_distribution.py",
+      "sha256": "0d72a589a00f27a21d0a29c385ea46626767802aac3ab9bd4cd9f34d8e945345",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/check_explorer_browser.py",
+      "sha256": "929e3d16075b8759fc765e15b2c5a413d9d04d6a38f771b557f7e51a00b8d3d1",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/check_installed_distribution.py",
+      "sha256": "705f7f9ef5af660d522c0966ec22d30fb96a7ff4bc52ff43ce39762004c90a6b",
+      "kind": ".py",
+      "functions": [
+        "main",
+        "run"
+      ]
+    },
+    {
+      "path": "scripts/check_simulation_dashboard.py",
+      "sha256": "a1613b52ff1a4dea246befd3d6f75e1727cb7cc0de605d891963842ce0108c11",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/create_explorer.py",
+      "sha256": "3368d1d32431a464d0498df64d9d0c7abad2565327ea02c55546d0b17a97a523",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/create_notebooks.py",
+      "sha256": "0f53648eedce703a462884a0e7805fbb42bf1821aac43f203ee1f0814465294b",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/create_simulation_dashboard.py",
+      "sha256": "3965ee2534ddfc6c2b7e4ab6219b29fbf813cc9bfbba6ca9a1213d68688006af",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/create_simulation_notebooks.py",
+      "sha256": "c316caa6eb29cdf726c7fb2d74e12196c1c2219ad5e6e380976eb088a3757295",
+      "kind": ".py",
+      "functions": [
+        "write"
+      ]
+    },
+    {
+      "path": "scripts/diagnostics.py",
+      "sha256": "9902f54ff3c7806b24e0d49c644480ec86adf219b2fbd8cb835476f47d3ae1ab",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/execute_notebooks.py",
+      "sha256": "5c24df8bb0afee9cc41530b86bde2dc8ada632481c0a8ff54e9645c17772a95e",
+      "kind": ".py",
+      "functions": [
+        "CurrentInterpreterClient",
+        "main",
+        "create_kernel_manager"
+      ]
+    },
+    {
+      "path": "scripts/play_modern.py",
+      "sha256": "5e22b56c90d9f483c1ec7d719474aae2ae72329c8681464a97b4fafbb5b49b53",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/play_simulation.py",
+      "sha256": "3d74cb6064dd738161ba9185b5c6c2320fd105e99437c6bff3e6378acbb3bf8c",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/render_navigation.py",
+      "sha256": "c79ce7cd57708b03e7417b6d641975852ffccc391e7c210e4e5c0978ab11ddf1",
+      "kind": ".py",
+      "functions": [
+        "maze_frame",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/render_rollout.py",
+      "sha256": "4ef64ad0498fd2d6e963ca88338a6466a75c029e4d47457935cce787d79c3b52",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/review_components.py",
+      "sha256": "6fa3da4891a8e22dad918698f4485a7355309910e589ff52a8765b6c7f79bcac",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/simulation_analysis.py",
+      "sha256": "854174bf55df0e5a371c3360d7265e29d168f3dc06de4201756c51f066fe6222",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/simulation_baselines.py",
+      "sha256": "eb548135109b82bfb84455360f19cdbb52861a92c9b46e653504f0f5659d5fe2",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/simulation_gallery.py",
+      "sha256": "45ae3e3a726cdb3ce71bff349b0cb02c2ced640068147590e9adf1416221a727",
+      "kind": ".py",
+      "functions": [
+        "animation",
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/train_simulations.py",
+      "sha256": "2dda19e8f631dee03036989106435aeb0a0adfc95db323664499bf03dee51292",
+      "kind": ".py",
+      "functions": []
+    },
+    {
+      "path": "scripts/validate_modern.py",
+      "sha256": "b79d4736cb2e39e9cc3eaca2433a95e262c1a3a2fe59ddafafea79db6262d5f5",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "scripts/validate_release.py",
+      "sha256": "70620dcda86bd7d36b969421295cc6ad8e66963fe4a0f99a86e5a72ed19780f0",
+      "kind": ".py",
+      "functions": [
+        "strict_read",
+        "main",
+        "invalid"
+      ]
+    },
+    {
+      "path": "scripts/validate_simulations.py",
+      "sha256": "1d93375c5a018e5e3d79d10fda20bc4f4c396953065e4f1170f9d94dc5515f23",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "src/decision_lab/__init__.py",
+      "sha256": "ba2e0f770634191c0b358491ad53da9fc3a22c792cad975a897ea99bd7c34e8c",
+      "kind": ".py",
+      "functions": []
+    },
+    {
+      "path": "src/decision_lab/approximation.py",
+      "sha256": "d0f4ebd06719792a1185f1e584fa5267be60d4bc785a04127ec94b0edb930c89",
+      "kind": ".py",
+      "functions": [
+        "Tiles",
+        "rollout",
+        "fit",
+        "__init__",
+        "indices",
+        "q",
+        "choose"
+      ]
+    },
+    {
+      "path": "src/decision_lab/artifacts.py",
+      "sha256": "504b9bc38bff7b18fe1bcf5196e4ce4f879d545a43259179db4f8218b2efeac5",
+      "kind": ".py",
+      "functions": [
+        "serial",
+        "write_json",
+        "sha256",
+        "Run",
+        "interval",
+        "__init__",
+        "finish"
+      ]
+    },
+    {
+      "path": "src/decision_lab/cli.py",
+      "sha256": "bb3c3ad12dcd476902a5d7ff489bc07dc979bf34d73f9886da6696b04a82913c",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
+      "path": "src/decision_lab/control.py",
+      "sha256": "9dc0e3ce14aac4888693b990cade595812e0e58fc5fc8cbb67b8a9f97055d3ee",
+      "kind": ".py",
+      "functions": [
+        "evaluate",
+        "ValidationCallback",
+        "shift_spec",
+        "train_case",
+        "main",
+        "__init__",
+        "check",
+        "_on_step"
+      ]
+    },
+    {
+      "path": "src/decision_lab/curriculum.py",
+      "sha256": "d4c71cba38023e06c55de9c4f6751d36b7f15a3b6a4609ec1c03c9115624ba63",
+      "kind": ".py",
+      "functions": [
+        "StartCurriculum",
+        "train_case",
+        "__init__",
+        "reset",
+        "step"
+      ]
+    },
+    {
+      "path": "src/decision_lab/deep_wireless.py",
+      "sha256": "2d13e7c524e7f7c1f53196af1f1df3ed99b714dfe6ade3fa983ef3addb8ab96b",
+      "kind": ".py",
+      "functions": [
+        "fit"
+      ]
+    },
+    {
+      "path": "src/decision_lab/default_configs/approximation.json",
+      "sha256": "803c0568f543abe8a2aa1efd34f9c8dfc35164090c28a10cdc7af5cc84eef21d",
+      "kind": ".json"
+    },
+    {
+      "path": "src/decision_lab/default_configs/control.json",
+      "sha256": "06087d262148a5d32b2dcf0c88a94f5ca9aff8f4b6bc47fefbc0d009e35b5003",
+      "kind": ".json"
+    },
+    {
+      "path": "src/decision_lab/default_configs/curriculum.json",
+      "sha256": "acbad8879b17b514a0a275ffc82c33181adfdc0fc872710fe61bea8684730d46",
+      "kind": ".json"
+    },
+    {
+      "path": "src/decision_lab/default_configs/geometry.json",
+      "sha256": "bdc21641abec5d15f40245b11483e0e86186c38a2e903a03d0abf122df1269ce",
+      "kind": ".json"
+    },
+    {
+      "path": "src/decision_lab/default_configs/lectures.json",
+      "sha256": "f8af348327772db38db73e1db7b78a4f2bb448177b35807d061f8bec408a6e12",
+      "kind": ".json"
+    },
+    {
+      "path": "src/decision_lab/default_configs/modern.json",
+      "sha256": "762701ed1b9ba5f692145cd7cfb0841decc1cc382ef5bc021c7a48bdbe51949c",
+      "kind": ".json"
+    },
+    {
+      "path": "src/decision_lab/default_configs/neural.json",
+      "sha256": "c34314925f84c265903ddb3f6fc510a24f1ee3f68f1c1cd796dae4541fa0d228",
+      "kind": ".json"
+    },
+    {
+      "path": "src/decision_lab/default_configs/offline.json",
+      "sha256": "2ce06d931ec1f59830fae3fb66377c2c86c1b6977d7510869e15a765d8dc3bee",
+      "kind": ".json"
+    },
+    {
+      "path": "src/decision_lab/default_configs/planning.json",
+      "sha256": "683563bbc4dcad367e74d6c79da252dd44f1700b401376f86593dc4ad41ddcd6",
+      "kind": ".json"
+    },
+    {
+      "path": "src/decision_lab/default_configs/simulations.json",
+      "sha256": "338c3f69d82dfd85acffdd90a3d2782d5cb48f7579aa0a03215e1e23cf1f5374",
+      "kind": ".json"
+    },
+    {
+      "path": "src/decision_lab/default_configs/tabular.json",
+      "sha256": "713f9af089c49bd89e8386dd45bfac607c6fc016aa1226b09c831e5ca390c78b",
+      "kind": ".json"
+    },
+    {
+      "path": "src/decision_lab/deployment.py",
+      "sha256": "a537b556e7b90a8c2a6d675af423422ec7ed8d2bec23fda6b9cbd3fb156a58ec",
+      "kind": ".py",
+      "functions": [
+        "load_policy",
+        "export_policies",
+        "make"
+      ]
+    },
+    {
+      "path": "src/decision_lab/experiments.py",
+      "sha256": "4556b2fd430711d523e3897c4459c8ff7a5d4c220960dca92eb08971ab58625b",
+      "kind": ".py",
+      "functions": [
+        "planning",
+        "tabular",
+        "make"
+      ]
+    },
+    {
+      "path": "src/decision_lab/geometry.py",
+      "sha256": "2dcd88be267fef729a22324d92d8b122176b01c138fc89fead03bae1437b08c0",
+      "kind": ".py",
+      "functions": [
+        "GeometryExtractor",
+        "train_case",
+        "__init__",
+        "forward"
+      ]
+    },
+    {
+      "path": "src/decision_lab/lecture_studies.py",
+      "sha256": "fb9881f5642e76227be0af4f9971a9c1dbaadeadeaffb33acb11a74458b63176",
+      "kind": ".py",
+      "functions": [
+        "baird_operators",
+        "baird",
+        "prediction",
+        "bandits",
+        "run"
+      ]
+    },
+    {
+      "path": "src/decision_lab/mdp.py",
+      "sha256": "85b0a7d4510b3c6a174284c3c0bf75462e7a7260451bb91dfb549006e55067d7",
+      "kind": ".py",
+      "functions": [
+        "FiniteMDP",
+        "discount",
+        "evaluate_policy",
+        "value_iteration",
+        "policy_iteration",
+        "finite_horizon",
+        "initial_distribution",
+        "discounted_occupancy",
+        "bellman_lp",
+        "average_occupancy",
+        "__post_init__",
+        "states",
+        "actions",
+        "q",
+        "policy_matrix"
+      ]
+    },
+    {
+      "path": "src/decision_lab/modern.py",
+      "sha256": "113d2a19c2ec42caee7cff1ddff8a869c146eddbb1095e4a0aefb8211492da31",
+      "kind": ".py",
+      "functions": [
+        "PartialObservation",
+        "environment",
+        "identifier",
+        "evaluate",
+        "Selection",
+        "train",
+        "main",
+        "__init__",
+        "observation",
+        "__init__",
+        "check",
+        "_on_step"
+      ]
+    },
+    {
+      "path": "src/decision_lab/modern_deployment.py",
+      "sha256": "8456874d99deaf445a4bbce4d4d66a4139e3a1a2ac352d862f77f9c5305a5f7c",
+      "kind": ".py",
+      "functions": [
+        "multilayer",
+        "Actor",
+        "export",
+        "load",
+        "__init__",
+        "predict"
+      ]
+    },
+    {
+      "path": "src/decision_lab/navigation_features.py",
+      "sha256": "0b8e32a56e6a40ce1f3f429d31deaabfa41f8cedabbe8623580ab07e5d02fa0f",
+      "kind": ".py",
+      "functions": [
+        "fourrooms_features"
+      ]
+    },
+    {
+      "path": "src/decision_lab/navigation_planner.py",
+      "sha256": "0d54d76a3764042de7ea13527c7d1f8c53d7cf38e1a60e463986dba0c57a8f20",
+      "kind": ".py",
+      "functions": [
+        "Planner",
+        "__init__",
+        "search",
+        "predict"
+      ]
+    },
+    {
+      "path": "src/decision_lab/neural.py",
+      "sha256": "ac063ca6e786e4d65ddcd38a8dab2c0c2e732b0d394f3506346554a181f28a6d",
+      "kind": ".py",
+      "functions": [
+        "QNetwork",
+        "targets",
+        "quantile_huber",
+        "Replay",
+        "greedy_table",
+        "__init__",
+        "forward",
+        "__init__",
+        "add",
+        "sample",
+        "update"
+      ]
+    },
+    {
+      "path": "src/decision_lab/offline.py",
+      "sha256": "0c7969c34b0ad3a9a23ba2b3b7f130bda2b2dd31165551d763e3e371a418410b",
+      "kind": ".py",
+      "functions": [
+        "independent_critics",
+        "save_logged",
+        "conservative_penalty",
+        "expectile_loss",
+        "logged_batch",
+        "fit"
+      ]
+    },
+    {
+      "path": "src/decision_lab/protocols.py",
+      "sha256": "35c1eb827c8f8260b9a5d28dfda22d841e74c1348293b3e17298b50e5b935768",
+      "kind": ".py",
+      "functions": [
+        "completed_batch"
+      ]
+    },
+    {
+      "path": "src/decision_lab/reporting.py",
+      "sha256": "46d22428fa32bd7707159efa770b290357f4d4bf77904f03bafcf492af578d80",
+      "kind": ".py",
+      "functions": [
+        "records",
+        "save_figure",
+        "lecture_figures",
+        "maze_figure",
+        "report"
+      ]
+    },
+    {
+      "path": "src/decision_lab/simulation_deployment.py",
+      "sha256": "d86202ebd811df75084284cb912deb02325b719e7d48ad0cdf82c2d046d15df6",
+      "kind": ".py",
+      "functions": [
+        "Actor",
+        "export_actor",
+        "load_actor",
+        "__init__",
+        "predict"
+      ]
+    },
+    {
+      "path": "src/decision_lab/simulation_envs.py",
+      "sha256": "e94dbdb0be57119f5b80d55c29ca10a544642ca4e190034faf8f5c202bc38499",
+      "kind": ".py",
+      "functions": [
+        "distances",
+        "NavigationState",
+        "make_environment",
+        "__init__",
+        "objects",
+        "observation",
+        "potential",
+        "reset",
+        "step"
+      ]
+    },
+    {
+      "path": "src/decision_lab/simulation_visuals.py",
+      "sha256": "6ef27b3d56c0acfc824a0316c142c0a793329a7f0099df7f2a7bfb78005a81db",
+      "kind": ".py",
+      "functions": [
+        "caption_frames"
+      ]
+    },
+    {
+      "path": "src/decision_lab/simulations.py",
+      "sha256": "0fc37aecd7f0244592a2fc5f9d00682db53561225133f2eaea3772612218e146",
+      "kind": ".py",
+      "functions": [
+        "identifier",
+        "evaluate",
+        "Selection",
+        "train_case",
+        "__init__",
+        "check",
+        "_on_step"
+      ]
+    },
+    {
+      "path": "src/decision_lab/tabular.py",
+      "sha256": "7def849046d34c41f8e076c59909b067c8521b23f15d0331efb2500e338ec7fa",
+      "kind": ".py",
+      "functions": [
+        "epsilon_distribution",
+        "bootstrap_target",
+        "state_info",
+        "rollout_policy",
+        "learn",
+        "exploration"
+      ]
+    },
+    {
+      "path": "src/decision_lab/toytext.py",
+      "sha256": "196d819a399152e585cbc2f50f2966b97398212f4c48f6c414282f3e63f3949e",
+      "kind": ".py",
+      "functions": [
+        "MazeEnv",
+        "factory",
+        "model_from_env",
+        "__init__",
+        "reset",
+        "step"
+      ]
+    },
+    {
+      "path": "src/decision_lab/wireless.py",
+      "sha256": "70be51f4a83be17772a173423737209e32c45642bf4cd909df0ec21caf7edad6",
+      "kind": ".py",
+      "functions": [
+        "WirelessModel",
+        "WirelessEnv",
+        "__init__",
+        "unpack",
+        "is_legal",
+        "service",
+        "outcome",
+        "draw",
+        "finite_mdp",
+        "__init__",
+        "reset",
+        "info",
+        "step"
+      ]
+    },
+    {
+      "path": "tests/test_approximation.py",
+      "sha256": "b81964b3271895cf8a1f951eb0ef4660794a67887c4b95ac117eba2eee341f38",
+      "kind": ".py",
+      "functions": [
+        "test_tile_features_and_action_separation"
+      ]
+    },
+    {
+      "path": "tests/test_categorical_deployment.py",
+      "sha256": "a51199c82aaa09647faea0e1ee4289a9d262d399793c2f45d82797699f22c91b",
+      "kind": ".py",
+      "functions": [
+        "test_probability_rounding_ties_match_selected_library_policy"
+      ]
+    },
+    {
+      "path": "tests/test_deployment.py",
+      "sha256": "e927863fd69c5a8c827e5141f5c8dfcce7d6766a61925c19f92da8eb61e11888",
+      "kind": ".py",
+      "functions": [
+        "test_schema_and_legal_action_contract"
+      ]
+    },
+    {
+      "path": "tests/test_lecture_studies.py",
+      "sha256": "33e933ca61cc2ce01ca23f3c9d74be92f200fd6cc75f8a60d4fed429978fa101",
+      "kind": ".py",
+      "functions": [
+        "test_off_policy_counterexample_operator",
+        "test_pseudo_regret_nonnegative"
+      ]
+    },
+    {
+      "path": "tests/test_modern.py",
+      "sha256": "169d2c28aa8f3ff437dadd84effe8d4f8766c08ca6b8d95818c9a0485b04ca1d",
+      "kind": ".py",
+      "functions": [
+        "test_partial_view_ignores_unobserved_state",
+        "test_portable_actor_matches_sequences_and_rejects_corruption"
+      ]
+    },
+    {
+      "path": "tests/test_neural.py",
+      "sha256": "0aca493cdef6264a9a173d4874fdde79c93b11fc25dfa1cc1a21f772538c1add",
+      "kind": ".py",
+      "functions": [
+        "test_double_target_oracle_mask_and_true_termination",
+        "test_quantile_loss_hand_oracle_and_target_is_detached",
+        "test_prioritized_sampling_and_duplicate_updates"
+      ]
+    },
+    {
+      "path": "tests/test_offline.py",
+      "sha256": "6838b0ebe130cf50c61eca0fb06a480db9c8a4eb72bd72e6935abcd7f54715ca",
+      "kind": ".py",
+      "functions": [
+        "test_conservative_gradient_and_illegal_action",
+        "test_expectile_oracle_and_detached_target",
+        "test_twin_critics_are_independent_and_targets_frozen",
+        "test_logged_batch_reuse_keeps_bytes"
+      ]
+    },
+    {
+      "path": "tests/test_packaged_configs.py",
+      "sha256": "44ca5c87fbfe2530ebbcfb877761443d16c4712da646bf9b19d9b267b20c0f46",
+      "kind": ".py",
+      "functions": [
+        "test_installed_default_protocols_are_complete"
+      ]
+    },
+    {
+      "path": "tests/test_planning.py",
+      "sha256": "8c5430e8e86336550608864847dce9e371582c8095150e1c68826b9618718fc9",
+      "kind": ".py",
+      "functions": [
+        "test_geometric_value_and_primal_dual_certificate",
+        "test_constrained_policy_randomizes_and_shadow_price_matches_perturbation",
+        "test_terminal_transitions_stop_bootstrap_and_masks_exclude_fake_reward",
+        "test_average_reward_two_state_chain_matches_cycle_arithmetic",
+        "test_malformed_kernel_and_policy_are_rejected"
+      ]
+    },
+    {
+      "path": "tests/test_protocols.py",
+      "sha256": "f96e72d5c6242b74e699184d77247025971e1386e3366d63b939a895acb9b0b1",
+      "kind": ".py",
+      "functions": [
+        "test_completed_offline_rerun_preserves_dataset"
+      ]
+    },
+    {
+      "path": "tests/test_simulations.py",
+      "sha256": "3a072801d550d27fd8eccb1715e16475b437a0e4e0fd7388bb969793fd17129f",
+      "kind": ".py",
+      "functions": [
+        "test_seeded_observations_and_shaping_telescope",
+        "test_time_limit_retains_bootstrap_potential",
+        "test_known_model_planner_reaches_goal_with_reward_identity",
+        "test_public_actor_roundtrip_matches_library_action_and_rejects_changes",
+        "test_geometry_encodes_local_walls_and_requires_declared_shape",
+        "test_curriculum_changes_only_training_starts_and_finishes_at_official_distribution",
+        "test_geometry_actor_roundtrip_has_identical_actions",
+        "test_custom_full_output_cannot_overwrite_published_evidence"
+      ]
+    },
+    {
+      "path": "tests/test_toytext.py",
+      "sha256": "159707963fc9effb0f988b45a10a67e453aaf5e8cbe538b348f750467cd64d47",
+      "kind": ".py",
+      "functions": [
+        "test_cliff_time_limit_continues_bootstrap",
+        "test_frozen_lake_terminal_has_no_continuation"
+      ]
+    },
+    {
+      "path": "tests/test_wireless.py",
+      "sha256": "0be2c1c21cdfa042e4765c5c1030e377e5c4549b98362a3ba9664639d77c4bab",
+      "kind": ".py",
+      "functions": [
+        "test_physics_kernel_and_accounting",
+        "test_joint_channel_eligibility_and_one_slot_expiry",
+        "test_simulator_transition_frequencies_match_independent_bernoulli_moments"
+      ]
+    }
+  ],
+  "local_links": 143,
+  "scope": "Public inventory, Python AST/JSON/notebook syntax, English-script and local-link checks. Scientific manual review is documented separately; numerical protocol identities/statistics are checked by validate_release.py, validate_modern.py and validate_simulations.py."
+}

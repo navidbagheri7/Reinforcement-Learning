@@ -23,6 +23,7 @@ EXPECTED = {
     "simulations": 18,
     "geometry": 3,
     "curriculum": 3,
+    "modern": 18,
 }
 
 
@@ -188,7 +189,7 @@ def report(strict=True):
             elif family == "control":
                 task = row["env"]
                 method = row["algorithm"]
-            elif family in ["simulations", "geometry", "curriculum"]:
+            elif family in ["simulations", "geometry", "curriculum", "modern"]:
                 task = row["env"]
                 method = row["algorithm"] + " (" + row["profile"] + ")"
             elif family == "approximation":

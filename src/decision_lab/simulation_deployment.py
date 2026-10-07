@@ -17,7 +17,7 @@ class Actor:
         dimensions = metadata["dimensions"]
         layers = []
         for i, (a, b) in enumerate(zip(dimensions[:-1], dimensions[1:])):
-            layer = nn.Linear(a, b)
+            layer = nn.Linear(a, b, dtype=torch.float32, device="cpu")
             with torch.no_grad():
                 layer.weight.copy_(torch.from_numpy(arrays[f"weight_{i}"]))
                 layer.bias.copy_(torch.from_numpy(arrays[f"bias_{i}"]))
@@ -30,14 +30,16 @@ class Actor:
         if not deterministic:
             raise ValueError("The exported actor supports deterministic inference only")
         with torch.no_grad():
-            inputs = torch.as_tensor(observation, dtype=torch.float32).unsqueeze(0)
+            inputs = torch.as_tensor(observation, dtype=torch.float32, device="cpu").unsqueeze(0)
             if self.metadata.get("encoder", "identity") == "fourrooms_geometry_v1":
                 from .navigation_features import fourrooms_features
 
-                inputs = fourrooms_features(inputs)
+                inputs = fourrooms_features(inputs).to(dtype=torch.float32)
             values = self.net(inputs)[0]
             if self.metadata["action_type"] == "discrete":
-                action = int(values.argmax().item())
+                # Match SB3's float32 probability normalization and tie rule.
+                probabilities = torch.distributions.Categorical(logits=values).probs
+                action = int(probabilities.argmax().item())
             elif self.metadata["algorithm"] == "SAC":
                 scaled = values.tanh().numpy()
                 low = np.asarray(self.metadata["action_low"], np.float32)

@@ -7,7 +7,7 @@ Choose your GitHub repository name and create an empty repository in your accoun
 ```bash
 git remote add origin git@github.com:YOUR_ACCOUNT/sequential-decision-lab.git
 git push -u origin main
-git push origin v1.1.0
+git push origin v1.2.0
 ```
 
 The placeholder account must be replaced by your own. No remote or push is configured automatically. Use GitHub Releases for optional large fitted control/neural weights; publish their recorded SHA256 files with them. The finite-state policies, small MountainCar weights and new MiniGrid/MuJoCo actors already work from the public tree.
@@ -27,3 +27,7 @@ The README displays a real-browser dashboard screenshot and links to navigation 
 Use the repository root as the publishing source because the page loads animations from `assets/`, outside `docs/`. The selected account and repository name determine the final URL. See [GitHub's publishing-source instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
 
 Visitors use their browser to select tasks and presets, watch prerecorded rollouts, and inspect measured learning curves and comparisons. Reproducing training or replaying an exported policy requires the Python environment described in the README. Pages is not enabled or deployed by the local preparation.
+
+The eight-concept explorer is at `docs/explorer.html`. Preserve the root
+`.nojekyll` file so Pages serves the prepared HTML, script and evidence paths
+without a Jekyll build. [GitHub documents this static-site option](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).

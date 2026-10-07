@@ -1,0 +1,16 @@
+{
+  "env": "MiniGrid-Empty-8x8-v0",
+  "algorithm": "RecurrentPPO",
+  "profile": "partial",
+  "fit_seed": 0,
+  "test_seed": 300000,
+  "return_value": 0.9578125,
+  "length": 12,
+  "terminated": true,
+  "truncated": false,
+  "actor_sha256": "e3f93504974dd7786d1a968adbfbca95ab81cef8778f218b44b56b3295db6a0f",
+  "gif_sha256": "9fc3fd2dfdc0af4dcf229db38dc65dfc4cb867ba504ab03ba42b23e0670e090d",
+  "source_evidence": "assets/source_data/modern/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial_0.npz",
+  "frame_stride": 1,
+  "protocol": "First predetermined held-out episode, no visual selection. Renderer displays the global scene; partial-view actors see only their official local view and direction."
+}

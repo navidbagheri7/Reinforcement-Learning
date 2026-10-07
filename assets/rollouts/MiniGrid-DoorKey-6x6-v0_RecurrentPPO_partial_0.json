@@ -1,0 +1,16 @@
+{
+  "env": "MiniGrid-DoorKey-6x6-v0",
+  "algorithm": "RecurrentPPO",
+  "profile": "partial",
+  "fit_seed": 0,
+  "test_seed": 300000,
+  "return_value": 0.965,
+  "length": 14,
+  "terminated": true,
+  "truncated": false,
+  "actor_sha256": "4fee4386840dddc609b592c6ca5c192bf2e20e9814ad885cd1f05ea95d0656a3",
+  "gif_sha256": "e4a5e1e12e99a8afc60e7a02555cec68ec64e2354e32269ab9d1b259248289f7",
+  "source_evidence": "assets/source_data/modern/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial_0.npz",
+  "frame_stride": 1,
+  "protocol": "First predetermined held-out episode, no visual selection. Renderer displays the global scene; partial-view actors see only their official local view and direction."
+}

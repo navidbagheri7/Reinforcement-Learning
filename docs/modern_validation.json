@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "protocols": 18,
+  "fits": [
+    {
+      "model": "HalfCheetah-v5_TD3_official_0",
+      "replayed_episodes": 3
+    },
+    {
+      "model": "HalfCheetah-v5_TD3_official_1",
+      "replayed_episodes": 3
+    },
+    {
+      "model": "HalfCheetah-v5_TD3_official_2",
+      "replayed_episodes": 3
+    },
+    {
+      "model": "HalfCheetah-v5_TQC_official_0",
+      "replayed_episodes": 3
+    },
+    {
+      "model": "HalfCheetah-v5_TQC_official_1",
+      "replayed_episodes": 3
+    },
+    {
+      "model": "HalfCheetah-v5_TQC_official_2",
+      "replayed_episodes": 3
+    },
+    {
+      "model": "MiniGrid-DoorKey-6x6-v0_PPO_partial_0",
+      "replayed_episodes": 3
+    },
+    {
+      "model": "MiniGrid-DoorKey-6x6-v0_PPO_partial_1",
+      "replayed_episodes": 3
+    },
+    {
+      "model": "MiniGrid-DoorKey-6x6-v0_PPO_partial_2",
+      "replayed_episodes": 3
+    },
+    {
+      "model": "MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial_0",
+      "replayed_episodes": 3
+    },
+    {
+      "model": "MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial_1",
+      "replayed_episodes": 3
+    },
+    {
+      "model": "MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial_2",
+      "replayed_episodes": 3
+    },
+    {
+      "model": "MiniGrid-Empty-8x8-v0_PPO_partial_0",
+      "replayed_episodes": 3
+    },
+    {
+      "model": "MiniGrid-Empty-8x8-v0_PPO_partial_1",
+      "replayed_episodes": 3
+    },
+    {
+      "model": "MiniGrid-Empty-8x8-v0_PPO_partial_2",
+      "replayed_episodes": 3
+    },
+    {
+      "model": "MiniGrid-Empty-8x8-v0_RecurrentPPO_partial_0",
+      "replayed_episodes": 3
+    },
+    {
+      "model": "MiniGrid-Empty-8x8-v0_RecurrentPPO_partial_1",
+      "replayed_episodes": 3
+    },
+    {
+      "model": "MiniGrid-Empty-8x8-v0_RecurrentPPO_partial_2",
+      "replayed_episodes": 3
+    }
+  ],
+  "scope": "Independent selected-step/100-episode statistics, source/numeric/actor/GIF identities and fresh CPU deployment commands. Episodic memory reset/persistence is validated by the portable-actor tests. Private selected models are audited separately over all 100 episodes."
+}

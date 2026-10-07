@@ -12,6 +12,16 @@
       "fitting_seeds": 3
     },
     {
+      "environment": "HalfCheetah-v5",
+      "method": "TD3_official",
+      "fitting_seeds": 3
+    },
+    {
+      "environment": "HalfCheetah-v5",
+      "method": "TQC_official",
+      "fitting_seeds": 3
+    },
+    {
       "environment": "MiniGrid-DoorKey-6x6-v0",
       "method": "PPO_potential",
       "fitting_seeds": 3
@@ -19,6 +29,16 @@
     {
       "environment": "MiniGrid-DoorKey-6x6-v0",
       "method": "PPO_sparse",
+      "fitting_seeds": 3
+    },
+    {
+      "environment": "MiniGrid-DoorKey-6x6-v0",
+      "method": "PPO_partial",
+      "fitting_seeds": 3
+    },
+    {
+      "environment": "MiniGrid-DoorKey-6x6-v0",
+      "method": "RecurrentPPO_partial",
       "fitting_seeds": 3
     },
     {
@@ -40,6 +60,16 @@
       "environment": "MiniGrid-FourRooms-v0",
       "method": "PPO_potential_curriculum",
       "fitting_seeds": 3
+    },
+    {
+      "environment": "MiniGrid-Empty-8x8-v0",
+      "method": "PPO_partial",
+      "fitting_seeds": 3
+    },
+    {
+      "environment": "MiniGrid-Empty-8x8-v0",
+      "method": "RecurrentPPO_partial",
+      "fitting_seeds": 3
     }
   ],
   "desktop_viewport": [
@@ -50,5 +80,6 @@
     390,
     844
   ],
-  "javascript_errors": []
+  "javascript_errors": [],
+  "html_sha256": "987987a5e8cd2e260b0c0ae40f3d94e541deca0da7bc35777c79842daaa6c667"
 }

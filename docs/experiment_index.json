@@ -9,9 +9,10 @@
     "lectures": 1,
     "simulations": 18,
     "geometry": 3,
-    "curriculum": 3
+    "curriculum": 3,
+    "modern": 18
   },
-  "total_protocols": 98,
+  "total_protocols": 116,
   "protocols": [
     {
       "family": "approximation",
@@ -152,6 +153,96 @@
       "family": "lectures",
       "path": "results/reference/lectures",
       "elapsed_seconds": 18.556739007122815
+    },
+    {
+      "family": "modern",
+      "path": "results/reference/modern/HalfCheetah-v5_TD3_official/0",
+      "elapsed_seconds": 2040.3852796070278
+    },
+    {
+      "family": "modern",
+      "path": "results/reference/modern/HalfCheetah-v5_TD3_official/1",
+      "elapsed_seconds": 2043.6437080055475
+    },
+    {
+      "family": "modern",
+      "path": "results/reference/modern/HalfCheetah-v5_TD3_official/2",
+      "elapsed_seconds": 2122.9976643892005
+    },
+    {
+      "family": "modern",
+      "path": "results/reference/modern/HalfCheetah-v5_TQC_official/0",
+      "elapsed_seconds": 4484.456308649853
+    },
+    {
+      "family": "modern",
+      "path": "results/reference/modern/HalfCheetah-v5_TQC_official/1",
+      "elapsed_seconds": 4556.367498744279
+    },
+    {
+      "family": "modern",
+      "path": "results/reference/modern/HalfCheetah-v5_TQC_official/2",
+      "elapsed_seconds": 4409.294208657928
+    },
+    {
+      "family": "modern",
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_PPO_partial/0",
+      "elapsed_seconds": 786.0385665753856
+    },
+    {
+      "family": "modern",
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_PPO_partial/1",
+      "elapsed_seconds": 778.8504905914888
+    },
+    {
+      "family": "modern",
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_PPO_partial/2",
+      "elapsed_seconds": 806.1731864912435
+    },
+    {
+      "family": "modern",
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial/0",
+      "elapsed_seconds": 3635.5011476194486
+    },
+    {
+      "family": "modern",
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial/1",
+      "elapsed_seconds": 3775.1443479340523
+    },
+    {
+      "family": "modern",
+      "path": "results/reference/modern/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial/2",
+      "elapsed_seconds": 4339.976791049354
+    },
+    {
+      "family": "modern",
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_PPO_partial/0",
+      "elapsed_seconds": 539.6526917740703
+    },
+    {
+      "family": "modern",
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_PPO_partial/1",
+      "elapsed_seconds": 475.74088021181524
+    },
+    {
+      "family": "modern",
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_PPO_partial/2",
+      "elapsed_seconds": 514.7360456073657
+    },
+    {
+      "family": "modern",
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial/0",
+      "elapsed_seconds": 3204.1306687435135
+    },
+    {
+      "family": "modern",
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial/1",
+      "elapsed_seconds": 3149.2966333460063
+    },
+    {
+      "family": "modern",
+      "path": "results/reference/modern/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial/2",
+      "elapsed_seconds": 3226.0095903128386
     },
     {
       "family": "neural",

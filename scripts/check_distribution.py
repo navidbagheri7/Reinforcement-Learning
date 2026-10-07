@@ -55,14 +55,18 @@ def main():
             len([n for n in names if n.startswith("assets/actors/") and n.endswith(".npz")]) == 24
         )
         assert (
-            len([n for n in names if n.startswith("assets/rollouts/") and n.endswith(".gif")]) == 30
+            len([n for n in names if n.startswith("assets/modern_actors/") and n.endswith(".npz")])
+            == 18
         )
-        assert len([n for n in names if n.startswith("notebooks/") and n.endswith(".ipynb")]) == 13
+        assert (
+            len([n for n in names if n.startswith("assets/rollouts/") and n.endswith(".gif")]) == 48
+        )
+        assert len([n for n in names if n.startswith("notebooks/") and n.endswith(".ipynb")]) == 15
         assert (
             len(
                 [n for n in names if n.startswith("results/reference/") and n.endswith("/run.json")]
             )
-            == 98
+            == 116
         )
     with zipfile.ZipFile(wheels[0]) as wheel:
         package_files = [name for name in wheel.namelist() if name.startswith("decision_lab/")]
@@ -71,17 +75,17 @@ def main():
         configs = [
             name for name in package_files if "/default_configs/" in name and name.endswith(".json")
         ]
-        assert len(configs) == 10
+        assert len(configs) == 11
     result = dict(
         status="passed",
         sdist_sha256=sha256(archives[0]),
         wheel_sha256=sha256(wheels[0]),
         source_members=len(names),
         packaged_configs=len(configs),
-        public_actors=24,
-        rollout_gifs=30,
-        executed_notebooks=13,
-        reference_protocols=98,
+        public_actors=42,
+        rollout_gifs=48,
+        executed_notebooks=15,
+        reference_protocols=116,
         private_paths_excluded=True,
         distribution_bytes_match_checkout=True,
     )

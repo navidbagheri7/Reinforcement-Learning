@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.2.0 — 2026-10-07
+
+- Added maintained TD3/TQC continuous-critic and official partial-view PPO/RecurrentPPO comparisons, each with three fitting seeds and full held-out evaluation.
+- Added explicit-state portable actors, independent closed-loop deployment checks and predetermined rollouts.
+- Added an eight-concept offline explorer with live known-model maze planning and all-seed numerical comparisons; extended the simulation dashboard and teaching notebooks.
+- Added full public-component and isolated distribution checks, while retaining failed seeds, information-access distinctions and historical evidence.
+
+
 ## 1.1.0 — 2026-10-07
 
 Add official MiniGrid Four Rooms and Door Key navigation with a sparse/potential-shaped PPO ablation, known-model orientation/key/door BFS and random-action references. Add official MuJoCo HalfCheetah with an interaction-matched PPO/SAC comparison. Add a controlled Four Rooms geometry-feature comparison using the same map information. Add a training-start curriculum with fully official held-out evaluation. Train all eight presets on three independent seeds; retain100 fixed held-out episodes per fit.

@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "algorithm": "TQC",
+  "inputs": 17,
+  "outputs": 6,
+  "case": {
+    "env": "HalfCheetah-v5",
+    "algorithm": "TQC",
+    "profile": "official",
+    "steps": 1048576,
+    "n_envs": 1
+  },
+  "checkpoint_sha256": "d677e3acfe51178f4579baa3c654d6f1b8adf79b43c7e934bf707ade08baa650",
+  "memory": "stateless",
+  "low": [
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0
+  ],
+  "high": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "weights_sha256": "75692540b966a59b9a7ac581965c737c82067d782f6a84c1bb95363eb6250502"
+}

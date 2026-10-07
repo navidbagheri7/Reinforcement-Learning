@@ -3,7 +3,7 @@ recursive-include configs *.json
 recursive-include docs *.md *.json *.csv *.html
 recursive-include notebooks *.md *.ipynb
 recursive-include assets *.npz *.json *.png *.pdf *.gif
-recursive-include scripts *.py *.html
+recursive-include scripts *.py *.html *.js *.md
 recursive-include tests *.py
 recursive-include results/reference *.json
 include legacy/manifest.json
@@ -23,5 +23,9 @@ recursive-include .github *.yml
 include requirements-reference.txt
 
 include .gitignore
+include .nojekyll
+exclude docs/release_artifacts.json
 
 prune results/reference/simulations/*/*/checkpoints
+
+prune results/reference/modern/*/*/checkpoints

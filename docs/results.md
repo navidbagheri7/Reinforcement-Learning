@@ -1,6 +1,6 @@
 # Measured comparisons
 
-98 completed reference protocols. Every fit is listed in [individual_fits.csv](individual_fits.csv); [comparison.csv](comparison.csv) aggregates the fitting seeds.
+116 completed reference protocols. Every fit is listed in [individual_fits.csv](individual_fits.csv); [comparison.csv](comparison.csv) aggregates the fitting seeds.
 
 Bars show the mean of fitting-seed test means; dots show every fit. Fit SD measures training variability across only three fits. Episode bootstrap intervals in the individual table quantify resets conditional on one fitted policy; they do not measure training uncertainty. No test return selects a checkpoint or hyperparameter.
 
@@ -16,6 +16,12 @@ Bars show the mean of fitting-seed test means; dots show every fit. Fit SD measu
 | Pendulum-v1 | SAC | 3 | -152.20 | 0.43 | -152.49 | — |
 | MiniGrid-FourRooms-v0 | PPO (potential_curriculum) | 3 | 0.74 | 0.02 | 0.72 | — |
 | MiniGrid-FourRooms-v0 | PPO (potential_geometry) | 3 | 0.13 | 0.17 | 0.03 | — |
+| HalfCheetah-v5 | TD3 (official) | 3 | 8324.94 | 476.63 | 7785.89 | — |
+| HalfCheetah-v5 | TQC (official) | 3 | 8397.45 | 672.22 | 7811.27 | — |
+| MiniGrid-DoorKey-6x6-v0 | PPO (partial) | 3 | 0.94 | 0.02 | 0.92 | — |
+| MiniGrid-DoorKey-6x6-v0 | RecurrentPPO (partial) | 3 | 0.97 | 0.00 | 0.97 | — |
+| MiniGrid-Empty-8x8-v0 | PPO (partial) | 3 | 0.96 | 0.00 | 0.96 | — |
+| MiniGrid-Empty-8x8-v0 | RecurrentPPO (partial) | 3 | 0.96 | 0.00 | 0.96 | — |
 | Wireless online | double_dqn | 3 | -625.68 | 0.65 | -626.43 | 0.00089 |
 | Wireless online | double_dueling_per | 3 | -625.44 | 0.20 | -625.67 | 0.00026 |
 | Wireless online | dqn | 3 | -625.31 | 0.02 | -625.34 | 0.00000 |

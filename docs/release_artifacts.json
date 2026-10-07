@@ -1,0 +1,74 @@
+{
+  "status": "passed",
+  "release": "1.2.0",
+  "artifacts": {
+    "sequential_decision_lab-1.2.0-py3-none-any.whl": "d18e9925a0d93cfb6fb0601573bd315ca733224e770369f186a118f044a7fe53",
+    "sequential_decision_lab-1.2.0.tar.gz": "59b83138f35041126a892be882eee4378b28f117d7beea39afc129f1c0867b7e"
+  },
+  "checks": [
+    {
+      "check": "install",
+      "status": "passed"
+    },
+    {
+      "check": "import_identity",
+      "status": "passed"
+    },
+    {
+      "check": "wheel_tests",
+      "status": "passed"
+    },
+    {
+      "check": "bundled_planning",
+      "status": "passed"
+    },
+    {
+      "check": "bundled_tabular",
+      "status": "passed"
+    },
+    {
+      "check": "bundled_lectures",
+      "status": "passed"
+    },
+    {
+      "check": "bundled_modern_HalfCheetah-v5_TD3",
+      "status": "passed"
+    },
+    {
+      "check": "bundled_modern_HalfCheetah-v5_TQC",
+      "status": "passed"
+    },
+    {
+      "check": "bundled_modern_MiniGrid-Empty-8x8-v0_RecurrentPPO",
+      "status": "passed"
+    },
+    {
+      "check": "initialize_checkout",
+      "status": "passed"
+    },
+    {
+      "check": "archive_notebooks",
+      "status": "passed"
+    },
+    {
+      "check": "archive_validation",
+      "status": "passed"
+    },
+    {
+      "check": "archive_simulations",
+      "status": "passed"
+    },
+    {
+      "check": "archive_modern",
+      "status": "passed"
+    },
+    {
+      "check": "archive_public_content",
+      "status": "passed"
+    }
+  ],
+  "installed_wheel_tests": 45,
+  "source_archive_notebooks": 15,
+  "source_archive_executed_cells": 61,
+  "scope": "Wheel imports/all 45 tests, three core and three modern bundled CPU commands run outside the checkout. The source archive executes all fifteen walkthroughs and validates all 116 protocols, public numerical, English, link/browser evidence and every exported modern actor without originals/checkpoints. Optional private dependency directories supply installed sb3-contrib only, never project code. External checksum metadata is excluded from the source distribution to avoid recursive checksums. Hosted CI is not claimed."
+}

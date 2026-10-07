@@ -1,0 +1,16 @@
+{
+  "env": "HalfCheetah-v5",
+  "algorithm": "TD3",
+  "profile": "official",
+  "fit_seed": 0,
+  "test_seed": 300000,
+  "return_value": 7620.856499222843,
+  "length": 1000,
+  "terminated": false,
+  "truncated": true,
+  "actor_sha256": "fc4d1bd545ff5d0ea39273e71b69745706d8eb5bb1619073eb447435f7ee168a",
+  "gif_sha256": "8bea61296fb90542de1fecec01c740937e24984e9b4ca5f0e153249053e8eaf8",
+  "source_evidence": "assets/source_data/modern/HalfCheetah-v5_TD3_official_0.npz",
+  "frame_stride": 4,
+  "protocol": "First predetermined held-out episode, no visual selection. Renderer displays the global scene; partial-view actors see only their official local view and direction."
+}

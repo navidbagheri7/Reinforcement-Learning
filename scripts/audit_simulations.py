@@ -20,7 +20,10 @@ def main():
         action="store_true",
         help="Audit currently complete fits and mark output partial",
     )
+    parser.add_argument("--episodes", type=int, default=3, help="Fresh held-out episodes per actor")
     args = parser.parse_args()
+    if not 1 <= args.episodes <= 100:
+        parser.error("Replay between 1 and 100 declared test resets")
     torch.set_num_threads(1)
     audited = []
     metrics_files = [
@@ -43,15 +46,15 @@ def main():
             original = model.predict(obs, deterministic=True)[0]
             exported = actor.predict(obs)[0]
             np.testing.assert_array_equal(exported, original)
-        fresh = evaluate(actor, case, np.arange(3) + 300000)
+        fresh = evaluate(actor, case, np.arange(args.episodes) + 300000)
         for key in ["returns", "lengths", "terminated", "truncated"]:
-            np.testing.assert_array_equal(fresh[key], evidence[key][:3])
+            np.testing.assert_array_equal(fresh[key], evidence[key][: args.episodes])
         audited.append(
             dict(
                 actor=str(actor_path),
                 actor_sha256=sha256(actor_path),
                 checkpoint_sha256=metrics["checkpoint_sha256"],
-                fresh_test_episodes=3,
+                fresh_test_episodes=args.episodes,
             )
         )
         rendered, frames = evaluate(actor, case, [300000], render=True)

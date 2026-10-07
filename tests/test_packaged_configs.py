@@ -15,6 +15,7 @@ def test_installed_default_protocols_are_complete():
         "simulations",
         "geometry",
         "curriculum",
+        "modern",
     }
     assert {
         item.name.removesuffix(".json") for item in root.iterdir() if item.name.endswith(".json")

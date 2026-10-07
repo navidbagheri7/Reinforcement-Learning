@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "algorithm": "TD3",
+  "inputs": 17,
+  "outputs": 6,
+  "case": {
+    "env": "HalfCheetah-v5",
+    "algorithm": "TD3",
+    "profile": "official",
+    "steps": 1048576,
+    "n_envs": 1
+  },
+  "checkpoint_sha256": "0e568ee0b2fadd86ffd60fc86ca1a2af236d36f38148ac901f3f2af73fe8002e",
+  "memory": "stateless",
+  "low": [
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0
+  ],
+  "high": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "weights_sha256": "3e67ca50c0651b530732f1f7054971e386f4c6bca635b249364082ae1a0a3a51"
+}

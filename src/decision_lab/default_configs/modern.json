@@ -1,0 +1,15 @@
+{
+  "seeds": [0, 1, 2],
+  "validation_episodes": 12,
+  "test_episodes": 100,
+  "evaluation_every": 65536,
+  "device": "cuda:0",
+  "cases": [
+    {"env": "HalfCheetah-v5", "algorithm": "TD3", "profile": "official", "steps": 1048576, "n_envs": 1},
+    {"env": "HalfCheetah-v5", "algorithm": "TQC", "profile": "official", "steps": 1048576, "n_envs": 1},
+    {"env": "MiniGrid-Empty-8x8-v0", "algorithm": "PPO", "profile": "partial", "steps": 1048576, "n_envs": 8},
+    {"env": "MiniGrid-Empty-8x8-v0", "algorithm": "RecurrentPPO", "profile": "partial", "steps": 1048576, "n_envs": 8},
+    {"env": "MiniGrid-DoorKey-6x6-v0", "algorithm": "PPO", "profile": "partial", "steps": 1048576, "n_envs": 8},
+    {"env": "MiniGrid-DoorKey-6x6-v0", "algorithm": "RecurrentPPO", "profile": "partial", "steps": 1048576, "n_envs": 8}
+  ]
+}

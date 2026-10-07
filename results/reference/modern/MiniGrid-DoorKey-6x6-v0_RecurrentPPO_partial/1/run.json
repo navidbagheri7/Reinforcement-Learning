@@ -1,0 +1,85 @@
+{
+  "status": "complete",
+  "config": {
+    "benchmark": {
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "validation_episodes": 12,
+      "test_episodes": 100,
+      "evaluation_every": 65536,
+      "device": "cuda:1",
+      "cases": [
+        {
+          "env": "HalfCheetah-v5",
+          "algorithm": "TD3",
+          "profile": "official",
+          "steps": 1048576,
+          "n_envs": 1
+        },
+        {
+          "env": "HalfCheetah-v5",
+          "algorithm": "TQC",
+          "profile": "official",
+          "steps": 1048576,
+          "n_envs": 1
+        },
+        {
+          "env": "MiniGrid-Empty-8x8-v0",
+          "algorithm": "PPO",
+          "profile": "partial",
+          "steps": 1048576,
+          "n_envs": 8
+        },
+        {
+          "env": "MiniGrid-Empty-8x8-v0",
+          "algorithm": "RecurrentPPO",
+          "profile": "partial",
+          "steps": 1048576,
+          "n_envs": 8
+        },
+        {
+          "env": "MiniGrid-DoorKey-6x6-v0",
+          "algorithm": "PPO",
+          "profile": "partial",
+          "steps": 1048576,
+          "n_envs": 8
+        },
+        {
+          "env": "MiniGrid-DoorKey-6x6-v0",
+          "algorithm": "RecurrentPPO",
+          "profile": "partial",
+          "steps": 1048576,
+          "n_envs": 8
+        }
+      ]
+    },
+    "case": {
+      "env": "MiniGrid-DoorKey-6x6-v0",
+      "algorithm": "RecurrentPPO",
+      "profile": "partial",
+      "steps": 1048576,
+      "n_envs": 8
+    },
+    "seed": 1,
+    "quick": false
+  },
+  "python": "3.10.20",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "gymnasium": "1.2.3",
+    "torch": "2.7.1+cu128",
+    "stable-baselines3": "2.8.0",
+    "sb3-contrib": "2.8.0",
+    "minigrid": "3.0.0",
+    "mujoco": "3.15.0"
+  },
+  "source_sha256": {
+    "modern.py": "113d2a19c2ec42caee7cff1ddff8a869c146eddbb1095e4a0aefb8211492da31",
+    "artifacts.py": "504b9bc38bff7b18fe1bcf5196e4ce4f879d545a43259179db4f8218b2efeac5"
+  },
+  "elapsed_seconds": 3775.1443479340523
+}

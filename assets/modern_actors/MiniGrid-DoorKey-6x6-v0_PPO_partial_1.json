@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "algorithm": "PPO",
+  "inputs": 151,
+  "outputs": 7,
+  "case": {
+    "env": "MiniGrid-DoorKey-6x6-v0",
+    "algorithm": "PPO",
+    "profile": "partial",
+    "steps": 1048576,
+    "n_envs": 8
+  },
+  "checkpoint_sha256": "60bbdd7002884a80bd3bc87403b478d277d43a1b9588fa85dc136015d7ff32ce",
+  "memory": "stateless",
+  "weights_sha256": "f0b0330c8fb134fb35de292578897694fbc414fd991d0fda3130639be77e2af9"
+}

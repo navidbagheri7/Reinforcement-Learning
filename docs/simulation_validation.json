@@ -4,6 +4,6 @@
   "actors": 24,
   "fresh_actor_test_episodes": 72,
   "unfitted_baselines": 5,
-  "verified_gifs": 30,
+  "verified_gifs": 48,
   "private_checkpoints_required": false
 }

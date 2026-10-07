@@ -29,3 +29,29 @@ Standard control shifts use the same fitted checkpoint: LunarLander changes grav
 Owned wireless fits use float32, frozen target values and legal-action masks. Prioritized replay uses batch-normalized importance weights and merges duplicate priority updates by maximum absolute TD error. QR-DQN selects actions by quantile mean, uses the pairwise quantile Huber loss, and reports crossing. Quantiles describe return randomness; no epistemic calibration is claimed.
 
 Finite-state action tables preserve the fitting-device argmax. Cross-device critic recomputation can differ at close float32 ties, so the deployed table is the reproducible policy contract. CPU SB3 fresh-rollout checks use the same environment/library versions. Seeded execution is not a guarantee of identical results across platforms or library releases. No claim of complete checkpoint/resume replay of environment and optimizer state is made.
+
+## Local-view memory and distributional locomotion
+
+The modern studies use 1,048,576 interactions and three fitting seeds per preset.
+Twelve fixed validation episodes are observed every 65,536 interactions and after
+the last optimizer update; the first strict best mean selects the actor. One
+hundred final test resets are evaluated after selection. TD3/TQC differ in critic
+work and optimization despite matching interactions. Feedforward/recurrent PPO
+share observation preprocessing, rollout size and episode rewards, while recurrent
+state changes parameter count and compute. No extra reward shaping or global-map
+features enter these local-view agents.
+
+Official MiniGrid Empty has a fixed layout, start, direction and goal. Different
+reset seeds therefore produce the same deterministic evaluation trajectory; its
+episode interval can collapse to a point and is not a measure of new-layout
+generalization. DoorKey randomizes its layout and placements. Recurrent memory
+is cleared at each reset and propagated within each episode, including rollout
+illustrations. Full-scene rendering does not reveal those hidden features to
+the policy. Three seeds, a small repeatedly used validation set and sparse reward
+still limit conclusions; failures remain in the final comparison.
+
+Interrupted active training is preserved privately and restarted at full budget.
+A selected-policy checkpoint proves inference identity, not exact training
+continuation. Run records bind the fitting source, actual budget, package versions
+and device. Concurrent fits may contend for resources; wall time is not a
+hardware-normalized algorithm benchmark. See [modern methods](modern_methods.md).

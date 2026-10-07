@@ -12,7 +12,7 @@ def main():
     parser.add_argument("--allow-partial", action="store_true")
     args = parser.parse_args()
     rows = []
-    for family in ["simulations", "geometry", "curriculum"]:
+    for family in ["simulations", "geometry", "curriculum", "modern"]:
         for path in sorted(Path("results/reference", family).glob("*/*/metrics.json")):
             m = json.loads(path.read_text())
             record = json.loads(path.with_name("run.json").read_text())
@@ -34,7 +34,7 @@ def main():
                     metrics="../" + str(path),
                 )
             )
-    assert args.allow_partial or len(rows) == 24
+    assert args.allow_partial or len(rows) == 42
     baselines = json.loads(Path("docs/simulation_baselines.json").read_text())["rows"]
     encoded = json.dumps(dict(fits=rows, baselines=baselines), allow_nan=False).replace(
         "<", "\\u003c"
@@ -45,7 +45,7 @@ def main():
     write_json(
         "docs/simulation_dashboard.json",
         dict(
-            status="passed" if len(rows) == 24 else "partial",
+            status="passed" if len(rows) == 42 else "partial",
             fits=len(rows),
             html_sha256=sha256(output),
             template_sha256=sha256("scripts/templates/simulation_dashboard.html"),
