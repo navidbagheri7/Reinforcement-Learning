@@ -7,9 +7,9 @@ Choose your GitHub repository name and create an empty repository in your accoun
 ```bash
 git remote add origin git@github.com:YOUR_ACCOUNT/sequential-decision-lab.git
 git push -u origin main
-git push origin v1.0.0
+git push origin v1.1.0
 ```
 
-The placeholder account must be replaced by your own. No remote or push is configured automatically. Use GitHub Releases for optional large fitted control/neural weights; publish their recorded SHA256 files with them. The finite-state policies and small MountainCar weights already work from the public tree.
+The placeholder account must be replaced by your own. No remote or push is configured automatically. Use GitHub Releases for optional large fitted control/neural weights; publish their recorded SHA256 files with them. The finite-state policies, small MountainCar weights and new MiniGrid/MuJoCo actors already work from the public tree.
 
 A source archive must exclude `legacy/originals`, `.local`, environments, caches, smoke outputs and private checkpoint directories. A wheel contains the authored Python API and default configs; the source archive carries the research evidence and notebooks. See the release checklist for actual local checks and counts.

@@ -23,6 +23,12 @@ Pendulum-v1,PPO,2,-178.28240022101312,-201.4434196395393,-156.36526364045477,,-2
 Pendulum-v1,SAC,0,-152.49249272939807,-169.14224561894585,-135.28654599565553,,-198.82428708822368,results/reference/control/Pendulum-v1/SAC_seed0/metrics.json
 Pendulum-v1,SAC,1,-152.39387172041774,-169.7764940687037,-134.92367376889933,,-149.24455234006092,results/reference/control/Pendulum-v1/SAC_seed1/metrics.json
 Pendulum-v1,SAC,2,-151.71170388752208,-168.95522430079595,-134.31524960759123,,-151.98878768443836,results/reference/control/Pendulum-v1/SAC_seed2/metrics.json
+MiniGrid-FourRooms-v0,PPO (potential_curriculum),0,0.7539399999999999,0.70212775,0.80026175,,,results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/0/metrics.json
+MiniGrid-FourRooms-v0,PPO (potential_curriculum),1,0.7173599999999999,0.66049775,0.7712665,,,results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/1/metrics.json
+MiniGrid-FourRooms-v0,PPO (potential_curriculum),2,0.74476,0.6936897499999997,0.7903679999999998,,,results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/2/metrics.json
+MiniGrid-FourRooms-v0,PPO (potential_geometry),0,0.04722,0.013879999999999998,0.08867424999999997,,,results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/0/metrics.json
+MiniGrid-FourRooms-v0,PPO (potential_geometry),1,0.02874,0.0,0.06658224999999998,,,results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/1/metrics.json
+MiniGrid-FourRooms-v0,PPO (potential_geometry),2,0.32416000000000006,0.24780475000000002,0.40100899999999995,,,results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/2/metrics.json
 Wireless online,double_dqn,0,-626.43,-629.7405,-623.0597499999999,0.002665447701426061,-819.77,results/reference/neural/double_dqn/seed0/metrics.json
 Wireless online,double_dqn,1,-625.31,-628.7105,-622.1395,9.819303800789135e-11,-819.68,results/reference/neural/double_dqn/seed1/metrics.json
 Wireless online,double_dqn,2,-625.3,-628.8004999999999,-621.93,9.819358231871548e-11,-819.77,results/reference/neural/double_dqn/seed2/metrics.json
@@ -71,6 +77,24 @@ Wireless offline epsilon=1,fitted_dqn,2,-1258.78,-1266.2005000000001,-1251.59749
 Wireless offline epsilon=1,iql,0,-1245.55,-1252.9005000000002,-1237.6992500000001,9.802198800245591e-11,-1640.18,results/reference/offline/epsilon1/iql/seed0/metrics.json
 Wireless offline epsilon=1,iql,1,-1246.62,-1254.431,-1239.27925,0.0011306830885211673,-1640.39,results/reference/offline/epsilon1/iql/seed1/metrics.json
 Wireless offline epsilon=1,iql,2,-1246.62,-1254.58125,-1238.8892500000002,0.0011306830885211673,-1640.39,results/reference/offline/epsilon1/iql/seed2/metrics.json
+HalfCheetah-v5,PPO (official),0,1354.7362463471236,1321.6051187881642,1383.329312734299,,,results/reference/simulations/HalfCheetah-v5_PPO_official/0/metrics.json
+HalfCheetah-v5,PPO (official),1,1527.218336119032,1490.633207649902,1555.3980410969286,,,results/reference/simulations/HalfCheetah-v5_PPO_official/1/metrics.json
+HalfCheetah-v5,PPO (official),2,1485.2377611849367,1457.1528649116908,1508.491545902715,,,results/reference/simulations/HalfCheetah-v5_PPO_official/2/metrics.json
+HalfCheetah-v5,SAC (official),0,8317.21913385136,8301.446708492835,8332.925177376535,,,results/reference/simulations/HalfCheetah-v5_SAC_official/0/metrics.json
+HalfCheetah-v5,SAC (official),1,8223.52087151486,8207.885915850455,8239.239264914306,,,results/reference/simulations/HalfCheetah-v5_SAC_official/1/metrics.json
+HalfCheetah-v5,SAC (official),2,7605.357311379741,7585.917535390246,7624.586168773847,,,results/reference/simulations/HalfCheetah-v5_SAC_official/2/metrics.json
+MiniGrid-DoorKey-6x6-v0,PPO (potential),0,0.9401999999999999,0.9017743749999998,0.9691499999999997,,,results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/0/metrics.json
+MiniGrid-DoorKey-6x6-v0,PPO (potential),1,0.9594749999999999,0.9391987500000002,0.9700499999999999,,,results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/1/metrics.json
+MiniGrid-DoorKey-6x6-v0,PPO (potential),2,0.9238749999999999,0.882060625,0.955775,,,results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/2/metrics.json
+MiniGrid-DoorKey-6x6-v0,PPO (sparse),0,0.9545499999999998,0.932499375,0.9694749999999999,,,results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/0/metrics.json
+MiniGrid-DoorKey-6x6-v0,PPO (sparse),1,0.8856499999999999,0.83075,0.9335768749999999,,,results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/1/metrics.json
+MiniGrid-DoorKey-6x6-v0,PPO (sparse),2,0.90975,0.8605975,0.9490249999999999,,,results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/2/metrics.json
+MiniGrid-FourRooms-v0,PPO (potential),0,0.21868999999999997,0.15138975,0.28899175,,,results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/0/metrics.json
+MiniGrid-FourRooms-v0,PPO (potential),1,0.16527999999999998,0.1087715,0.22882425,,,results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/1/metrics.json
+MiniGrid-FourRooms-v0,PPO (potential),2,0.12857,0.07162775,0.19119699999999995,,,results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/2/metrics.json
+MiniGrid-FourRooms-v0,PPO (sparse),0,0.22155999999999998,0.15001325,0.30319149999999995,,,results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/0/metrics.json
+MiniGrid-FourRooms-v0,PPO (sparse),1,0.22335999999999998,0.15272,0.30312249999999985,,,results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/1/metrics.json
+MiniGrid-FourRooms-v0,PPO (sparse),2,0.275,0.19775749999999997,0.35924,,,results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/2/metrics.json
 Wireless,q_learning,0,-648.69,-651.6505,-645.7,0.05002377416115081,,results/reference/tabular/seed0/metrics.json
 Wireless,sarsa,0,-644.16,-647.19,-641.08975,0.039104562382243795,,results/reference/tabular/seed0/metrics.json
 Wireless,expected_sarsa,0,-648.83,-651.93025,-645.85925,0.049349878788329,,results/reference/tabular/seed0/metrics.json

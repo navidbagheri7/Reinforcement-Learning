@@ -1,0 +1,15 @@
+{
+  "env": "Maze",
+  "algorithm": "Q-learning",
+  "fit_seed": 0,
+  "test_seed": 300000,
+  "return_value": 0.83,
+  "length": 18,
+  "terminated": true,
+  "truncated": false,
+  "gif_sha256": "25d6f6a589c3e9b5e5255518915ca3fd2a55a70297997ed650b13745138e6738",
+  "policy_sha256": "fa70e21cc4d9e0e283147a4209eae8c462d260315ca102e20d6f8b979b6538ed",
+  "source_evidence": "assets/source_data/tabular/Maze_q_learning_0.npz",
+  "protocol": "First held-out episode, verified against saved returns and lengths; no visual selection",
+  "renderer": "Owned 2D maze renderer"
+}

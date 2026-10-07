@@ -1,0 +1,12 @@
+{
+  "env": "MiniGrid-DoorKey-6x6-v0",
+  "algorithm": "BFS",
+  "test_seed": 300000,
+  "return_value": 0.965,
+  "length": 14,
+  "terminated": true,
+  "truncated": false,
+  "gif_sha256": "46879355dfde7e0d7769a11716123e5ec4e59125019e85ef4d97369fcafa121a",
+  "source_evidence": "assets/source_data/simulations/MiniGrid-DoorKey-6x6-v0_BFS.npz",
+  "protocol": "Fixed first held-out episode; model-based planner, not a learned policy"
+}

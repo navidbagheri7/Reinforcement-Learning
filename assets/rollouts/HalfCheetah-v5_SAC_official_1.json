@@ -1,0 +1,17 @@
+{
+  "env": "HalfCheetah-v5",
+  "algorithm": "SAC",
+  "profile": "official",
+  "fit_seed": 1,
+  "test_seed": 300000,
+  "return_value": 8255.437363195135,
+  "length": 1000,
+  "terminated": false,
+  "truncated": true,
+  "actor_sha256": "25ea9654aa702eac0605832c7f3567cc0737f5cf9ce45e8ad427be1fa00fca8b",
+  "gif_sha256": "4e63fd6d9f4b836930feb4036ab425fa0f86af57367d5f57ae1c7c2c4bc30ce0",
+  "frame_stride": 4,
+  "frame_duration_ms": 200,
+  "source_evidence": "assets/source_data/simulations/HalfCheetah-v5_SAC_official_1.npz",
+  "protocol": "Fixed first held-out episode; exported actor return exactly matches numeric test evidence; no visual selection"
+}

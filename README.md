@@ -16,6 +16,7 @@ The central question is practical: **how close does a policy learned from transi
 | Owned deep control | DQN, Double DQN, double/dueling/prioritized replay, QR-DQN | Matched wireless interaction budgets, frozen targets, masks, quantile-crossing diagnostics |
 | Logged-data learning | Behavior cloning, fitted DQN, discrete CQL, discrete IQL | Three action-coverage profiles, shared datasets, fixed offline budgets, weighted-priority extension |
 | Official continuous-observation tasks | Maintained SB3 PPO/DQN/SAC | CartPole, LunarLander and Pendulum; held-out test and declared parameter shifts |
+| Official visual simulations | PPO reward/geometry/curriculum ablations; PPO versus SAC locomotion; known-model BFS reference | MiniGrid Four Rooms, Door Key and MuJoCo HalfCheetah; three seeds, 100 held-out episodes, portable neural actors and verified GIFs |
 | Linear approximation | Tile-coded SARSA with lambda 0 and .9 | Three seeds, official MountainCar, correct time-limit bootstrap |
 | Lecture studies | Gaussian bandits; MC/TD/n-step/TD(lambda); Baird-style TD/GTD2/LSTD | Known-value error, drift sensitivity and an unclipped off-policy divergence counterexample |
 
@@ -25,6 +26,20 @@ See [measured results](docs/results.md), [individual fits](docs/individual_fits.
 
 This illustration uses fitting seed0 and the predetermined first test reset; its return is checked against the saved episode array.
 
+Open the [interactive simulation dashboard](docs/simulation_dashboard.html) locally to switch tasks/presets, inspect all three fitted policies, and compare validation curves. It uses embedded numeric evidence and local GIFs, with no online service.
+
+Explore the [visual simulation gallery](docs/simulation_gallery.md) for official maze navigation, key pickup/door unlocking, Taxi, slippery FrozenLake and MuJoCo locomotion. [Simulation protocols](docs/simulations.md) distinguish full-map symbolic policies, training reward shaping and known-model planning.
+
+![Stochastic maze — Q-learning, fixed first test episode](assets/rollouts/Maze_q_learning_0.gif)
+
+Door Key PPO: the same fixed test reset for all three independently fitted policies. This includes a failure, even though aggregate test success is high.
+
+| Fitting seed0 | Fitting seed1 | Fitting seed2 |
+|---|---|---|
+| ![Seed0](assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_potential_0.gif) | ![Seed1](assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_potential_1.gif) | ![Seed2](assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_potential_2.gif) |
+
+![MuJoCo HalfCheetah — SAC, fixed first test episode](assets/rollouts/HalfCheetah-v5_SAC_official_0.gif)
+
 ## Install and run
 
 Use Python 3.10–3.12 and a new environment:
@@ -33,11 +48,11 @@ Use Python 3.10–3.12 and a new environment:
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install --upgrade pip
-python -m pip install -e '.[deep,control,notebooks,dev]'
+python -m pip install -e '.[deep,control,simulations,notebooks,dev]'
 python -m pytest -q
 ```
 
-The base install supports planning, tabular control, lecture studies and tile-coded MountainCar. `deep` adds the owned neural algorithms; `control` adds SB3 and Box2D. On machines without a GPU, install the appropriate CPU PyTorch build. The reference control protocols use CPU; GPU float32 was used for owned wireless networks.
+The base install supports planning, tabular control, lecture studies and tile-coded MountainCar. `deep` adds the owned neural algorithms; `control` adds SB3 and Box2D; `simulations` adds MiniGrid and MuJoCo. On machines without a GPU, install the appropriate CPU PyTorch build. The reference control protocols use CPU; GPU float32 was used for owned wireless networks.
 
 ```bash
 decision-lab planning
@@ -45,6 +60,9 @@ decision-lab tabular --seed 0
 decision-lab neural --seed 0 --device cuda
 decision-lab offline --seed 0 --device cuda
 decision-lab control --seed 0
+decision-lab simulations --seed 0
+decision-lab geometry --seed 0
+decision-lab curriculum --seed 0
 decision-lab approximation --seed 0
 decision-lab lectures
 ```
@@ -63,6 +81,22 @@ The [policy audit](docs/policy_audit.json) records fresh held-out rollouts from 
 
 ![Learned maze policies and fixed test traces](assets/figures/maze_policies.png)
 
+The new simulation actors are distributed as compact, pickle-free NPZ weights with explicit JSON architectures. They support deterministic inference without loading private SB3 training checkpoints:
+
+```python
+from decision_lab.simulation_deployment import load_actor
+from decision_lab.simulation_envs import make_environment
+
+actor = load_actor("assets/actors/MiniGrid-DoorKey-6x6-v0_PPO_potential_0.npz")
+env = make_environment(actor.metadata["case"]["env"])
+observation, _ = env.reset(seed=300000)
+action, _ = actor.predict(observation)
+observation, reward, terminated, truncated, info = env.step(action)
+env.close()
+```
+
+Every actor is checked against its original selected model on complete held-out episodes. MiniGrid policies use the declared full symbolic map; RGB rendering is for visualization.
+
 ## Inspect and reproduce the evidence
 
 The [notebooks](notebooks/README.md) are executed English walkthroughs. They teach the equations, run small numerical checks and read the complete experiment evidence; opening them does not launch hours of training. Figures are generated from NPZ arrays and JSON records, with PNG and PDF versions.
@@ -71,6 +105,7 @@ The [notebooks](notebooks/README.md) are executed English walkthroughs. They tea
 decision-lab report
 decision-lab audit
 python scripts/validate_release.py
+python scripts/validate_simulations.py
 ```
 
 `report` requires the complete reference protocol set. `audit` checks local checkpoint hashes and rebuilds finite-state policy exports. A fresh checkout includes exports and measured evidence; full checkpoint auditing requires fitting or restoring your local checkpoints. Independent release checks do not require those private weights.

@@ -15,3 +15,6 @@ results/**/*.pt
 results/**/*.zip
 results/**/*.npz
 *.log
+
+# Ad hoc replay outputs; measured published GIFs live under assets/rollouts.
+results/deployment/

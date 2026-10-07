@@ -1,0 +1,15 @@
+{
+  "env": "Taxi-v3",
+  "algorithm": "Q-learning",
+  "fit_seed": 0,
+  "test_seed": 300000,
+  "return_value": 6.0,
+  "length": 15,
+  "terminated": true,
+  "truncated": false,
+  "gif_sha256": "c0314c40e20e1d5e84ac4595cf78d4057355c6f081cd17b028826c5f6c2af61e",
+  "policy_sha256": "11ecf8e7c1924fb0943a0ec9da7004f41ed81f237fb346b170cfed10e0de4970",
+  "source_evidence": "assets/source_data/tabular/Taxi-v3_q_learning_0.npz",
+  "protocol": "First held-out episode, verified against saved returns and lengths; no visual selection",
+  "renderer": "Official Gymnasium RGB renderer"
+}

@@ -21,6 +21,9 @@ def main():
             "neural",
             "offline",
             "control",
+            "simulations",
+            "geometry",
+            "curriculum",
             "lectures",
             "approximation",
             "rollout",
@@ -29,6 +32,9 @@ def main():
         ],
     )
     parser.add_argument("--config")
+    parser.add_argument(
+        "--case", help="Filter simulation cases by environment, algorithm or profile substring"
+    )
     parser.add_argument("--seed", type=int, default=0)
     parser.add_argument("--device", default="cpu")
     parser.add_argument("--output")
@@ -121,6 +127,41 @@ def main():
                 "evaluation_every": 2048,
             }
         for case in config["cases"]:
+            if args.quick:
+                case |= {"steps": 2048}
+            train_case(config, case, args.seed, output, args.quick)
+    elif args.command in ["simulations", "geometry", "curriculum"]:
+        from .simulations import identifier
+
+        if args.command == "curriculum":
+            from .curriculum import train_case
+        elif args.command == "geometry":
+            from .geometry import train_case
+        else:
+            from .simulations import train_case
+
+        config["device"] = args.device
+        if args.quick:
+            config |= {"validation_episodes": 2, "test_episodes": 3, "evaluation_every": 2048}
+        matched = [
+            case for case in config["cases"] if not args.case or args.case in identifier(case)
+        ]
+        if not matched:
+            parser.error("--case matches no simulation case")
+        for case in matched:
+            evidence = (
+                Path("assets/source_data/simulations") / f"{identifier(case)}_{args.seed}.npz"
+            )
+            canonical = Path("results/reference") / args.command
+            if (
+                not args.quick
+                and evidence.exists()
+                and Path(output).resolve() != canonical.resolve()
+            ):
+                parser.error(
+                    "This --output would overwrite published episode evidence. "
+                    "Use a distinct case profile or a separate checkout for changed full protocols."
+                )
             if args.quick:
                 case |= {"steps": 2048}
             train_case(config, case, args.seed, output, args.quick)

@@ -6,9 +6,12 @@
     "offline": 36,
     "control": 18,
     "approximation": 3,
-    "lectures": 1
+    "lectures": 1,
+    "simulations": 18,
+    "geometry": 3,
+    "curriculum": 3
   },
-  "total_protocols": 74,
+  "total_protocols": 98,
   "protocols": [
     {
       "family": "approximation",
@@ -114,6 +117,36 @@
       "family": "control",
       "path": "results/reference/control/Pendulum-v1/SAC_seed2",
       "elapsed_seconds": 348.1957133868709
+    },
+    {
+      "family": "curriculum",
+      "path": "results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/0",
+      "elapsed_seconds": 1749.8087849505246
+    },
+    {
+      "family": "curriculum",
+      "path": "results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/1",
+      "elapsed_seconds": 1720.7194163184613
+    },
+    {
+      "family": "curriculum",
+      "path": "results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/2",
+      "elapsed_seconds": 1699.6720275869593
+    },
+    {
+      "family": "geometry",
+      "path": "results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/0",
+      "elapsed_seconds": 1634.5883596455678
+    },
+    {
+      "family": "geometry",
+      "path": "results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/1",
+      "elapsed_seconds": 1622.1576191075146
+    },
+    {
+      "family": "geometry",
+      "path": "results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/2",
+      "elapsed_seconds": 1602.676039566286
     },
     {
       "family": "lectures",
@@ -364,6 +397,96 @@
       "family": "planning",
       "path": "results/reference/planning",
       "elapsed_seconds": 12.62969009205699
+    },
+    {
+      "family": "simulations",
+      "path": "results/reference/simulations/HalfCheetah-v5_PPO_official/0",
+      "elapsed_seconds": 459.53192134201527
+    },
+    {
+      "family": "simulations",
+      "path": "results/reference/simulations/HalfCheetah-v5_PPO_official/1",
+      "elapsed_seconds": 462.78268454037607
+    },
+    {
+      "family": "simulations",
+      "path": "results/reference/simulations/HalfCheetah-v5_PPO_official/2",
+      "elapsed_seconds": 459.39089769963175
+    },
+    {
+      "family": "simulations",
+      "path": "results/reference/simulations/HalfCheetah-v5_SAC_official/0",
+      "elapsed_seconds": 3879.980602058582
+    },
+    {
+      "family": "simulations",
+      "path": "results/reference/simulations/HalfCheetah-v5_SAC_official/1",
+      "elapsed_seconds": 3912.497983279638
+    },
+    {
+      "family": "simulations",
+      "path": "results/reference/simulations/HalfCheetah-v5_SAC_official/2",
+      "elapsed_seconds": 3929.2093304302543
+    },
+    {
+      "family": "simulations",
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/0",
+      "elapsed_seconds": 775.2734661437571
+    },
+    {
+      "family": "simulations",
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/1",
+      "elapsed_seconds": 771.3356245448813
+    },
+    {
+      "family": "simulations",
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/2",
+      "elapsed_seconds": 765.0274141924456
+    },
+    {
+      "family": "simulations",
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/0",
+      "elapsed_seconds": 801.0801467364654
+    },
+    {
+      "family": "simulations",
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/1",
+      "elapsed_seconds": 804.22679720819
+    },
+    {
+      "family": "simulations",
+      "path": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/2",
+      "elapsed_seconds": 785.0177080053836
+    },
+    {
+      "family": "simulations",
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/0",
+      "elapsed_seconds": 1826.4988613175228
+    },
+    {
+      "family": "simulations",
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/1",
+      "elapsed_seconds": 1836.110490616411
+    },
+    {
+      "family": "simulations",
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/2",
+      "elapsed_seconds": 1813.920375132002
+    },
+    {
+      "family": "simulations",
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/0",
+      "elapsed_seconds": 1803.608771567233
+    },
+    {
+      "family": "simulations",
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/1",
+      "elapsed_seconds": 1849.2635932061821
+    },
+    {
+      "family": "simulations",
+      "path": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/2",
+      "elapsed_seconds": 1813.965619681403
     },
     {
       "family": "tabular",

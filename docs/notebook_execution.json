@@ -55,6 +55,16 @@
       "notebook": "notebooks/11_off_policy_instability.ipynb",
       "executed_code_cells": 4,
       "all_executed": true
+    },
+    {
+      "notebook": "notebooks/12_official_navigation.ipynb",
+      "executed_code_cells": 5,
+      "all_executed": true
+    },
+    {
+      "notebook": "notebooks/13_mujoco_locomotion.ipynb",
+      "executed_code_cells": 5,
+      "all_executed": true
     }
   ]
 }

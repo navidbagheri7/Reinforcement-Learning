@@ -1,0 +1,15 @@
+{
+  "env": "FrozenLake-v1",
+  "algorithm": "Q-learning",
+  "fit_seed": 0,
+  "test_seed": 300000,
+  "return_value": 1.0,
+  "length": 49,
+  "terminated": true,
+  "truncated": false,
+  "gif_sha256": "f1371eb60c910b4e66379eb0f6754e4accf7fc49f52b64168e9c28f6b76d18b9",
+  "policy_sha256": "4a048565eb787b41c83cb8c6ecc53818abcf3c5bd8c64dadc4b9c9e099afe397",
+  "source_evidence": "assets/source_data/tabular/FrozenLake-v1_q_learning_0.npz",
+  "protocol": "First held-out episode, verified against saved returns and lengths; no visual selection",
+  "renderer": "Official Gymnasium RGB renderer"
+}

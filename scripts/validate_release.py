@@ -55,6 +55,12 @@ def main():
                     / f"epsilon{row['behavior_epsilon']:g}_{row['recipe']}_{row['seed']}.npz"
                 )
                 key = "returns"
+            elif family in ["simulations", "geometry", "curriculum"]:
+                file = (
+                    Path("assets/source_data/simulations")
+                    / f"{row['env']}_{row['algorithm']}_{row['profile']}_{row['seed']}.npz"
+                )
+                key = "returns"
             elif family == "control":
                 file = (
                     Path("assets/source_data/control")
@@ -112,8 +118,8 @@ def main():
         load_policy(file)
     notebooks = list(Path("notebooks").glob("*.ipynb"))
     code_count = 0
-    if len(notebooks) != 11:
-        problems.append(f"Expected 11 walkthroughs, got {len(notebooks)}")
+    if len(notebooks) != 13:
+        problems.append(f"Expected 13 walkthroughs, got {len(notebooks)}")
     for file in notebooks:
         notebook = nbformat.read(file, as_version=4)
         nbformat.validate(notebook)

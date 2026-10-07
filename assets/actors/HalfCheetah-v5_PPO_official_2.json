@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "encoder": "identity",
+  "observation_dimension": 17,
+  "case": {
+    "env": "HalfCheetah-v5",
+    "algorithm": "PPO",
+    "profile": "official",
+    "steps": 1048576,
+    "n_envs": 8
+  },
+  "algorithm": "PPO",
+  "dimensions": [
+    17,
+    256,
+    256,
+    6
+  ],
+  "action_type": "box",
+  "activation": "tanh",
+  "weights_sha256": "2cd654e3c160af6a034fe4ca91065548090bf6261439df4131906d5a93fcd013",
+  "checkpoint_sha256": "3c44e51719795a2a8d4567e65fd43e8579a1eb54c10179c21a7231adaa61bb13",
+  "inference": "CPU float32 deterministic actor; no optimizer/critic/pickle",
+  "observation_factory": "decision_lab.simulation_envs.make_environment; shaping disabled",
+  "action_low": [
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0
+  ],
+  "action_high": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

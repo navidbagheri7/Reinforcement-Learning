@@ -1,0 +1,42 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "validation_episodes": 12,
+  "test_episodes": 100,
+  "evaluation_every": 65536,
+  "device": "cpu",
+  "cases": [
+    {
+      "env": "MiniGrid-FourRooms-v0",
+      "algorithm": "PPO",
+      "profile": "potential_curriculum",
+      "steps": 1048576,
+      "n_envs": 8
+    }
+  ],
+  "curriculum": [
+    {
+      "until_fraction": 0.15,
+      "max_distance": 3
+    },
+    {
+      "until_fraction": 0.3,
+      "max_distance": 6
+    },
+    {
+      "until_fraction": 0.45,
+      "max_distance": 10
+    },
+    {
+      "until_fraction": 0.6,
+      "max_distance": 16
+    },
+    {
+      "until_fraction": 0.75,
+      "max_distance": 24
+    }
+  ]
+}

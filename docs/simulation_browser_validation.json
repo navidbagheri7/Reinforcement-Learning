@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "checked_presets": [
+    {
+      "environment": "HalfCheetah-v5",
+      "method": "PPO_official",
+      "fitting_seeds": 3
+    },
+    {
+      "environment": "HalfCheetah-v5",
+      "method": "SAC_official",
+      "fitting_seeds": 3
+    },
+    {
+      "environment": "MiniGrid-DoorKey-6x6-v0",
+      "method": "PPO_potential",
+      "fitting_seeds": 3
+    },
+    {
+      "environment": "MiniGrid-DoorKey-6x6-v0",
+      "method": "PPO_sparse",
+      "fitting_seeds": 3
+    },
+    {
+      "environment": "MiniGrid-FourRooms-v0",
+      "method": "PPO_potential",
+      "fitting_seeds": 3
+    },
+    {
+      "environment": "MiniGrid-FourRooms-v0",
+      "method": "PPO_sparse",
+      "fitting_seeds": 3
+    },
+    {
+      "environment": "MiniGrid-FourRooms-v0",
+      "method": "PPO_potential_geometry",
+      "fitting_seeds": 3
+    },
+    {
+      "environment": "MiniGrid-FourRooms-v0",
+      "method": "PPO_potential_curriculum",
+      "fitting_seeds": 3
+    }
+  ],
+  "desktop_viewport": [
+    1280,
+    960
+  ],
+  "mobile_viewport": [
+    390,
+    844
+  ],
+  "javascript_errors": []
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "encoder": "fourrooms_geometry_v1",
+  "observation_dimension": 1102,
+  "case": {
+    "env": "MiniGrid-FourRooms-v0",
+    "algorithm": "PPO",
+    "profile": "potential_curriculum",
+    "steps": 1048576,
+    "n_envs": 8
+  },
+  "algorithm": "PPO",
+  "dimensions": [
+    44,
+    256,
+    256,
+    7
+  ],
+  "action_type": "discrete",
+  "activation": "tanh",
+  "weights_sha256": "bfef3a4ee6799a31b2147d7f1718c270c4275705c4655b20cf7c956ee6bb90ae",
+  "checkpoint_sha256": "4efbf590c65b7ca08747ff385829d7f19838d6b61756a6c32e6682e6aba63013",
+  "inference": "CPU float32 deterministic actor; no optimizer/critic/pickle",
+  "observation_factory": "decision_lab.simulation_envs.make_environment; shaping disabled"
+}

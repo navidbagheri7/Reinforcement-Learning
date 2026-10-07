@@ -1,0 +1,17 @@
+{
+  "env": "MiniGrid-FourRooms-v0",
+  "algorithm": "PPO",
+  "profile": "potential_curriculum",
+  "fit_seed": 1,
+  "test_seed": 300000,
+  "return_value": 0.766,
+  "length": 26,
+  "terminated": true,
+  "truncated": false,
+  "actor_sha256": "bfef3a4ee6799a31b2147d7f1718c270c4275705c4655b20cf7c956ee6bb90ae",
+  "gif_sha256": "08d32bd685b75ca190e1d7402bfa9ce9124f5a1af38ab9835d12d2bf9848aa4e",
+  "frame_stride": 1,
+  "frame_duration_ms": 140,
+  "source_evidence": "assets/source_data/simulations/MiniGrid-FourRooms-v0_PPO_potential_curriculum_1.npz",
+  "protocol": "Fixed first held-out episode; exported actor return exactly matches numeric test evidence; no visual selection"
+}

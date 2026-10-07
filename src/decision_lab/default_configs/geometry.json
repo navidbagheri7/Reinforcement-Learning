@@ -1,0 +1,20 @@
+{
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "validation_episodes": 12,
+  "test_episodes": 100,
+  "evaluation_every": 65536,
+  "device": "cpu",
+  "cases": [
+    {
+      "env": "MiniGrid-FourRooms-v0",
+      "algorithm": "PPO",
+      "profile": "potential_geometry",
+      "steps": 1048576,
+      "n_envs": 8
+    }
+  ]
+}

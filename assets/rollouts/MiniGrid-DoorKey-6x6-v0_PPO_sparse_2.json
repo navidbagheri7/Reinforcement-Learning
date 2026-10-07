@@ -1,0 +1,17 @@
+{
+  "env": "MiniGrid-DoorKey-6x6-v0",
+  "algorithm": "PPO",
+  "profile": "sparse",
+  "fit_seed": 2,
+  "test_seed": 300000,
+  "return_value": 0.96,
+  "length": 16,
+  "terminated": true,
+  "truncated": false,
+  "actor_sha256": "7de5fc2f1e7316ec433406408a2388b62b9a438a42311268b3b0e59d3a647031",
+  "gif_sha256": "ef4291472e34b737488b64bd149fb021b6b3b0a7fd5be4cf527a95aad4d78eb7",
+  "frame_stride": 1,
+  "frame_duration_ms": 140,
+  "source_evidence": "assets/source_data/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse_2.npz",
+  "protocol": "Fixed first held-out episode; exported actor return exactly matches numeric test evidence; no visual selection"
+}

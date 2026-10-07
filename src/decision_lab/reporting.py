@@ -20,6 +20,9 @@ EXPECTED = {
     "control": 18,
     "approximation": 3,
     "lectures": 1,
+    "simulations": 18,
+    "geometry": 3,
+    "curriculum": 3,
 }
 
 
@@ -185,6 +188,9 @@ def report(strict=True):
             elif family == "control":
                 task = row["env"]
                 method = row["algorithm"]
+            elif family in ["simulations", "geometry", "curriculum"]:
+                task = row["env"]
+                method = row["algorithm"] + " (" + row["profile"] + ")"
             elif family == "approximation":
                 task = "MountainCar-v0"
                 method = f"SARSA(lambda={row['lambda']:g})"

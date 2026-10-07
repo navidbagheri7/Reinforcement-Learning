@@ -1,6 +1,6 @@
 # Measured comparisons
 
-74 completed reference protocols. Every fit is listed in [individual_fits.csv](individual_fits.csv); [comparison.csv](comparison.csv) aggregates the fitting seeds.
+98 completed reference protocols. Every fit is listed in [individual_fits.csv](individual_fits.csv); [comparison.csv](comparison.csv) aggregates the fitting seeds.
 
 Bars show the mean of fitting-seed test means; dots show every fit. Fit SD measures training variability across only three fits. Episode bootstrap intervals in the individual table quantify resets conditional on one fitted policy; they do not measure training uncertainty. No test return selects a checkpoint or hyperparameter.
 
@@ -14,6 +14,8 @@ Bars show the mean of fitting-seed test means; dots show every fit. Fit SD measu
 | LunarLander-v3 | PPO | 3 | 220.53 | 11.69 | 207.45 | — |
 | Pendulum-v1 | PPO | 3 | -184.97 | 13.93 | -200.98 | — |
 | Pendulum-v1 | SAC | 3 | -152.20 | 0.43 | -152.49 | — |
+| MiniGrid-FourRooms-v0 | PPO (potential_curriculum) | 3 | 0.74 | 0.02 | 0.72 | — |
+| MiniGrid-FourRooms-v0 | PPO (potential_geometry) | 3 | 0.13 | 0.17 | 0.03 | — |
 | Wireless online | double_dqn | 3 | -625.68 | 0.65 | -626.43 | 0.00089 |
 | Wireless online | double_dueling_per | 3 | -625.44 | 0.20 | -625.67 | 0.00026 |
 | Wireless online | dqn | 3 | -625.31 | 0.02 | -625.34 | 0.00000 |
@@ -30,6 +32,12 @@ Bars show the mean of fitting-seed test means; dots show every fit. Fit SD measu
 | Wireless offline epsilon=1 | cql | 3 | -1293.60 | 9.91 | -1304.91 | 0.10651 |
 | Wireless offline epsilon=1 | fitted_dqn | 3 | -1280.79 | 19.84 | -1297.29 | 0.07922 |
 | Wireless offline epsilon=1 | iql | 3 | -1246.26 | 0.62 | -1246.62 | 0.00075 |
+| HalfCheetah-v5 | PPO (official) | 3 | 1455.73 | 89.95 | 1354.74 | — |
+| HalfCheetah-v5 | SAC (official) | 3 | 8048.70 | 386.79 | 7605.36 | — |
+| MiniGrid-DoorKey-6x6-v0 | PPO (potential) | 3 | 0.94 | 0.02 | 0.92 | — |
+| MiniGrid-DoorKey-6x6-v0 | PPO (sparse) | 3 | 0.92 | 0.03 | 0.89 | — |
+| MiniGrid-FourRooms-v0 | PPO (potential) | 3 | 0.17 | 0.05 | 0.13 | — |
+| MiniGrid-FourRooms-v0 | PPO (sparse) | 3 | 0.24 | 0.03 | 0.22 | — |
 | Wireless | q_learning | 3 | -646.43 | 2.04 | -648.69 | 0.04559 |
 | Wireless | sarsa | 3 | -642.27 | 4.32 | -645.32 | 0.03599 |
 | Wireless | expected_sarsa | 3 | -647.65 | 1.30 | -648.83 | 0.04744 |

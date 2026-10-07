@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "encoder": "identity",
+  "observation_dimension": 17,
+  "case": {
+    "env": "HalfCheetah-v5",
+    "algorithm": "SAC",
+    "profile": "official",
+    "steps": 1048576,
+    "n_envs": 1
+  },
+  "algorithm": "SAC",
+  "dimensions": [
+    17,
+    256,
+    256,
+    6
+  ],
+  "action_type": "box",
+  "activation": "relu",
+  "weights_sha256": "7081adda665f211214a537cb5964ed4f37f70e08da854eeb26a23fec72f61443",
+  "checkpoint_sha256": "6acc018c93371aedf80200b9adca6089c32e94754c3b1b1edbe730d30232debd",
+  "inference": "CPU float32 deterministic actor; no optimizer/critic/pickle",
+  "observation_factory": "decision_lab.simulation_envs.make_environment; shaping disabled",
+  "action_low": [
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0,
+    -1.0
+  ],
+  "action_high": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ]
+}

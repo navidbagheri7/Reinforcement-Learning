@@ -36,3 +36,9 @@ print(evidence['returns'].mean())
 ```
 
 Every parameter shift uses a fixed fitted policy and a preset changed environment. Reported results support a limited sensitivity study, not a general robustness or safety guarantee.
+
+## Official navigation and locomotion actors
+
+Twenty-four independently fitted deterministic actors cover the six presets in `simulations.json` plus spatial-feature and training-curriculum presets in `geometry.json` and `curriculum.json`: fully observed MiniGrid Four Rooms/Door Key PPO with sparse and potential-shaped training, and official HalfCheetah PPO/SAC. All actors are trained from scratch in simulators. Full-map observations and map-derived training shaping are explicitly stronger access than the default local MiniGrid view. Numeric actor weights and preprocessing metadata are public; critics, optimizers and replay buffers remain private.
+
+These actors are evaluated on100 held-out seeds per fit, with complete fresh deployment episodes checked against selected checkpoint evidence. The fixed first-test animations include poor episodes. Three fitted seeds and a small validation set are insufficient for strong general algorithm rankings. The robotics policy acts on simulated state, not camera input or a real robot. See [simulations.md](simulations.md), [gallery](simulation_gallery.md), and [actor audit](simulation_actor_audit.json).

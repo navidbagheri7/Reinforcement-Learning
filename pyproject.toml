@@ -3,7 +3,7 @@ requires = ["setuptools>=77", "wheel"]
 build-backend = "setuptools.build_meta"
 [project]
 name = "sequential-decision-lab"
-version = "1.0.0"
+version = "1.1.0"
 description = "Audited planning, online and offline reinforcement learning with reproducible control comparisons"
 authors = [{name = "Navid Bagheri-Shouraki"}]
 readme = "README.md"
@@ -14,6 +14,7 @@ dependencies = ["numpy>=1.26,<2", "scipy>=1.13,<2", "gymnasium==1.2.3", "matplot
 [project.optional-dependencies]
 deep = ["torch>=2.4,<3"]
 control = ["stable-baselines3==2.8.0", "gymnasium[box2d]==1.2.3", "Pillow>=10"]
+simulations = ["stable-baselines3==2.8.0", "minigrid==3.0.0", "gymnasium[mujoco]==1.2.3", "mujoco==3.15.0", "Pillow>=10"]
 notebooks = ["nbformat>=5.10", "nbclient>=0.10", "ipykernel>=6"]
 dev = ["pytest>=7", "ruff>=0.6", "build>=1"]
 [project.scripts]

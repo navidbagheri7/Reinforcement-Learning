@@ -1,0 +1,352 @@
+{
+  "env": "MiniGrid-FourRooms-v0",
+  "algorithm": "PPO",
+  "profile": "potential_geometry",
+  "seed": 1,
+  "actual_steps": 1048576,
+  "selected_step": 1048576,
+  "best_validation_return": 0.11566666666666665,
+  "test": {
+    "mean": 0.02874,
+    "episode_bootstrap_ci95": [
+      0.0,
+      0.06658224999999998
+    ],
+    "n": 100
+  },
+  "mean_length": 97.14,
+  "termination_fraction": 0.03,
+  "truncation_fraction": 0.97,
+  "success_fraction": 0.03,
+  "validation_history": [
+    {
+      "step": 65536,
+      "mean_return": 0.0,
+      "returns": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "updates": 310
+    },
+    {
+      "step": 131072,
+      "mean_return": 0.0,
+      "returns": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "updates": 630
+    },
+    {
+      "step": 196608,
+      "mean_return": 0.0,
+      "returns": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "updates": 950
+    },
+    {
+      "step": 262144,
+      "mean_return": 0.0,
+      "returns": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "updates": 1270
+    },
+    {
+      "step": 327680,
+      "mean_return": 0.0,
+      "returns": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "updates": 1590
+    },
+    {
+      "step": 393216,
+      "mean_return": 0.0,
+      "returns": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "updates": 1910
+    },
+    {
+      "step": 458752,
+      "mean_return": 0.0,
+      "returns": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "updates": 2230
+    },
+    {
+      "step": 524288,
+      "mean_return": 0.0,
+      "returns": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "updates": 2550
+    },
+    {
+      "step": 589824,
+      "mean_return": 0.0,
+      "returns": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "updates": 2870
+    },
+    {
+      "step": 655360,
+      "mean_return": 0.0,
+      "returns": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "updates": 3190
+    },
+    {
+      "step": 720896,
+      "mean_return": 0.0,
+      "returns": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "updates": 3510
+    },
+    {
+      "step": 786432,
+      "mean_return": 0.0,
+      "returns": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "updates": 3830
+    },
+    {
+      "step": 851968,
+      "mean_return": 0.0,
+      "returns": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "updates": 4150
+    },
+    {
+      "step": 917504,
+      "mean_return": 0.0,
+      "returns": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "updates": 4470
+    },
+    {
+      "step": 983040,
+      "mean_return": 0.0,
+      "returns": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "updates": 4790
+    },
+    {
+      "step": 1048576,
+      "mean_return": 0.0,
+      "returns": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "updates": 5110
+    },
+    {
+      "step": 1048576,
+      "mean_return": 0.11566666666666665,
+      "returns": [
+        0.5229999999999999,
+        0.865,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "updates": 5120
+    }
+  ],
+  "checkpoint_sha256": "4793ac46eb9037f08cbe4634159b109e8aaa183a8bf41a99eee380507f6d97b0",
+  "numeric_sha256": "19aaaa7d9c2b51f27f3a5bae73cc14c8c2f1b266cbcc99297445519149cd3239",
+  "observation_profile": "global symbolic map and engineered pose/object features",
+  "evaluation_reward": "official unmodified reward; shaping disabled",
+  "selection": "best mean official return on validation seeds 200000..200011; first tie",
+  "test_seeds": "300000..300099; independent of fitting seed"
+}

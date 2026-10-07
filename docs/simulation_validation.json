@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "protocols": 24,
+  "actors": 24,
+  "fresh_actor_test_episodes": 72,
+  "unfitted_baselines": 5,
+  "verified_gifs": 30,
+  "private_checkpoints_required": false
+}

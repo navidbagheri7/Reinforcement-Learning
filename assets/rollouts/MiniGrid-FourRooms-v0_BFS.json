@@ -1,0 +1,12 @@
+{
+  "env": "MiniGrid-FourRooms-v0",
+  "algorithm": "BFS",
+  "test_seed": 300000,
+  "return_value": 0.784,
+  "length": 24,
+  "terminated": true,
+  "truncated": false,
+  "gif_sha256": "4a3780f01e7d467d55a71274534915cd7bb6cf06d49f565409c0098858b9d3b3",
+  "source_evidence": "assets/source_data/simulations/MiniGrid-FourRooms-v0_BFS.npz",
+  "protocol": "Fixed first held-out episode; model-based planner, not a learned policy"
+}

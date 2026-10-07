@@ -1,0 +1,149 @@
+{
+  "status": "passed",
+  "actors": [
+    {
+      "actor": "assets/actors/MiniGrid-FourRooms-v0_PPO_potential_curriculum_0.npz",
+      "actor_sha256": "e86d0207b9fc8a504515e4c522d7686c9b07b9d7e8d837971d6a6a6789d634ee",
+      "checkpoint_sha256": "5980520c6cd35a158c5a1c82f0667cd63a08e13e4bb436983e7ae8cb5985eb14",
+      "fresh_test_episodes": 3
+    },
+    {
+      "actor": "assets/actors/MiniGrid-FourRooms-v0_PPO_potential_curriculum_1.npz",
+      "actor_sha256": "bfef3a4ee6799a31b2147d7f1718c270c4275705c4655b20cf7c956ee6bb90ae",
+      "checkpoint_sha256": "4efbf590c65b7ca08747ff385829d7f19838d6b61756a6c32e6682e6aba63013",
+      "fresh_test_episodes": 3
+    },
+    {
+      "actor": "assets/actors/MiniGrid-FourRooms-v0_PPO_potential_curriculum_2.npz",
+      "actor_sha256": "07855b84619dd974dec76bc41b8fee5b5ef011d463f39506896d818dc0cf02f9",
+      "checkpoint_sha256": "b2f23f003449bd01ed987c838ca322c7165e166a41d7b9f9bd227ba1f01c165f",
+      "fresh_test_episodes": 3
+    },
+    {
+      "actor": "assets/actors/MiniGrid-FourRooms-v0_PPO_potential_geometry_0.npz",
+      "actor_sha256": "0b3961ec30936b86bb881de0ed9f0b0b72e52e33a01e6746a7ee23e00adcc837",
+      "checkpoint_sha256": "15e63c6335ea4441502720cb03cecf9789b4129f3da445d012572e088baea606",
+      "fresh_test_episodes": 3
+    },
+    {
+      "actor": "assets/actors/MiniGrid-FourRooms-v0_PPO_potential_geometry_1.npz",
+      "actor_sha256": "d533db9aee17dea7c76b0b80288ddf9c81dd33c92e1607d41f0596062d1de422",
+      "checkpoint_sha256": "4793ac46eb9037f08cbe4634159b109e8aaa183a8bf41a99eee380507f6d97b0",
+      "fresh_test_episodes": 3
+    },
+    {
+      "actor": "assets/actors/MiniGrid-FourRooms-v0_PPO_potential_geometry_2.npz",
+      "actor_sha256": "763516b0d9311074c186a936aff133c4e0589efbfc05f851bb2b8183353c4560",
+      "checkpoint_sha256": "8240f57bb6583e0b1a25f49b9b5a9115f645def41e562d13e8492a62c8525bd1",
+      "fresh_test_episodes": 3
+    },
+    {
+      "actor": "assets/actors/HalfCheetah-v5_PPO_official_0.npz",
+      "actor_sha256": "ac34e32305342e692c420c08021d8f691a9ff87e77af9e610e96821b2a05e913",
+      "checkpoint_sha256": "de2849e85c10ba53a320a44069a7ec0de9df67bffee6df2e8652913964332c05",
+      "fresh_test_episodes": 3
+    },
+    {
+      "actor": "assets/actors/HalfCheetah-v5_PPO_official_1.npz",
+      "actor_sha256": "6436a92e82465b9309c01463efdd5653705584b60eb4c6f8df24426619a61d38",
+      "checkpoint_sha256": "c9e4ab28c9e87adb489e2583144e9602796a376b8e21224489e1d10891670733",
+      "fresh_test_episodes": 3
+    },
+    {
+      "actor": "assets/actors/HalfCheetah-v5_PPO_official_2.npz",
+      "actor_sha256": "2cd654e3c160af6a034fe4ca91065548090bf6261439df4131906d5a93fcd013",
+      "checkpoint_sha256": "3c44e51719795a2a8d4567e65fd43e8579a1eb54c10179c21a7231adaa61bb13",
+      "fresh_test_episodes": 3
+    },
+    {
+      "actor": "assets/actors/HalfCheetah-v5_SAC_official_0.npz",
+      "actor_sha256": "4b18c698b320c402b63b07f102e8cf8237dad6a600113d2cdcdab156cf4a2155",
+      "checkpoint_sha256": "3defb2fd007174a0d3ccfa972f2cb2c879ff342f462eaa68a5af0551d025d62e",
+      "fresh_test_episodes": 3
+    },
+    {
+      "actor": "assets/actors/HalfCheetah-v5_SAC_official_1.npz",
+      "actor_sha256": "25ea9654aa702eac0605832c7f3567cc0737f5cf9ce45e8ad427be1fa00fca8b",
+      "checkpoint_sha256": "de52f86a4a63d068a63c7e2b9ed8d549279d5a112ecdfa7244084740114bb666",
+      "fresh_test_episodes": 3
+    },
+    {
+      "actor": "assets/actors/HalfCheetah-v5_SAC_official_2.npz",
+      "actor_sha256": "7081adda665f211214a537cb5964ed4f37f70e08da854eeb26a23fec72f61443",
+      "checkpoint_sha256": "6acc018c93371aedf80200b9adca6089c32e94754c3b1b1edbe730d30232debd",
+      "fresh_test_episodes": 3
+    },
+    {
+      "actor": "assets/actors/MiniGrid-DoorKey-6x6-v0_PPO_potential_0.npz",
+      "actor_sha256": "e7332b3158f28014b49b836f07882d39f968eef9d785c695ec5e7c341416c810",
+      "checkpoint_sha256": "9b713df82aa4a15460db628a550111ce5b4f072e01c452cd755064b5c32aeec0",
+      "fresh_test_episodes": 3
+    },
+    {
+      "actor": "assets/actors/MiniGrid-DoorKey-6x6-v0_PPO_potential_1.npz",
+      "actor_sha256": "7284bfcf8fda1910f63c1917df5dd59b3d5c92d0ef5c35380eceff987a6c4d78",
+      "checkpoint_sha256": "c35e4a12b3ca17e6e7a15b801500b16c9d99cc3fcc00de6365a7fa5aff2495ef",
+      "fresh_test_episodes": 3
+    },
+    {
+      "actor": "assets/actors/MiniGrid-DoorKey-6x6-v0_PPO_potential_2.npz",
+      "actor_sha256": "251cfb86a81d21d06ebc99790069177d74e4b75c3bcad4732d85c5e2e900faa3",
+      "checkpoint_sha256": "522c661b603b51defd1bfa1932ad14f4e817eabdb57faa27c531338cdfeb8250",
+      "fresh_test_episodes": 3
+    },
+    {
+      "actor": "assets/actors/MiniGrid-DoorKey-6x6-v0_PPO_sparse_0.npz",
+      "actor_sha256": "8a1a746e509886633270966187824f595becca8ae73b3adbb0be27406feaf703",
+      "checkpoint_sha256": "5f700f0bb01e90b586d2f951604bdc364c0c0ab4629ff4140765c9917c424a7d",
+      "fresh_test_episodes": 3
+    },
+    {
+      "actor": "assets/actors/MiniGrid-DoorKey-6x6-v0_PPO_sparse_1.npz",
+      "actor_sha256": "8c2d02f7986424de1021d9d1d511e906020fde778f572a3aa3aaf46a0347bcc3",
+      "checkpoint_sha256": "9da6b5d70517e868e84204240c96c6b326852d57de436e9e287fce79d00c7453",
+      "fresh_test_episodes": 3
+    },
+    {
+      "actor": "assets/actors/MiniGrid-DoorKey-6x6-v0_PPO_sparse_2.npz",
+      "actor_sha256": "7de5fc2f1e7316ec433406408a2388b62b9a438a42311268b3b0e59d3a647031",
+      "checkpoint_sha256": "b317f665ef7e13cda01b8eaf3e48f3a892d69fb98323c2dcf0d9d5e3f63e426d",
+      "fresh_test_episodes": 3
+    },
+    {
+      "actor": "assets/actors/MiniGrid-FourRooms-v0_PPO_potential_0.npz",
+      "actor_sha256": "07d5cb4bc7b462904ead183d8a55b9eb2393b6cdd708518825483686d33e9765",
+      "checkpoint_sha256": "a58e5645e425f623ff2ea8baad15c566a91bdd065d3f993c04e4b55e4b9e660f",
+      "fresh_test_episodes": 3
+    },
+    {
+      "actor": "assets/actors/MiniGrid-FourRooms-v0_PPO_potential_1.npz",
+      "actor_sha256": "7e355385eac366c4090a8014fb31e52453d005c367c7dce6e1bccb0ff412e702",
+      "checkpoint_sha256": "c91a77a87c916d53cc7356e56e6f311e8cc98a376c335e9ee710c92e44feaae4",
+      "fresh_test_episodes": 3
+    },
+    {
+      "actor": "assets/actors/MiniGrid-FourRooms-v0_PPO_potential_2.npz",
+      "actor_sha256": "73907a636972135f7de9a469594d24690507b69b155f6c06a6a9c7c6b5681a94",
+      "checkpoint_sha256": "7e25bd4c6373542f19fdc9ff549b33b2b12c8d9f28993d30c45c3d8cbdcec4e7",
+      "fresh_test_episodes": 3
+    },
+    {
+      "actor": "assets/actors/MiniGrid-FourRooms-v0_PPO_sparse_0.npz",
+      "actor_sha256": "ba93d78a0ae78c48d195ee8670aea65bedcded6250cf7736071bb4ce58aa651d",
+      "checkpoint_sha256": "e8048aa8f8a6e53e42edb0200be5332dda0c847d4e8b3eb0aba956f2d9a8357b",
+      "fresh_test_episodes": 3
+    },
+    {
+      "actor": "assets/actors/MiniGrid-FourRooms-v0_PPO_sparse_1.npz",
+      "actor_sha256": "0fe94be9f052b2fc41bf076aceebf17a7003ae95244d0603e8aaba2d446bb23d",
+      "checkpoint_sha256": "a8c53b4c22df555a7bff17d98a66de72d30fa4fa63710adf2c9c169a681bda25",
+      "fresh_test_episodes": 3
+    },
+    {
+      "actor": "assets/actors/MiniGrid-FourRooms-v0_PPO_sparse_2.npz",
+      "actor_sha256": "2c72968df38c5760e71ce4cd12f21fc3515648670b53ae8455eec9910a118f61",
+      "checkpoint_sha256": "76b15ff69e574e5a9a35025a2e37a3650161989d35b83c2b2b296b29abb265bd",
+      "fresh_test_episodes": 3
+    }
+  ]
+}

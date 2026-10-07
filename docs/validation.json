@@ -7,11 +7,14 @@
     "offline": 36,
     "control": 18,
     "approximation": 3,
-    "lectures": 1
+    "lectures": 1,
+    "simulations": 18,
+    "geometry": 3,
+    "curriculum": 3
   },
-  "numeric_artifacts": 169,
+  "numeric_artifacts": 222,
   "finite_policies": 108,
-  "notebooks": 11,
-  "executed_code_cells": 44,
+  "notebooks": 13,
+  "executed_code_cells": 54,
   "problems": []
 }

@@ -4,7 +4,18 @@ from importlib.resources import files
 
 def test_installed_default_protocols_are_complete():
     root = files("decision_lab") / "default_configs"
-    expected = {"planning", "tabular", "neural", "offline", "control", "approximation", "lectures"}
+    expected = {
+        "planning",
+        "tabular",
+        "neural",
+        "offline",
+        "control",
+        "approximation",
+        "lectures",
+        "simulations",
+        "geometry",
+        "curriculum",
+    }
     assert {
         item.name.removesuffix(".json") for item in root.iterdir() if item.name.endswith(".json")
     } == expected

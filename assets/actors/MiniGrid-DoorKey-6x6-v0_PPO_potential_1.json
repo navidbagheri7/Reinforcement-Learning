@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "encoder": "identity",
+  "observation_dimension": 127,
+  "case": {
+    "env": "MiniGrid-DoorKey-6x6-v0",
+    "algorithm": "PPO",
+    "profile": "potential",
+    "steps": 1048576,
+    "n_envs": 8
+  },
+  "algorithm": "PPO",
+  "dimensions": [
+    127,
+    256,
+    256,
+    7
+  ],
+  "action_type": "discrete",
+  "activation": "tanh",
+  "weights_sha256": "7284bfcf8fda1910f63c1917df5dd59b3d5c92d0ef5c35380eceff987a6c4d78",
+  "checkpoint_sha256": "c35e4a12b3ca17e6e7a15b801500b16c9d99cc3fcc00de6365a7fa5aff2495ef",
+  "inference": "CPU float32 deterministic actor; no optimizer/critic/pickle",
+  "observation_factory": "decision_lab.simulation_envs.make_environment; shaping disabled"
+}

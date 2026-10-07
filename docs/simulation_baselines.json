@@ -1,0 +1,94 @@
+{
+  "rows": [
+    {
+      "env": "MiniGrid-FourRooms-v0",
+      "method": "random",
+      "test": {
+        "mean": 0.044449999999999996,
+        "episode_bootstrap_ci95": [
+          0.016609749999999996,
+          0.07870449999999997
+        ],
+        "n": 100
+      },
+      "numeric_sha256": "bdba4e26571edf276ed8adc1a165921d379ab772d6e1b38cc06c34fc84ef3e83",
+      "mean_length": 95.95,
+      "success_fraction": 0.08,
+      "protocol": "100 fixed test seeds 300000..300099; no training or selection",
+      "model_access": "No model; independently seeded uniform actions"
+    },
+    {
+      "env": "MiniGrid-FourRooms-v0",
+      "method": "BFS",
+      "test": {
+        "mean": 0.8538399999999998,
+        "episode_bootstrap_ci95": [
+          0.84114775,
+          0.8674299999999999
+        ],
+        "n": 100
+      },
+      "numeric_sha256": "5f04e71ddb257c36072116eb5801491c71975dbce4e8e4ebd450890623027331",
+      "mean_length": 16.24,
+      "success_fraction": 1.0,
+      "protocol": "100 fixed test seeds 300000..300099; no training or selection",
+      "model_access": "Known deterministic transition model and full map"
+    },
+    {
+      "env": "MiniGrid-DoorKey-6x6-v0",
+      "method": "random",
+      "test": {
+        "mean": 0.017225,
+        "episode_bootstrap_ci95": [
+          0.0034231250000000004,
+          0.03310312499999998
+        ],
+        "n": 100
+      },
+      "numeric_sha256": "03b08c763530251f9321f6703000fa7cc40023b145d82056d94e7857e29df92b",
+      "mean_length": 355.51,
+      "success_fraction": 0.06,
+      "protocol": "100 fixed test seeds 300000..300099; no training or selection",
+      "model_access": "No model; independently seeded uniform actions"
+    },
+    {
+      "env": "MiniGrid-DoorKey-6x6-v0",
+      "method": "BFS",
+      "test": {
+        "mean": 0.9698499999999999,
+        "episode_bootstrap_ci95": [
+          0.9687749999999999,
+          0.9708749999999998
+        ],
+        "n": 100
+      },
+      "numeric_sha256": "06262169485438538cb2800316f960f258600e828eab34c2738d47ec284c0a45",
+      "mean_length": 12.06,
+      "success_fraction": 1.0,
+      "protocol": "100 fixed test seeds 300000..300099; no training or selection",
+      "model_access": "Known deterministic transition model and full map"
+    },
+    {
+      "env": "HalfCheetah-v5",
+      "method": "random",
+      "test": {
+        "mean": -297.2777223871284,
+        "episode_bootstrap_ci95": [
+          -312.2444563239024,
+          -281.9376870364889
+        ],
+        "n": 100
+      },
+      "numeric_sha256": "11cebf1c61f5bdbcea903b30b48101bfd1eb41ac494df671ad2e5e7939f453f3",
+      "mean_length": 1000.0,
+      "success_fraction": null,
+      "protocol": "100 fixed test seeds 300000..300099; no training or selection",
+      "model_access": "No model; independently seeded uniform actions"
+    }
+  ],
+  "source_sha256": {
+    "scripts/simulation_baselines.py": "eb548135109b82bfb84455360f19cdbb52861a92c9b46e653504f0f5659d5fe2",
+    "src/decision_lab/navigation_planner.py": "0d54d76a3764042de7ea13527c7d1f8c53d7cf38e1a60e463986dba0c57a8f20",
+    "src/decision_lab/simulation_envs.py": "e94dbdb0be57119f5b80d55c29ca10a544642ca4e190034faf8f5c202bc38499"
+  }
+}

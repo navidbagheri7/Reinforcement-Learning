@@ -15,11 +15,20 @@ for seed in 0 1 2; do
   decision-lab offline --seed "$seed" --device cuda
   decision-lab approximation --seed "$seed"
   decision-lab control --seed "$seed"
+  decision-lab simulations --seed "$seed"
+  decision-lab geometry --seed "$seed"
+  decision-lab curriculum --seed "$seed"
 done
+python scripts/simulation_baselines.py
+MUJOCO_GL=egl python scripts/audit_simulations.py
 decision-lab report
+python scripts/simulation_gallery.py
+python scripts/simulation_analysis.py
+python scripts/create_simulation_dashboard.py
 python scripts/audit_checkpoints.py
 python scripts/execute_notebooks.py
 python scripts/validate_release.py
+python scripts/validate_simulations.py
 ```
 
 The full studies take substantially longer than a smoke check. Use independent processes for different fitting seeds if resources allow, assigning each GPU with `CUDA_VISIBLE_DEVICES`. Do not oversubscribe CPU BLAS; the local reference sets `OPENBLAS_NUM_THREADS=1`, `OMP_NUM_THREADS=1` and `MKL_NUM_THREADS=1`. Rendering can use `SDL_VIDEODRIVER=dummy` and `SDL_AUDIODRIVER=dummy`.
@@ -32,9 +41,12 @@ The full studies take substantially longer than a smoke check. Use independent p
 | offline.json | Three coverage profiles × four recipes × three seeds; 80k logged transitions/profile/seed, 12k updates/method |
 | approximation.json | Two trace presets × three seeds; 3000 official MountainCar episodes/fit |
 | control.json | Six task/method presets × three seeds; full budgets/network sizes recorded in the file |
+| simulations.json | Six official MiniGrid/MuJoCo presets × three seeds; equal 1,048,576-interaction budgets |
+| geometry.json | Four Rooms spatial encoding ablation × three seeds, 1,048,576 interactions/fit |
+| curriculum.json | Four Rooms training-start curriculum × three seeds; final25% official starts; held-out starts never modified |
 | lectures.json | 100 independent bandit instances/task, 30 prediction seeds, 30k expected counterexample updates |
 
-Use a new output directory for changed or incomplete protocols. Reference output directories are scientific records, not scratch paths. This project does not promise exact resumed training from policy checkpoints. Smoke runs verify execution and math paths with tiny budgets and must never replace reference results.
+For new simulation profiles, use distinct profile names or a separate checkout before changing full protocols; the CLI protects published episode evidence from custom-output collisions. Use new output directories for smoke work and original non-simulation experiments. Reference output directories are scientific records, not scratch paths. This project does not promise exact resumed training from policy checkpoints. Smoke runs verify execution and math paths with tiny budgets and must never replace reference results.
 
 ## Portable evidence and private artifacts
 
@@ -46,7 +58,10 @@ A fresh checkout can reproduce plots, validate public evidence, run exported fin
 
 ```bash
 python -m build
-python -m pip install dist/sequential_decision_lab-1.0.0-py3-none-any.whl
+python scripts/check_distribution.py
+python -m pip install dist/sequential_decision_lab-1.1.0-py3-none-any.whl
 ```
 
-Use a separate environment for an installed-wheel test. Run tests from a directory outside the checkout with `PYTHONPATH` cleared. The source archive includes authored notebooks and measured numeric evidence, but excludes original coursework, private models, environments and smoke outputs. Release validation requires the full reference set and eleven executed notebooks.
+Use a separate environment for an installed-wheel test. Run tests from a directory outside the checkout with `PYTHONPATH` cleared. The source archive includes authored notebooks and measured numeric evidence, but excludes original coursework, private models, environments and smoke outputs. Release validation requires the full reference set and thirteen executed notebooks.
+
+The navigation/locomotion extension additionally uses MiniGrid3.0.0 and MuJoCo3.15.0. Its selected neural actors are public under `assets/actors`, with architecture metadata and action/episode audits. See [simulations.md](simulations.md) for observation profiles, shaping, headless rendering and common test seeds.

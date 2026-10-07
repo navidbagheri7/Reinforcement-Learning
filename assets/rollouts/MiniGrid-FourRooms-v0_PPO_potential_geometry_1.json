@@ -1,0 +1,17 @@
+{
+  "env": "MiniGrid-FourRooms-v0",
+  "algorithm": "PPO",
+  "profile": "potential_geometry",
+  "fit_seed": 1,
+  "test_seed": 300000,
+  "return_value": 0.0,
+  "length": 100,
+  "terminated": false,
+  "truncated": true,
+  "actor_sha256": "d533db9aee17dea7c76b0b80288ddf9c81dd33c92e1607d41f0596062d1de422",
+  "gif_sha256": "5a8ef59225d053fcc4dc0b6cf4a4d6550f4ea1f11ae7a980ea1ed7f2de735beb",
+  "frame_stride": 1,
+  "frame_duration_ms": 140,
+  "source_evidence": "assets/source_data/simulations/MiniGrid-FourRooms-v0_PPO_potential_geometry_1.npz",
+  "protocol": "Fixed first held-out episode; exported actor return exactly matches numeric test evidence; no visual selection"
+}
