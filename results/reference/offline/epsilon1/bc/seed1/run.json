@@ -1,0 +1,45 @@
+{
+  "status": "complete",
+  "config": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "recipes": [
+      "bc",
+      "fitted_dqn",
+      "cql",
+      "iql"
+    ],
+    "behavior_epsilon": 1.0,
+    "dataset_steps": 80000,
+    "updates": 12000,
+    "batch_size": 128,
+    "gamma": 0.99,
+    "learning_rate": 0.0003,
+    "target_every": 250,
+    "conservative_alpha": 1.0,
+    "expectile": 0.7,
+    "advantage_temperature": 3.0,
+    "test_episodes": 100,
+    "seed": 1,
+    "recipe": "bc",
+    "quick": false,
+    "device": "cuda"
+  },
+  "python": "3.10.20",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "gymnasium": "1.2.3",
+    "torch": "2.7.1+cu128",
+    "stable-baselines3": "2.8.0"
+  },
+  "source_sha256": {
+    "offline.py": "0c7969c34b0ad3a9a23ba2b3b7f130bda2b2dd31165551d763e3e371a418410b",
+    "neural.py": "ac063ca6e786e4d65ddcd38a8dab2c0c2e732b0d394f3506346554a181f28a6d",
+    "wireless.py": "70be51f4a83be17772a173423737209e32c45642bf4cd909df0ec21caf7edad6"
+  },
+  "elapsed_seconds": 25.934820351190865
+}

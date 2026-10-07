@@ -1,0 +1,45 @@
+{
+  "status": "complete",
+  "config": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "recipes": [
+      "dqn",
+      "double_dqn",
+      "double_dueling_per",
+      "qr_dqn"
+    ],
+    "steps": 200000,
+    "gamma": 0.99,
+    "learning_rate": 0.0003,
+    "replay_capacity": 50000,
+    "batch_size": 128,
+    "warmup": 2000,
+    "train_every": 4,
+    "target_every": 1000,
+    "validation_every": 20000,
+    "validation_episodes": 20,
+    "test_episodes": 100,
+    "recipe": "double_dqn",
+    "seed": 1,
+    "device": "cuda",
+    "quick": false
+  },
+  "python": "3.10.20",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "gymnasium": "1.2.3",
+    "torch": "2.7.1+cu128",
+    "stable-baselines3": "2.8.0"
+  },
+  "source_sha256": {
+    "deep_wireless.py": "2d13e7c524e7f7c1f53196af1f1df3ed99b714dfe6ade3fa983ef3addb8ab96b",
+    "neural.py": "ac063ca6e786e4d65ddcd38a8dab2c0c2e732b0d394f3506346554a181f28a6d",
+    "wireless.py": "70be51f4a83be17772a173423737209e32c45642bf4cd909df0ec21caf7edad6"
+  },
+  "elapsed_seconds": 242.93026334233582
+}

@@ -1,0 +1,16 @@
+{
+  "seeds": [0, 1, 2],
+  "validation_episodes": 12,
+  "test_episodes": 100,
+  "shift_episodes": 50,
+  "evaluation_every": 32768,
+  "device": "cpu",
+  "cases": [
+    {"env": "LunarLander-v3", "algorithm": "PPO", "steps": 1572864, "learning_rate": 0.0003, "net": [128, 128], "n_envs": 8},
+    {"env": "LunarLander-v3", "algorithm": "DQN", "steps": 1048576, "learning_rate": 0.0001, "net": [128, 128], "n_envs": 1},
+    {"env": "CartPole-v1", "algorithm": "PPO", "steps": 98304, "learning_rate": 0.0003, "net": [64, 64], "n_envs": 8},
+    {"env": "CartPole-v1", "algorithm": "DQN", "steps": 98304, "learning_rate": 0.001, "net": [64, 64], "n_envs": 1},
+    {"env": "Pendulum-v1", "algorithm": "SAC", "steps": 196608, "learning_rate": 0.0003, "net": [128, 128], "n_envs": 1},
+    {"env": "Pendulum-v1", "algorithm": "PPO", "steps": 524288, "learning_rate": 0.0003, "net": [64, 64], "n_envs": 8}
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "baird": {
+    "minimum_real_operator_eigenvalue": -0.047850092840491555,
+    "covariance_rank": 7,
+    "protocol": "Expected-update Baird-style seven-state counterexample. Behavior stationary state distribution uniform; target always transitions to lower state; gamma .99, zero rewards. Known-model expected operators remove sampling noise. LSTD solves the zero-reward reference; no claim of sampled-data superiority. Singular feature covariance uses a pseudoinverse in MSPBE. No clipping of diverging TD."
+  },
+  "prediction": {
+    "true_values": [
+      -0.9,
+      -0.8,
+      -0.7,
+      -0.6,
+      -0.5,
+      -0.3999999999999999,
+      -0.29999999999999993,
+      -0.19999999999999996,
+      -0.09999999999999998,
+      0.0,
+      0.10000000000000009,
+      0.20000000000000018,
+      0.30000000000000004,
+      0.40000000000000013,
+      0.5,
+      0.6000000000000001,
+      0.7000000000000002,
+      0.8,
+      0.9000000000000001
+    ],
+    "fit_seeds": 30,
+    "episodes": 300,
+    "final_rmse": {
+      "monte_carlo": {
+        "mean": 0.38723211074604436,
+        "episode_bootstrap_ci95": [
+          0.3406740051275247,
+          0.4355620253342694
+        ],
+        "n": 30
+      },
+      "td0": {
+        "mean": 0.04420902641679119,
+        "episode_bootstrap_ci95": [
+          0.03882559411578534,
+          0.04977765733245581
+        ],
+        "n": 30
+      },
+      "nstep5": {
+        "mean": 0.09063911875229895,
+        "episode_bootstrap_ci95": [
+          0.07979305832793651,
+          0.10113142006540296
+        ],
+        "n": 30
+      },
+      "td_lambda": {
+        "mean": 0.08731745716445022,
+        "episode_bootstrap_ci95": [
+          0.07681318183837398,
+          0.0979835902783569
+        ],
+        "n": 30
+      }
+    },
+    "protocol": "Identical sampled trajectories shared across methods within each seed; 19 interior states, unbiased random walk, terminal rewards -1/+1, gamma 1, alpha .05, accumulating TD(lambda=.8). Every-visit Monte Carlo; online n-step backups over recorded trajectories. Analytical values used only for error measurement."
+  },
+  "bandits": {
+    "rows": [
+      {
+        "task": "stationary",
+        "method": "epsilon_average",
+        "cumulative_pseudo_regret": {
+          "mean": 382.2057529469111,
+          "episode_bootstrap_ci95": [
+            353.58336388452216,
+            413.1473340647222
+          ],
+          "n": 100
+        },
+        "last500_reward": {
+          "mean": 1.2848940280699568,
+          "episode_bootstrap_ci95": [
+            1.1850945197333727,
+            1.3935616045345867
+          ],
+          "n": 100
+        }
+      },
+      {
+        "task": "stationary",
+        "method": "epsilon_constant",
+        "cumulative_pseudo_regret": {
+          "mean": 442.8838740282871,
+          "episode_bootstrap_ci95": [
+            406.89290184750996,
+            481.97854961745236
+          ],
+          "n": 100
+        },
+        "last500_reward": {
+          "mean": 1.2769846201772583,
+          "episode_bootstrap_ci95": [
+            1.1789575993041377,
+            1.3877660994900338
+          ],
+          "n": 100
+        }
+      },
+      {
+        "task": "stationary",
+        "method": "ucb",
+        "cumulative_pseudo_regret": {
+          "mean": 187.6203092863364,
+          "episode_bootstrap_ci95": [
+            178.47807083698387,
+            196.71339697494568
+          ],
+          "n": 100
+        },
+        "last500_reward": {
+          "mean": 1.4109472952354627,
+          "episode_bootstrap_ci95": [
+            1.3048607172658115,
+            1.5269375721700786
+          ],
+          "n": 100
+        }
+      },
+      {
+        "task": "stationary",
+        "method": "discounted_ucb",
+        "cumulative_pseudo_regret": {
+          "mean": 1365.183067130081,
+          "episode_bootstrap_ci95": [
+            1326.6047126147448,
+            1400.7680483847257
+          ],
+          "n": 100
+        },
+        "last500_reward": {
+          "mean": 0.7459367802730986,
+          "episode_bootstrap_ci95": [
+            0.6498591237734633,
+            0.8511966777885498
+          ],
+          "n": 100
+        }
+      },
+      {
+        "task": "stationary",
+        "method": "gradient",
+        "cumulative_pseudo_regret": {
+          "mean": 208.0629663992416,
+          "episode_bootstrap_ci95": [
+            184.6006393192906,
+            235.0346951345601
+          ],
+          "n": 100
+        },
+        "last500_reward": {
+          "mean": 1.4210331331999837,
+          "episode_bootstrap_ci95": [
+            1.3155496133148379,
+            1.5380845244349344
+          ],
+          "n": 100
+        }
+      },
+      {
+        "task": "stationary",
+        "method": "thompson",
+        "cumulative_pseudo_regret": {
+          "mean": 76.99626950875033,
+          "episode_bootstrap_ci95": [
+            71.14228324261005,
+            82.73652079352473
+          ],
+          "n": 100
+        },
+        "last500_reward": {
+          "mean": 1.4369672732672973,
+          "episode_bootstrap_ci95": [
+            1.333174339867462,
+            1.5519784881802763
+          ],
+          "n": 100
+        }
+      },
+      {
+        "task": "drifting",
+        "method": "epsilon_average",
+        "cumulative_pseudo_regret": {
+          "mean": 439.29803365795493,
+          "episode_bootstrap_ci95": [
+            409.8305898074445,
+            470.89955004965884
+          ],
+          "n": 100
+        },
+        "last500_reward": {
+          "mean": 1.3068956998812034,
+          "episode_bootstrap_ci95": [
+            1.191884554420051,
+            1.423924779372001
+          ],
+          "n": 100
+        }
+      },
+      {
+        "task": "drifting",
+        "method": "epsilon_constant",
+        "cumulative_pseudo_regret": {
+          "mean": 464.55235763752967,
+          "episode_bootstrap_ci95": [
+            425.2633335830366,
+            512.8902582526689
+          ],
+          "n": 100
+        },
+        "last500_reward": {
+          "mean": 1.3522563913687522,
+          "episode_bootstrap_ci95": [
+            1.2426563434151514,
+            1.4664386081376184
+          ],
+          "n": 100
+        }
+      },
+      {
+        "task": "drifting",
+        "method": "ucb",
+        "cumulative_pseudo_regret": {
+          "mean": 184.19463854867746,
+          "episode_bootstrap_ci95": [
+            172.54485581451902,
+            197.01219762140056
+          ],
+          "n": 100
+        },
+        "last500_reward": {
+          "mean": 1.499959070830644,
+          "episode_bootstrap_ci95": [
+            1.3843822940322967,
+            1.6216539454523513
+          ],
+          "n": 100
+        }
+      },
+      {
+        "task": "drifting",
+        "method": "discounted_ucb",
+        "cumulative_pseudo_regret": {
+          "mean": 1355.5171674625246,
+          "episode_bootstrap_ci95": [
+            1322.2277121327575,
+            1384.9825681667032
+          ],
+          "n": 100
+        },
+        "last500_reward": {
+          "mean": 0.8463966795815255,
+          "episode_bootstrap_ci95": [
+            0.7418744608269972,
+            0.9565220721006165
+          ],
+          "n": 100
+        }
+      },
+      {
+        "task": "drifting",
+        "method": "gradient",
+        "cumulative_pseudo_regret": {
+          "mean": 304.33471188393855,
+          "episode_bootstrap_ci95": [
+            261.2034853310737,
+            352.958465317918
+          ],
+          "n": 100
+        },
+        "last500_reward": {
+          "mean": 1.4312943054901257,
+          "episode_bootstrap_ci95": [
+            1.307776362460486,
+            1.5589625764958808
+          ],
+          "n": 100
+        }
+      },
+      {
+        "task": "drifting",
+        "method": "thompson",
+        "cumulative_pseudo_regret": {
+          "mean": 144.91579410495856,
+          "episode_bootstrap_ci95": [
+            117.55777032569922,
+            177.48274377626277
+          ],
+          "n": 100
+        },
+        "last500_reward": {
+          "mean": 1.4596621342075051,
+          "episode_bootstrap_ci95": [
+            1.3381346007570643,
+            1.5843713397420955
+          ],
+          "n": 100
+        }
+      }
+    ],
+    "runs": 100,
+    "steps": 2000,
+    "protocol": "Ten-arm Gaussian reward noise variance1, Gaussian initial means. Drifting means take independent .01-SD random-walk increments. Common arm-specific noise and means across methods. Epsilon .1, constant alpha .1, UCB coefficient2, discounted UCB discount .99, preference alpha .1; Thompson uses conjugate stationary N(0,1) prior with known unit noise. Static posterior is deliberately misspecified on drifting arms. Confidence intervals resample independent bandit instances."
+  }
+}

@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "sequential-decision-lab"
+version = "1.0.0"
+description = "Audited planning, online and offline reinforcement learning with reproducible control comparisons"
+authors = [{name = "Navid Bagheri-Shouraki"}]
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.26,<2", "scipy>=1.13,<2", "gymnasium==1.2.3", "matplotlib>=3.8,<4", "pandas>=2.1,<3"]
+[project.optional-dependencies]
+deep = ["torch>=2.4,<3"]
+control = ["stable-baselines3==2.8.0", "gymnasium[box2d]==1.2.3", "Pillow>=10"]
+notebooks = ["nbformat>=5.10", "nbclient>=0.10", "ipykernel>=6"]
+dev = ["pytest>=7", "ruff>=0.6", "build>=1"]
+[project.scripts]
+decision-lab = "decision_lab.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+[tool.ruff]
+line-length = 100
+exclude = ["legacy", ".local", "results", "build", "notebooks"]
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]
+[tool.setuptools.package-data]
+decision_lab = ["default_configs/*.json"]

@@ -1,0 +1,46 @@
+{
+  "status": "complete",
+  "config": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "gamma": 0.99,
+    "alpha": 0.3,
+    "validation_every": 20000,
+    "validation_episodes": 20,
+    "test_episodes": 100,
+    "methods": [
+      "q_learning",
+      "sarsa",
+      "expected_sarsa",
+      "double_q"
+    ],
+    "budgets": {
+      "Wireless": 300000,
+      "FrozenLake-v1": 120000,
+      "CliffWalking-v1": 120000,
+      "Taxi-v3": 300000,
+      "Maze": 180000
+    },
+    "seed": 1,
+    "quick": false
+  },
+  "python": "3.10.20",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "gymnasium": "1.2.3",
+    "torch": "2.7.1+cu128",
+    "stable-baselines3": "2.8.0"
+  },
+  "source_sha256": {
+    "experiments.py": "4556b2fd430711d523e3897c4459c8ff7a5d4c220960dca92eb08971ab58625b",
+    "tabular.py": "7def849046d34c41f8e076c59909b067c8521b23f15d0331efb2500e338ec7fa",
+    "toytext.py": "196d819a399152e585cbc2f50f2966b97398212f4c48f6c414282f3e63f3949e",
+    "wireless.py": "70be51f4a83be17772a173423737209e32c45642bf4cd909df0ec21caf7edad6",
+    "mdp.py": "85b0a7d4510b3c6a174284c3c0bf75462e7a7260451bb91dfb549006e55067d7"
+  },
+  "elapsed_seconds": 323.1053589778021
+}

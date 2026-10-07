@@ -1,0 +1,9 @@
+{
+  "algorithm": "DQN",
+  "env": "CartPole-v1",
+  "seed": 1,
+  "selected_step": 65536,
+  "checkpoint_sha256": "8aa528dd4908b151ef9bbcf2c4e091c725d5032d87deae2dcf4a64c3273c96a0",
+  "gymnasium_version": "1.2.3",
+  "protocol": "Deterministic selected-policy deployment. Validation seeds 200000.., final test300000.., shift400000... Training seeds start at fit seed with vector-environment offsets. Local reference uses CPU float32, no reward/observation normalization."
+}

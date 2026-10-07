@@ -1,0 +1,180 @@
+{
+  "protocol": "Original course sources preserved byte-for-byte privately; all public implementation is newly written in English.",
+  "files": [
+    {
+      "file": "TP_RL_MICAS/Reinforcement_Learning_TP1.pdf",
+      "bytes": 182824,
+      "sha256": "22135908d82fcbfa2cc05d289c0e0568bb9d84ac67d69b5ebf630b12bd8fb57c"
+    },
+    {
+      "file": "TP_RL_MICAS/environment/__init__.py",
+      "bytes": 51,
+      "sha256": "0e197f897d86280f266602a0e08f341e79fdf3fd7912b6249ac1191f232b03b4"
+    },
+    {
+      "file": "TP_RL_MICAS/environment/__pycache__/__init__.cpython-310.pyc",
+      "bytes": 255,
+      "sha256": "545713f73f575e0ac8a87cd075511260a67c659beeb1429d810e9e7bc6f8c015"
+    },
+    {
+      "file": "TP_RL_MICAS/environment/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 305,
+      "sha256": "f6ea0375bcf2944b74e5903f8d7bd4c4c8d300db7017eacc95bb02db1983d843"
+    },
+    {
+      "file": "TP_RL_MICAS/environment/__pycache__/actions.cpython-310.pyc",
+      "bytes": 1897,
+      "sha256": "34e7a673a4d35de8258e74cb5282e78c8ab8729ce5a3b83a762ec66bdc083418"
+    },
+    {
+      "file": "TP_RL_MICAS/environment/__pycache__/actions.cpython-312.pyc",
+      "bytes": 2584,
+      "sha256": "407bb8fe4f0038fcac5466d6cff3ad300815a5725cca617a74ee5a47920cc3f6"
+    },
+    {
+      "file": "TP_RL_MICAS/environment/__pycache__/env.cpython-310.pyc",
+      "bytes": 2612,
+      "sha256": "01c4a8701ebd476c4d0f9012f2db1e97752fefdbc5a5cc79168a6afd2d8ae41a"
+    },
+    {
+      "file": "TP_RL_MICAS/environment/__pycache__/env.cpython-312.pyc",
+      "bytes": 3968,
+      "sha256": "c9a56fc84755f13623e575b79c4cdd83ef7704071f884501d5e141f86c3638f2"
+    },
+    {
+      "file": "TP_RL_MICAS/environment/__pycache__/rewards.cpython-310.pyc",
+      "bytes": 1660,
+      "sha256": "4ab21419b55b5e006cd75e992495e3eeed658116eafa506245755c60eb2f3c7b"
+    },
+    {
+      "file": "TP_RL_MICAS/environment/__pycache__/rewards.cpython-312.pyc",
+      "bytes": 2947,
+      "sha256": "75282a37b03c0ab6d7753aae8c36416af6c4a6086e8075d5cf5cbbde0d038245"
+    },
+    {
+      "file": "TP_RL_MICAS/environment/__pycache__/states.cpython-310.pyc",
+      "bytes": 3359,
+      "sha256": "1f5f1efd77c259b38a9fca9e75bcc4d898baa8ddea5f6e9d9bf9dcf7646269b4"
+    },
+    {
+      "file": "TP_RL_MICAS/environment/__pycache__/states.cpython-312.pyc",
+      "bytes": 4706,
+      "sha256": "a2669021cb41bc9f031556de0e4fed21f95aea036fadd86e83576b401c3bd494"
+    },
+    {
+      "file": "TP_RL_MICAS/environment/__pycache__/transitions.cpython-310.pyc",
+      "bytes": 2511,
+      "sha256": "b4fdeca9d8f538b3e121d5a9d9ff2070b40fbd024702cbd6db08b48d9d8bc7db"
+    },
+    {
+      "file": "TP_RL_MICAS/environment/__pycache__/transitions.cpython-312.pyc",
+      "bytes": 5061,
+      "sha256": "d5744133cf8869af3967ae7ff8746d6cc74ecf00751b3b16ccecd77c9c906e39"
+    },
+    {
+      "file": "TP_RL_MICAS/environment/__pycache__/user.cpython-310.pyc",
+      "bytes": 3324,
+      "sha256": "75a0f02661d0d4a776b41824f1c3fdaed8b43ed41fcab563ede6310270b4942c"
+    },
+    {
+      "file": "TP_RL_MICAS/environment/__pycache__/user.cpython-312.pyc",
+      "bytes": 5777,
+      "sha256": "8ef5274acba57f30a04d0b2c12447079974dbd9386f974db91be4c10a3a9fae2"
+    },
+    {
+      "file": "TP_RL_MICAS/environment/actions.py",
+      "bytes": 1763,
+      "sha256": "e8c2ea1639329d0fa69fd79dff22c3ae0b5e5cc0798ad33687e03af036ae7559"
+    },
+    {
+      "file": "TP_RL_MICAS/environment/env.py",
+      "bytes": 3859,
+      "sha256": "61f43331fa644dafdd3596fe9637e6dbb4efca0867dcb0e9476c33617dfaaacc"
+    },
+    {
+      "file": "TP_RL_MICAS/environment/rewards.py",
+      "bytes": 3196,
+      "sha256": "b3fbbfa37d89075ff3bb0780d16d40773ad6b0fae3422174efc8b82e05653f4e"
+    },
+    {
+      "file": "TP_RL_MICAS/environment/states.py",
+      "bytes": 4251,
+      "sha256": "8a3e8a121aa651cf4bf9188d39df93efbe8236fd76633771e94b1bc0a842c066"
+    },
+    {
+      "file": "TP_RL_MICAS/environment/transitions.py",
+      "bytes": 7947,
+      "sha256": "ac54715940340035a35e561ae603513edc34fb91a2d9809328432642933bf23a"
+    },
+    {
+      "file": "TP_RL_MICAS/environment/user.py",
+      "bytes": 5245,
+      "sha256": "26b830f32a678356791aed13b4b89f295df52d5f3f9983d7fd1243990aed887e"
+    },
+    {
+      "file": "TP_RL_MICAS/learning/__init__.py",
+      "bytes": 41,
+      "sha256": "b8df669bf321cd17601b5ad1f02de5371dad8cfd1cd805639a7ca034668132a8"
+    },
+    {
+      "file": "TP_RL_MICAS/learning/policy_iteration.py",
+      "bytes": 5389,
+      "sha256": "dee4f040892231208e61e5d4c42366925fc2929cf9836d23f3f2007e41b78bba"
+    },
+    {
+      "file": "TP_RL_MICAS/learning/qlearning.py",
+      "bytes": 4338,
+      "sha256": "a79405af133b414fa48c05289dc0e8f662fef14c6ef15a16a54892210f9ad570"
+    },
+    {
+      "file": "TP_RL_MICAS/learning/value_iteration.py",
+      "bytes": 3696,
+      "sha256": "3fff4238f3136e4c2180791465b910ab23c745f5be40304342fd0f76ccac97aa"
+    },
+    {
+      "file": "TP_RL_MICAS/main.py",
+      "bytes": 4792,
+      "sha256": "c867bb89f4358ea99e0e8b4f0b3b41b97e9f8aacca191abbbbec145a984a9722"
+    },
+    {
+      "file": "deep_q_learning/Reinforcement_Learning_TP2.pdf",
+      "bytes": 196417,
+      "sha256": "bed5dc079be9da48f8ebffc66f068901c526d0c0c5e495f3d62cfa37d40bd5eb"
+    },
+    {
+      "file": "deep_q_learning/deep_qlearning.py",
+      "bytes": 8993,
+      "sha256": "4e443721ea12380bf7e34d0a3cb92dbcdef32d7f3feffb9b3a6f11d33af0df55"
+    },
+    {
+      "file": "Slides/Lecture1.pdf",
+      "bytes": 913295,
+      "sha256": "3d875d5a2f8c79e7dd870341503783bc496daee229bbf8234c09d6ac5eddc8dc"
+    },
+    {
+      "file": "Slides/Lecture2.pdf",
+      "bytes": 240440,
+      "sha256": "964f10b282a900ffefdbb2a213a71908489c11b51a0a6e5f66d204639bf8bdbf"
+    },
+    {
+      "file": "Slides/Lecture3.pdf",
+      "bytes": 306837,
+      "sha256": "84e6edf166de860e8652331a97091dad53f37f3ba42f616c0232757485a4246d"
+    },
+    {
+      "file": "Slides/Lecture4.pdf",
+      "bytes": 1166538,
+      "sha256": "b7788463ae3f5070be64b5b5ecf2ba275ac53d41eece0b84abdd611ed06d2955"
+    },
+    {
+      "file": "Slides/Lecture5.pdf",
+      "bytes": 2484279,
+      "sha256": "48019b778a1b0251c444ac94a20957d24fea38427b63a50e31821200e961d67e"
+    },
+    {
+      "file": "Slides/Lecture6.pdf",
+      "bytes": 1100782,
+      "sha256": "ebf94ae87a7e4f2d9695353c988c868b21fa05989154ff5b01b62722e3c0cf98"
+    }
+  ]
+}

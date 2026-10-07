@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "config": {
+    "gamma": 0.99,
+    "horizon": 64,
+    "profiles": [
+      "per_user",
+      "global"
+    ],
+    "p_data": 0.85,
+    "p_energy": 0.25,
+    "energy_budgets": [
+      0.15,
+      0.25,
+      0.35,
+      0.45
+    ],
+    "priority_extension": [
+      1.0,
+      3.0
+    ],
+    "minimum_user1_service": 0.12,
+    "quick": false
+  },
+  "python": "3.10.20",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "gymnasium": "1.2.3",
+    "torch": "2.7.1+cu128",
+    "stable-baselines3": "2.8.0"
+  },
+  "source_sha256": {
+    "experiments.py": "4556b2fd430711d523e3897c4459c8ff7a5d4c220960dca92eb08971ab58625b",
+    "mdp.py": "85b0a7d4510b3c6a174284c3c0bf75462e7a7260451bb91dfb549006e55067d7",
+    "wireless.py": "70be51f4a83be17772a173423737209e32c45642bf4cd909df0ec21caf7edad6"
+  },
+  "elapsed_seconds": 12.62969009205699
+}

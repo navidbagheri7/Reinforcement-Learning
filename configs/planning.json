@@ -1,0 +1,1 @@
+{"gamma":0.99,"horizon":64,"profiles":["per_user","global"],"p_data":0.85,"p_energy":0.25,"energy_budgets":[0.15,0.25,0.35,0.45],"priority_extension":[1.0,3.0],"minimum_user1_service":0.12}

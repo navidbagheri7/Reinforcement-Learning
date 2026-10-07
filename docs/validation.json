@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "reference_protocols": {
+    "planning": 1,
+    "tabular": 3,
+    "neural": 12,
+    "offline": 36,
+    "control": 18,
+    "approximation": 3,
+    "lectures": 1
+  },
+  "numeric_artifacts": 169,
+  "finite_policies": 108,
+  "notebooks": 11,
+  "executed_code_cells": 44,
+  "problems": []
+}

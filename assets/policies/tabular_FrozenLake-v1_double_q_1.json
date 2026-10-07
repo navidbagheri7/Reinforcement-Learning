@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "env": "FrozenLake-v1",
+  "policy": [
+    0,
+    3,
+    0,
+    0,
+    0,
+    0,
+    1,
+    0,
+    3,
+    1,
+    0,
+    0,
+    0,
+    2,
+    1,
+    0
+  ],
+  "source_metrics": "results/reference/tabular/seed1/metrics.json",
+  "checkpoint_sha256": "712b718b7ac9297a3318a737a4e10f6b6bd1ecd3f78d552c02d900dca3375015",
+  "gamma": 0.99,
+  "deployment": "Finite-state deterministic action table; all state IDs use the declared environment enumeration."
+}

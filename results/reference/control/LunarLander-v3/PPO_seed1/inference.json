@@ -1,0 +1,9 @@
+{
+  "algorithm": "PPO",
+  "env": "LunarLander-v3",
+  "seed": 1,
+  "selected_step": 950272,
+  "checkpoint_sha256": "3e29c8995d3b60bb4f5ea9758229f28d23f583208f33783f6cbc9454bfc09d37",
+  "gymnasium_version": "1.2.3",
+  "protocol": "Deterministic selected-policy deployment. Validation seeds 200000.., final test300000.., shift400000... Training seeds start at fit seed with vector-environment offsets. Local reference uses CPU float32, no reward/observation normalization."
+}

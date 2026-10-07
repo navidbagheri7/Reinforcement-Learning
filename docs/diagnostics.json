@@ -1,0 +1,121 @@
+{
+  "qr_dqn": [
+    {
+      "source": "assets/source_data/neural/qr_dqn_0.npz",
+      "all_heads_crossing_fraction": 0.15924930306650736,
+      "legal_heads_crossing_fraction": 0.0,
+      "learned_legal_quantile_output_range": [
+        -81.6812973022461,
+        -72.45441436767578
+      ],
+      "note": "Illegal action heads are not trained for deployment. Crossing diagnostics neither sort targets nor imply epistemic calibration."
+    },
+    {
+      "source": "assets/source_data/neural/qr_dqn_1.npz",
+      "all_heads_crossing_fraction": 0.14326961369972122,
+      "legal_heads_crossing_fraction": 0.0005467468562055768,
+      "learned_legal_quantile_output_range": [
+        -70.02611541748047,
+        -61.2346076965332
+      ],
+      "note": "Illegal action heads are not trained for deployment. Crossing diagnostics neither sort targets nor imply epistemic calibration."
+    },
+    {
+      "source": "assets/source_data/neural/qr_dqn_2.npz",
+      "all_heads_crossing_fraction": 0.10844782954998008,
+      "legal_heads_crossing_fraction": 0.0019819573537452157,
+      "learned_legal_quantile_output_range": [
+        -23.441532135009766,
+        -14.910091400146484
+      ],
+      "note": "Illegal action heads are not trained for deployment. Crossing diagnostics neither sort targets nor imply epistemic calibration."
+    }
+  ],
+  "neural_value": [
+    {
+      "source": "assets/source_data/neural/double_dqn_0.npz",
+      "mean_predicted_value": -101.75076293945312,
+      "mean_exact_policy_value": -121.40467083174434,
+      "max_value_error": 20.204640773764666,
+      "max_optimal_bellman_residual": 0.7045463954448508
+    },
+    {
+      "source": "assets/source_data/neural/double_dqn_1.npz",
+      "mean_predicted_value": -19.32292366027832,
+      "mean_exact_policy_value": -121.13812607142106,
+      "max_value_error": 102.4963643517426,
+      "max_optimal_bellman_residual": 1.6953665454149238
+    },
+    {
+      "source": "assets/source_data/neural/double_dqn_2.npz",
+      "mean_predicted_value": -79.26625061035156,
+      "mean_exact_policy_value": -121.1381260714211,
+      "max_value_error": 42.35096525811473,
+      "max_optimal_bellman_residual": 0.7948631615280988
+    },
+    {
+      "source": "assets/source_data/neural/double_dueling_per_0.npz",
+      "mean_predicted_value": -69.10082244873047,
+      "mean_exact_policy_value": -121.13812607142106,
+      "max_value_error": 52.50490446992325,
+      "max_optimal_bellman_residual": 1.0581371436357472
+    },
+    {
+      "source": "assets/source_data/neural/double_dueling_per_1.npz",
+      "mean_predicted_value": -86.45281982421875,
+      "mean_exact_policy_value": -121.1381260714211,
+      "max_value_error": 35.076603332764364,
+      "max_optimal_bellman_residual": 0.7179366689324382
+    },
+    {
+      "source": "assets/source_data/neural/double_dueling_per_2.npz",
+      "mean_predicted_value": -94.9529800415039,
+      "mean_exact_policy_value": -121.21724746405955,
+      "max_value_error": 26.878035004417185,
+      "max_optimal_bellman_residual": 0.861223008918742
+    },
+    {
+      "source": "assets/source_data/neural/dqn_0.npz",
+      "mean_predicted_value": -94.73303985595703,
+      "mean_exact_policy_value": -121.13812607142106,
+      "max_value_error": 26.968077382520903,
+      "max_optimal_bellman_residual": 0.8677039861559592
+    },
+    {
+      "source": "assets/source_data/neural/dqn_1.npz",
+      "mean_predicted_value": -19.22357177734375,
+      "mean_exact_policy_value": -121.13812607142114,
+      "max_value_error": 102.54276823663041,
+      "max_optimal_bellman_residual": 1.6890963601589135
+    },
+    {
+      "source": "assets/source_data/neural/dqn_2.npz",
+      "mean_predicted_value": -93.33067321777344,
+      "mean_exact_policy_value": -121.1381260714211,
+      "max_value_error": 28.151218811280046,
+      "max_optimal_bellman_residual": 0.5310216183662391
+    },
+    {
+      "source": "assets/source_data/neural/qr_dqn_0.npz",
+      "mean_predicted_value": -76.568115234375,
+      "mean_exact_policy_value": -121.13812607142106,
+      "max_value_error": 45.32174467706001,
+      "max_optimal_bellman_residual": 1.1833644944190809
+    },
+    {
+      "source": "assets/source_data/neural/qr_dqn_1.npz",
+      "mean_predicted_value": -65.33414459228516,
+      "mean_exact_policy_value": -121.17481754747487,
+      "max_value_error": 56.64184193019804,
+      "max_optimal_bellman_residual": 1.3702849228382092
+    },
+    {
+      "source": "assets/source_data/neural/qr_dqn_2.npz",
+      "mean_predicted_value": -18.747547149658203,
+      "mean_exact_policy_value": -121.13812607142106,
+      "max_value_error": 102.75995520475713,
+      "max_optimal_bellman_residual": 1.3619058467984146
+    }
+  ],
+  "scope": "Post-fit model-aware diagnostics; no checkpoint selection. Early validation-best policies can perform well before their critics calibrate to the long discounted horizon."
+}

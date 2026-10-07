@@ -1,0 +1,76 @@
+{
+  "recipe": "qr_dqn",
+  "seed": 0,
+  "selected_step": 100000,
+  "validation_history": [
+    {
+      "step": 20000,
+      "discounted_mean": -122.12600338057412
+    },
+    {
+      "step": 40000,
+      "discounted_mean": -121.17157373288903
+    },
+    {
+      "step": 60000,
+      "discounted_mean": -123.32635213053149
+    },
+    {
+      "step": 80000,
+      "discounted_mean": -121.21019208879775
+    },
+    {
+      "step": 100000,
+      "discounted_mean": -120.92258489238586
+    },
+    {
+      "step": 120000,
+      "discounted_mean": -121.21019208879775
+    },
+    {
+      "step": 140000,
+      "discounted_mean": -121.14496576742508
+    },
+    {
+      "step": 160000,
+      "discounted_mean": -122.36140265767342
+    },
+    {
+      "step": 180000,
+      "discounted_mean": -123.5406031884426
+    },
+    {
+      "step": 200000,
+      "discounted_mean": -121.07772670699744
+    }
+  ],
+  "test": {
+    "mean": -625.31,
+    "episode_bootstrap_ci95": [
+      -628.66025,
+      -622.0195
+    ],
+    "n": 100
+  },
+  "discounted_test": {
+    "mean": -119.79756668969536,
+    "episode_bootstrap_ci95": [
+      -120.72691626462903,
+      -118.81757454356028
+    ],
+    "n": 100
+  },
+  "shift_test": {
+    "mean": -819.68,
+    "episode_bootstrap_ci95": [
+      -822.3305,
+      -816.95975
+    ],
+    "n": 100
+  },
+  "normalized_exact_policy_gap": 9.819303800789135e-11,
+  "packet_loss_fraction": 0.7191438954825651,
+  "quantile_crossing_fraction": 0.15924930306650736,
+  "checkpoint_sha256": "63fc488bde9aebefb5dd87d471b1f4672866b211a6957825e7de1a91203ba068",
+  "protocol": "Matched interactions; validation-only discounted-return selection; exact model used exclusively for post-fit diagnostics. QR values are return quantiles, not epistemic uncertainty. Continuing time-limit bootstrap retained. Shift uses the fixed fitted policy without adaptation."
+}

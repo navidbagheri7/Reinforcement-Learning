@@ -1,0 +1,9 @@
+{
+  "algorithm": "PPO",
+  "env": "CartPole-v1",
+  "seed": 2,
+  "selected_step": 65536,
+  "checkpoint_sha256": "ba43e84780eccecebd74c21c74e1126798e37a17155d691c76cb8a850398cccf",
+  "gymnasium_version": "1.2.3",
+  "protocol": "Deterministic selected-policy deployment. Validation seeds 200000.., final test300000.., shift400000... Training seeds start at fit seed with vector-environment offsets. Local reference uses CPU float32, no reward/observation normalization."
+}

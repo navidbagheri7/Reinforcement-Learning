@@ -1,0 +1,34 @@
+{
+  "status": "complete",
+  "config": {
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "lambdas": [
+      0.0,
+      0.9
+    ],
+    "episodes": 3000,
+    "epsilon": 0.05,
+    "alpha": 0.3,
+    "validation_every": 200,
+    "validation_episodes": 20,
+    "test_episodes": 100,
+    "seed": 0,
+    "quick": false
+  },
+  "python": "3.10.20",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "gymnasium": "1.2.3",
+    "torch": "2.7.1+cu128",
+    "stable-baselines3": "2.8.0"
+  },
+  "source_sha256": {
+    "approximation.py": "d0f4ebd06719792a1185f1e584fa5267be60d4bc785a04127ec94b0edb930c89"
+  },
+  "elapsed_seconds": 95.77253804728389
+}

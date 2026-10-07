@@ -1,0 +1,9 @@
+{
+  "algorithm": "DQN",
+  "env": "LunarLander-v3",
+  "seed": 0,
+  "selected_step": 1048576,
+  "checkpoint_sha256": "014d44280c33208985373ae90dcad1159d264cdd75b0331aa0695dcdfeed555d",
+  "gymnasium_version": "1.2.3",
+  "protocol": "Deterministic selected-policy deployment. Validation seeds 200000.., final test300000.., shift400000... Training seeds start at fit seed with vector-environment offsets. Local reference uses CPU float32, no reward/observation normalization."
+}

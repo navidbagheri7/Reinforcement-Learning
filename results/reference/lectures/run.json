@@ -1,0 +1,23 @@
+{
+  "status": "complete",
+  "config": {
+    "baird_steps": 30000,
+    "prediction_seeds": 30,
+    "prediction_episodes": 300,
+    "bandit_runs": 100,
+    "bandit_steps": 2000,
+    "quick": false
+  },
+  "python": "3.10.20",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "gymnasium": "1.2.3",
+    "torch": "2.7.1+cu128",
+    "stable-baselines3": "2.8.0"
+  },
+  "source_sha256": {
+    "lecture_studies.py": "fb9881f5642e76227be0af4f9971a9c1dbaadeadeaffb33acb11a74458b63176"
+  },
+  "elapsed_seconds": 18.556739007122815
+}

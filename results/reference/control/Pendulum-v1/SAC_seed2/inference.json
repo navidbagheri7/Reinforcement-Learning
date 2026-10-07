@@ -1,0 +1,9 @@
+{
+  "algorithm": "SAC",
+  "env": "Pendulum-v1",
+  "seed": 2,
+  "selected_step": 98304,
+  "checkpoint_sha256": "6fbb9db26df60ae5f00ceaa1999ee302ea10538eba98de80864300133bb8d47a",
+  "gymnasium_version": "1.2.3",
+  "protocol": "Deterministic selected-policy deployment. Validation seeds 200000.., final test300000.., shift400000... Training seeds start at fit seed with vector-environment offsets. Local reference uses CPU float32, no reward/observation normalization."
+}

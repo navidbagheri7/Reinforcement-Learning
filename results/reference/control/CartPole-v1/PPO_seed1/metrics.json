@@ -1,0 +1,120 @@
+{
+  "env": "CartPole-v1",
+  "algorithm": "PPO",
+  "seed": 1,
+  "actual_steps": 98304,
+  "selected_step": 65536,
+  "best_validation_return": 500.0,
+  "test": {
+    "mean": 500.0,
+    "episode_bootstrap_ci95": [
+      500.0,
+      500.0
+    ],
+    "n": 100
+  },
+  "test_termination_fraction": 0.0,
+  "test_truncation_fraction": 1.0,
+  "test_success_fraction": null,
+  "shift_kwargs": null,
+  "shift": null,
+  "checkpoint_sha256": "c2087f56e0158b359c40cd29f1c0ee206ee8f62ddf0d443b447f35fdfe978e38",
+  "validation_history": [
+    {
+      "step": 32768,
+      "mean_return": 268.1666666666667,
+      "returns": [
+        242.0,
+        262.0,
+        224.0,
+        271.0,
+        336.0,
+        245.0,
+        236.0,
+        269.0,
+        263.0,
+        310.0,
+        289.0,
+        271.0
+      ],
+      "optimizer_updates": 150
+    },
+    {
+      "step": 65536,
+      "mean_return": 500.0,
+      "returns": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "optimizer_updates": 310
+    },
+    {
+      "step": 98304,
+      "mean_return": 500.0,
+      "returns": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "optimizer_updates": 470
+    },
+    {
+      "step": 98304,
+      "mean_return": 500.0,
+      "returns": [
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0,
+        500.0
+      ],
+      "optimizer_updates": 480
+    }
+  ],
+  "library_hyperparameters": {
+    "learning_rate": 0.0003,
+    "policy_kwargs": {
+      "net_arch": [
+        64,
+        64
+      ]
+    },
+    "seed": 1,
+    "device": "cpu",
+    "verbose": 0,
+    "n_steps": 256,
+    "batch_size": 128,
+    "n_epochs": 10,
+    "gamma": 0.99,
+    "gae_lambda": 0.95,
+    "ent_coef": 0.0,
+    "clip_range": 0.2
+  },
+  "framework": "stable-baselines3 2.8.0; these are library implementations, not owned algorithm internals"
+}

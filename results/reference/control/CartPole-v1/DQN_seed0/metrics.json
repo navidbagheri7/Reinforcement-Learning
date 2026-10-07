@@ -1,0 +1,122 @@
+{
+  "env": "CartPole-v1",
+  "algorithm": "DQN",
+  "seed": 0,
+  "actual_steps": 98304,
+  "selected_step": 98304,
+  "best_validation_return": 183.83333333333334,
+  "test": {
+    "mean": 191.82,
+    "episode_bootstrap_ci95": [
+      188.28975,
+      195.45024999999998
+    ],
+    "n": 100
+  },
+  "test_termination_fraction": 1.0,
+  "test_truncation_fraction": 0.0,
+  "test_success_fraction": null,
+  "shift_kwargs": null,
+  "shift": null,
+  "checkpoint_sha256": "1bc6fd48be3bf71b0abbc9cd152bdd4dac1cf2f0ff50f3595e5341d6e9d8e99c",
+  "validation_history": [
+    {
+      "step": 32768,
+      "mean_return": 139.83333333333334,
+      "returns": [
+        149.0,
+        166.0,
+        136.0,
+        126.0,
+        140.0,
+        132.0,
+        133.0,
+        128.0,
+        136.0,
+        163.0,
+        145.0,
+        124.0
+      ],
+      "optimizer_updates": 5691
+    },
+    {
+      "step": 65536,
+      "mean_return": 132.41666666666666,
+      "returns": [
+        134.0,
+        147.0,
+        134.0,
+        130.0,
+        123.0,
+        135.0,
+        134.0,
+        129.0,
+        133.0,
+        124.0,
+        133.0,
+        133.0
+      ],
+      "optimizer_updates": 13883
+    },
+    {
+      "step": 98304,
+      "mean_return": 176.58333333333334,
+      "returns": [
+        178.0,
+        204.0,
+        168.0,
+        167.0,
+        184.0,
+        167.0,
+        170.0,
+        169.0,
+        167.0,
+        196.0,
+        176.0,
+        173.0
+      ],
+      "optimizer_updates": 22075
+    },
+    {
+      "step": 98304,
+      "mean_return": 183.83333333333334,
+      "returns": [
+        184.0,
+        211.0,
+        173.0,
+        170.0,
+        205.0,
+        178.0,
+        175.0,
+        172.0,
+        169.0,
+        206.0,
+        179.0,
+        184.0
+      ],
+      "optimizer_updates": 22076
+    }
+  ],
+  "library_hyperparameters": {
+    "learning_rate": 0.001,
+    "policy_kwargs": {
+      "net_arch": [
+        64,
+        64
+      ]
+    },
+    "seed": 0,
+    "device": "cpu",
+    "verbose": 0,
+    "buffer_size": 100000,
+    "batch_size": 128,
+    "learning_starts": 10000,
+    "train_freq": 4,
+    "gradient_steps": 1,
+    "gamma": 0.99,
+    "exploration_fraction": 0.25,
+    "exploration_final_eps": 0.05,
+    "target_update_interval": 1000
+  },
+  "framework": "stable-baselines3 2.8.0; these are library implementations, not owned algorithm internals"
+}

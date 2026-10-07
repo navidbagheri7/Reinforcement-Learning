@@ -1,0 +1,191 @@
+{
+  "rows": [
+    {
+      "lambda": 0.0,
+      "seed": 0,
+      "training_steps": 389163,
+      "selected_episode": 600,
+      "test": {
+        "mean": -100.81,
+        "episode_bootstrap_ci95": [
+          -102.60024999999999,
+          -98.94
+        ],
+        "n": 100
+      },
+      "success_fraction": 1.0,
+      "validation_history": [
+        {
+          "episode": 200,
+          "steps": 34719,
+          "return": -148.65
+        },
+        {
+          "episode": 400,
+          "steps": 62650,
+          "return": -140.85
+        },
+        {
+          "episode": 600,
+          "steps": 88651,
+          "return": -97.8
+        },
+        {
+          "episode": 800,
+          "steps": 113848,
+          "return": -119.5
+        },
+        {
+          "episode": 1000,
+          "steps": 139806,
+          "return": -113.55
+        },
+        {
+          "episode": 1200,
+          "steps": 164973,
+          "return": -105.3
+        },
+        {
+          "episode": 1400,
+          "steps": 190276,
+          "return": -150.4
+        },
+        {
+          "episode": 1600,
+          "steps": 214742,
+          "return": -118.75
+        },
+        {
+          "episode": 1800,
+          "steps": 239037,
+          "return": -117.15
+        },
+        {
+          "episode": 2000,
+          "steps": 264081,
+          "return": -98.55
+        },
+        {
+          "episode": 2200,
+          "steps": 288270,
+          "return": -99.4
+        },
+        {
+          "episode": 2400,
+          "steps": 313277,
+          "return": -102.35
+        },
+        {
+          "episode": 2600,
+          "steps": 337882,
+          "return": -121.75
+        },
+        {
+          "episode": 2800,
+          "steps": 363448,
+          "return": -125.55
+        },
+        {
+          "episode": 3000,
+          "steps": 389163,
+          "return": -102.15
+        }
+      ],
+      "checkpoint_sha256": "c3b586f15f80380e5e775828227b6c05eacb1a66e17e65e147d7ef393e5cb476"
+    },
+    {
+      "lambda": 0.9,
+      "seed": 0,
+      "training_steps": 386709,
+      "selected_episode": 2800,
+      "test": {
+        "mean": -102.78,
+        "episode_bootstrap_ci95": [
+          -104.1,
+          -101.38
+        ],
+        "n": 100
+      },
+      "success_fraction": 1.0,
+      "validation_history": [
+        {
+          "episode": 200,
+          "steps": 28477,
+          "return": -112.4
+        },
+        {
+          "episode": 400,
+          "steps": 54399,
+          "return": -106.05
+        },
+        {
+          "episode": 600,
+          "steps": 78852,
+          "return": -117.25
+        },
+        {
+          "episode": 800,
+          "steps": 105417,
+          "return": -100.3
+        },
+        {
+          "episode": 1000,
+          "steps": 132187,
+          "return": -102.85
+        },
+        {
+          "episode": 1200,
+          "steps": 158910,
+          "return": -100.3
+        },
+        {
+          "episode": 1400,
+          "steps": 183325,
+          "return": -106.75
+        },
+        {
+          "episode": 1600,
+          "steps": 209716,
+          "return": -108.3
+        },
+        {
+          "episode": 1800,
+          "steps": 235610,
+          "return": -119.55
+        },
+        {
+          "episode": 2000,
+          "steps": 260444,
+          "return": -109.05
+        },
+        {
+          "episode": 2200,
+          "steps": 284130,
+          "return": -118.75
+        },
+        {
+          "episode": 2400,
+          "steps": 309998,
+          "return": -104.75
+        },
+        {
+          "episode": 2600,
+          "steps": 335287,
+          "return": -130.9
+        },
+        {
+          "episode": 2800,
+          "steps": 361616,
+          "return": -99.9
+        },
+        {
+          "episode": 3000,
+          "steps": 386709,
+          "return": -104.8
+        }
+      ],
+      "checkpoint_sha256": "ffa5ffb3e82bfa7b5418fbad96091ae721746758b9be712c682b236444c41870"
+    }
+  ],
+  "protocol": "Official MountainCar-v0, 200-step time limit. Physical bounded 8-tiling 8-bin features, replacing traces, SARSA, gamma1, epsilon .05, effective step alpha/8. True termination zeroes bootstrap; truncation retains it, then traces reset with the episode. Equal episode budgets have different interaction counts, which are reported. Validation-only selection, independent fixed test resets."
+}

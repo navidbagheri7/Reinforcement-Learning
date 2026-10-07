@@ -1,0 +1,695 @@
+{
+  "rows": [
+    {
+      "profile": "per_user",
+      "states": 324,
+      "VI_iterations": 2313,
+      "PI_iterations": 2,
+      "VI_value_error_bound": 9.821121693676096e-09,
+      "normalized_optimal_loss": 1.2113812606160186,
+      "VI_PI_max_value_difference": 9.819515867093287e-09,
+      "VI_LP_max_value_difference": 9.822045399232593e-09,
+      "occupancy_flow_residual": 1.561511336900523e-14,
+      "discounted_primal_dual_gap": 2.0179413695586845e-12,
+      "average_packet_loss": 1.224302843085968,
+      "average_primal_dual_gap": 1.5543122344752192e-15,
+      "average_stationarity_residual": 5.43729083567375e-16,
+      "steady_energy_lower_bound_loss": 1.2
+    },
+    {
+      "profile": "global",
+      "states": 108,
+      "VI_iterations": 2312,
+      "PI_iterations": 2,
+      "VI_value_error_bound": 9.873701856122344e-09,
+      "normalized_optimal_loss": 1.2042539071589684,
+      "VI_PI_max_value_difference": 9.87320447620732e-09,
+      "VI_LP_max_value_difference": 9.870603889794438e-09,
+      "occupancy_flow_residual": 1.2091022627558345e-14,
+      "discounted_primal_dual_gap": 3.424815986363683e-12,
+      "average_packet_loss": 1.2186905551869054,
+      "average_primal_dual_gap": 0.0,
+      "average_stationarity_residual": 1.4586923791255757e-16,
+      "steady_energy_lower_bound_loss": 1.2
+    }
+  ],
+  "pareto": [
+    {
+      "profile": "per_user",
+      "priorities": [
+        1.0,
+        1.0
+      ],
+      "fairness_constraint": false,
+      "energy_budget": 0.15,
+      "normalized_weighted_loss": 1.5429999999999815,
+      "normalized_energy": 0.15000000000000005,
+      "user_service": [
+        0.0006103232169713093,
+        0.14938967678302875
+      ],
+      "flow_residual": 6.379619055252306e-14,
+      "budget_shadow_prices": [
+        99.99999999993736
+      ],
+      "primal_dual_gap": 1.1112888387287967e-11
+    },
+    {
+      "profile": "per_user",
+      "priorities": [
+        1.0,
+        1.0
+      ],
+      "fairness_constraint": true,
+      "energy_budget": 0.15,
+      "normalized_weighted_loss": 1.5429999999999702,
+      "normalized_energy": 0.14999999999999997,
+      "user_service": [
+        0.1460535657470704,
+        0.003946434252929568
+      ],
+      "flow_residual": 3.462508058049707e-14,
+      "budget_shadow_prices": [
+        99.99999999996461,
+        0.0
+      ],
+      "primal_dual_gap": 1.8474111129762605e-12
+    },
+    {
+      "profile": "per_user",
+      "priorities": [
+        1.0,
+        1.0
+      ],
+      "fairness_constraint": false,
+      "energy_budget": 0.25,
+      "normalized_weighted_loss": 1.4429999999999703,
+      "normalized_energy": 0.25,
+      "user_service": [
+        0.07952872571032911,
+        0.17047127428967088
+      ],
+      "flow_residual": 1.2030654250594353e-13,
+      "budget_shadow_prices": [
+        100.00000000014643
+      ],
+      "primal_dual_gap": 1.1084466677857563e-11
+    },
+    {
+      "profile": "per_user",
+      "priorities": [
+        1.0,
+        1.0
+      ],
+      "fairness_constraint": true,
+      "energy_budget": 0.25,
+      "normalized_weighted_loss": 1.4429999999999863,
+      "normalized_energy": 0.24999999999999983,
+      "user_service": [
+        0.23457524064435858,
+        0.015424759355641257
+      ],
+      "flow_residual": 2.3053087216950985e-13,
+      "budget_shadow_prices": [
+        99.99999999988279,
+        0.0
+      ],
+      "primal_dual_gap": 2.4726887204451486e-12
+    },
+    {
+      "profile": "per_user",
+      "priorities": [
+        1.0,
+        1.0
+      ],
+      "fairness_constraint": false,
+      "energy_budget": 0.35,
+      "normalized_weighted_loss": 1.3430000000000104,
+      "normalized_energy": 0.34999999999999964,
+      "user_service": [
+        0.15570444642484677,
+        0.1942955535751529
+      ],
+      "flow_residual": 6.661685092446135e-14,
+      "budget_shadow_prices": [
+        99.99999999992906
+      ],
+      "primal_dual_gap": 8.498091119690798e-12
+    },
+    {
+      "profile": "per_user",
+      "priorities": [
+        1.0,
+        1.0
+      ],
+      "fairness_constraint": true,
+      "energy_budget": 0.35,
+      "normalized_weighted_loss": 1.342999999999976,
+      "normalized_energy": 0.35000000000000003,
+      "user_service": [
+        0.23924547725375356,
+        0.11075452274624648
+      ],
+      "flow_residual": 1.687538997430238e-14,
+      "budget_shadow_prices": [
+        100.00000000005826,
+        0.0
+      ],
+      "primal_dual_gap": 8.242295734817162e-13
+    },
+    {
+      "profile": "per_user",
+      "priorities": [
+        1.0,
+        1.0
+      ],
+      "fairness_constraint": false,
+      "energy_budget": 0.45,
+      "normalized_weighted_loss": 1.2429999999999688,
+      "normalized_energy": 0.45000000000000007,
+      "user_service": [
+        0.2271641080473573,
+        0.2228358919526427
+      ],
+      "flow_residual": 6.038919364570461e-14,
+      "budget_shadow_prices": [
+        100.00000000001445
+      ],
+      "primal_dual_gap": 1.332978172285948e-11
+    },
+    {
+      "profile": "per_user",
+      "priorities": [
+        1.0,
+        1.0
+      ],
+      "fairness_constraint": true,
+      "energy_budget": 0.45,
+      "normalized_weighted_loss": 1.2429999999999588,
+      "normalized_energy": 0.4499999999999996,
+      "user_service": [
+        0.24003074700718421,
+        0.2099692529928154
+      ],
+      "flow_residual": 5.938999292354197e-14,
+      "budget_shadow_prices": [
+        99.99999999998977,
+        0.0
+      ],
+      "primal_dual_gap": 7.16227077646181e-12
+    },
+    {
+      "profile": "per_user",
+      "priorities": [
+        1.0,
+        3.0
+      ],
+      "fairness_constraint": false,
+      "energy_budget": 0.15,
+      "normalized_weighted_loss": 2.935999999999964,
+      "normalized_energy": 0.15,
+      "user_service": [
+        0.0,
+        0.15
+      ],
+      "flow_residual": 4.05092626110104e-14,
+      "budget_shadow_prices": [
+        300.0000000000282
+      ],
+      "primal_dual_gap": 4.320099833421409e-12
+    },
+    {
+      "profile": "per_user",
+      "priorities": [
+        1.0,
+        3.0
+      ],
+      "fairness_constraint": true,
+      "energy_budget": 0.15,
+      "normalized_weighted_loss": 3.1759999999999406,
+      "normalized_energy": 0.15,
+      "user_service": [
+        0.12,
+        0.029999999999999995
+      ],
+      "flow_residual": 1.8415824420969784e-14,
+      "budget_shadow_prices": [
+        299.99999999986494,
+        200.00000000002376
+      ],
+      "primal_dual_gap": 9.549694368615746e-12
+    },
+    {
+      "profile": "per_user",
+      "priorities": [
+        1.0,
+        3.0
+      ],
+      "fairness_constraint": false,
+      "energy_budget": 0.25,
+      "normalized_weighted_loss": 2.6472539072576957,
+      "normalized_energy": 0.24999999999999975,
+      "user_service": [
+        0.005626953628852277,
+        0.24437304637114746
+      ],
+      "flow_residual": 1.7388868123191514e-14,
+      "budget_shadow_prices": [
+        100.00000000004593
+      ],
+      "primal_dual_gap": 4.433786671143025e-12
+    },
+    {
+      "profile": "per_user",
+      "priorities": [
+        1.0,
+        3.0
+      ],
+      "fairness_constraint": true,
+      "energy_budget": 0.25,
+      "normalized_weighted_loss": 2.8759999999999666,
+      "normalized_energy": 0.24999999999999997,
+      "user_service": [
+        0.12000000000000002,
+        0.13
+      ],
+      "flow_residual": 7.681355551625302e-14,
+      "budget_shadow_prices": [
+        300.0000000000223,
+        199.9999999999892
+      ],
+      "primal_dual_gap": 7.389644451905042e-13
+    },
+    {
+      "profile": "per_user",
+      "priorities": [
+        1.0,
+        3.0
+      ],
+      "fairness_constraint": false,
+      "energy_budget": 0.35,
+      "normalized_weighted_loss": 2.54725390725769,
+      "normalized_energy": 0.3499999999999998,
+      "user_service": [
+        0.10562695362885328,
+        0.2443730463711465
+      ],
+      "flow_residual": 3.27754316742368e-14,
+      "budget_shadow_prices": [
+        100.00000000000293
+      ],
+      "primal_dual_gap": 2.6716406864579767e-12
+    },
+    {
+      "profile": "per_user",
+      "priorities": [
+        1.0,
+        3.0
+      ],
+      "fairness_constraint": true,
+      "energy_budget": 0.35,
+      "normalized_weighted_loss": 2.5759999999999743,
+      "normalized_energy": 0.34999999999999987,
+      "user_service": [
+        0.12,
+        0.22999999999999995
+      ],
+      "flow_residual": 2.1545265571631944e-14,
+      "budget_shadow_prices": [
+        300.00000000069076,
+        200.00000000076676
+      ],
+      "primal_dual_gap": 3.183231456205249e-12
+    },
+    {
+      "profile": "per_user",
+      "priorities": [
+        1.0,
+        3.0
+      ],
+      "fairness_constraint": false,
+      "energy_budget": 0.45,
+      "normalized_weighted_loss": 2.447253907257682,
+      "normalized_energy": 0.45000000000000073,
+      "user_service": [
+        0.20562695362885453,
+        0.24437304637114618
+      ],
+      "flow_residual": 3.650552082845593e-14,
+      "budget_shadow_prices": [
+        100.00000000000102
+      ],
+      "primal_dual_gap": 4.007461029686965e-12
+    },
+    {
+      "profile": "per_user",
+      "priorities": [
+        1.0,
+        3.0
+      ],
+      "fairness_constraint": true,
+      "energy_budget": 0.45,
+      "normalized_weighted_loss": 2.447253907257661,
+      "normalized_energy": 0.44999999999999957,
+      "user_service": [
+        0.20562695362886715,
+        0.24437304637113236
+      ],
+      "flow_residual": 4.792086866212131e-14,
+      "budget_shadow_prices": [
+        99.99999999993953,
+        0.0
+      ],
+      "primal_dual_gap": 1.1084466677857563e-11
+    },
+    {
+      "profile": "global",
+      "priorities": [
+        1.0,
+        1.0
+      ],
+      "fairness_constraint": false,
+      "energy_budget": 0.15,
+      "normalized_weighted_loss": 1.5429999999999757,
+      "normalized_energy": 0.15000000000000002,
+      "user_service": [
+        0.1319117566912436,
+        0.01808824330875639
+      ],
+      "flow_residual": 1.2698175844150228e-14,
+      "budget_shadow_prices": [
+        100.00000000000182
+      ],
+      "primal_dual_gap": 9.379164112033322e-13
+    },
+    {
+      "profile": "global",
+      "priorities": [
+        1.0,
+        1.0
+      ],
+      "fairness_constraint": true,
+      "energy_budget": 0.15,
+      "normalized_weighted_loss": 1.5429999999999833,
+      "normalized_energy": 0.15,
+      "user_service": [
+        0.12,
+        0.03
+      ],
+      "flow_residual": 1.980360320175123e-14,
+      "budget_shadow_prices": [
+        100.00000000000273,
+        2.000888343900442e-11
+      ],
+      "primal_dual_gap": 1.9042545318370685e-12
+    },
+    {
+      "profile": "global",
+      "priorities": [
+        1.0,
+        1.0
+      ],
+      "fairness_constraint": false,
+      "energy_budget": 0.25,
+      "normalized_weighted_loss": 1.4429999999999834,
+      "normalized_energy": 0.25,
+      "user_service": [
+        0.2312646004239592,
+        0.018735399576040826
+      ],
+      "flow_residual": 2.749189764728044e-14,
+      "budget_shadow_prices": [
+        99.99999999999272
+      ],
+      "primal_dual_gap": 3.524291969370097e-12
+    },
+    {
+      "profile": "global",
+      "priorities": [
+        1.0,
+        1.0
+      ],
+      "fairness_constraint": true,
+      "energy_budget": 0.25,
+      "normalized_weighted_loss": 1.4429999999999803,
+      "normalized_energy": 0.24999999999999997,
+      "user_service": [
+        0.12,
+        0.13
+      ],
+      "flow_residual": 1.8388068845354155e-14,
+      "budget_shadow_prices": [
+        99.99999999998363,
+        -1.2846612662542611e-11
+      ],
+      "primal_dual_gap": 4.831690603168681e-13
+    },
+    {
+      "profile": "global",
+      "priorities": [
+        1.0,
+        1.0
+      ],
+      "fairness_constraint": false,
+      "energy_budget": 0.35,
+      "normalized_weighted_loss": 1.342999999999987,
+      "normalized_energy": 0.35,
+      "user_service": [
+        0.22523086500758824,
+        0.12476913499241167
+      ],
+      "flow_residual": 2.155220446553585e-14,
+      "budget_shadow_prices": [
+        99.99999999997635
+      ],
+      "primal_dual_gap": 3.069544618483633e-12
+    },
+    {
+      "profile": "global",
+      "priorities": [
+        1.0,
+        1.0
+      ],
+      "fairness_constraint": true,
+      "energy_budget": 0.35,
+      "normalized_weighted_loss": 1.3429999999999809,
+      "normalized_energy": 0.3500000000000001,
+      "user_service": [
+        0.12095732237413437,
+        0.22904267762586578
+      ],
+      "flow_residual": 2.1274648709379562e-14,
+      "budget_shadow_prices": [
+        100.0,
+        0.0
+      ],
+      "primal_dual_gap": 6.821210263296962e-13
+    },
+    {
+      "profile": "global",
+      "priorities": [
+        1.0,
+        1.0
+      ],
+      "fairness_constraint": false,
+      "energy_budget": 0.45,
+      "normalized_weighted_loss": 1.2429999999999801,
+      "normalized_energy": 0.45000000000000007,
+      "user_service": [
+        0.24323357686782848,
+        0.20676642313217156
+      ],
+      "flow_residual": 2.9351521213527576e-14,
+      "budget_shadow_prices": [
+        99.99999999994907
+      ],
+      "primal_dual_gap": 1.6910917111090384e-12
+    },
+    {
+      "profile": "global",
+      "priorities": [
+        1.0,
+        1.0
+      ],
+      "fairness_constraint": true,
+      "energy_budget": 0.45,
+      "normalized_weighted_loss": 1.2429999999999874,
+      "normalized_energy": 0.45000000000000007,
+      "user_service": [
+        0.20577711677659832,
+        0.2442228832234018
+      ],
+      "flow_residual": 1.672273430841642e-14,
+      "budget_shadow_prices": [
+        100.00000000001364,
+        0.0
+      ],
+      "primal_dual_gap": 1.9184653865522705e-12
+    },
+    {
+      "profile": "global",
+      "priorities": [
+        1.0,
+        3.0
+      ],
+      "fairness_constraint": false,
+      "energy_budget": 0.15,
+      "normalized_weighted_loss": 2.935999999999969,
+      "normalized_energy": 0.15,
+      "user_service": [
+        0.0,
+        0.15
+      ],
+      "flow_residual": 1.4474532683550478e-14,
+      "budget_shadow_prices": [
+        299.9999999999852
+      ],
+      "primal_dual_gap": 7.958078640513122e-13
+    },
+    {
+      "profile": "global",
+      "priorities": [
+        1.0,
+        3.0
+      ],
+      "fairness_constraint": true,
+      "energy_budget": 0.15,
+      "normalized_weighted_loss": 3.175999999999955,
+      "normalized_energy": 0.15,
+      "user_service": [
+        0.12,
+        0.03
+      ],
+      "flow_residual": 1.2739809207573671e-14,
+      "budget_shadow_prices": [
+        299.9999999999509,
+        199.9999999998945
+      ],
+      "primal_dual_gap": 6.536993168992922e-12
+    },
+    {
+      "profile": "global",
+      "priorities": [
+        1.0,
+        3.0
+      ],
+      "fairness_constraint": false,
+      "energy_budget": 0.25,
+      "normalized_weighted_loss": 2.64725390725768,
+      "normalized_energy": 0.24999999999999997,
+      "user_service": [
+        0.005626953628853045,
+        0.24437304637114696
+      ],
+      "flow_residual": 1.8582357874663558e-14,
+      "budget_shadow_prices": [
+        100.00000000013688
+      ],
+      "primal_dual_gap": 4.945377440890297e-12
+    },
+    {
+      "profile": "global",
+      "priorities": [
+        1.0,
+        3.0
+      ],
+      "fairness_constraint": true,
+      "energy_budget": 0.25,
+      "normalized_weighted_loss": 2.875999999999975,
+      "normalized_energy": 0.24999999999999997,
+      "user_service": [
+        0.11999999999999998,
+        0.13
+      ],
+      "flow_residual": 1.3947176746853529e-14,
+      "budget_shadow_prices": [
+        299.99999999996,
+        199.9999999999236
+      ],
+      "primal_dual_gap": 7.105427357601002e-12
+    },
+    {
+      "profile": "global",
+      "priorities": [
+        1.0,
+        3.0
+      ],
+      "fairness_constraint": false,
+      "energy_budget": 0.35,
+      "normalized_weighted_loss": 2.5472539072576854,
+      "normalized_energy": 0.34999999999999976,
+      "user_service": [
+        0.1056269536288593,
+        0.2443730463711404
+      ],
+      "flow_residual": 1.0560996521746802e-14,
+      "budget_shadow_prices": [
+        99.99999999998909
+      ],
+      "primal_dual_gap": 2.3305801732931286e-12
+    },
+    {
+      "profile": "global",
+      "priorities": [
+        1.0,
+        3.0
+      ],
+      "fairness_constraint": true,
+      "energy_budget": 0.35,
+      "normalized_weighted_loss": 2.5760000000000027,
+      "normalized_energy": 0.35,
+      "user_service": [
+        0.12,
+        0.22999999999999993
+      ],
+      "flow_residual": 1.644517855226013e-14,
+      "budget_shadow_prices": [
+        300.0000000000596,
+        199.9999999999775
+      ],
+      "primal_dual_gap": 4.263256414560601e-12
+    },
+    {
+      "profile": "global",
+      "priorities": [
+        1.0,
+        3.0
+      ],
+      "fairness_constraint": false,
+      "energy_budget": 0.45,
+      "normalized_weighted_loss": 2.447253907257671,
+      "normalized_energy": 0.45000000000000023,
+      "user_service": [
+        0.20562695362886516,
+        0.24437304637113508
+      ],
+      "flow_residual": 1.008915173628111e-14,
+      "budget_shadow_prices": [
+        100.00000000001273
+      ],
+      "primal_dual_gap": 8.640199666842818e-12
+    },
+    {
+      "profile": "global",
+      "priorities": [
+        1.0,
+        3.0
+      ],
+      "fairness_constraint": true,
+      "energy_budget": 0.45,
+      "normalized_weighted_loss": 2.4472539072576853,
+      "normalized_energy": 0.4500000000000001,
+      "user_service": [
+        0.2056269536288563,
+        0.24437304637114377
+      ],
+      "flow_residual": 1.824929096727601e-14,
+      "budget_shadow_prices": [
+        100.00000000001455,
+        0.0
+      ],
+      "primal_dual_gap": 6.394884621840902e-12
+    }
+  ],
+  "protocol": "Exact model-aware planning. Uniform initial distribution for discounted values. Average reward is justified only for the wireless interior-arrival unichain model; not a universal multichain guarantee. Equal-priority energy/loss tradeoff is linear by packet conservation. Priority and service-floor extensions are explicitly separate objectives."
+}

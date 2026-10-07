@@ -1,0 +1,384 @@
+{
+  "counts": {
+    "planning": 1,
+    "tabular": 3,
+    "neural": 12,
+    "offline": 36,
+    "control": 18,
+    "approximation": 3,
+    "lectures": 1
+  },
+  "total_protocols": 74,
+  "protocols": [
+    {
+      "family": "approximation",
+      "path": "results/reference/approximation/seed0",
+      "elapsed_seconds": 95.77253804728389
+    },
+    {
+      "family": "approximation",
+      "path": "results/reference/approximation/seed1",
+      "elapsed_seconds": 95.01481667440385
+    },
+    {
+      "family": "approximation",
+      "path": "results/reference/approximation/seed2",
+      "elapsed_seconds": 96.64823650661856
+    },
+    {
+      "family": "control",
+      "path": "results/reference/control/CartPole-v1/DQN_seed0",
+      "elapsed_seconds": 57.7108637439087
+    },
+    {
+      "family": "control",
+      "path": "results/reference/control/CartPole-v1/DQN_seed1",
+      "elapsed_seconds": 54.671008087694645
+    },
+    {
+      "family": "control",
+      "path": "results/reference/control/CartPole-v1/DQN_seed2",
+      "elapsed_seconds": 61.696767278946936
+    },
+    {
+      "family": "control",
+      "path": "results/reference/control/CartPole-v1/PPO_seed0",
+      "elapsed_seconds": 45.094344947487116
+    },
+    {
+      "family": "control",
+      "path": "results/reference/control/CartPole-v1/PPO_seed1",
+      "elapsed_seconds": 42.88653066102415
+    },
+    {
+      "family": "control",
+      "path": "results/reference/control/CartPole-v1/PPO_seed2",
+      "elapsed_seconds": 42.98838933929801
+    },
+    {
+      "family": "control",
+      "path": "results/reference/control/LunarLander-v3/DQN_seed0",
+      "elapsed_seconds": 1343.6898715887219
+    },
+    {
+      "family": "control",
+      "path": "results/reference/control/LunarLander-v3/DQN_seed1",
+      "elapsed_seconds": 1319.1621683109552
+    },
+    {
+      "family": "control",
+      "path": "results/reference/control/LunarLander-v3/DQN_seed2",
+      "elapsed_seconds": 1393.9498891215771
+    },
+    {
+      "family": "control",
+      "path": "results/reference/control/LunarLander-v3/PPO_seed0",
+      "elapsed_seconds": 1117.2883425774053
+    },
+    {
+      "family": "control",
+      "path": "results/reference/control/LunarLander-v3/PPO_seed1",
+      "elapsed_seconds": 1180.4499252904207
+    },
+    {
+      "family": "control",
+      "path": "results/reference/control/LunarLander-v3/PPO_seed2",
+      "elapsed_seconds": 1308.3561852602288
+    },
+    {
+      "family": "control",
+      "path": "results/reference/control/Pendulum-v1/PPO_seed0",
+      "elapsed_seconds": 144.58181171305478
+    },
+    {
+      "family": "control",
+      "path": "results/reference/control/Pendulum-v1/PPO_seed1",
+      "elapsed_seconds": 142.9617150388658
+    },
+    {
+      "family": "control",
+      "path": "results/reference/control/Pendulum-v1/PPO_seed2",
+      "elapsed_seconds": 143.94547453150153
+    },
+    {
+      "family": "control",
+      "path": "results/reference/control/Pendulum-v1/SAC_seed0",
+      "elapsed_seconds": 350.4198616826907
+    },
+    {
+      "family": "control",
+      "path": "results/reference/control/Pendulum-v1/SAC_seed1",
+      "elapsed_seconds": 352.0888100210577
+    },
+    {
+      "family": "control",
+      "path": "results/reference/control/Pendulum-v1/SAC_seed2",
+      "elapsed_seconds": 348.1957133868709
+    },
+    {
+      "family": "lectures",
+      "path": "results/reference/lectures",
+      "elapsed_seconds": 18.556739007122815
+    },
+    {
+      "family": "neural",
+      "path": "results/reference/neural/double_dqn/seed0",
+      "elapsed_seconds": 240.30414301343262
+    },
+    {
+      "family": "neural",
+      "path": "results/reference/neural/double_dqn/seed1",
+      "elapsed_seconds": 242.93026334233582
+    },
+    {
+      "family": "neural",
+      "path": "results/reference/neural/double_dqn/seed2",
+      "elapsed_seconds": 246.40287603065372
+    },
+    {
+      "family": "neural",
+      "path": "results/reference/neural/double_dueling_per/seed0",
+      "elapsed_seconds": 246.23413448408246
+    },
+    {
+      "family": "neural",
+      "path": "results/reference/neural/double_dueling_per/seed1",
+      "elapsed_seconds": 274.3930530110374
+    },
+    {
+      "family": "neural",
+      "path": "results/reference/neural/double_dueling_per/seed2",
+      "elapsed_seconds": 275.874032673426
+    },
+    {
+      "family": "neural",
+      "path": "results/reference/neural/dqn/seed0",
+      "elapsed_seconds": 902.2234176276252
+    },
+    {
+      "family": "neural",
+      "path": "results/reference/neural/dqn/seed1",
+      "elapsed_seconds": 217.67734793946147
+    },
+    {
+      "family": "neural",
+      "path": "results/reference/neural/dqn/seed2",
+      "elapsed_seconds": 208.5916760135442
+    },
+    {
+      "family": "neural",
+      "path": "results/reference/neural/qr_dqn/seed0",
+      "elapsed_seconds": 243.2226886684075
+    },
+    {
+      "family": "neural",
+      "path": "results/reference/neural/qr_dqn/seed1",
+      "elapsed_seconds": 240.02697366755456
+    },
+    {
+      "family": "neural",
+      "path": "results/reference/neural/qr_dqn/seed2",
+      "elapsed_seconds": 241.92799728456885
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.05/bc/seed0",
+      "elapsed_seconds": 27.594934700988233
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.05/bc/seed1",
+      "elapsed_seconds": 29.178957880474627
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.05/bc/seed2",
+      "elapsed_seconds": 20.217292034998536
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.05/cql/seed0",
+      "elapsed_seconds": 40.62810539826751
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.05/cql/seed1",
+      "elapsed_seconds": 42.677917225286365
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.05/cql/seed2",
+      "elapsed_seconds": 33.34111332707107
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.05/fitted_dqn/seed0",
+      "elapsed_seconds": 35.39776923041791
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.05/fitted_dqn/seed1",
+      "elapsed_seconds": 34.698375071398914
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.05/fitted_dqn/seed2",
+      "elapsed_seconds": 28.28217680659145
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.05/iql/seed0",
+      "elapsed_seconds": 72.3837554845959
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.05/iql/seed1",
+      "elapsed_seconds": 78.38694234099239
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.05/iql/seed2",
+      "elapsed_seconds": 67.83321996405721
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.4/bc/seed0",
+      "elapsed_seconds": 22.199560346081853
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.4/bc/seed1",
+      "elapsed_seconds": 26.842425279319286
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.4/bc/seed2",
+      "elapsed_seconds": 18.46339891385287
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.4/cql/seed0",
+      "elapsed_seconds": 39.737109553068876
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.4/cql/seed1",
+      "elapsed_seconds": 42.440721043385565
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.4/cql/seed2",
+      "elapsed_seconds": 33.301799573004246
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.4/fitted_dqn/seed0",
+      "elapsed_seconds": 35.45384962297976
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.4/fitted_dqn/seed1",
+      "elapsed_seconds": 34.7020105952397
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.4/fitted_dqn/seed2",
+      "elapsed_seconds": 27.864332914352417
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.4/iql/seed0",
+      "elapsed_seconds": 77.48977967631072
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.4/iql/seed1",
+      "elapsed_seconds": 78.4796449970454
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon0.4/iql/seed2",
+      "elapsed_seconds": 73.00478635728359
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon1/bc/seed0",
+      "elapsed_seconds": 22.72671126574278
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon1/bc/seed1",
+      "elapsed_seconds": 25.934820351190865
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon1/bc/seed2",
+      "elapsed_seconds": 24.73530358541757
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon1/cql/seed0",
+      "elapsed_seconds": 40.50475296191871
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon1/cql/seed1",
+      "elapsed_seconds": 41.9689618460834
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon1/cql/seed2",
+      "elapsed_seconds": 38.797134174034
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon1/fitted_dqn/seed0",
+      "elapsed_seconds": 34.07102467585355
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon1/fitted_dqn/seed1",
+      "elapsed_seconds": 33.85427276417613
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon1/fitted_dqn/seed2",
+      "elapsed_seconds": 31.57920307852328
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon1/iql/seed0",
+      "elapsed_seconds": 76.97583887260407
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon1/iql/seed1",
+      "elapsed_seconds": 75.83498840685934
+    },
+    {
+      "family": "offline",
+      "path": "results/reference/offline/epsilon1/iql/seed2",
+      "elapsed_seconds": 73.694773837924
+    },
+    {
+      "family": "planning",
+      "path": "results/reference/planning",
+      "elapsed_seconds": 12.62969009205699
+    },
+    {
+      "family": "tabular",
+      "path": "results/reference/tabular/seed0",
+      "elapsed_seconds": 324.56238863710314
+    },
+    {
+      "family": "tabular",
+      "path": "results/reference/tabular/seed1",
+      "elapsed_seconds": 323.1053589778021
+    },
+    {
+      "family": "tabular",
+      "path": "results/reference/tabular/seed2",
+      "elapsed_seconds": 326.6383834145963
+    }
+  ]
+}

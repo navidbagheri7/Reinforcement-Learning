@@ -1,0 +1,15 @@
+{
+  "env": "LunarLander-v3",
+  "algorithm": "PPO",
+  "fit_seed": 0,
+  "test_seed": 300000,
+  "return": 276.7910682115472,
+  "length": 212,
+  "terminated": true,
+  "truncated": false,
+  "checkpoint_sha256": "0c5b948867437046852be9e110a03e358f957e845662719bd0c6ae5209405243",
+  "gif_sha256": "bc37317b367c9efad2cc0e170c85931793762998486ad169eb377afce5ea5551",
+  "frame_stride": 4,
+  "frame_duration_ms": 80,
+  "protocol": "Fixed first held-out episode, not visually selected. Return exactly matches saved numeric test evidence."
+}

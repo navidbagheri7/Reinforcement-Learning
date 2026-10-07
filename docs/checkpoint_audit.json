@@ -1,0 +1,150 @@
+{
+  "status": "passed",
+  "finite_exports": 108,
+  "other_policies": [
+    {
+      "path": "results/reference/approximation/seed0/checkpoints/lambda0_0.npz",
+      "sha256": "c3b586f15f80380e5e775828227b6c05eacb1a66e17e65e147d7ef393e5cb476",
+      "fresh_test_episodes": 3,
+      "public_weights": "assets/linear_policies/lambda0_0.npz"
+    },
+    {
+      "path": "results/reference/approximation/seed0/checkpoints/lambda0.9_0.npz",
+      "sha256": "ffa5ffb3e82bfa7b5418fbad96091ae721746758b9be712c682b236444c41870",
+      "fresh_test_episodes": 3,
+      "public_weights": "assets/linear_policies/lambda0.9_0.npz"
+    },
+    {
+      "path": "results/reference/approximation/seed1/checkpoints/lambda0_1.npz",
+      "sha256": "8debd2f693dce70aef06b7231139df9602fa5bd13f4bfd89c0646149ab027ea9",
+      "fresh_test_episodes": 3,
+      "public_weights": "assets/linear_policies/lambda0_1.npz"
+    },
+    {
+      "path": "results/reference/approximation/seed1/checkpoints/lambda0.9_1.npz",
+      "sha256": "3471b55dea2a94ea816220ee9d826186292095c4182b97fb068ff3add42c81a3",
+      "fresh_test_episodes": 3,
+      "public_weights": "assets/linear_policies/lambda0.9_1.npz"
+    },
+    {
+      "path": "results/reference/approximation/seed2/checkpoints/lambda0_2.npz",
+      "sha256": "cc7bed4abb66b62edda91b83c2aa7d42658d1fb1f38ae159a8fd92816f411d26",
+      "fresh_test_episodes": 3,
+      "public_weights": "assets/linear_policies/lambda0_2.npz"
+    },
+    {
+      "path": "results/reference/approximation/seed2/checkpoints/lambda0.9_2.npz",
+      "sha256": "6c2933b50e0c58ae67ff7093f4237aa938ef806e6a7d6bf51f196fc425e39a67",
+      "fresh_test_episodes": 3,
+      "public_weights": "assets/linear_policies/lambda0.9_2.npz"
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/DQN_seed0/checkpoints/best_model.zip",
+      "sha256": "1bc6fd48be3bf71b0abbc9cd152bdd4dac1cf2f0ff50f3595e5341d6e9d8e99c",
+      "fresh_test_episodes": 3,
+      "fresh_shift_episodes": 0
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/DQN_seed1/checkpoints/best_model.zip",
+      "sha256": "8aa528dd4908b151ef9bbcf2c4e091c725d5032d87deae2dcf4a64c3273c96a0",
+      "fresh_test_episodes": 3,
+      "fresh_shift_episodes": 0
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/DQN_seed2/checkpoints/best_model.zip",
+      "sha256": "e12d73fccfdff99bed6a405fedda16d68897a56787ec5535c329aec60ad9999d",
+      "fresh_test_episodes": 3,
+      "fresh_shift_episodes": 0
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/PPO_seed0/checkpoints/best_model.zip",
+      "sha256": "d524c7b29795fa5347cf1f6ee44df417842024533c1e1dddb5621cf157a61500",
+      "fresh_test_episodes": 3,
+      "fresh_shift_episodes": 0
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/PPO_seed1/checkpoints/best_model.zip",
+      "sha256": "c2087f56e0158b359c40cd29f1c0ee206ee8f62ddf0d443b447f35fdfe978e38",
+      "fresh_test_episodes": 3,
+      "fresh_shift_episodes": 0
+    },
+    {
+      "path": "results/reference/control/CartPole-v1/PPO_seed2/checkpoints/best_model.zip",
+      "sha256": "ba43e84780eccecebd74c21c74e1126798e37a17155d691c76cb8a850398cccf",
+      "fresh_test_episodes": 3,
+      "fresh_shift_episodes": 0
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/DQN_seed0/checkpoints/best_model.zip",
+      "sha256": "014d44280c33208985373ae90dcad1159d264cdd75b0331aa0695dcdfeed555d",
+      "fresh_test_episodes": 3,
+      "fresh_shift_episodes": 3
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/DQN_seed1/checkpoints/best_model.zip",
+      "sha256": "b2be3fae3463db734b6ff7482e1f10d6b1a752d8e6edd29cd18b1444d9fa131d",
+      "fresh_test_episodes": 3,
+      "fresh_shift_episodes": 3
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/DQN_seed2/checkpoints/best_model.zip",
+      "sha256": "42fc54c3a7b41203a0d83f7586ff40717017c324aca72d9dd4c697d16522ad5b",
+      "fresh_test_episodes": 3,
+      "fresh_shift_episodes": 3
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/PPO_seed0/checkpoints/best_model.zip",
+      "sha256": "0c5b948867437046852be9e110a03e358f957e845662719bd0c6ae5209405243",
+      "fresh_test_episodes": 3,
+      "fresh_shift_episodes": 3
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/PPO_seed1/checkpoints/best_model.zip",
+      "sha256": "3e29c8995d3b60bb4f5ea9758229f28d23f583208f33783f6cbc9454bfc09d37",
+      "fresh_test_episodes": 3,
+      "fresh_shift_episodes": 3
+    },
+    {
+      "path": "results/reference/control/LunarLander-v3/PPO_seed2/checkpoints/best_model.zip",
+      "sha256": "25330331f783dbba6091175679439121c297c5b8ac65837c126210e0d5a7c6e4",
+      "fresh_test_episodes": 3,
+      "fresh_shift_episodes": 3
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/PPO_seed0/checkpoints/best_model.zip",
+      "sha256": "41c645c56afd177b1a35d3742d07cdb5309f106523ae89aacff8a1b5ba04cc51",
+      "fresh_test_episodes": 3,
+      "fresh_shift_episodes": 3
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/PPO_seed1/checkpoints/best_model.zip",
+      "sha256": "c4391a1fc2bee9ec07b055a23def778a3684b73b6dc21cbe975a5a598a261a26",
+      "fresh_test_episodes": 3,
+      "fresh_shift_episodes": 3
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/PPO_seed2/checkpoints/best_model.zip",
+      "sha256": "b69709a3539416baf090145bce025e6a774f003a8f8fb8e45d0086d3d50b375b",
+      "fresh_test_episodes": 3,
+      "fresh_shift_episodes": 3
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/SAC_seed0/checkpoints/best_model.zip",
+      "sha256": "a58cef2dd8f1a183a01eb5103f7f909fc5b44f640f081e89ecfff21e06453cdf",
+      "fresh_test_episodes": 3,
+      "fresh_shift_episodes": 3
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/SAC_seed1/checkpoints/best_model.zip",
+      "sha256": "8b0c8f3edc3ace78bae825dbc2e2cff9dda8923022db8feea698a5ef336a63d6",
+      "fresh_test_episodes": 3,
+      "fresh_shift_episodes": 3
+    },
+    {
+      "path": "results/reference/control/Pendulum-v1/SAC_seed2/checkpoints/best_model.zip",
+      "sha256": "6fbb9db26df60ae5f00ceaa1999ee302ea10538eba98de80864300133bb8d47a",
+      "fresh_test_episodes": 3,
+      "fresh_shift_episodes": 3
+    }
+  ]
+}

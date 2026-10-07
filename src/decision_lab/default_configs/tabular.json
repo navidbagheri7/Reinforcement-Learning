@@ -1,0 +1,1 @@
+{"seeds":[0,1,2],"gamma":0.99,"alpha":0.3,"validation_every":20000,"validation_episodes":20,"test_episodes":100,"methods":["q_learning","sarsa","expected_sarsa","double_q"],"budgets":{"Wireless":300000,"FrozenLake-v1":120000,"CliffWalking-v1":120000,"Taxi-v3":300000,"Maze":180000}}

@@ -1,0 +1,9 @@
+{
+  "algorithm": "PPO",
+  "env": "Pendulum-v1",
+  "seed": 1,
+  "selected_step": 524288,
+  "checkpoint_sha256": "c4391a1fc2bee9ec07b055a23def778a3684b73b6dc21cbe975a5a598a261a26",
+  "gymnasium_version": "1.2.3",
+  "protocol": "Deterministic selected-policy deployment. Validation seeds 200000.., final test300000.., shift400000... Training seeds start at fit seed with vector-environment offsets. Local reference uses CPU float32, no reward/observation normalization."
+}

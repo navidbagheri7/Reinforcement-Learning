@@ -1,0 +1,111 @@
+{
+  "status": "complete",
+  "config": {
+    "benchmark": {
+      "seeds": [
+        0,
+        1,
+        2
+      ],
+      "validation_episodes": 12,
+      "test_episodes": 100,
+      "shift_episodes": 50,
+      "evaluation_every": 32768,
+      "device": "cpu",
+      "cases": [
+        {
+          "env": "LunarLander-v3",
+          "algorithm": "PPO",
+          "steps": 1572864,
+          "learning_rate": 0.0003,
+          "net": [
+            128,
+            128
+          ],
+          "n_envs": 8
+        },
+        {
+          "env": "LunarLander-v3",
+          "algorithm": "DQN",
+          "steps": 1048576,
+          "learning_rate": 0.0001,
+          "net": [
+            128,
+            128
+          ],
+          "n_envs": 1
+        },
+        {
+          "env": "CartPole-v1",
+          "algorithm": "PPO",
+          "steps": 98304,
+          "learning_rate": 0.0003,
+          "net": [
+            64,
+            64
+          ],
+          "n_envs": 8
+        },
+        {
+          "env": "CartPole-v1",
+          "algorithm": "DQN",
+          "steps": 98304,
+          "learning_rate": 0.001,
+          "net": [
+            64,
+            64
+          ],
+          "n_envs": 1
+        },
+        {
+          "env": "Pendulum-v1",
+          "algorithm": "SAC",
+          "steps": 196608,
+          "learning_rate": 0.0003,
+          "net": [
+            128,
+            128
+          ],
+          "n_envs": 1
+        },
+        {
+          "env": "Pendulum-v1",
+          "algorithm": "PPO",
+          "steps": 524288,
+          "learning_rate": 0.0003,
+          "net": [
+            64,
+            64
+          ],
+          "n_envs": 8
+        }
+      ]
+    },
+    "case": {
+      "env": "LunarLander-v3",
+      "algorithm": "PPO",
+      "steps": 1572864,
+      "learning_rate": 0.0003,
+      "net": [
+        128,
+        128
+      ],
+      "n_envs": 8
+    },
+    "seed": 0,
+    "quick": false
+  },
+  "python": "3.10.20",
+  "versions": {
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "gymnasium": "1.2.3",
+    "torch": "2.7.1+cu128",
+    "stable-baselines3": "2.8.0"
+  },
+  "source_sha256": {
+    "control.py": "9dc0e3ce14aac4888693b990cade595812e0e58fc5fc8cbb67b8a9f97055d3ee",
+    "artifacts.py": "504b9bc38bff7b18fe1bcf5196e4ce4f879d545a43259179db4f8218b2efeac5"
+  },
+  "elapsed_seconds": 1117.2883425774053
+}

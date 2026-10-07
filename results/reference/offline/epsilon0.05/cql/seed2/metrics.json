@@ -1,0 +1,35 @@
+{
+  "recipe": "cql",
+  "seed": 2,
+  "behavior_epsilon": 0.05,
+  "test": {
+    "mean": -1613.43,
+    "episode_bootstrap_ci95": [
+      -1618.952,
+      -1608.0997499999999
+    ],
+    "n": 100
+  },
+  "discounted_test": {
+    "mean": -311.4090738939912,
+    "episode_bootstrap_ci95": [
+      -313.26487047506566,
+      -309.47165852102734
+    ],
+    "n": 100
+  },
+  "shift_test": {
+    "mean": -1867.45,
+    "episode_bootstrap_ci95": [
+      -1870.6905000000002,
+      -1864.19975
+    ],
+    "n": 100
+  },
+  "normalized_exact_policy_gap": 0.7235389825457391,
+  "visited_legal_fraction": 0.8495762711864406,
+  "unsupported_deployment_occupancy": 0.0010905804517715944,
+  "checkpoint_sha256": "cf162cf75d883428184a56689e3a0e4e36a10cdbd0f4e85276f9639906ecd253",
+  "dataset_sha256": "3bddc10acd8e081f7e030cdf7565a48625c747b3c2eeffaded505c1ea0f4d257",
+  "protocol": "Pure offline fixed final budget. Identical logged batch per coverage/seed shared across methods. No environment/model checkpoint or hyperparameter selection. BC/IQL deploy masked argmax logits; CQL/fitted DQN deploy masked argmax critic. Weighted priorities [1,3] are a declared extension."
+}

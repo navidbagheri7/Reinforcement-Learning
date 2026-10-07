@@ -1,0 +1,1 @@
+{"seeds":[0,1,2],"lambdas":[0.0,0.9],"episodes":3000,"epsilon":0.05,"alpha":0.3,"validation_every":200,"validation_episodes":20,"test_episodes":100}
