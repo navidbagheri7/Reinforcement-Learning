@@ -28,6 +28,10 @@ This illustration uses fitting seed0 and the predetermined first test reset; its
 
 Open the [interactive simulation dashboard](docs/simulation_dashboard.html) locally to switch tasks/presets, inspect all three fitted policies, and compare validation curves. It uses embedded numeric evidence and local GIFs, with no online service.
 
+![Interactive dashboard preview: HalfCheetah SAC, three fitting seeds, learning curves and method comparisons](assets/previews/halfcheetah_desktop.png)
+
+This is a screenshot of the working dashboard. See the [DoorKey preview](assets/previews/doorkey_desktop.png), [FourRooms preview](assets/previews/fourrooms_desktop.png), and [mobile preview](assets/previews/doorkey_mobile.png). The website supports task/preset selection and animated rollouts. To share it as a public website after pushing this repository, follow the [GitHub Pages setup](docs/publication.md#publish-the-interactive-dashboard).
+
 Explore the [visual simulation gallery](docs/simulation_gallery.md) for official maze navigation, key pickup/door unlocking, Taxi, slippery FrozenLake and MuJoCo locomotion. [Simulation protocols](docs/simulations.md) distinguish full-map symbolic policies, training reward shaping and known-model planning.
 
 ![Stochastic maze — Q-learning, fixed first test episode](assets/rollouts/Maze_q_learning_0.gif)
