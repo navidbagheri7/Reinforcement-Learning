@@ -70,5 +70,16 @@
   "installed_wheel_tests": 45,
   "source_archive_notebooks": 15,
   "source_archive_executed_cells": 61,
-  "scope": "Wheel imports/all 45 tests, three core and three modern bundled CPU commands run outside the checkout. The source archive executes all fifteen walkthroughs and validates all 116 protocols, public numerical, English, link/browser evidence and every exported modern actor without originals/checkpoints. Optional private dependency directories supply installed sb3-contrib only, never project code. External checksum metadata is excluded from the source distribution to avoid recursive checksums. Hosted CI is not claimed."
+  "scope": "Wheel imports/all 45 tests, three core and three modern bundled CPU commands run outside the checkout. The source archive executes all fifteen walkthroughs and validates all 116 protocols, public numerical, English, link/browser evidence and every exported modern actor without originals/checkpoints. Optional private dependency directories supply installed sb3-contrib only, never project code. External checksum metadata is excluded from the source distribution to avoid recursive checksums. Hosted CI is not claimed.",
+  "demo_followup": {
+    "status": "passed",
+    "artifacts": {
+      "sequential_decision_lab-1.2.0.tar.gz": "e1c290237b67202fe2b254588392b88393b9c63eac5b6b17c7c6813cdbaa53e4",
+      "sequential_decision_lab-1.2.0-py3-none-any.whl": "8098bb830731a563d98a13eadb9d03cbfa144e23d6842dff05afc261335e6805"
+    },
+    "browser_and_evidence_files_verified": 347,
+    "wheel_runtime_files_verified": 27,
+    "runtime_tests_configs_notebooks_measurements_unchanged_from_validated_release": true,
+    "scope": "These fresh local archives include the corrected/audited demos and their verification tools. All HTTP-audited browser assets and source links, the HTML and checking tools match the checkout byte-for-byte. The baseline artifact hashes and execution checks above are preserved; notebooks and scientific runtime are unchanged. This follow-up verifies content and browser interaction, without claiming new notebook executions or model fitting."
+  }
 }

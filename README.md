@@ -10,6 +10,9 @@ Open the [eight-concept explorer](docs/explorer.html) to inspect planning, deep 
 
 ![Concept explorer: live maze planning and energy/fairness certificates](assets/previews/planning_explorer_desktop.png)
 
+The [user interaction audit](docs/demo_review.md) documents exhaustive enabled
+dropdown checks, representative joint slider settings and source-bound asset checks.
+
 ## What is implemented
 
 | Study | Methods | Evidence |

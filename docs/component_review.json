@@ -23,7 +23,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "ce5b6f7442ea485301d1f84a285c19da9c1766ee0c5a5ae24ae7dd4ae65f3921",
+      "sha256": "1501035fe5af763c913575ec81d113be9c3b7b788a3cc4c990625dfbe553e77c",
       "kind": ".md"
     },
     {
@@ -1077,6 +1077,16 @@
       "kind": ".json"
     },
     {
+      "path": "docs/demo_controls_validation.json",
+      "sha256": "1d683a39b3d75450fee3ab4b8693062404e59f65d324c03e48e7666ec64c8f05",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/demo_review.md",
+      "sha256": "9bbb601bc07bd58080afaaeb39db728192e890e101889b5b5ab194f7c9ce5984",
+      "kind": ".md"
+    },
+    {
       "path": "docs/diagnostics.json",
       "sha256": "f65142f95929ae9b20441deb7a897e28125b19f0db4a7f0478fc6d98e457ffc6",
       "kind": ".json"
@@ -1099,6 +1109,11 @@
     {
       "path": "docs/implementation_audit.md",
       "sha256": "7fef112b888c06619b4e95a2ac2077d09e560670b2947960b4ca62d864081f5b",
+      "kind": ".md"
+    },
+    {
+      "path": "docs/interactive_explorer.md",
+      "sha256": "31e6427ee3d919963aa1d8b12a49d07e54391c1136aeee1320e78135c3d2e748",
       "kind": ".md"
     },
     {
@@ -1179,6 +1194,11 @@
     {
       "path": "docs/simulation_browser_validation.json",
       "sha256": "8d20769fe3358867f93a4fede447c486b7f34ec74bb1ce527c339adfa69aa1bf",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/simulation_controls_validation.json",
+      "sha256": "997b41c8142ba054000bf56b0029cca17d38114d26e355598a3258073ee05434",
       "kind": ".json"
     },
     {
@@ -2901,6 +2921,20 @@
       ]
     },
     {
+      "path": "scripts/check_demo_controls.py",
+      "sha256": "eaded5da8eb568e4c76046cd4dda075b801870a80ddf6d4d7e035e51f241fbca",
+      "kind": ".py",
+      "functions": [
+        "digest",
+        "QuietHandler",
+        "main",
+        "log_message",
+        "inspect",
+        "controls",
+        "presets"
+      ]
+    },
+    {
       "path": "scripts/check_distribution.py",
       "sha256": "0d72a589a00f27a21d0a29c385ea46626767802aac3ab9bd4cd9f34d8e945345",
       "kind": ".py",
@@ -2963,6 +2997,17 @@
       "kind": ".py",
       "functions": [
         "write"
+      ]
+    },
+    {
+      "path": "scripts/demo_oracle.py",
+      "sha256": "9b3affcff3ad03ffdfa1f80e9db3929dc4a89fb066a7c3a11ff32081a46491fa",
+      "kind": ".py",
+      "functions": [
+        "close",
+        "cards",
+        "image_sources",
+        "check"
       ]
     },
     {
@@ -3602,6 +3647,6 @@
       ]
     }
   ],
-  "local_links": 143,
+  "local_links": 150,
   "scope": "Public inventory, Python AST/JSON/notebook syntax, English-script and local-link checks. Scientific manual review is documented separately; numerical protocol identities/statistics are checked by validate_release.py, validate_modern.py and validate_simulations.py."
 }

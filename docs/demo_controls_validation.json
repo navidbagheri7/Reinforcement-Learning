@@ -1,0 +1,3645 @@
+{
+  "status": "passed",
+  "page": "docs/explorer.html",
+  "html_sha256": "ac487a62167ea415284d7c3f7a399d420b9e89de331275cf50320ccbc206e449",
+  "checker_sha256": "eaded5da8eb568e4c76046cd4dda075b801870a80ddf6d4d7e035e51f241fbca",
+  "selector_tuples": [
+    {
+      "concept": "Planning and certificates",
+      "fields": []
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless"
+        },
+        {
+          "field": "method",
+          "value": "q_learning"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless"
+        },
+        {
+          "field": "method",
+          "value": "q_learning"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless"
+        },
+        {
+          "field": "method",
+          "value": "q_learning"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless"
+        },
+        {
+          "field": "method",
+          "value": "sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless"
+        },
+        {
+          "field": "method",
+          "value": "sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless"
+        },
+        {
+          "field": "method",
+          "value": "sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless"
+        },
+        {
+          "field": "method",
+          "value": "expected_sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless"
+        },
+        {
+          "field": "method",
+          "value": "expected_sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless"
+        },
+        {
+          "field": "method",
+          "value": "expected_sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless"
+        },
+        {
+          "field": "method",
+          "value": "double_q"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless"
+        },
+        {
+          "field": "method",
+          "value": "double_q"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless"
+        },
+        {
+          "field": "method",
+          "value": "double_q"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "FrozenLake-v1"
+        },
+        {
+          "field": "method",
+          "value": "q_learning"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "FrozenLake-v1"
+        },
+        {
+          "field": "method",
+          "value": "q_learning"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "FrozenLake-v1"
+        },
+        {
+          "field": "method",
+          "value": "q_learning"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "FrozenLake-v1"
+        },
+        {
+          "field": "method",
+          "value": "sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "FrozenLake-v1"
+        },
+        {
+          "field": "method",
+          "value": "sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "FrozenLake-v1"
+        },
+        {
+          "field": "method",
+          "value": "sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "FrozenLake-v1"
+        },
+        {
+          "field": "method",
+          "value": "expected_sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "FrozenLake-v1"
+        },
+        {
+          "field": "method",
+          "value": "expected_sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "FrozenLake-v1"
+        },
+        {
+          "field": "method",
+          "value": "expected_sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "FrozenLake-v1"
+        },
+        {
+          "field": "method",
+          "value": "double_q"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "FrozenLake-v1"
+        },
+        {
+          "field": "method",
+          "value": "double_q"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "FrozenLake-v1"
+        },
+        {
+          "field": "method",
+          "value": "double_q"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "CliffWalking-v1"
+        },
+        {
+          "field": "method",
+          "value": "q_learning"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "CliffWalking-v1"
+        },
+        {
+          "field": "method",
+          "value": "q_learning"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "CliffWalking-v1"
+        },
+        {
+          "field": "method",
+          "value": "q_learning"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "CliffWalking-v1"
+        },
+        {
+          "field": "method",
+          "value": "sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "CliffWalking-v1"
+        },
+        {
+          "field": "method",
+          "value": "sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "CliffWalking-v1"
+        },
+        {
+          "field": "method",
+          "value": "sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "CliffWalking-v1"
+        },
+        {
+          "field": "method",
+          "value": "expected_sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "CliffWalking-v1"
+        },
+        {
+          "field": "method",
+          "value": "expected_sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "CliffWalking-v1"
+        },
+        {
+          "field": "method",
+          "value": "expected_sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "CliffWalking-v1"
+        },
+        {
+          "field": "method",
+          "value": "double_q"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "CliffWalking-v1"
+        },
+        {
+          "field": "method",
+          "value": "double_q"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "CliffWalking-v1"
+        },
+        {
+          "field": "method",
+          "value": "double_q"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Taxi-v3"
+        },
+        {
+          "field": "method",
+          "value": "q_learning"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Taxi-v3"
+        },
+        {
+          "field": "method",
+          "value": "q_learning"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Taxi-v3"
+        },
+        {
+          "field": "method",
+          "value": "q_learning"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Taxi-v3"
+        },
+        {
+          "field": "method",
+          "value": "sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Taxi-v3"
+        },
+        {
+          "field": "method",
+          "value": "sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Taxi-v3"
+        },
+        {
+          "field": "method",
+          "value": "sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Taxi-v3"
+        },
+        {
+          "field": "method",
+          "value": "expected_sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Taxi-v3"
+        },
+        {
+          "field": "method",
+          "value": "expected_sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Taxi-v3"
+        },
+        {
+          "field": "method",
+          "value": "expected_sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Taxi-v3"
+        },
+        {
+          "field": "method",
+          "value": "double_q"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Taxi-v3"
+        },
+        {
+          "field": "method",
+          "value": "double_q"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Taxi-v3"
+        },
+        {
+          "field": "method",
+          "value": "double_q"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Maze"
+        },
+        {
+          "field": "method",
+          "value": "q_learning"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Maze"
+        },
+        {
+          "field": "method",
+          "value": "q_learning"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Maze"
+        },
+        {
+          "field": "method",
+          "value": "q_learning"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Maze"
+        },
+        {
+          "field": "method",
+          "value": "sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Maze"
+        },
+        {
+          "field": "method",
+          "value": "sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Maze"
+        },
+        {
+          "field": "method",
+          "value": "sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Maze"
+        },
+        {
+          "field": "method",
+          "value": "expected_sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Maze"
+        },
+        {
+          "field": "method",
+          "value": "expected_sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Maze"
+        },
+        {
+          "field": "method",
+          "value": "expected_sarsa"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Maze"
+        },
+        {
+          "field": "method",
+          "value": "double_q"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Maze"
+        },
+        {
+          "field": "method",
+          "value": "double_q"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Tabular control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Maze"
+        },
+        {
+          "field": "method",
+          "value": "double_q"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Deep and distributional control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless online"
+        },
+        {
+          "field": "method",
+          "value": "double_dqn"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Deep and distributional control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless online"
+        },
+        {
+          "field": "method",
+          "value": "double_dqn"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Deep and distributional control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless online"
+        },
+        {
+          "field": "method",
+          "value": "double_dqn"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Deep and distributional control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless online"
+        },
+        {
+          "field": "method",
+          "value": "double_dueling_per"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Deep and distributional control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless online"
+        },
+        {
+          "field": "method",
+          "value": "double_dueling_per"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Deep and distributional control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless online"
+        },
+        {
+          "field": "method",
+          "value": "double_dueling_per"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Deep and distributional control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless online"
+        },
+        {
+          "field": "method",
+          "value": "dqn"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Deep and distributional control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless online"
+        },
+        {
+          "field": "method",
+          "value": "dqn"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Deep and distributional control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless online"
+        },
+        {
+          "field": "method",
+          "value": "dqn"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Deep and distributional control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless online"
+        },
+        {
+          "field": "method",
+          "value": "qr_dqn"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Deep and distributional control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless online"
+        },
+        {
+          "field": "method",
+          "value": "qr_dqn"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Deep and distributional control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless online"
+        },
+        {
+          "field": "method",
+          "value": "qr_dqn"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.05"
+        },
+        {
+          "field": "method",
+          "value": "bc"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.05"
+        },
+        {
+          "field": "method",
+          "value": "bc"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.05"
+        },
+        {
+          "field": "method",
+          "value": "bc"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.05"
+        },
+        {
+          "field": "method",
+          "value": "cql"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.05"
+        },
+        {
+          "field": "method",
+          "value": "cql"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.05"
+        },
+        {
+          "field": "method",
+          "value": "cql"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.05"
+        },
+        {
+          "field": "method",
+          "value": "fitted_dqn"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.05"
+        },
+        {
+          "field": "method",
+          "value": "fitted_dqn"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.05"
+        },
+        {
+          "field": "method",
+          "value": "fitted_dqn"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.05"
+        },
+        {
+          "field": "method",
+          "value": "iql"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.05"
+        },
+        {
+          "field": "method",
+          "value": "iql"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.05"
+        },
+        {
+          "field": "method",
+          "value": "iql"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.4"
+        },
+        {
+          "field": "method",
+          "value": "bc"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.4"
+        },
+        {
+          "field": "method",
+          "value": "bc"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.4"
+        },
+        {
+          "field": "method",
+          "value": "bc"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.4"
+        },
+        {
+          "field": "method",
+          "value": "cql"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.4"
+        },
+        {
+          "field": "method",
+          "value": "cql"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.4"
+        },
+        {
+          "field": "method",
+          "value": "cql"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.4"
+        },
+        {
+          "field": "method",
+          "value": "fitted_dqn"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.4"
+        },
+        {
+          "field": "method",
+          "value": "fitted_dqn"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.4"
+        },
+        {
+          "field": "method",
+          "value": "fitted_dqn"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.4"
+        },
+        {
+          "field": "method",
+          "value": "iql"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.4"
+        },
+        {
+          "field": "method",
+          "value": "iql"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 0.4"
+        },
+        {
+          "field": "method",
+          "value": "iql"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 1"
+        },
+        {
+          "field": "method",
+          "value": "bc"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 1"
+        },
+        {
+          "field": "method",
+          "value": "bc"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 1"
+        },
+        {
+          "field": "method",
+          "value": "bc"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 1"
+        },
+        {
+          "field": "method",
+          "value": "cql"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 1"
+        },
+        {
+          "field": "method",
+          "value": "cql"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 1"
+        },
+        {
+          "field": "method",
+          "value": "cql"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 1"
+        },
+        {
+          "field": "method",
+          "value": "fitted_dqn"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 1"
+        },
+        {
+          "field": "method",
+          "value": "fitted_dqn"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 1"
+        },
+        {
+          "field": "method",
+          "value": "fitted_dqn"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 1"
+        },
+        {
+          "field": "method",
+          "value": "iql"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 1"
+        },
+        {
+          "field": "method",
+          "value": "iql"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Offline learning",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Wireless offline \u00b7 behavior epsilon 1"
+        },
+        {
+          "field": "method",
+          "value": "iql"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Standard control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "CartPole-v1"
+        },
+        {
+          "field": "method",
+          "value": "DQN"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Standard control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "CartPole-v1"
+        },
+        {
+          "field": "method",
+          "value": "DQN"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Standard control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "CartPole-v1"
+        },
+        {
+          "field": "method",
+          "value": "DQN"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Standard control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "CartPole-v1"
+        },
+        {
+          "field": "method",
+          "value": "PPO"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Standard control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "CartPole-v1"
+        },
+        {
+          "field": "method",
+          "value": "PPO"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Standard control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "CartPole-v1"
+        },
+        {
+          "field": "method",
+          "value": "PPO"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Standard control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "LunarLander-v3"
+        },
+        {
+          "field": "method",
+          "value": "DQN"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Standard control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "LunarLander-v3"
+        },
+        {
+          "field": "method",
+          "value": "DQN"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Standard control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "LunarLander-v3"
+        },
+        {
+          "field": "method",
+          "value": "DQN"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Standard control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "LunarLander-v3"
+        },
+        {
+          "field": "method",
+          "value": "PPO"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Standard control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "LunarLander-v3"
+        },
+        {
+          "field": "method",
+          "value": "PPO"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Standard control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "LunarLander-v3"
+        },
+        {
+          "field": "method",
+          "value": "PPO"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Standard control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Pendulum-v1"
+        },
+        {
+          "field": "method",
+          "value": "PPO"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Standard control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Pendulum-v1"
+        },
+        {
+          "field": "method",
+          "value": "PPO"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Standard control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Pendulum-v1"
+        },
+        {
+          "field": "method",
+          "value": "PPO"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Standard control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Pendulum-v1"
+        },
+        {
+          "field": "method",
+          "value": "SAC"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Standard control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Pendulum-v1"
+        },
+        {
+          "field": "method",
+          "value": "SAC"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Standard control",
+      "fields": [
+        {
+          "field": "task",
+          "value": "Pendulum-v1"
+        },
+        {
+          "field": "method",
+          "value": "SAC"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Linear approximation",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MountainCar-v0"
+        },
+        {
+          "field": "method",
+          "value": "SARSA lambda 0"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Linear approximation",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MountainCar-v0"
+        },
+        {
+          "field": "method",
+          "value": "SARSA lambda 0"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Linear approximation",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MountainCar-v0"
+        },
+        {
+          "field": "method",
+          "value": "SARSA lambda 0"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Linear approximation",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MountainCar-v0"
+        },
+        {
+          "field": "method",
+          "value": "SARSA lambda 0.9"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Linear approximation",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MountainCar-v0"
+        },
+        {
+          "field": "method",
+          "value": "SARSA lambda 0.9"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Linear approximation",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MountainCar-v0"
+        },
+        {
+          "field": "method",
+          "value": "SARSA lambda 0.9"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Prediction and bandits",
+      "fields": [
+        {
+          "field": "task",
+          "value": "bandits"
+        },
+        {
+          "field": "method",
+          "value": "stationary_epsilon_average"
+        },
+        {
+          "field": "seed",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Prediction and bandits",
+      "fields": [
+        {
+          "field": "task",
+          "value": "bandits"
+        },
+        {
+          "field": "method",
+          "value": "stationary_epsilon_constant"
+        },
+        {
+          "field": "seed",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Prediction and bandits",
+      "fields": [
+        {
+          "field": "task",
+          "value": "bandits"
+        },
+        {
+          "field": "method",
+          "value": "stationary_ucb"
+        },
+        {
+          "field": "seed",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Prediction and bandits",
+      "fields": [
+        {
+          "field": "task",
+          "value": "bandits"
+        },
+        {
+          "field": "method",
+          "value": "stationary_discounted_ucb"
+        },
+        {
+          "field": "seed",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Prediction and bandits",
+      "fields": [
+        {
+          "field": "task",
+          "value": "bandits"
+        },
+        {
+          "field": "method",
+          "value": "stationary_gradient"
+        },
+        {
+          "field": "seed",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Prediction and bandits",
+      "fields": [
+        {
+          "field": "task",
+          "value": "bandits"
+        },
+        {
+          "field": "method",
+          "value": "stationary_thompson"
+        },
+        {
+          "field": "seed",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Prediction and bandits",
+      "fields": [
+        {
+          "field": "task",
+          "value": "bandits"
+        },
+        {
+          "field": "method",
+          "value": "drifting_epsilon_average"
+        },
+        {
+          "field": "seed",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Prediction and bandits",
+      "fields": [
+        {
+          "field": "task",
+          "value": "bandits"
+        },
+        {
+          "field": "method",
+          "value": "drifting_epsilon_constant"
+        },
+        {
+          "field": "seed",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Prediction and bandits",
+      "fields": [
+        {
+          "field": "task",
+          "value": "bandits"
+        },
+        {
+          "field": "method",
+          "value": "drifting_ucb"
+        },
+        {
+          "field": "seed",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Prediction and bandits",
+      "fields": [
+        {
+          "field": "task",
+          "value": "bandits"
+        },
+        {
+          "field": "method",
+          "value": "drifting_discounted_ucb"
+        },
+        {
+          "field": "seed",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Prediction and bandits",
+      "fields": [
+        {
+          "field": "task",
+          "value": "bandits"
+        },
+        {
+          "field": "method",
+          "value": "drifting_gradient"
+        },
+        {
+          "field": "seed",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Prediction and bandits",
+      "fields": [
+        {
+          "field": "task",
+          "value": "bandits"
+        },
+        {
+          "field": "method",
+          "value": "drifting_thompson"
+        },
+        {
+          "field": "seed",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Prediction and bandits",
+      "fields": [
+        {
+          "field": "task",
+          "value": "prediction"
+        },
+        {
+          "field": "method",
+          "value": "monte_carlo"
+        },
+        {
+          "field": "seed",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Prediction and bandits",
+      "fields": [
+        {
+          "field": "task",
+          "value": "prediction"
+        },
+        {
+          "field": "method",
+          "value": "td0"
+        },
+        {
+          "field": "seed",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Prediction and bandits",
+      "fields": [
+        {
+          "field": "task",
+          "value": "prediction"
+        },
+        {
+          "field": "method",
+          "value": "nstep5"
+        },
+        {
+          "field": "seed",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Prediction and bandits",
+      "fields": [
+        {
+          "field": "task",
+          "value": "prediction"
+        },
+        {
+          "field": "method",
+          "value": "td_lambda"
+        },
+        {
+          "field": "seed",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Prediction and bandits",
+      "fields": [
+        {
+          "field": "task",
+          "value": "baird"
+        },
+        {
+          "field": "method",
+          "value": "semigradient_td"
+        },
+        {
+          "field": "seed",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Prediction and bandits",
+      "fields": [
+        {
+          "field": "task",
+          "value": "baird"
+        },
+        {
+          "field": "method",
+          "value": "gtd2"
+        },
+        {
+          "field": "seed",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Prediction and bandits",
+      "fields": [
+        {
+          "field": "task",
+          "value": "baird"
+        },
+        {
+          "field": "method",
+          "value": "lstd"
+        },
+        {
+          "field": "seed",
+          "value": "all"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "HalfCheetah-v5"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 official"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "HalfCheetah-v5"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 official"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "HalfCheetah-v5"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 official"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "HalfCheetah-v5"
+        },
+        {
+          "field": "method",
+          "value": "SAC \u00b7 official"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "HalfCheetah-v5"
+        },
+        {
+          "field": "method",
+          "value": "SAC \u00b7 official"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "HalfCheetah-v5"
+        },
+        {
+          "field": "method",
+          "value": "SAC \u00b7 official"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "HalfCheetah-v5"
+        },
+        {
+          "field": "method",
+          "value": "TD3 \u00b7 official"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "HalfCheetah-v5"
+        },
+        {
+          "field": "method",
+          "value": "TD3 \u00b7 official"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "HalfCheetah-v5"
+        },
+        {
+          "field": "method",
+          "value": "TD3 \u00b7 official"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "HalfCheetah-v5"
+        },
+        {
+          "field": "method",
+          "value": "TQC \u00b7 official"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "HalfCheetah-v5"
+        },
+        {
+          "field": "method",
+          "value": "TQC \u00b7 official"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "HalfCheetah-v5"
+        },
+        {
+          "field": "method",
+          "value": "TQC \u00b7 official"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-DoorKey-6x6-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 potential"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-DoorKey-6x6-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 potential"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-DoorKey-6x6-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 potential"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-DoorKey-6x6-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 sparse"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-DoorKey-6x6-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 sparse"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-DoorKey-6x6-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 sparse"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-DoorKey-6x6-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 partial"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-DoorKey-6x6-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 partial"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-DoorKey-6x6-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 partial"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-DoorKey-6x6-v0"
+        },
+        {
+          "field": "method",
+          "value": "RecurrentPPO \u00b7 partial"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-DoorKey-6x6-v0"
+        },
+        {
+          "field": "method",
+          "value": "RecurrentPPO \u00b7 partial"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-DoorKey-6x6-v0"
+        },
+        {
+          "field": "method",
+          "value": "RecurrentPPO \u00b7 partial"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-FourRooms-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 potential"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-FourRooms-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 potential"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-FourRooms-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 potential"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-FourRooms-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 sparse"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-FourRooms-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 sparse"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-FourRooms-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 sparse"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-FourRooms-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 potential_geometry"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-FourRooms-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 potential_geometry"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-FourRooms-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 potential_geometry"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-FourRooms-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 potential_curriculum"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-FourRooms-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 potential_curriculum"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-FourRooms-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 potential_curriculum"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-Empty-8x8-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 partial"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-Empty-8x8-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 partial"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-Empty-8x8-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO \u00b7 partial"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-Empty-8x8-v0"
+        },
+        {
+          "field": "method",
+          "value": "RecurrentPPO \u00b7 partial"
+        },
+        {
+          "field": "seed",
+          "value": "0"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-Empty-8x8-v0"
+        },
+        {
+          "field": "method",
+          "value": "RecurrentPPO \u00b7 partial"
+        },
+        {
+          "field": "seed",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "concept": "Simulations and memory",
+      "fields": [
+        {
+          "field": "task",
+          "value": "MiniGrid-Empty-8x8-v0"
+        },
+        {
+          "field": "method",
+          "value": "RecurrentPPO \u00b7 partial"
+        },
+        {
+          "field": "seed",
+          "value": "2"
+        }
+      ]
+    }
+  ],
+  "slider_position_checks": 9,
+  "playback_checks": 0,
+  "verified_image_files": [
+    "assets/rollouts/FrozenLake-v1_q_learning_0.gif",
+    "assets/rollouts/HalfCheetah-v5_PPO_official_0.gif",
+    "assets/rollouts/HalfCheetah-v5_PPO_official_1.gif",
+    "assets/rollouts/HalfCheetah-v5_PPO_official_2.gif",
+    "assets/rollouts/HalfCheetah-v5_SAC_official_0.gif",
+    "assets/rollouts/HalfCheetah-v5_SAC_official_1.gif",
+    "assets/rollouts/HalfCheetah-v5_SAC_official_2.gif",
+    "assets/rollouts/HalfCheetah-v5_TD3_official_0.gif",
+    "assets/rollouts/HalfCheetah-v5_TD3_official_1.gif",
+    "assets/rollouts/HalfCheetah-v5_TD3_official_2.gif",
+    "assets/rollouts/HalfCheetah-v5_TQC_official_0.gif",
+    "assets/rollouts/HalfCheetah-v5_TQC_official_1.gif",
+    "assets/rollouts/HalfCheetah-v5_TQC_official_2.gif",
+    "assets/rollouts/LunarLander-v3_PPO_0.gif",
+    "assets/rollouts/Maze_q_learning_0.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_partial_0.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_partial_1.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_partial_2.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_potential_0.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_potential_1.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_potential_2.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_sparse_0.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_sparse_1.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_sparse_2.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial_0.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial_1.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial_2.gif",
+    "assets/rollouts/MiniGrid-Empty-8x8-v0_PPO_partial_0.gif",
+    "assets/rollouts/MiniGrid-Empty-8x8-v0_PPO_partial_1.gif",
+    "assets/rollouts/MiniGrid-Empty-8x8-v0_PPO_partial_2.gif",
+    "assets/rollouts/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial_0.gif",
+    "assets/rollouts/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial_1.gif",
+    "assets/rollouts/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial_2.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_0.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_1.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_2.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_curriculum_0.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_curriculum_1.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_curriculum_2.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_geometry_0.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_geometry_1.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_geometry_2.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_sparse_0.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_sparse_1.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_sparse_2.gif",
+    "assets/rollouts/Taxi-v3_q_learning_0.gif"
+  ],
+  "verified_local_links": [
+    "assets/source_data/approximation/lambda0.9_0.npz",
+    "assets/source_data/approximation/lambda0.9_1.npz",
+    "assets/source_data/approximation/lambda0.9_2.npz",
+    "assets/source_data/approximation/lambda0_0.npz",
+    "assets/source_data/approximation/lambda0_1.npz",
+    "assets/source_data/approximation/lambda0_2.npz",
+    "assets/source_data/control/CartPole-v1_DQN_0.npz",
+    "assets/source_data/control/CartPole-v1_DQN_1.npz",
+    "assets/source_data/control/CartPole-v1_DQN_2.npz",
+    "assets/source_data/control/CartPole-v1_PPO_0.npz",
+    "assets/source_data/control/CartPole-v1_PPO_1.npz",
+    "assets/source_data/control/CartPole-v1_PPO_2.npz",
+    "assets/source_data/control/LunarLander-v3_DQN_0.npz",
+    "assets/source_data/control/LunarLander-v3_DQN_1.npz",
+    "assets/source_data/control/LunarLander-v3_DQN_2.npz",
+    "assets/source_data/control/LunarLander-v3_PPO_0.npz",
+    "assets/source_data/control/LunarLander-v3_PPO_1.npz",
+    "assets/source_data/control/LunarLander-v3_PPO_2.npz",
+    "assets/source_data/control/Pendulum-v1_PPO_0.npz",
+    "assets/source_data/control/Pendulum-v1_PPO_1.npz",
+    "assets/source_data/control/Pendulum-v1_PPO_2.npz",
+    "assets/source_data/control/Pendulum-v1_SAC_0.npz",
+    "assets/source_data/control/Pendulum-v1_SAC_1.npz",
+    "assets/source_data/control/Pendulum-v1_SAC_2.npz",
+    "assets/source_data/lectures/baird.npz",
+    "assets/source_data/lectures/bandits.npz",
+    "assets/source_data/lectures/prediction.npz",
+    "assets/source_data/modern/HalfCheetah-v5_TD3_official_0.npz",
+    "assets/source_data/modern/HalfCheetah-v5_TD3_official_1.npz",
+    "assets/source_data/modern/HalfCheetah-v5_TD3_official_2.npz",
+    "assets/source_data/modern/HalfCheetah-v5_TQC_official_0.npz",
+    "assets/source_data/modern/HalfCheetah-v5_TQC_official_1.npz",
+    "assets/source_data/modern/HalfCheetah-v5_TQC_official_2.npz",
+    "assets/source_data/modern/MiniGrid-DoorKey-6x6-v0_PPO_partial_0.npz",
+    "assets/source_data/modern/MiniGrid-DoorKey-6x6-v0_PPO_partial_1.npz",
+    "assets/source_data/modern/MiniGrid-DoorKey-6x6-v0_PPO_partial_2.npz",
+    "assets/source_data/modern/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial_0.npz",
+    "assets/source_data/modern/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial_1.npz",
+    "assets/source_data/modern/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial_2.npz",
+    "assets/source_data/modern/MiniGrid-Empty-8x8-v0_PPO_partial_0.npz",
+    "assets/source_data/modern/MiniGrid-Empty-8x8-v0_PPO_partial_1.npz",
+    "assets/source_data/modern/MiniGrid-Empty-8x8-v0_PPO_partial_2.npz",
+    "assets/source_data/modern/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial_0.npz",
+    "assets/source_data/modern/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial_1.npz",
+    "assets/source_data/modern/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial_2.npz",
+    "assets/source_data/neural/double_dqn_0.npz",
+    "assets/source_data/neural/double_dqn_1.npz",
+    "assets/source_data/neural/double_dqn_2.npz",
+    "assets/source_data/neural/double_dueling_per_0.npz",
+    "assets/source_data/neural/double_dueling_per_1.npz",
+    "assets/source_data/neural/double_dueling_per_2.npz",
+    "assets/source_data/neural/dqn_0.npz",
+    "assets/source_data/neural/dqn_1.npz",
+    "assets/source_data/neural/dqn_2.npz",
+    "assets/source_data/neural/qr_dqn_0.npz",
+    "assets/source_data/neural/qr_dqn_1.npz",
+    "assets/source_data/neural/qr_dqn_2.npz",
+    "assets/source_data/offline/epsilon0.05_bc_0.npz",
+    "assets/source_data/offline/epsilon0.05_bc_1.npz",
+    "assets/source_data/offline/epsilon0.05_bc_2.npz",
+    "assets/source_data/offline/epsilon0.05_cql_0.npz",
+    "assets/source_data/offline/epsilon0.05_cql_1.npz",
+    "assets/source_data/offline/epsilon0.05_cql_2.npz",
+    "assets/source_data/offline/epsilon0.05_fitted_dqn_0.npz",
+    "assets/source_data/offline/epsilon0.05_fitted_dqn_1.npz",
+    "assets/source_data/offline/epsilon0.05_fitted_dqn_2.npz",
+    "assets/source_data/offline/epsilon0.05_iql_0.npz",
+    "assets/source_data/offline/epsilon0.05_iql_1.npz",
+    "assets/source_data/offline/epsilon0.05_iql_2.npz",
+    "assets/source_data/offline/epsilon0.4_bc_0.npz",
+    "assets/source_data/offline/epsilon0.4_bc_1.npz",
+    "assets/source_data/offline/epsilon0.4_bc_2.npz",
+    "assets/source_data/offline/epsilon0.4_cql_0.npz",
+    "assets/source_data/offline/epsilon0.4_cql_1.npz",
+    "assets/source_data/offline/epsilon0.4_cql_2.npz",
+    "assets/source_data/offline/epsilon0.4_fitted_dqn_0.npz",
+    "assets/source_data/offline/epsilon0.4_fitted_dqn_1.npz",
+    "assets/source_data/offline/epsilon0.4_fitted_dqn_2.npz",
+    "assets/source_data/offline/epsilon0.4_iql_0.npz",
+    "assets/source_data/offline/epsilon0.4_iql_1.npz",
+    "assets/source_data/offline/epsilon0.4_iql_2.npz",
+    "assets/source_data/offline/epsilon1_bc_0.npz",
+    "assets/source_data/offline/epsilon1_bc_1.npz",
+    "assets/source_data/offline/epsilon1_bc_2.npz",
+    "assets/source_data/offline/epsilon1_cql_0.npz",
+    "assets/source_data/offline/epsilon1_cql_1.npz",
+    "assets/source_data/offline/epsilon1_cql_2.npz",
+    "assets/source_data/offline/epsilon1_fitted_dqn_0.npz",
+    "assets/source_data/offline/epsilon1_fitted_dqn_1.npz",
+    "assets/source_data/offline/epsilon1_fitted_dqn_2.npz",
+    "assets/source_data/offline/epsilon1_iql_0.npz",
+    "assets/source_data/offline/epsilon1_iql_1.npz",
+    "assets/source_data/offline/epsilon1_iql_2.npz",
+    "assets/source_data/simulations/HalfCheetah-v5_PPO_official_0.npz",
+    "assets/source_data/simulations/HalfCheetah-v5_PPO_official_1.npz",
+    "assets/source_data/simulations/HalfCheetah-v5_PPO_official_2.npz",
+    "assets/source_data/simulations/HalfCheetah-v5_SAC_official_0.npz",
+    "assets/source_data/simulations/HalfCheetah-v5_SAC_official_1.npz",
+    "assets/source_data/simulations/HalfCheetah-v5_SAC_official_2.npz",
+    "assets/source_data/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential_0.npz",
+    "assets/source_data/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential_1.npz",
+    "assets/source_data/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential_2.npz",
+    "assets/source_data/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse_0.npz",
+    "assets/source_data/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse_1.npz",
+    "assets/source_data/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse_2.npz",
+    "assets/source_data/simulations/MiniGrid-FourRooms-v0_PPO_potential_0.npz",
+    "assets/source_data/simulations/MiniGrid-FourRooms-v0_PPO_potential_1.npz",
+    "assets/source_data/simulations/MiniGrid-FourRooms-v0_PPO_potential_2.npz",
+    "assets/source_data/simulations/MiniGrid-FourRooms-v0_PPO_potential_curriculum_0.npz",
+    "assets/source_data/simulations/MiniGrid-FourRooms-v0_PPO_potential_curriculum_1.npz",
+    "assets/source_data/simulations/MiniGrid-FourRooms-v0_PPO_potential_curriculum_2.npz",
+    "assets/source_data/simulations/MiniGrid-FourRooms-v0_PPO_potential_geometry_0.npz",
+    "assets/source_data/simulations/MiniGrid-FourRooms-v0_PPO_potential_geometry_1.npz",
+    "assets/source_data/simulations/MiniGrid-FourRooms-v0_PPO_potential_geometry_2.npz",
+    "assets/source_data/simulations/MiniGrid-FourRooms-v0_PPO_sparse_0.npz",
+    "assets/source_data/simulations/MiniGrid-FourRooms-v0_PPO_sparse_1.npz",
+    "assets/source_data/simulations/MiniGrid-FourRooms-v0_PPO_sparse_2.npz",
+    "assets/source_data/tabular/CliffWalking-v1_double_q_0.npz",
+    "assets/source_data/tabular/CliffWalking-v1_double_q_1.npz",
+    "assets/source_data/tabular/CliffWalking-v1_double_q_2.npz",
+    "assets/source_data/tabular/CliffWalking-v1_expected_sarsa_0.npz",
+    "assets/source_data/tabular/CliffWalking-v1_expected_sarsa_1.npz",
+    "assets/source_data/tabular/CliffWalking-v1_expected_sarsa_2.npz",
+    "assets/source_data/tabular/CliffWalking-v1_q_learning_0.npz",
+    "assets/source_data/tabular/CliffWalking-v1_q_learning_1.npz",
+    "assets/source_data/tabular/CliffWalking-v1_q_learning_2.npz",
+    "assets/source_data/tabular/CliffWalking-v1_sarsa_0.npz",
+    "assets/source_data/tabular/CliffWalking-v1_sarsa_1.npz",
+    "assets/source_data/tabular/CliffWalking-v1_sarsa_2.npz",
+    "assets/source_data/tabular/FrozenLake-v1_double_q_0.npz",
+    "assets/source_data/tabular/FrozenLake-v1_double_q_1.npz",
+    "assets/source_data/tabular/FrozenLake-v1_double_q_2.npz",
+    "assets/source_data/tabular/FrozenLake-v1_expected_sarsa_0.npz",
+    "assets/source_data/tabular/FrozenLake-v1_expected_sarsa_1.npz",
+    "assets/source_data/tabular/FrozenLake-v1_expected_sarsa_2.npz",
+    "assets/source_data/tabular/FrozenLake-v1_q_learning_0.npz",
+    "assets/source_data/tabular/FrozenLake-v1_q_learning_1.npz",
+    "assets/source_data/tabular/FrozenLake-v1_q_learning_2.npz",
+    "assets/source_data/tabular/FrozenLake-v1_sarsa_0.npz",
+    "assets/source_data/tabular/FrozenLake-v1_sarsa_1.npz",
+    "assets/source_data/tabular/FrozenLake-v1_sarsa_2.npz",
+    "assets/source_data/tabular/Maze_double_q_0.npz",
+    "assets/source_data/tabular/Maze_double_q_1.npz",
+    "assets/source_data/tabular/Maze_double_q_2.npz",
+    "assets/source_data/tabular/Maze_expected_sarsa_0.npz",
+    "assets/source_data/tabular/Maze_expected_sarsa_1.npz",
+    "assets/source_data/tabular/Maze_expected_sarsa_2.npz",
+    "assets/source_data/tabular/Maze_q_learning_0.npz",
+    "assets/source_data/tabular/Maze_q_learning_1.npz",
+    "assets/source_data/tabular/Maze_q_learning_2.npz",
+    "assets/source_data/tabular/Maze_sarsa_0.npz",
+    "assets/source_data/tabular/Maze_sarsa_1.npz",
+    "assets/source_data/tabular/Maze_sarsa_2.npz",
+    "assets/source_data/tabular/Taxi-v3_double_q_0.npz",
+    "assets/source_data/tabular/Taxi-v3_double_q_1.npz",
+    "assets/source_data/tabular/Taxi-v3_double_q_2.npz",
+    "assets/source_data/tabular/Taxi-v3_expected_sarsa_0.npz",
+    "assets/source_data/tabular/Taxi-v3_expected_sarsa_1.npz",
+    "assets/source_data/tabular/Taxi-v3_expected_sarsa_2.npz",
+    "assets/source_data/tabular/Taxi-v3_q_learning_0.npz",
+    "assets/source_data/tabular/Taxi-v3_q_learning_1.npz",
+    "assets/source_data/tabular/Taxi-v3_q_learning_2.npz",
+    "assets/source_data/tabular/Taxi-v3_sarsa_0.npz",
+    "assets/source_data/tabular/Taxi-v3_sarsa_1.npz",
+    "assets/source_data/tabular/Taxi-v3_sarsa_2.npz",
+    "assets/source_data/tabular/Wireless_double_q_0.npz",
+    "assets/source_data/tabular/Wireless_double_q_1.npz",
+    "assets/source_data/tabular/Wireless_double_q_2.npz",
+    "assets/source_data/tabular/Wireless_expected_sarsa_0.npz",
+    "assets/source_data/tabular/Wireless_expected_sarsa_1.npz",
+    "assets/source_data/tabular/Wireless_expected_sarsa_2.npz",
+    "assets/source_data/tabular/Wireless_q_learning_0.npz",
+    "assets/source_data/tabular/Wireless_q_learning_1.npz",
+    "assets/source_data/tabular/Wireless_q_learning_2.npz",
+    "assets/source_data/tabular/Wireless_sarsa_0.npz",
+    "assets/source_data/tabular/Wireless_sarsa_1.npz",
+    "assets/source_data/tabular/Wireless_sarsa_2.npz",
+    "docs/interactive_explorer.md",
+    "docs/results.md",
+    "docs/simulation_dashboard.html",
+    "docs/theory.md",
+    "results/reference/approximation/seed0/metrics.json",
+    "results/reference/approximation/seed1/metrics.json",
+    "results/reference/approximation/seed2/metrics.json",
+    "results/reference/control/CartPole-v1/DQN_seed0/metrics.json",
+    "results/reference/control/CartPole-v1/DQN_seed1/metrics.json",
+    "results/reference/control/CartPole-v1/DQN_seed2/metrics.json",
+    "results/reference/control/CartPole-v1/PPO_seed0/metrics.json",
+    "results/reference/control/CartPole-v1/PPO_seed1/metrics.json",
+    "results/reference/control/CartPole-v1/PPO_seed2/metrics.json",
+    "results/reference/control/LunarLander-v3/DQN_seed0/metrics.json",
+    "results/reference/control/LunarLander-v3/DQN_seed1/metrics.json",
+    "results/reference/control/LunarLander-v3/DQN_seed2/metrics.json",
+    "results/reference/control/LunarLander-v3/PPO_seed0/metrics.json",
+    "results/reference/control/LunarLander-v3/PPO_seed1/metrics.json",
+    "results/reference/control/LunarLander-v3/PPO_seed2/metrics.json",
+    "results/reference/control/Pendulum-v1/PPO_seed0/metrics.json",
+    "results/reference/control/Pendulum-v1/PPO_seed1/metrics.json",
+    "results/reference/control/Pendulum-v1/PPO_seed2/metrics.json",
+    "results/reference/control/Pendulum-v1/SAC_seed0/metrics.json",
+    "results/reference/control/Pendulum-v1/SAC_seed1/metrics.json",
+    "results/reference/control/Pendulum-v1/SAC_seed2/metrics.json",
+    "results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/0/metrics.json",
+    "results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/1/metrics.json",
+    "results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/2/metrics.json",
+    "results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/0/metrics.json",
+    "results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/1/metrics.json",
+    "results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/2/metrics.json",
+    "results/reference/lectures/metrics.json",
+    "results/reference/modern/HalfCheetah-v5_TD3_official/0/metrics.json",
+    "results/reference/modern/HalfCheetah-v5_TD3_official/1/metrics.json",
+    "results/reference/modern/HalfCheetah-v5_TD3_official/2/metrics.json",
+    "results/reference/modern/HalfCheetah-v5_TQC_official/0/metrics.json",
+    "results/reference/modern/HalfCheetah-v5_TQC_official/1/metrics.json",
+    "results/reference/modern/HalfCheetah-v5_TQC_official/2/metrics.json",
+    "results/reference/modern/MiniGrid-DoorKey-6x6-v0_PPO_partial/0/metrics.json",
+    "results/reference/modern/MiniGrid-DoorKey-6x6-v0_PPO_partial/1/metrics.json",
+    "results/reference/modern/MiniGrid-DoorKey-6x6-v0_PPO_partial/2/metrics.json",
+    "results/reference/modern/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial/0/metrics.json",
+    "results/reference/modern/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial/1/metrics.json",
+    "results/reference/modern/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial/2/metrics.json",
+    "results/reference/modern/MiniGrid-Empty-8x8-v0_PPO_partial/0/metrics.json",
+    "results/reference/modern/MiniGrid-Empty-8x8-v0_PPO_partial/1/metrics.json",
+    "results/reference/modern/MiniGrid-Empty-8x8-v0_PPO_partial/2/metrics.json",
+    "results/reference/modern/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial/0/metrics.json",
+    "results/reference/modern/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial/1/metrics.json",
+    "results/reference/modern/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial/2/metrics.json",
+    "results/reference/neural/double_dqn/seed0/metrics.json",
+    "results/reference/neural/double_dqn/seed1/metrics.json",
+    "results/reference/neural/double_dqn/seed2/metrics.json",
+    "results/reference/neural/double_dueling_per/seed0/metrics.json",
+    "results/reference/neural/double_dueling_per/seed1/metrics.json",
+    "results/reference/neural/double_dueling_per/seed2/metrics.json",
+    "results/reference/neural/dqn/seed0/metrics.json",
+    "results/reference/neural/dqn/seed1/metrics.json",
+    "results/reference/neural/dqn/seed2/metrics.json",
+    "results/reference/neural/qr_dqn/seed0/metrics.json",
+    "results/reference/neural/qr_dqn/seed1/metrics.json",
+    "results/reference/neural/qr_dqn/seed2/metrics.json",
+    "results/reference/offline/epsilon0.05/bc/seed0/metrics.json",
+    "results/reference/offline/epsilon0.05/bc/seed1/metrics.json",
+    "results/reference/offline/epsilon0.05/bc/seed2/metrics.json",
+    "results/reference/offline/epsilon0.05/cql/seed0/metrics.json",
+    "results/reference/offline/epsilon0.05/cql/seed1/metrics.json",
+    "results/reference/offline/epsilon0.05/cql/seed2/metrics.json",
+    "results/reference/offline/epsilon0.05/fitted_dqn/seed0/metrics.json",
+    "results/reference/offline/epsilon0.05/fitted_dqn/seed1/metrics.json",
+    "results/reference/offline/epsilon0.05/fitted_dqn/seed2/metrics.json",
+    "results/reference/offline/epsilon0.05/iql/seed0/metrics.json",
+    "results/reference/offline/epsilon0.05/iql/seed1/metrics.json",
+    "results/reference/offline/epsilon0.05/iql/seed2/metrics.json",
+    "results/reference/offline/epsilon0.4/bc/seed0/metrics.json",
+    "results/reference/offline/epsilon0.4/bc/seed1/metrics.json",
+    "results/reference/offline/epsilon0.4/bc/seed2/metrics.json",
+    "results/reference/offline/epsilon0.4/cql/seed0/metrics.json",
+    "results/reference/offline/epsilon0.4/cql/seed1/metrics.json",
+    "results/reference/offline/epsilon0.4/cql/seed2/metrics.json",
+    "results/reference/offline/epsilon0.4/fitted_dqn/seed0/metrics.json",
+    "results/reference/offline/epsilon0.4/fitted_dqn/seed1/metrics.json",
+    "results/reference/offline/epsilon0.4/fitted_dqn/seed2/metrics.json",
+    "results/reference/offline/epsilon0.4/iql/seed0/metrics.json",
+    "results/reference/offline/epsilon0.4/iql/seed1/metrics.json",
+    "results/reference/offline/epsilon0.4/iql/seed2/metrics.json",
+    "results/reference/offline/epsilon1/bc/seed0/metrics.json",
+    "results/reference/offline/epsilon1/bc/seed1/metrics.json",
+    "results/reference/offline/epsilon1/bc/seed2/metrics.json",
+    "results/reference/offline/epsilon1/cql/seed0/metrics.json",
+    "results/reference/offline/epsilon1/cql/seed1/metrics.json",
+    "results/reference/offline/epsilon1/cql/seed2/metrics.json",
+    "results/reference/offline/epsilon1/fitted_dqn/seed0/metrics.json",
+    "results/reference/offline/epsilon1/fitted_dqn/seed1/metrics.json",
+    "results/reference/offline/epsilon1/fitted_dqn/seed2/metrics.json",
+    "results/reference/offline/epsilon1/iql/seed0/metrics.json",
+    "results/reference/offline/epsilon1/iql/seed1/metrics.json",
+    "results/reference/offline/epsilon1/iql/seed2/metrics.json",
+    "results/reference/simulations/HalfCheetah-v5_PPO_official/0/metrics.json",
+    "results/reference/simulations/HalfCheetah-v5_PPO_official/1/metrics.json",
+    "results/reference/simulations/HalfCheetah-v5_PPO_official/2/metrics.json",
+    "results/reference/simulations/HalfCheetah-v5_SAC_official/0/metrics.json",
+    "results/reference/simulations/HalfCheetah-v5_SAC_official/1/metrics.json",
+    "results/reference/simulations/HalfCheetah-v5_SAC_official/2/metrics.json",
+    "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/0/metrics.json",
+    "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/1/metrics.json",
+    "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/2/metrics.json",
+    "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/0/metrics.json",
+    "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/1/metrics.json",
+    "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/2/metrics.json",
+    "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/0/metrics.json",
+    "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/1/metrics.json",
+    "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/2/metrics.json",
+    "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/0/metrics.json",
+    "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/1/metrics.json",
+    "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/2/metrics.json",
+    "results/reference/tabular/seed0/metrics.json",
+    "results/reference/tabular/seed1/metrics.json",
+    "results/reference/tabular/seed2/metrics.json"
+  ],
+  "javascript_errors": [],
+  "mobile_width": 390,
+  "transport": "Local HTTP, matching the user-facing web server",
+  "scope": "All enabled finite selector combinations. Continuous/long sliders use endpoints and middle; discrete sliders with at most thirteen positions use every position, with joint slider combinations. Visible tables, byte-exact served images, local links, playback and mobile layouts are verified. Numerical/asset-to-model oracles are recorded by the lab-specific validators, not inferred from successful rendering."
+}

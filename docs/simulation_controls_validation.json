@@ -1,0 +1,288 @@
+{
+  "status": "passed",
+  "page": "docs/simulation_dashboard.html",
+  "html_sha256": "987987a5e8cd2e260b0c0ae40f3d94e541deca0da7bc35777c79842daaa6c667",
+  "checker_sha256": "eaded5da8eb568e4c76046cd4dda075b801870a80ddf6d4d7e035e51f241fbca",
+  "selector_tuples": [
+    {
+      "concept": "simulation_dashboard",
+      "fields": [
+        {
+          "field": "environment",
+          "value": "HalfCheetah-v5"
+        },
+        {
+          "field": "method",
+          "value": "PPO_official"
+        }
+      ]
+    },
+    {
+      "concept": "simulation_dashboard",
+      "fields": [
+        {
+          "field": "environment",
+          "value": "HalfCheetah-v5"
+        },
+        {
+          "field": "method",
+          "value": "SAC_official"
+        }
+      ]
+    },
+    {
+      "concept": "simulation_dashboard",
+      "fields": [
+        {
+          "field": "environment",
+          "value": "HalfCheetah-v5"
+        },
+        {
+          "field": "method",
+          "value": "TD3_official"
+        }
+      ]
+    },
+    {
+      "concept": "simulation_dashboard",
+      "fields": [
+        {
+          "field": "environment",
+          "value": "HalfCheetah-v5"
+        },
+        {
+          "field": "method",
+          "value": "TQC_official"
+        }
+      ]
+    },
+    {
+      "concept": "simulation_dashboard",
+      "fields": [
+        {
+          "field": "environment",
+          "value": "MiniGrid-DoorKey-6x6-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO_potential"
+        }
+      ]
+    },
+    {
+      "concept": "simulation_dashboard",
+      "fields": [
+        {
+          "field": "environment",
+          "value": "MiniGrid-DoorKey-6x6-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO_sparse"
+        }
+      ]
+    },
+    {
+      "concept": "simulation_dashboard",
+      "fields": [
+        {
+          "field": "environment",
+          "value": "MiniGrid-DoorKey-6x6-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO_partial"
+        }
+      ]
+    },
+    {
+      "concept": "simulation_dashboard",
+      "fields": [
+        {
+          "field": "environment",
+          "value": "MiniGrid-DoorKey-6x6-v0"
+        },
+        {
+          "field": "method",
+          "value": "RecurrentPPO_partial"
+        }
+      ]
+    },
+    {
+      "concept": "simulation_dashboard",
+      "fields": [
+        {
+          "field": "environment",
+          "value": "MiniGrid-FourRooms-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO_potential"
+        }
+      ]
+    },
+    {
+      "concept": "simulation_dashboard",
+      "fields": [
+        {
+          "field": "environment",
+          "value": "MiniGrid-FourRooms-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO_sparse"
+        }
+      ]
+    },
+    {
+      "concept": "simulation_dashboard",
+      "fields": [
+        {
+          "field": "environment",
+          "value": "MiniGrid-FourRooms-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO_potential_geometry"
+        }
+      ]
+    },
+    {
+      "concept": "simulation_dashboard",
+      "fields": [
+        {
+          "field": "environment",
+          "value": "MiniGrid-FourRooms-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO_potential_curriculum"
+        }
+      ]
+    },
+    {
+      "concept": "simulation_dashboard",
+      "fields": [
+        {
+          "field": "environment",
+          "value": "MiniGrid-Empty-8x8-v0"
+        },
+        {
+          "field": "method",
+          "value": "PPO_partial"
+        }
+      ]
+    },
+    {
+      "concept": "simulation_dashboard",
+      "fields": [
+        {
+          "field": "environment",
+          "value": "MiniGrid-Empty-8x8-v0"
+        },
+        {
+          "field": "method",
+          "value": "RecurrentPPO_partial"
+        }
+      ]
+    }
+  ],
+  "slider_position_checks": 0,
+  "playback_checks": 0,
+  "verified_image_files": [
+    "assets/rollouts/HalfCheetah-v5_PPO_official_0.gif",
+    "assets/rollouts/HalfCheetah-v5_PPO_official_1.gif",
+    "assets/rollouts/HalfCheetah-v5_PPO_official_2.gif",
+    "assets/rollouts/HalfCheetah-v5_SAC_official_0.gif",
+    "assets/rollouts/HalfCheetah-v5_SAC_official_1.gif",
+    "assets/rollouts/HalfCheetah-v5_SAC_official_2.gif",
+    "assets/rollouts/HalfCheetah-v5_TD3_official_0.gif",
+    "assets/rollouts/HalfCheetah-v5_TD3_official_1.gif",
+    "assets/rollouts/HalfCheetah-v5_TD3_official_2.gif",
+    "assets/rollouts/HalfCheetah-v5_TQC_official_0.gif",
+    "assets/rollouts/HalfCheetah-v5_TQC_official_1.gif",
+    "assets/rollouts/HalfCheetah-v5_TQC_official_2.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_partial_0.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_partial_1.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_partial_2.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_potential_0.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_potential_1.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_potential_2.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_sparse_0.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_sparse_1.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_PPO_sparse_2.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial_0.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial_1.gif",
+    "assets/rollouts/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial_2.gif",
+    "assets/rollouts/MiniGrid-Empty-8x8-v0_PPO_partial_0.gif",
+    "assets/rollouts/MiniGrid-Empty-8x8-v0_PPO_partial_1.gif",
+    "assets/rollouts/MiniGrid-Empty-8x8-v0_PPO_partial_2.gif",
+    "assets/rollouts/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial_0.gif",
+    "assets/rollouts/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial_1.gif",
+    "assets/rollouts/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial_2.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_0.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_1.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_2.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_curriculum_0.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_curriculum_1.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_curriculum_2.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_geometry_0.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_geometry_1.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_potential_geometry_2.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_sparse_0.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_sparse_1.gif",
+    "assets/rollouts/MiniGrid-FourRooms-v0_PPO_sparse_2.gif"
+  ],
+  "verified_local_links": [
+    "docs/results.md",
+    "docs/simulation_gallery.md",
+    "docs/simulation_validation.json",
+    "docs/simulations.md",
+    "results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/0/metrics.json",
+    "results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/1/metrics.json",
+    "results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/2/metrics.json",
+    "results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/0/metrics.json",
+    "results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/1/metrics.json",
+    "results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/2/metrics.json",
+    "results/reference/modern/HalfCheetah-v5_TD3_official/0/metrics.json",
+    "results/reference/modern/HalfCheetah-v5_TD3_official/1/metrics.json",
+    "results/reference/modern/HalfCheetah-v5_TD3_official/2/metrics.json",
+    "results/reference/modern/HalfCheetah-v5_TQC_official/0/metrics.json",
+    "results/reference/modern/HalfCheetah-v5_TQC_official/1/metrics.json",
+    "results/reference/modern/HalfCheetah-v5_TQC_official/2/metrics.json",
+    "results/reference/modern/MiniGrid-DoorKey-6x6-v0_PPO_partial/0/metrics.json",
+    "results/reference/modern/MiniGrid-DoorKey-6x6-v0_PPO_partial/1/metrics.json",
+    "results/reference/modern/MiniGrid-DoorKey-6x6-v0_PPO_partial/2/metrics.json",
+    "results/reference/modern/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial/0/metrics.json",
+    "results/reference/modern/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial/1/metrics.json",
+    "results/reference/modern/MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial/2/metrics.json",
+    "results/reference/modern/MiniGrid-Empty-8x8-v0_PPO_partial/0/metrics.json",
+    "results/reference/modern/MiniGrid-Empty-8x8-v0_PPO_partial/1/metrics.json",
+    "results/reference/modern/MiniGrid-Empty-8x8-v0_PPO_partial/2/metrics.json",
+    "results/reference/modern/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial/0/metrics.json",
+    "results/reference/modern/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial/1/metrics.json",
+    "results/reference/modern/MiniGrid-Empty-8x8-v0_RecurrentPPO_partial/2/metrics.json",
+    "results/reference/simulations/HalfCheetah-v5_PPO_official/0/metrics.json",
+    "results/reference/simulations/HalfCheetah-v5_PPO_official/1/metrics.json",
+    "results/reference/simulations/HalfCheetah-v5_PPO_official/2/metrics.json",
+    "results/reference/simulations/HalfCheetah-v5_SAC_official/0/metrics.json",
+    "results/reference/simulations/HalfCheetah-v5_SAC_official/1/metrics.json",
+    "results/reference/simulations/HalfCheetah-v5_SAC_official/2/metrics.json",
+    "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/0/metrics.json",
+    "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/1/metrics.json",
+    "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/2/metrics.json",
+    "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/0/metrics.json",
+    "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/1/metrics.json",
+    "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/2/metrics.json",
+    "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/0/metrics.json",
+    "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/1/metrics.json",
+    "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/2/metrics.json",
+    "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/0/metrics.json",
+    "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/1/metrics.json",
+    "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/2/metrics.json"
+  ],
+  "javascript_errors": [],
+  "mobile_width": 390,
+  "transport": "Local HTTP, matching the user-facing web server",
+  "scope": "All enabled finite selector combinations. Continuous/long sliders use endpoints and middle; discrete sliders with at most thirteen positions use every position, with joint slider combinations. Visible tables, byte-exact served images, local links, playback and mobile layouts are verified. Numerical/asset-to-model oracles are recorded by the lab-specific validators, not inferred from successful rendering."
+}
