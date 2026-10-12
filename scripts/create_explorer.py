@@ -227,7 +227,7 @@ def main():
     for path in [
         template,
         script,
-        Path(__file__),
+        Path("scripts") / Path(__file__).name,
         Path("src/decision_lab/toytext.py"),
         Path("src/decision_lab/mdp.py"),
     ]:
