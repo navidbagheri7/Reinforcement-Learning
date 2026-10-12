@@ -70,10 +70,12 @@ def main():
 
     def run(name, command, cwd=external):
         print("Starting", name, flush=True)
-        with (work / (name + ".log")).open("w") as log:
-            subprocess.run(
-                command, cwd=cwd, env=env, stdout=log, stderr=subprocess.STDOUT, check=True
-            )
+        log_path = work / (name + ".log")
+        with log_path.open("w") as log:
+            result = subprocess.run(command, cwd=cwd, env=env, stdout=log, stderr=subprocess.STDOUT)
+        if result.returncode:
+            print(log_path.read_text()[-16000:], flush=True)
+            result.check_returncode()
         checks.append(dict(check=name, status="passed"))
         print("Passed", name, flush=True)
 

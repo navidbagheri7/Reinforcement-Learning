@@ -138,8 +138,14 @@ stem = 'HalfCheetah-v5_SAC_official_0'
 actor = load_actor(ROOT / 'assets/actors' / (stem + '.npz'))
 fresh = evaluate(actor, actor.metadata['case'], [300000])
 evidence = np.load(ROOT / 'assets/source_data/simulations' / (stem + '.npz'))
-np.testing.assert_array_equal(fresh['returns'], evidence['returns'][:1])
-print('Fixed first test return:', fresh['returns'][0], 'episode length:', fresh['lengths'][0])
+fixed_actions = np.asarray([actor.predict(obs)[0] for obs in evidence['first_observations']])
+np.testing.assert_allclose(fixed_actions, evidence['first_actions'], rtol=2e-6, atol=5e-6)
+np.testing.assert_array_equal(fresh['first_observations'][0], evidence['first_observations'][0])
+for key in ['lengths', 'terminated', 'truncated']:
+    np.testing.assert_array_equal(fresh[key], evidence[key][:1])
+assert np.isfinite(fresh['returns']).all()
+print('Recorded first test return:', evidence['returns'][0])
+print('Fresh physics replay return:', fresh['returns'][0], 'episode length:', fresh['lengths'][0])
 print('Actor dimensions:', actor.metadata['dimensions'])""",
         ),
         (
