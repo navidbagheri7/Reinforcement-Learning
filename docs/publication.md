@@ -1,6 +1,6 @@
 # GitHub publication and interactive demo
 
-Repository: [navidbagheri7/sequential-decision-lab](https://github.com/navidbagheri7/sequential-decision-lab). Interactive explorer: [https://navidbagheri7.github.io/sequential-decision-lab/](https://navidbagheri7.github.io/sequential-decision-lab/).
+Repository: [navidbagheri7/sequential-decision-lab](https://github.com/navidbagheri7/Reinforcement-Learning). Interactive explorer: [https://navidbagheri7.github.io/Reinforcement-Learning/](https://navidbagheri7.github.io/Reinforcement-Learning/).
 
 The repository contains authored English code, executed notebooks and measured evidence. The numerical comparisons and documented limitations remain unchanged by publication. Private course originals, local environments, cached datasets and large training checkpoints remain outside Git history.
 
@@ -8,7 +8,7 @@ The repository contains authored English code, executed notebooks and measured e
 
 GitHub Pages uses **GitHub Actions** as its source. Run **Actions → Publish interactive preview → Run workflow** to refresh the site after pushing changes. The workflow uses `git archive HEAD` to stage exactly the committed public tree. It preserves the repository-relative links to numerical evidence, images, rollouts and notebooks. It does not copy ignored local files.
 
-The root page opens `docs/explorer.html`. The [simulation dashboard](https://navidbagheri7.github.io/sequential-decision-lab/docs/simulation_dashboard.html) provides task selection and animated recorded rollouts.
+The root page opens `docs/explorer.html`. The [simulation dashboard](https://navidbagheri7.github.io/Reinforcement-Learning/docs/simulation_dashboard.html) provides task selection and animated recorded rollouts.
 
 ## Reproduce the research
 

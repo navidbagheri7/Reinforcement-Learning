@@ -21,10 +21,10 @@ dev = ["pytest>=7", "ruff>=0.6", "build>=1"]
 [project.scripts]
 decision-lab = "decision_lab.cli:main"
 [project.urls]
-Repository = "https://github.com/navidbagheri7/sequential-decision-lab"
-Documentation = "https://github.com/navidbagheri7/sequential-decision-lab#readme"
-Demo = "https://navidbagheri7.github.io/sequential-decision-lab/"
-Issues = "https://github.com/navidbagheri7/sequential-decision-lab/issues"
+Repository = "https://github.com/navidbagheri7/Reinforcement-Learning"
+Documentation = "https://github.com/navidbagheri7/Reinforcement-Learning#readme"
+Demo = "https://navidbagheri7.github.io/Reinforcement-Learning/"
+Issues = "https://github.com/navidbagheri7/Reinforcement-Learning/issues"
 
 [tool.setuptools.packages.find]
 where = ["src"]

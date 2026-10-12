@@ -1,6 +1,6 @@
-# Sequential Decision Lab
+# Reinforcement Learning
 
-[Interactive demo](https://navidbagheri7.github.io/sequential-decision-lab/) · [GitHub repository](https://github.com/navidbagheri7/sequential-decision-lab) · [CI checks](https://github.com/navidbagheri7/sequential-decision-lab/actions)
+[Interactive demo](https://navidbagheri7.github.io/Reinforcement-Learning/) · [GitHub repository](https://github.com/navidbagheri7/Reinforcement-Learning) · [CI checks](https://github.com/navidbagheri7/Reinforcement-Learning/actions)
 
 Reinforcement learning for an energy-harvesting wireless scheduler, supported by exact planning certificates, owned online and offline learning algorithms, and repeated control experiments. This repository rebuilds incomplete course projects into an English, reproducible research portfolio.
 

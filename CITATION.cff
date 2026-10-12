@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this research portfolio, please cite the software and the original algorithm papers."
-title: "Sequential Decision Lab"
+title: "Reinforcement Learning"
 version: 1.2.0
 date-released: 2026-10-07
 type: software
@@ -13,5 +13,5 @@ keywords:
   - sequential decision making
   - offline reinforcement learning
   - constrained optimization
-repository-code: "https://github.com/navidbagheri7/sequential-decision-lab"
-url: "https://navidbagheri7.github.io/sequential-decision-lab/"
+repository-code: "https://github.com/navidbagheri7/Reinforcement-Learning"
+url: "https://navidbagheri7.github.io/Reinforcement-Learning/"
