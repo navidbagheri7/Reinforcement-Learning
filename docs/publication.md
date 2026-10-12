@@ -1,6 +1,6 @@
 # GitHub publication and interactive demo
 
-Repository: [navidbagheri7/sequential-decision-lab](https://github.com/navidbagheri7/Reinforcement-Learning). Interactive explorer: [https://navidbagheri7.github.io/Reinforcement-Learning/](https://navidbagheri7.github.io/Reinforcement-Learning/).
+Repository: [navidbagheri7/Reinforcement-Learning](https://github.com/navidbagheri7/Reinforcement-Learning). Interactive explorer: [https://navidbagheri7.github.io/Reinforcement-Learning/](https://navidbagheri7.github.io/Reinforcement-Learning/).
 
 The repository contains authored English code, executed notebooks and measured evidence. The numerical comparisons and documented limitations remain unchanged by publication. Private course originals, local environments, cached datasets and large training checkpoints remain outside Git history.
 
