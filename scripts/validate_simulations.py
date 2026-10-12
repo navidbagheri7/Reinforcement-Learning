@@ -16,6 +16,7 @@ from decision_lab.simulations import evaluate, identifier
 def main():
     torch.set_num_threads(1)
     checked = []
+    replay_diagnostics = []
     for family in ["simulations", "geometry", "curriculum"]:
         config = json.loads(Path("configs", family + ".json").read_text())
         for case in config["cases"]:
@@ -46,9 +47,38 @@ def main():
                 actor = load_actor(actor_path)
                 assert actor.metadata["case"] == case
                 assert actor.metadata["checkpoint_sha256"] == metrics["checkpoint_sha256"]
+                # Check inference against the original fixed observations and actions.
+                # Continuous physics can amplify small float32 differences across CPUs,
+                # so its freshly replayed return is separate from the archived score.
+                observations = evidence["first_observations"]
+                actions = evidence["first_actions"]
+                assert len(observations) == len(actions) > 0
+                predicted = np.asarray([actor.predict(obs)[0] for obs in observations])
+                continuous = actor.metadata["action_type"] == "box"
+                if continuous:
+                    np.testing.assert_allclose(predicted, actions, rtol=2e-6, atol=5e-6)
+                else:
+                    np.testing.assert_array_equal(predicted, actions)
                 fresh = evaluate(actor, case, np.arange(3) + 300000)
-                for key in ["returns", "lengths", "terminated", "truncated"]:
+                np.testing.assert_array_equal(fresh["first_observations"][0], observations[0])
+                assert np.isfinite(fresh["returns"]).all()
+                for key in ["lengths", "terminated", "truncated"]:
                     np.testing.assert_array_equal(fresh[key], evidence[key][:3])
+                if not continuous:
+                    np.testing.assert_array_equal(fresh["returns"], evidence["returns"][:3])
+                replay_diagnostics.append(
+                    dict(
+                        protocol=str(directory),
+                        fixed_observation_action_checks=len(observations),
+                        continuous_physics=continuous,
+                        archived_returns=evidence["returns"][:3].tolist(),
+                        fresh_returns=fresh["returns"].tolist(),
+                        maximum_return_difference=float(
+                            np.max(np.abs(fresh["returns"] - evidence["returns"][:3]))
+                        ),
+                        maximum_fixed_action_difference=float(np.max(np.abs(predicted - actions))),
+                    )
+                )
                 checked.append(str(directory))
     baseline_record = json.loads(Path("docs/simulation_baselines.json").read_text())
     for path, digest in baseline_record["source_sha256"].items():
@@ -111,6 +141,11 @@ def main():
         unfitted_baselines=5,
         verified_gifs=len(gifs),
         private_checkpoints_required=False,
+        fixed_observation_action_checks=sum(
+            row["fixed_observation_action_checks"] for row in replay_diagnostics
+        ),
+        replay_diagnostics=replay_diagnostics,
+        scope="Archived actor weights, 100-episode metrics and GIFs are hash-bound and unchanged. Actor inference is checked against every archived prefix observation/action pair; discrete outputs and returns remain exact, while continuous actions use float32 precision tolerances. Fresh continuous-physics returns are diagnostic replays, not bit-identical benchmark reproductions or replacements for the recorded scores. Initial states, episode lengths and termination flags still match exactly.",
     )
     write_json("docs/simulation_validation.json", result)
     print(json.dumps(result, indent=2))

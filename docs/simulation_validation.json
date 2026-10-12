@@ -5,5 +5,417 @@
   "fresh_actor_test_episodes": 72,
   "unfitted_baselines": 5,
   "verified_gifs": 48,
-  "private_checkpoints_required": false
+  "private_checkpoints_required": false,
+  "fixed_observation_action_checks": 694,
+  "replay_diagnostics": [
+    {
+      "protocol": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/0",
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fresh_returns": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    },
+    {
+      "protocol": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/1",
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.0,
+        0.0,
+        0.892
+      ],
+      "fresh_returns": [
+        0.0,
+        0.0,
+        0.892
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    },
+    {
+      "protocol": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_sparse/2",
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.0,
+        0.0,
+        0.469
+      ],
+      "fresh_returns": [
+        0.0,
+        0.0,
+        0.469
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    },
+    {
+      "protocol": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/0",
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.0,
+        0.0,
+        0.892
+      ],
+      "fresh_returns": [
+        0.0,
+        0.0,
+        0.892
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    },
+    {
+      "protocol": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/1",
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.0,
+        0.0,
+        0.901
+      ],
+      "fresh_returns": [
+        0.0,
+        0.0,
+        0.901
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    },
+    {
+      "protocol": "results/reference/simulations/MiniGrid-FourRooms-v0_PPO_potential/2",
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fresh_returns": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    },
+    {
+      "protocol": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/0",
+      "fixed_observation_action_checks": 16,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.96,
+        0.9675,
+        0.9725
+      ],
+      "fresh_returns": [
+        0.96,
+        0.9675,
+        0.9725
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    },
+    {
+      "protocol": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/1",
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.0,
+        0.9675,
+        0.9725
+      ],
+      "fresh_returns": [
+        0.0,
+        0.9675,
+        0.9725
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    },
+    {
+      "protocol": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_sparse/2",
+      "fixed_observation_action_checks": 16,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.96,
+        0.9675,
+        0.9725
+      ],
+      "fresh_returns": [
+        0.96,
+        0.9675,
+        0.9725
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    },
+    {
+      "protocol": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/0",
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.0,
+        0.9675,
+        0.9725
+      ],
+      "fresh_returns": [
+        0.0,
+        0.9675,
+        0.9725
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    },
+    {
+      "protocol": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/1",
+      "fixed_observation_action_checks": 14,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.965,
+        0.9675,
+        0.9725
+      ],
+      "fresh_returns": [
+        0.965,
+        0.9675,
+        0.9725
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    },
+    {
+      "protocol": "results/reference/simulations/MiniGrid-DoorKey-6x6-v0_PPO_potential/2",
+      "fixed_observation_action_checks": 14,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.965,
+        0.9675,
+        0.9725
+      ],
+      "fresh_returns": [
+        0.965,
+        0.9675,
+        0.9725
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    },
+    {
+      "protocol": "results/reference/simulations/HalfCheetah-v5_PPO_official/0",
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": true,
+      "archived_returns": [
+        1431.2379375738492,
+        1358.0433929783837,
+        1419.1599577411919
+      ],
+      "fresh_returns": [
+        1431.2379375738492,
+        1358.0433929783837,
+        1419.1599577411919
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    },
+    {
+      "protocol": "results/reference/simulations/HalfCheetah-v5_PPO_official/1",
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": true,
+      "archived_returns": [
+        1569.2353519913904,
+        1624.7305779828496,
+        1230.5443095483351
+      ],
+      "fresh_returns": [
+        1569.2353519913904,
+        1624.7305779828496,
+        1230.5443095483351
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    },
+    {
+      "protocol": "results/reference/simulations/HalfCheetah-v5_PPO_official/2",
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": true,
+      "archived_returns": [
+        1543.3941191847348,
+        1506.8008340660099,
+        1525.088613392193
+      ],
+      "fresh_returns": [
+        1543.3941191847348,
+        1506.8008340660099,
+        1525.088613392193
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    },
+    {
+      "protocol": "results/reference/simulations/HalfCheetah-v5_SAC_official/0",
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": true,
+      "archived_returns": [
+        8228.635301675691,
+        8295.627731778699,
+        8416.640395137041
+      ],
+      "fresh_returns": [
+        8228.635301675691,
+        8295.627731778699,
+        8416.640395137041
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    },
+    {
+      "protocol": "results/reference/simulations/HalfCheetah-v5_SAC_official/1",
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": true,
+      "archived_returns": [
+        8255.437363195135,
+        8231.281611081304,
+        8119.849624136406
+      ],
+      "fresh_returns": [
+        8255.437363195135,
+        8231.281611081304,
+        8119.849624136406
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    },
+    {
+      "protocol": "results/reference/simulations/HalfCheetah-v5_SAC_official/2",
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": true,
+      "archived_returns": [
+        7450.1506523025955,
+        7559.306740227624,
+        7555.3377518242805
+      ],
+      "fresh_returns": [
+        7450.1506523025955,
+        7559.306740227624,
+        7555.3377518242805
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    },
+    {
+      "protocol": "results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/0",
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fresh_returns": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    },
+    {
+      "protocol": "results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/1",
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "fresh_returns": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    },
+    {
+      "protocol": "results/reference/geometry/MiniGrid-FourRooms-v0_PPO_potential_geometry/2",
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.0,
+        0.0,
+        0.361
+      ],
+      "fresh_returns": [
+        0.0,
+        0.0,
+        0.361
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    },
+    {
+      "protocol": "results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/0",
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.0,
+        0.784,
+        0.901
+      ],
+      "fresh_returns": [
+        0.0,
+        0.784,
+        0.901
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    },
+    {
+      "protocol": "results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/1",
+      "fixed_observation_action_checks": 26,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.766,
+        0.766,
+        0.892
+      ],
+      "fresh_returns": [
+        0.766,
+        0.766,
+        0.892
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    },
+    {
+      "protocol": "results/reference/curriculum/MiniGrid-FourRooms-v0_PPO_potential_curriculum/2",
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.0,
+        0.784,
+        0.892
+      ],
+      "fresh_returns": [
+        0.0,
+        0.784,
+        0.892
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
+    }
+  ],
+  "scope": "Archived actor weights, 100-episode metrics and GIFs are hash-bound and unchanged. Actor inference is checked against every archived prefix observation/action pair; discrete outputs and returns remain exact, while continuous actions use float32 precision tolerances. Fresh continuous-physics returns are diagnostic replays, not bit-identical benchmark reproductions or replacements for the recorded scores. Initial states, episode lengths and termination flags still match exactly."
 }
