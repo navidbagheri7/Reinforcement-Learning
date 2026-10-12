@@ -1,5 +1,7 @@
 # Sequential Decision Lab
 
+[Interactive demo](https://navidbagheri7.github.io/sequential-decision-lab/) · [GitHub repository](https://github.com/navidbagheri7/sequential-decision-lab) · [CI checks](https://github.com/navidbagheri7/sequential-decision-lab/actions)
+
 Reinforcement learning for an energy-harvesting wireless scheduler, supported by exact planning certificates, owned online and offline learning algorithms, and repeated control experiments. This repository rebuilds incomplete course projects into an English, reproducible research portfolio.
 
 The central question is practical: **how close does a policy learned from transitions get to a model-aware optimum, and what happens when its training data or environment changes?** The wireless simulator and analytical transition kernel share one outcome function, making that question measurable rather than anecdotal.

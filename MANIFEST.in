@@ -29,3 +29,5 @@ exclude docs/release_artifacts.json
 prune results/reference/simulations/*/*/checkpoints
 
 prune results/reference/modern/*/*/checkpoints
+
+include index.html

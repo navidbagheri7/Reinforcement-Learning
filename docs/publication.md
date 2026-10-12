@@ -1,33 +1,17 @@
-# Local release and GitHub publication
+# GitHub publication and interactive demo
 
-This repository is prepared locally; the owner publishes it. The public tree includes authored English code, numerical evidence, executed notebooks, documentation, portable policies and release metadata. Large training checkpoints, environments, partial/superseded fits and original course material are excluded.
+Repository: [navidbagheri7/sequential-decision-lab](https://github.com/navidbagheri7/sequential-decision-lab). Interactive explorer: [https://navidbagheri7.github.io/sequential-decision-lab/](https://navidbagheri7.github.io/sequential-decision-lab/).
 
-Choose your GitHub repository name and create an empty repository in your account. From this project directory, after reviewing the release validation:
+The repository contains authored English code, executed notebooks and measured evidence. The numerical comparisons and documented limitations remain unchanged by publication. Private course originals, local environments, cached datasets and large training checkpoints remain outside Git history.
 
-```bash
-git remote add origin git@github.com:YOUR_ACCOUNT/sequential-decision-lab.git
-git push -u origin main
-git push origin v1.2.0
-```
+## Deploy the website
 
-The placeholder account must be replaced by your own. No remote or push is configured automatically. Use GitHub Releases for optional large fitted control/neural weights; publish their recorded SHA256 files with them. The finite-state policies, small MountainCar weights and new MiniGrid/MuJoCo actors already work from the public tree.
+GitHub Pages uses **GitHub Actions** as its source. Run **Actions → Publish interactive preview → Run workflow** to refresh the site after pushing changes. The workflow uses `git archive HEAD` to stage exactly the committed public tree. It preserves the repository-relative links to numerical evidence, images, rollouts and notebooks. It does not copy ignored local files.
 
-A source archive must exclude `legacy/originals`, `.local`, environments, caches, smoke outputs and private checkpoint directories. A wheel contains the authored Python API and default configs; the source archive carries the research evidence and notebooks. See the release checklist for actual local checks and counts.
+The root page opens `docs/explorer.html`. The [simulation dashboard](https://navidbagheri7.github.io/sequential-decision-lab/docs/simulation_dashboard.html) provides task selection and animated recorded rollouts.
 
-## Publish the interactive dashboard
+## Reproduce the research
 
-The README displays a real-browser dashboard screenshot and links to navigation and mobile previews. To make the interactive page available through a website, enable GitHub Pages after pushing the public repository:
+Use the installation and reproduction instructions in the README. GitHub Pages serves the recorded evidence and browser-side controls; fitting models and running Python experiments requires the documented Python environment.
 
-1. Open the repository's **Settings → Pages**.
-2. Under **Build and deployment**, choose **Deploy from a branch**.
-3. Select **main** and **/(root)**, then save.
-4. Wait for the Pages deployment to finish. The dashboard URL is `https://YOUR_ACCOUNT.github.io/YOUR_REPOSITORY/docs/simulation_dashboard.html`.
-5. Replace the README's local dashboard link with that deployed URL and add it to the repository's **About → Website** field.
-
-Use the repository root as the publishing source because the page loads animations from `assets/`, outside `docs/`. The selected account and repository name determine the final URL. See [GitHub's publishing-source instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
-
-Visitors use their browser to select tasks and presets, watch prerecorded rollouts, and inspect measured learning curves and comparisons. Reproducing training or replaying an exported policy requires the Python environment described in the README. Pages is not enabled or deployed by the local preparation.
-
-The eight-concept explorer is at `docs/explorer.html`. Preserve the root
-`.nojekyll` file so Pages serves the prepared HTML, script and evidence paths
-without a Jekyll build. [GitHub documents this static-site option](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
+Existing version tags preserve the local release history. The `publication-2026-10-12` tag identifies the first published portfolio snapshot, including its website deployment configuration and repository metadata. The package versions describe the preserved scientific implementation.
