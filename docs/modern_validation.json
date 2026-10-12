@@ -4,76 +4,329 @@
   "fits": [
     {
       "model": "HalfCheetah-v5_TD3_official_0",
-      "replayed_episodes": 3
+      "replayed_episodes": 3,
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": true,
+      "archived_returns": [
+        7620.856499222843,
+        7622.570586885421,
+        7679.555289362074
+      ],
+      "fresh_returns": [
+        7620.856499222843,
+        7622.570586885421,
+        7679.555289362074
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
     },
     {
       "model": "HalfCheetah-v5_TD3_official_1",
-      "replayed_episodes": 3
+      "replayed_episodes": 3,
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": true,
+      "archived_returns": [
+        8995.537189199486,
+        8674.89140258573,
+        8741.0715178351
+      ],
+      "fresh_returns": [
+        8995.537189199486,
+        8674.89140258573,
+        8741.0715178351
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
     },
     {
       "model": "HalfCheetah-v5_TD3_official_2",
-      "replayed_episodes": 3
+      "replayed_episodes": 3,
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": true,
+      "archived_returns": [
+        8854.323723936548,
+        8697.93294093172,
+        8518.595033984155
+      ],
+      "fresh_returns": [
+        8854.323723936548,
+        8697.93294093172,
+        8518.595033984155
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
     },
     {
       "model": "HalfCheetah-v5_TQC_official_0",
-      "replayed_episodes": 3
+      "replayed_episodes": 3,
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": true,
+      "archived_returns": [
+        8152.115082991055,
+        8287.802469982678,
+        8264.082612512946
+      ],
+      "fresh_returns": [
+        8152.115082991055,
+        8287.802469982678,
+        8264.082612512946
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
     },
     {
       "model": "HalfCheetah-v5_TQC_official_1",
-      "replayed_episodes": 3
+      "replayed_episodes": 3,
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": true,
+      "archived_returns": [
+        7681.428568993693,
+        7633.338833303335,
+        7724.52327587352
+      ],
+      "fresh_returns": [
+        7681.428568993693,
+        7633.338833303335,
+        7724.52327587352
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
     },
     {
       "model": "HalfCheetah-v5_TQC_official_2",
-      "replayed_episodes": 3
+      "replayed_episodes": 3,
+      "fixed_observation_action_checks": 32,
+      "continuous_physics": true,
+      "archived_returns": [
+        8931.812270644958,
+        9131.85947607668,
+        9220.98213296184
+      ],
+      "fresh_returns": [
+        8931.812270644958,
+        9131.85947607668,
+        9220.98213296184
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
     },
     {
       "model": "MiniGrid-DoorKey-6x6-v0_PPO_partial_0",
-      "replayed_episodes": 3
+      "replayed_episodes": 3,
+      "fixed_observation_action_checks": 14,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.965,
+        0.9675,
+        0.9675
+      ],
+      "fresh_returns": [
+        0.965,
+        0.9675,
+        0.9675
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
     },
     {
       "model": "MiniGrid-DoorKey-6x6-v0_PPO_partial_1",
-      "replayed_episodes": 3
+      "replayed_episodes": 3,
+      "fixed_observation_action_checks": 14,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.965,
+        0.9675,
+        0.9725
+      ],
+      "fresh_returns": [
+        0.965,
+        0.9675,
+        0.9725
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
     },
     {
       "model": "MiniGrid-DoorKey-6x6-v0_PPO_partial_2",
-      "replayed_episodes": 3
+      "replayed_episodes": 3,
+      "fixed_observation_action_checks": 14,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.965,
+        0.9675,
+        0.9725
+      ],
+      "fresh_returns": [
+        0.965,
+        0.9675,
+        0.9725
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
     },
     {
       "model": "MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial_0",
-      "replayed_episodes": 3
+      "replayed_episodes": 3,
+      "fixed_observation_action_checks": 14,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.965,
+        0.9675,
+        0.9725
+      ],
+      "fresh_returns": [
+        0.965,
+        0.9675,
+        0.9725
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
     },
     {
       "model": "MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial_1",
-      "replayed_episodes": 3
+      "replayed_episodes": 3,
+      "fixed_observation_action_checks": 14,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.965,
+        0.9625,
+        0.9725
+      ],
+      "fresh_returns": [
+        0.965,
+        0.9625,
+        0.9725
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
     },
     {
       "model": "MiniGrid-DoorKey-6x6-v0_RecurrentPPO_partial_2",
-      "replayed_episodes": 3
+      "replayed_episodes": 3,
+      "fixed_observation_action_checks": 14,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.965,
+        0.9675,
+        0.9725
+      ],
+      "fresh_returns": [
+        0.965,
+        0.9675,
+        0.9725
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
     },
     {
       "model": "MiniGrid-Empty-8x8-v0_PPO_partial_0",
-      "replayed_episodes": 3
+      "replayed_episodes": 3,
+      "fixed_observation_action_checks": 11,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.961328125,
+        0.961328125,
+        0.961328125
+      ],
+      "fresh_returns": [
+        0.961328125,
+        0.961328125,
+        0.961328125
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
     },
     {
       "model": "MiniGrid-Empty-8x8-v0_PPO_partial_1",
-      "replayed_episodes": 3
+      "replayed_episodes": 3,
+      "fixed_observation_action_checks": 11,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.961328125,
+        0.961328125,
+        0.961328125
+      ],
+      "fresh_returns": [
+        0.961328125,
+        0.961328125,
+        0.961328125
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
     },
     {
       "model": "MiniGrid-Empty-8x8-v0_PPO_partial_2",
-      "replayed_episodes": 3
+      "replayed_episodes": 3,
+      "fixed_observation_action_checks": 12,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.9578125,
+        0.9578125,
+        0.9578125
+      ],
+      "fresh_returns": [
+        0.9578125,
+        0.9578125,
+        0.9578125
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
     },
     {
       "model": "MiniGrid-Empty-8x8-v0_RecurrentPPO_partial_0",
-      "replayed_episodes": 3
+      "replayed_episodes": 3,
+      "fixed_observation_action_checks": 12,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.9578125,
+        0.9578125,
+        0.9578125
+      ],
+      "fresh_returns": [
+        0.9578125,
+        0.9578125,
+        0.9578125
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
     },
     {
       "model": "MiniGrid-Empty-8x8-v0_RecurrentPPO_partial_1",
-      "replayed_episodes": 3
+      "replayed_episodes": 3,
+      "fixed_observation_action_checks": 12,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.9578125,
+        0.9578125,
+        0.9578125
+      ],
+      "fresh_returns": [
+        0.9578125,
+        0.9578125,
+        0.9578125
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
     },
     {
       "model": "MiniGrid-Empty-8x8-v0_RecurrentPPO_partial_2",
-      "replayed_episodes": 3
+      "replayed_episodes": 3,
+      "fixed_observation_action_checks": 12,
+      "continuous_physics": false,
+      "archived_returns": [
+        0.9578125,
+        0.9578125,
+        0.9578125
+      ],
+      "fresh_returns": [
+        0.9578125,
+        0.9578125,
+        0.9578125
+      ],
+      "maximum_return_difference": 0.0,
+      "maximum_fixed_action_difference": 0.0
     }
   ],
-  "scope": "Independent selected-step/100-episode statistics, source/numeric/actor/GIF identities and fresh CPU deployment commands. Episodic memory reset/persistence is validated by the portable-actor tests. Private selected models are audited separately over all 100 episodes."
+  "fixed_observation_action_checks": 346,
+  "scope": "Independent selected-step/100-episode statistics, source/numeric/actor/GIF identities, fixed-observation action checks with episodic memory, and fresh CPU deployment commands. Continuous actions use float32 precision tolerances; their fresh physics returns are separate diagnostic replays, not bit-identical benchmark reproductions or replacements for archived scores. Discrete outputs/returns, initial states, episode lengths and termination flags remain exact. Episodic memory reset/persistence is validated by portable-actor tests; original selected models were audited separately over all 100 episodes."
 }

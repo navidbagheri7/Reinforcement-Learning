@@ -81,7 +81,7 @@ env.close()
 
 `python scripts/play_modern.py --actor PATH` replays three fixed test episodes.
 `validate_modern.py` independently checks selection, all recorded test statistics,
-actor/GIF/source identities and separate public deployment commands.
+actor/GIF/source identities, fixed-observation action predictions with correct episodic memory, and separate public deployment commands. Discrete actions and replay scores remain exact. Continuous action checks use float32 precision tolerances; fresh MuJoCo returns are reported separately because CPU arithmetic differences can affect physical trajectories. The archived 100-episode scores and GIFs are preserved.
 `audit_modern.py` also compares all one hundred exported-actor episodes against
 private selected checkpoints and records the first fixed test rollout; it
 requires those local checkpoints. The explorer and simulation dashboard require

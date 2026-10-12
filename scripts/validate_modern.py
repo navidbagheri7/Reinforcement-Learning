@@ -68,6 +68,24 @@ def main():
             assert caption["test_seed"] == 300000 and caption["fit_seed"] == seed
             assert caption["return_value"] == evidence["returns"][0]
             assert caption["length"] == evidence["lengths"][0]
+            observations, actions = evidence["first_observations"], evidence["first_actions"]
+            assert len(observations) == len(actions) > 0
+            memory = None
+            predicted = []
+            for index, observation in enumerate(observations):
+                action, memory = actor.predict(
+                    observation,
+                    state=memory,
+                    episode_start=np.asarray([index == 0]),
+                    deterministic=True,
+                )
+                predicted.append(np.asarray(action))
+            predicted = np.asarray(predicted)
+            continuous = case["algorithm"] in {"TD3", "TQC"}
+            if continuous:
+                np.testing.assert_allclose(predicted, actions, rtol=2e-6, atol=5e-6)
+            else:
+                np.testing.assert_array_equal(predicted, actions)
             output = Path(directory) / (stem + ".json")
             subprocess.run(
                 [
@@ -85,9 +103,34 @@ def main():
                 timeout=180,
             )
             fresh = json.loads(output.read_text())
-            for key in ["returns", "lengths", "terminated", "truncated", "seeds"]:
+            np.testing.assert_array_equal(
+                np.asarray(fresh["first_observations"])[0], observations[0]
+            )
+            assert np.isfinite(fresh["returns"]).all()
+            for key in ["lengths", "terminated", "truncated", "seeds"]:
                 np.testing.assert_array_equal(fresh[key], evidence[key][: args.episodes])
-            checked.append(dict(model=stem, replayed_episodes=args.episodes))
+            if not continuous:
+                np.testing.assert_array_equal(
+                    fresh["returns"], evidence["returns"][: args.episodes]
+                )
+            checked.append(
+                dict(
+                    model=stem,
+                    replayed_episodes=args.episodes,
+                    fixed_observation_action_checks=len(observations),
+                    continuous_physics=continuous,
+                    archived_returns=evidence["returns"][: args.episodes].tolist(),
+                    fresh_returns=fresh["returns"],
+                    maximum_return_difference=float(
+                        np.max(
+                            np.abs(
+                                np.asarray(fresh["returns"]) - evidence["returns"][: args.episodes]
+                            )
+                        )
+                    ),
+                    maximum_fixed_action_difference=float(np.max(np.abs(predicted - actions))),
+                )
+            )
             print("Verified portable", stem, flush=True)
     write_json(
         "docs/modern_validation.json",
@@ -95,7 +138,10 @@ def main():
             status="passed",
             protocols=18,
             fits=checked,
-            scope="Independent selected-step/100-episode statistics, source/numeric/actor/GIF identities and fresh CPU deployment commands. Episodic memory reset/persistence is validated by the portable-actor tests. Private selected models are audited separately over all 100 episodes.",
+            fixed_observation_action_checks=sum(
+                row["fixed_observation_action_checks"] for row in checked
+            ),
+            scope="Independent selected-step/100-episode statistics, source/numeric/actor/GIF identities, fixed-observation action checks with episodic memory, and fresh CPU deployment commands. Continuous actions use float32 precision tolerances; their fresh physics returns are separate diagnostic replays, not bit-identical benchmark reproductions or replacements for archived scores. Discrete outputs/returns, initial states, episode lengths and termination flags remain exact. Episodic memory reset/persistence is validated by portable-actor tests; original selected models were audited separately over all 100 episodes.",
         ),
     )
 
